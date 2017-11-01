@@ -97,7 +97,7 @@
 14	,	,	PUNCT	_	_	3	punct	_	_
 15	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 16	kertoi	kertoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
-17	North	North	PROPN	_	_	20	compound:nn	_	_
+17	North	North	PROPN	_	Case=Nom|Number=Sing	20	compound:nn	_	_
 18	Carolina	Carolina	PROPN	_	Case=Nom|Number=Sing	17	flat:name	_	_
 19	University	University	PROPN	_	Case=Nom|Number=Sing	17	flat:name	_	_
 20	-yliopiston	yli#opisto	NOUN	_	Case=Gen|Number=Sing	21	nmod:poss	_	_
@@ -168,15 +168,15 @@
 13	edustajia	edustaja	NOUN	_	Case=Par|Number=Plur	12	obj	_	_
 14	Uberista	Uber	PROPN	_	Case=Ela|Number=Sing	13	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	21	punct	_	_
-16	Motion	Motion	PROPN	_	_	21	compound:nn	_	_
-17	Picture	Picture	PROPN	_	_	16	flat:name	_	_
-18	Association	Association	PROPN	_	_	16	flat:name	_	_
-19	of	of	PROPN	_	_	16	flat:name	_	_
-20	America	America	PROPN	_	_	16	flat:name	_	_
+16	Motion	Motion	PROPN	_	Case=Nom|Number=Sing	21	compound:nn	_	_
+17	Picture	Picture	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
+18	Association	Association	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
+19	of	of	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
+20	America	America	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
 21	-järjestöstä	järjestö	NOUN	_	Case=Ela|Number=Sing	14	conj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	26	punct	_	_
-23	Consumer	Consumer	PROPN	_	_	26	compound:nn	_	_
-24	Technology	Technology	PROPN	_	_	23	flat:name	_	_
+23	Consumer	Consumer	PROPN	_	Case=Nom|Number=Sing	26	compound:nn	_	_
+24	Technology	Technology	PROPN	_	Case=Nom|Number=Sing	23	flat:name	_	_
 25	Association	Association	PROPN	_	Case=Gen|Number=Sing	23	flat:name	_	_
 26	-järjestöstä	järjestö	NOUN	_	Case=Ela|Number=Sing	14	conj	_	_
 27	sekä	sekä	CCONJ	_	_	29	cc	_	_
@@ -192,8 +192,8 @@
 3	alun	alun	ADV	_	_	2	advmod	_	_
 4	perin	perin	ADV	_	_	3	fixed	_	_
 5	Washingtonin	Washington	PROPN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
-6	H	h	PROPN	_	_	8	compound:nn	_	_
-7	Street	Street	PROPN	_	_	6	flat:name	_	_
+6	H	h	PROPN	_	Case=Nom|Number=Sing	8	compound:nn	_	_
+7	Street	Street	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 8	-kadulla	katu	NOUN	_	Case=Ade|Number=Sing	12	obl	_	_
 9	muutaman	muutama	PRON	_	Case=Gen|Number=Sing|PronType=Ind	10	det	_	_
 10	korttelin	kortteli	NOUN	_	Case=Gen|Number=Sing	12	obl	_	_
@@ -293,11 +293,11 @@
 13	auttaa	auttaa	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	ccomp	_	SpaceAfter=No
 14	”	”	PUNCT	_	_	2	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	2	punct	_	_
-16	Georgetown	Georgetown	PROPN	_	_	18	compound:nn	_	_
+16	Georgetown	Georgetown	PROPN	_	Case=Nom|Number=Sing	18	compound:nn	_	_
 17	BID	BID	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
 18	-alueen	alue	NOUN	_	Case=Gen|Number=Sing	19	nmod:poss	_	_
 19	johtaja	johtaja	NOUN	_	Case=Nom|Number=Sing	20	compound:nn	_	_
-20	Joe	Joe	PROPN	_	_	22	nsubj	_	_
+20	Joe	Joe	PROPN	_	Case=Nom|Number=Sing	22	nsubj	_	_
 21	Sternlieb	Sternlieb	PROPN	_	Case=Nom|Number=Sing	20	flat:name	_	_
 22	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	2	punct	_	_
@@ -314,7 +314,7 @@
 7	noin	noin	ADV	_	_	8	advmod	_	_
 8	neljä	neljä	NUM	_	Case=Nom|Number=Sing|NumType=Card	9	nummod	_	_
 9	minuuttia	minuutti	NOUN	_	Case=Par|Number=Sing	6	nsubj	_	_
-10	Potomac	Potomac	PROPN	_	_	12	compound:nn	_	_
+10	Potomac	Potomac	PROPN	_	Case=Nom|Number=Sing	12	compound:nn	_	_
 11	River	River	PROPN	_	Case=Nom|Number=Sing	10	flat:name	_	_
 12	-joen	joki	NOUN	_	Case=Gen|Number=Sing	13	nmod:gobj	_	_
 13	ylittämiseen	ylittää	NOUN	_	Case=Ill|Derivation=Minen|Number=Sing	6	obl	_	_
@@ -469,8 +469,8 @@
 # english_text = She killed Andre Price III by pressing his face into an air mattress in her sitting room before trying to do the same to her daughter, Angel, police said.
 1	Nainen	nainen	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	tappoi	tappaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	Andre	Andre	PROPN	_	_	2	obj	_	_
-4	Price	Price	PROPN	_	_	3	flat:name	_	_
+3	Andre	Andre	PROPN	_	Case=Nom|Number=Sing	2	obj	_	_
+4	Price	Price	PROPN	_	Case=Nom|Number=Sing	3	flat:name	_	_
 5	III:n	III	PROPN	_	Case=Gen|Number=Sing	3	flat:name	_	_
 6	painamalla	painaa	VERB	_	Case=Ade|Degree=Pos|Number=Sing|PartForm=Agt|VerbForm=Part|Voice=Act	2	advcl	_	_
 7	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	_
@@ -921,7 +921,7 @@
 9	monilta	moni	PRON	_	Case=Abl|Number=Plur|PronType=Ind	7	obl	_	SpaceAfter=No
 10	”	”	PUNCT	_	_	7	punct	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	7	punct	_	_
-12	Hack	Hack	PROPN	_	_	14	compound:nn	_	_
+12	Hack	Hack	PROPN	_	Case=Nom|Number=Sing	14	compound:nn	_	_
 13	Forums	Forum	PROPN	_	Case=Nom|Number=Plur	12	flat:name	_	_
 14	-keskustelupalstan	keskustelu#palsta	NOUN	_	Case=Gen|Number=Sing	15	nmod:poss	_	_
 15	perustaja	perustaja	NOUN	_	Case=Nom|Number=Sing	16	compound:nn	_	_
@@ -1520,7 +1520,7 @@
 1	Poliisin	poliisi	NOUN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	tiedottaja	tiedottaja	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	kertoi	kertoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	Associated	Associated	PROPN	_	_	6	compound:nn	_	_
+4	Associated	Associated	PROPN	_	Case=Nom|Number=Sing	6	compound:nn	_	_
 5	Press	Press	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
 6	-uutistoimistolle	uutis#toimisto	NOUN	_	Case=All|Number=Sing	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	12	punct	_	_
@@ -1752,7 +1752,7 @@
 # english_text = "If Donald Trump becomes president, the government here will still have to work with him to advance whatever shared agenda there is, to ensure that Canadian businesses and interests are represented in Washington."
 1	”	”	PUNCT	_	_	10	punct	_	SpaceAfter=No
 2	Jos	jos	SCONJ	_	_	5	mark	_	_
-3	Donald	Donald	PROPN	_	_	5	obl	_	_
+3	Donald	Donald	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
 4	Trumpista	Trump	PROPN	_	Case=Ela|Number=Sing	3	flat:name	_	_
 5	tulee	tulla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
 6	presidentti	presidentti	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	SpaceAfter=No
@@ -2107,7 +2107,7 @@
 1	Trumpin	Trump	PROPN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	vaimo	vaimo	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	Melania	Melania	PROPN	_	_	2	appos	_	_
+4	Melania	Melania	PROPN	_	Case=Nom|Number=Sing	2	appos	_	_
 5	Trump	Trump	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	esiintyi	esiintyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -2163,7 +2163,7 @@
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	Mailis	Mailis	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 9	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
-10	CBC	CBC	PROPN	_	_	12	compound:nn	_	_
+10	CBC	CBC	PROPN	_	Case=Nom|Number=Sing	12	compound:nn	_	_
 11	News	News	PROPN	_	Case=Nom|Number=Sing	10	flat:name	_	_
 12	-uutistoimiston	uutis#toimisto	NOUN	_	Case=Gen|Number=Sing	13	nmod:poss	_	_
 13	haastattelussa	haastattelu	NOUN	_	Case=Ine|Number=Sing	9	obl	_	_
@@ -2201,7 +2201,7 @@
 3	poliisitarkastuksen	poliisi#tarkastus	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	johtaja	johtaja	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	Gerry	Gerry	PROPN	_	_	4	appos	_	_
+6	Gerry	Gerry	PROPN	_	Case=Nom|Number=Sing	4	appos	_	_
 7	McNeilly	McNeilly	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	asetti	asettaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -2496,8 +2496,8 @@
 8	rajoittamattoman	rajoittamaton	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	9	amod	_	_
 9	tiedonsiirron	tiedon#siirto	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	asiakas	asiakas	NOUN	_	Case=Nom|Number=Sing	11	compound:nn	_	_
-11	Lindsay	Lindsay	PROPN	_	_	13	nsubj	_	_
-12	Gay	gay	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	_
+11	Lindsay	Lindsay	PROPN	_	Case=Nom|Number=Sing	13	nsubj	_	_
+12	Gay	Gay	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	_
 13	kertoi	kertoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 14	viime	viime	ADJ	_	_	15	amod	_	_
 15	kuussa	kuu	NOUN	_	Case=Ine|Number=Sing	13	obl	_	SpaceAfter=No
@@ -3024,7 +3024,7 @@
 6	republikaanipuolueen	republikaani#puolue	NOUN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	keskustoimiston	keskus#toimisto	NOUN	_	Case=Gen|Number=Sing	4	obj	_	_
 8	aivan	aivan	ADV	_	_	11	advmod	_	_
-9	Chapel	Chapel	PROPN	_	_	11	nmod:poss	_	_
+9	Chapel	Chapel	PROPN	_	Case=Nom|Number=Sing	11	nmod:poss	_	_
 10	Hillin	Hill	PROPN	_	Case=Gen|Number=Sing	9	flat:name	_	_
 11	lähistöllä	lähistö	NOUN	_	Case=Ade|Number=Sing	12	obl	_	_
 12	sijaitsevassa	sijaita	VERB	_	Case=Ine|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	14	acl	_	_
@@ -3246,7 +3246,7 @@
 8	voimakkaaksi	voimakas	ADJ	_	Case=Tra|Degree=Pos|Number=Sing	6	xcomp	_	SpaceAfter=No
 9	”	”	PUNCT	_	_	6	punct	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	6	punct	_	_
-11	Donald	Donald	PROPN	_	_	13	compound:nn	_	_
+11	Donald	Donald	PROPN	_	Case=Nom|Number=Sing	13	compound:nn	_	_
 12	Trump	Trump	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	_
 13	-imitaattori	imitaattori	NOUN	_	Case=Nom|Number=Sing	14	compound:nn	_	_
 14	John	John	PROPN	_	Case=Nom|Number=Sing	17	nsubj	_	_
@@ -3326,9 +3326,9 @@
 4	ja	ja	CCONJ	_	_	5	cc	_	_
 5	Zaylon	Zaylon	PROPN	_	Case=Nom|Number=Sing	3	conj	_	_
 6	kuvailivat	kuvailla	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-7	Knuck	Knuck	PROPN	_	_	11	compound:nn	_	_
-8	If	If	PROPN	_	_	7	flat:name	_	_
-9	You	You	PROPN	_	_	7	flat:name	_	_
+7	Knuck	Knuck	PROPN	_	Case=Nom|Number=Sing	11	compound:nn	_	_
+8	If	If	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
+9	You	You	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 10	Buck	Buck	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 11	-versionsa	versio	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	12	nmod:gobj	_	_
 12	nauhoittamista	nauhoittaminen	NOUN	_	Case=Par|Derivation=Minen|Number=Sing	6	obj	_	_
@@ -3483,7 +3483,7 @@
 4	julkaisi	julkaista	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	ladotun	latoa	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
 6	version	versio	NOUN	_	Case=Gen|Number=Sing	4	obj	_	_
-7	Zettels	Zettels	PROPN	_	_	9	compound:nn	_	_
+7	Zettels	Zettels	PROPN	_	Case=Nom|Number=Sing	9	compound:nn	_	_
 8	Traum	Traum	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 9	-kirjasta	kirja	NOUN	_	Case=Ela|Number=Sing	6	nmod	_	_
 10	siten	siten	ADV	_	_	11	advmod	_	_
@@ -3579,7 +3579,7 @@
 # english_text = The constituency is in the council area of North Kesteven, where 62% of voters backed leaving the EU.
 1	Vaalipiiri	vaali#piiri	NOUN	_	Case=Nom|Number=Sing	6	nsubj:cop	_	_
 2	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
-3	North	North	PROPN	_	_	5	nmod:poss	_	_
+3	North	North	PROPN	_	Case=Nom|Number=Sing	5	nmod:poss	_	_
 4	Kestevenin	Kesteven	PROPN	_	Case=Gen|Number=Sing	3	flat:name	_	_
 5	kunnan	kunta	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	alueella	alue	NOUN	_	Case=Ade|Number=Sing	0	root	_	SpaceAfter=No
@@ -3639,7 +3639,7 @@
 10	alueen	alue	NOUN	_	Case=Gen|Number=Sing	9	obj	_	_
 11	takaisin	takaisin	ADV	_	_	9	advmod	_	_
 12	ehdokkaansa	ehdokas	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	15	nmod:poss	_	_
-13	Sarah	Sarah	PROPN	_	_	12	appos	_	_
+13	Sarah	Sarah	PROPN	_	Case=Nom|Number=Sing	12	appos	_	_
 14	Olneyn	Olney	PROPN	_	Case=Gen|Number=Sing	13	flat:name	_	_
 15	avulla	apu	NOUN	_	Case=Ade|Number=Sing	9	obl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	8	punct	_	_
@@ -3752,11 +3752,11 @@
 5	neljä	neljä	NUM	_	Case=Nom|Number=Sing|NumType=Card	6	nummod	_	_
 6	vuotta	vuosi	NOUN	_	Case=Par|Number=Sing	4	obl	_	_
 7	BBC	BBC	NOUN	_	Abbr=Yes|Case=Nom|Number=Sing	10	compound:nn	_	_
-8	World	World	PROPN	_	_	7	flat:name	_	_
+8	World	World	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 9	Service	Service	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 10	-radiossa	radio	NOUN	_	Case=Ine|Number=Sing	4	obl	_	_
 11	Bush	Bush	PROPN	_	Case=Nom|Number=Sing	4	obl	_	_
-12	Housessa	house	PROPN	_	Case=Ine|Number=Sing	11	flat:name	_	SpaceAfter=No
+12	Housessa	House	PROPN	_	Case=Ine|Number=Sing	11	flat:name	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n01072012
@@ -3958,7 +3958,7 @@
 # sent_id = n01076006
 # text = Donald Trumpin voitto tekisi maailmasta heti nykyistä vielä huolestuttavamman ja rauhattomamman.
 # english_text = A Donald Trump victory would immediately make the world more worrying and unsettled than it already is.
-1	Donald	Donald	PROPN	_	_	3	nmod:poss	_	_
+1	Donald	Donald	PROPN	_	Case=Nom|Number=Sing	3	nmod:poss	_	_
 2	Trumpin	Trump	PROPN	_	Case=Gen|Number=Sing	1	flat:name	_	_
 3	voitto	voitto	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	tekisi	tehdä	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -4098,12 +4098,12 @@
 5	kansainvälisen	kansain#välinen	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	6	amod	_	_
 6	lähettilään	lähettiläs	NOUN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	titteli	titteli	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
-8	New	New	PROPN	_	_	15	compound:nn	_	_
+8	New	New	PROPN	_	Case=Nom|Number=Sing	15	compound:nn	_	_
 9	York	York	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	_
-10	City	city	PROPN	_	_	8	flat:name	_	_
-11	Health	Health	PROPN	_	_	8	flat:name	_	_
-12	and	and	PROPN	_	_	8	flat:name	_	_
-13	Hospitals	Hospitals	PROPN	_	_	8	flat:name	_	_
+10	City	City	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	_
+11	Health	Health	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	_
+12	and	and	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	_
+13	Hospitals	Hospitals	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	_
 14	Corporation	Corporation	PROPN	_	Case=Gen|Number=Sing	8	flat:name	_	_
 15	-yhtymässä	yhtymä	NOUN	_	Case=Ine|Number=Sing	7	nmod	_	_
 16	sekä	sekä	CCONJ	_	_	17	cc	_	_
@@ -4156,7 +4156,7 @@
 3	antaa	antaa	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
 4	presidenttiyden	presidenttiys	NOUN	_	Case=Gen|Number=Sing	5	nsubj	_	_
 5	mennä	mennä	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	xcomp:ds	_	_
-6	Donald	Donald	PROPN	_	_	5	obl	_	_
+6	Donald	Donald	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
 7	Trumpille	Trump	PROPN	_	Case=All|Number=Sing	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	henkilölle	henkilö	NOUN	_	Case=All|Number=Sing	6	appos	_	SpaceAfter=No
@@ -4266,8 +4266,8 @@
 # english_text = Meanwhile, Bank of Scotland customers earn 3% on balances of £3,000-£5,000 when they add the free Vantage option to their account.
 1	Samaan	sama	PRON	_	Case=Ill|Number=Sing|PronType=Ind	2	det	_	_
 2	aikaan	aika	NOUN	_	Case=Ill|Number=Sing	7	obl	_	_
-3	Bank	Bank	PROPN	_	_	6	nmod:poss	_	_
-4	of	of	PROPN	_	_	3	flat:name	_	_
+3	Bank	Bank	PROPN	_	Case=Nom|Number=Sing	6	nmod:poss	_	_
+4	of	of	PROPN	_	Case=Nom|Number=Sing	3	flat:name	_	_
 5	Scotlandin	Scotland	PROPN	_	Case=Gen|Number=Sing	3	flat:name	_	_
 6	asiakkaat	asiakas	NOUN	_	Case=Nom|Number=Plur	7	nsubj	_	_
 7	saavat	saada	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -4312,7 +4312,7 @@
 4	kurssi	kurssi	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	pätee	päteä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	myös	myös	ADV	_	_	8	advmod	_	_
-7	Nectar-kortin	Nectar#kortti	PROPN	_	Case=Gen|Number=Sing	8	nmod:poss	_	_
+7	Nectar-kortin	Nectar#kortti	NOUN	_	Case=Gen|Number=Sing	8	nmod:poss	_	_
 8	omistajiin	omistaja	NOUN	_	Case=Ill|Number=Plur	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	jotka	joka	PRON	_	Case=Nom|Number=Plur|PronType=Rel	11	nsubj	_	_
@@ -4449,7 +4449,7 @@
 3	sanoa	sanoa	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	että	että	SCONJ	_	_	8	mark	_	_
-6	Rocco	Rocco	PROPN	_	_	8	nsubj	_	_
+6	Rocco	Rocco	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	_
 7	Catalano	Catalano	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 8	työskentelee	työskennellä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
 9	retron	retro	NOUN	_	Case=Gen|Number=Sing	8	obl	_	_
@@ -4494,8 +4494,8 @@
 14	opiskeli	opiskella	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
 15	korusuunnittelua	koru#suunnittelu	NOUN	_	Case=Par|Number=Sing	14	obj	_	_
 16	Glasgow	Glasgow	PROPN	_	Case=Nom|Number=Sing	20	compound:nn	_	_
-17	School	School	PROPN	_	_	16	flat:name	_	_
-18	of	of	PROPN	_	_	16	flat:name	_	_
+17	School	School	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
+18	of	of	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
 19	Art	Art	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
 20	-koulussa	koulu	NOUN	_	Case=Ine|Number=Sing	14	obl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	_
@@ -4664,7 +4664,7 @@
 2	luonto-ohjelmansa	luonto#ohjelma	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	3	nmod:poss	_	_
 3	päällikkö	päällikkö	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	Jeff	Jeff	PROPN	_	_	3	appos	_	_
+5	Jeff	Jeff	PROPN	_	Case=Nom|Number=Sing	3	appos	_	_
 6	Knott	Knott	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -5221,8 +5221,8 @@
 1	Hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	kertoi	kertoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	BBC:n	BBC	PROPN	_	Abbr=Yes|Case=Gen|Number=Sing	4	nmod:poss	_	_
-4	Andrew	Andrew	PROPN	_	_	2	obl	_	_
-5	Marr	Marr	PROPN	_	_	4	flat:name	_	_
+4	Andrew	Andrew	PROPN	_	Case=Nom|Number=Sing	2	obl	_	_
+5	Marr	Marr	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
 6	Show’lle	Show	PROPN	_	Case=All|Number=Sing	4	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	16	punct	_	_
 8	että	että	SCONJ	_	_	16	mark	_	_
@@ -5315,7 +5315,7 @@
 9	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	pelasi	pelata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	_
 11	huhtikuussa	huhtikuu	NOUN	_	Case=Ine|Number=Sing	10	obl	_	_
-12	Benoît	Benoît	PROPN	_	_	10	obl	_	_
+12	Benoît	Benoît	PROPN	_	Case=Nom|Number=Sing	10	obl	_	_
 13	Pairea	Paire	PROPN	_	Case=Par|Number=Sing	12	flat:name	_	_
 14	vastaan	vastaan	ADP	_	AdpType=Post	12	case	_	_
 15	Monte	Monte	PROPN	_	Case=Nom|Number=Sing	10	obl	_	_
@@ -5349,7 +5349,7 @@
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	oliko	olla	AUX	_	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop:own	_	_
 5	Davis	Davis	PROPN	_	Case=Nom|Number=Sing	1	ccomp	_	_
-6	Cupilla	cup	PROPN	_	Case=Ade|Number=Sing	5	flat:name	_	_
+6	Cupilla	Cup	PROPN	_	Case=Ade|Number=Sing	5	flat:name	_	_
 7	jonkinlainen	jonkinlainen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	_
 8	osa	osa	NOUN	_	Case=Nom|Number=Sing	5	nsubj:cop	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
@@ -5567,7 +5567,7 @@
 5	760	760	NUM	_	NumType=Card	6	nummod	_	_
 6	puntaa	punta	NOUN	_	Case=Par|Number=Sing	0	root	_	_
 7	ja	ja	CCONJ	_	_	11	cc	_	_
-8	Avro	Avro	PROPN	_	_	10	nmod:poss	_	_
+8	Avro	Avro	PROPN	_	Case=Nom|Number=Sing	10	nmod:poss	_	_
 9	Energyn	Energy	PROPN	_	Case=Gen|Number=Sing	8	flat:name	_	_
 10	asiakkaat	asiakas	NOUN	_	Case=Nom|Number=Plur	11	nsubj	_	_
 11	maksaisivat	maksaa	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	conj	_	_
@@ -5575,8 +5575,8 @@
 13	760	760	NUM	_	NumType=Card	14	nummod	_	_
 14	puntaa	punta	NOUN	_	Case=Par|Number=Sing	11	obj	_	_
 15	sen	se	PRON	_	Case=Gen|Number=Sing|PronType=Dem	19	nmod:poss	_	_
-16	Simple	Simple	PROPN	_	_	19	compound:nn	_	_
-17	and	and	PROPN	_	_	16	flat:name	_	_
+16	Simple	Simple	PROPN	_	Case=Nom|Number=Sing	19	compound:nn	_	_
+17	and	and	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
 18	Select	Select	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
 19	-hinnalla	hinta	NOUN	_	Case=Ade|Number=Sing	11	obl	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	6	punct	_	_
@@ -5624,7 +5624,7 @@
 2	heillä	hän	PRON	_	Case=Ade|Number=Plur|Person=3|PronType=Prs	8	advcl	_	_
 3	olisi	olla	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	cop:own	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	Premium	Premium	PROPN	_	_	8	nsubj	_	_
+5	Premium	Premium	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	_
 6	Bondsit	Bonds	PROPN	_	Case=Nom|Number=Plur	5	flat:name	_	_
 7	eivät	ei	AUX	_	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	eroaisi	erota	VERB	_	Connegative=Yes|Mood=Cnd|VerbForm=Fin	0	root	_	_
@@ -5640,7 +5640,7 @@
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	4	obj	_	_
 4	sijoitetaan	sijoittaa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	1	acl:relcl	_	_
-5	Premium	Premium	PROPN	_	_	7	compound:nn	_	_
+5	Premium	Premium	PROPN	_	Case=Nom|Number=Sing	7	compound:nn	_	_
 6	Bonds	Bonds	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
 7	-velkakirjoihin	velka#kirja	NOUN	_	Case=Ill|Number=Plur	4	obl	_	_
 8	ja	ja	CCONJ	_	_	11	cc	_	_
@@ -5677,15 +5677,15 @@
 # english_text = It was followed by the Aviva Investors Multi Strategy Target Return and Income funds, into which investors put £2bn and £1.4bn respectively.
 1	Sitä	se	PRON	_	Case=Par|Number=Sing|PronType=Dem	2	obj	_	_
 2	seurasi	seurata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	Aviva	Aviva	PROPN	_	_	5	compound:nn	_	_
+3	Aviva	Aviva	PROPN	_	Case=Nom|Number=Sing	5	compound:nn	_	_
 4	Investors	Investors	PROPN	_	Case=Nom|Number=Sing	3	flat:name	_	_
 5	-yhtiön	yhtiö	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
-6	Multi	Multi	PROPN	_	_	2	nsubj	_	_
-7	Strategy	Strategy	PROPN	_	_	6	flat:name	_	_
-8	Target	Target	PROPN	_	_	6	flat:name	_	_
+6	Multi	Multi	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+7	Strategy	Strategy	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
+8	Target	Target	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 9	Return-	Return-	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 10	ja	ja	CCONJ	_	_	11	cc	_	_
-11	Income-rahastot	Income#rahasto	PROPN	_	Case=Nom|Number=Plur	6	conj	_	SpaceAfter=No
+11	Income-rahastot	Income#rahasto	NOUN	_	Case=Nom|Number=Plur	6	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	näissä	tämä	PRON	_	Case=Ine|Number=Plur|PronType=Dem	15	obl	_	_
 14	sijoittajat	sijoittaja	NOUN	_	Case=Nom|Number=Plur	15	nsubj	_	_
@@ -6289,15 +6289,15 @@
 # english_text = London’s landmark South Bank Tower commissioned interior designer Rachel Winham to design the show apartment.
 1	Lontoon	Lontoo	PROPN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	maamerkki	maa#merkki	NOUN	_	Case=Nom|Number=Sing	3	compound:nn	_	_
-3	South	South	PROPN	_	_	6	nsubj	_	_
-4	Bank	Bank	PROPN	_	_	3	flat:name	_	_
+3	South	South	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+4	Bank	Bank	PROPN	_	Case=Nom|Number=Sing	3	flat:name	_	_
 5	Tower	Tower	PROPN	_	Case=Nom|Number=Sing	3	flat:name	_	_
 6	teki	tehdä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	toimeksiannon	toimeksi#anto	NOUN	_	Case=Gen|Number=Sing	6	obj	_	_
 8	näyttöasunnon	näyttö#asunto	NOUN	_	Case=Gen|Number=Sing	9	nmod:gobj	_	_
 9	suunnittelusta	suunnittelu	NOUN	_	Case=Ela|Number=Sing	7	nmod	_	_
 10	sisustussuunnittelija	sisustus#suunnittelija	NOUN	_	Case=Nom|Number=Sing	11	compound:nn	_	_
-11	Rachel	Rachel	PROPN	_	_	6	obl	_	_
+11	Rachel	Rachel	PROPN	_	Case=Nom|Number=Sing	6	obl	_	_
 12	Winhamille	Winham	PROPN	_	Case=All|Number=Sing	11	flat:name	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -6531,7 +6531,7 @@
 # sent_id = n01130025
 # text = Donald Trump on tärkeilevä, ylimielinen ja etuoikeutettu henkilö, joka välittää itsestään, ja hänen luonteensa on myrkkyä Yhdysvalloille.
 # english_text = Donald Trump is a pompous, arrogant, entitled person that cares about himself, and his temperament is toxic to the United States.
-1	Donald	Donald	PROPN	_	_	9	nsubj:cop	_	_
+1	Donald	Donald	PROPN	_	Case=Nom|Number=Sing	9	nsubj:cop	_	_
 2	Trump	Trump	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 4	tärkeilevä	tärkeilevä	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	SpaceAfter=No
@@ -6628,16 +6628,16 @@
 16	hetkellä	hetki	NOUN	_	Case=Ade|Number=Sing	17	obl	_	_
 17	ilmoitettu	ilmoittaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	10	acl:relcl	_	_
 18	”	”	PUNCT	_	_	19	punct	_	SpaceAfter=No
-19	The	The	PROPN	_	_	17	obj	_	_
-20	Winds	Winds	PROPN	_	_	19	flat:name	_	_
-21	of	of	PROPN	_	_	19	flat:name	_	_
+19	The	The	PROPN	_	Case=Nom|Number=Sing	17	obj	_	_
+20	Winds	Winds	PROPN	_	Case=Nom|Number=Sing	19	flat:name	_	_
+21	of	of	PROPN	_	Case=Nom|Number=Sing	19	flat:name	_	_
 22	Winter	Winter	PROPN	_	Case=Nom|Number=Sing	19	flat:name	_	SpaceAfter=No
 23	”	”	PUNCT	_	_	19	punct	_	_
 24	ja	ja	CCONJ	_	_	26	cc	_	_
 25	”	”	PUNCT	_	_	26	punct	_	SpaceAfter=No
-26	A	a	PROPN	_	_	19	conj	_	_
-27	Dream	Dream	PROPN	_	_	26	flat:name	_	_
-28	of	of	PROPN	_	_	26	flat:name	_	_
+26	A	a	PROPN	_	Case=Nom|Number=Sing	19	conj	_	_
+27	Dream	Dream	PROPN	_	Case=Nom|Number=Sing	26	flat:name	_	_
+28	of	of	PROPN	_	Case=Nom|Number=Sing	26	flat:name	_	_
 29	Spring	Spring	PROPN	_	Case=Nom|Number=Sing	26	flat:name	_	SpaceAfter=No
 30	”	”	PUNCT	_	_	26	punct	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	4	punct	_	_
@@ -6771,10 +6771,10 @@
 # sent_id = n01136005
 # text = American Civil Liberties Union -järjestön avulla he lopulta haastoivat osavaltion oikeusjutussa, joka lopulta eteni Yhdysvaltain korkeimpaan oikeuteen.
 # english_text = With help from the American Civil Liberties Union, they eventually challenged the state, in a case that eventually went to the U.S. Supreme Court.
-1	American	American	PROPN	_	_	5	compound:nn	_	_
-2	Civil	Civil	PROPN	_	_	1	flat:name	_	_
-3	Liberties	Liberty	PROPN	_	Case=Nom|Number=Plur	1	flat:name	_	_
-4	Union	Union	PROPN	_	Case=Gen|Number=Sing	1	flat:name	_	_
+1	American	American	PROPN	_	Case=Nom|Number=Sing	5	compound:nn	_	_
+2	Civil	Civil	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	Liberties	Liberties	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+4	Union	Union	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 5	-järjestön	järjestö	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	avulla	apu	NOUN	_	Case=Ade|Number=Sing	9	obl	_	_
 7	he	hän	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
@@ -6853,8 +6853,8 @@
 8	pukeutuvat	pukeutua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 9	tänä	tämä	PRON	_	Case=Ess|Number=Sing|PronType=Dem	10	det	_	_
 10	juhlapäivänä	juhla#päivä	NOUN	_	Case=Ess|Number=Sing	8	obl	_	_
-11	Stranger	Stranger	PROPN	_	_	13	compound:nn	_	_
-12	Things	Thing	PROPN	_	Case=Nom|Number=Plur	11	flat:name	_	_
+11	Stranger	Stranger	PROPN	_	Case=Nom|Number=Sing	13	compound:nn	_	_
+12	Things	Things	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	_
 13	-hahmoiksi	hahmo	NOUN	_	Case=Tra|Number=Plur	8	xcomp	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -6884,8 +6884,8 @@
 4	yksi	yksi	NUM	_	Case=Nom|Number=Sing|NumType=Card	13	advcl	_	_
 5	Neganin	Negan	PROPN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	Jeffrey	Jeffrey	PROPN	_	_	5	appos	_	_
-8	Dean	Dean	PROPN	_	_	7	flat:name	_	_
+7	Jeffrey	Jeffrey	PROPN	_	Case=Nom|Number=Sing	5	appos	_	_
+8	Dean	Dean	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 9	Morgan	Morgan	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	SpaceAfter=No
 10	)	)	PUNCT	_	_	7	punct	_	_
 11	luottotyypeistä	luotto#tyyppi	NOUN	_	Case=Ela|Number=Plur	4	nmod	_	SpaceAfter=No
@@ -6924,8 +6924,8 @@
 3	seuraa	seurata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	jälkishow	jälki#show	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	The	The	PROPN	_	_	4	appos	_	_
-7	Talking	Talking	PROPN	_	_	6	flat:name	_	_
+6	The	The	PROPN	_	Case=Nom|Number=Sing	4	appos	_	_
+7	Talking	Talking	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 8	Dead	Dead	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -7135,7 +7135,7 @@
 7	”	”	PUNCT	_	_	3	punct	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
 9	Brisbanen	Brisbane	PROPN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
-10	Nine	Nine	PROPN	_	_	12	nsubj	_	_
+10	Nine	Nine	PROPN	_	Case=Nom|Number=Sing	12	nsubj	_	_
 11	News	News	PROPN	_	Case=Nom|Number=Sing	10	flat:name	_	_
 12	otsikoi	otsikoida	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
@@ -7214,7 +7214,7 @@
 6	sitä	se	PRON	_	Case=Par|Number=Sing|PronType=Dem	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	että	että	SCONJ	_	_	11	mark	_	_
-9	Johnny	Johnny	PROPN	_	_	11	nsubj	_	_
+9	Johnny	Johnny	PROPN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 10	Carson	Carson	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
 11	haki	hakea	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	ccomp	_	_
 12	tikkaat	tikas	NOUN	_	Case=Nom|Number=Plur	11	obj	_	_
@@ -7278,8 +7278,8 @@
 3	luovista	luova	ADJ	_	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	4	amod	_	_
 4	johtajista	johtaja	NOUN	_	Case=Ela|Number=Plur	1	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	Alejandra	Alejandra	PROPN	_	_	1	appos	_	_
-7	González	González	PROPN	_	_	6	flat:name	_	_
+6	Alejandra	Alejandra	PROPN	_	Case=Nom|Number=Sing	1	appos	_	_
+7	González	González	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 8	Anaya	Anaya	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	_
 10	selitti	selittää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -7308,7 +7308,7 @@
 6	vapaaehtoista	vapaa#ehtoinen	ADJ	_	Case=Par|Degree=Pos|Number=Sing	4	nsubj	_	SpaceAfter=No
 7	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
-9	González	González	PROPN	_	_	11	nsubj	_	_
+9	González	González	PROPN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 10	Anaya	Anaya	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
 11	sanoo	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
@@ -7366,7 +7366,7 @@
 # sent_id = n01147085
 # text = Yas Marinan radan verkkosivuilla on täsmälliset aikataulut.
 # english_text = The Yas Marina Circuit website has exact timings.
-1	Yas	Yas	PROPN	_	_	3	nmod:poss	_	_
+1	Yas	Yas	PROPN	_	Case=Nom|Number=Sing	3	nmod:poss	_	_
 2	Marinan	Marina	PROPN	_	Case=Gen|Number=Sing	1	flat:name	_	_
 3	radan	rata	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	verkkosivuilla	verkko#sivu	NOUN	_	Case=Ade|Number=Plur	0	root	_	_
@@ -7453,7 +7453,7 @@
 1	Hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	kertoi	kertoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	kokemuksestaan	kokemus	NOUN	_	Case=Ela|Number=Sing|Person[psor]=3	2	obj	_	_
-4	CNN	CNN	PROPN	_	_	2	obl	_	_
+4	CNN	CNN	PROPN	_	Case=Nom|Number=Sing	2	obl	_	_
 5	Stylelle	Style	PROPN	_	Case=All|Number=Sing	4	flat:name	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -7805,14 +7805,14 @@
 1	Ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Number=Sing|NumType=Ord	2	nummod	_	_
 2	elokuvayhtiö	elo#kuva#yhtiö	NOUN	_	Case=Nom|Number=Sing	7	obj	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	Athina	Athina	PROPN	_	_	2	appos	_	_
+4	Athina	Athina	PROPN	_	Case=Nom|Number=Sing	2	appos	_	_
 5	Film	Film	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	4	punct	_	_
 7	perustettiin	perustaa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 8	1912	1912	NUM	_	NumType=Card	7	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	12.1:punct	_
 10	ja	ja	CCONJ	_	_	11	cc	12.1:cc	_
-11	Asty	Asty	PROPN	_	_	7	conj	12.1:obj	_
+11	Asty	Asty	PROPN	_	Case=Nom|Number=Sing	7	conj	12.1:obj	_
 12	Film	Film	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	_
 12.1	perustettiin	perustaa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	_	_	7:conj	_
 13	vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	11	orphan	12.1:obl	_
@@ -7827,10 +7827,10 @@
 3	menestynein	menestyä	VERB	_	Case=Nom|Degree=Sup|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	acl	_	_
 4	elokuva	elo#kuva	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 5	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
-6	Yannis	Yannis	PROPN	_	_	8	nsubj	_	_
+6	Yannis	Yannis	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	_
 7	Smaragdiksen	Smaragdis	PROPN	_	Case=Gen|Number=Sing	6	flat:name	_	_
 8	ohjaama	ohjata	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Agt|VerbForm=Part|Voice=Act	9	acl	_	_
-9	El	El	PROPN	_	_	4	nsubj:cop	_	_
+9	El	El	PROPN	_	Case=Nom|Number=Sing	4	nsubj:cop	_	_
 10	Greco	Greco	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -8064,7 +8064,7 @@
 4	Määrin	Määri	PROPN	_	Case=Gen|Number=Sing	3	obj	_	_
 5	ja	ja	CCONJ	_	_	6	cc	_	_
 6	korvasi	korvata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
-7	Mojmír	Mojmír	PROPN	_	_	6	obj	_	_
+7	Mojmír	Mojmír	PROPN	_	Case=Nom|Number=Sing	6	obj	_	_
 8	I:sen	I	PROPN	_	Case=Gen|Number=Sing	7	flat:name	_	_
 9	veljenpojallaan	veli#poika	NOUN	_	Case=Ade|Number=Sing|Person[psor]=3	6	obl	_	_
 10	Rastizilla	Rastiz	PROPN	_	Case=Ade|Number=Sing	9	appos	_	SpaceAfter=No
@@ -8261,7 +8261,7 @@
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	Kilimanjaro	Kilimanjaro	PROPN	_	Case=Nom|Number=Sing	16	appos	_	_
 19	ja	ja	CCONJ	_	_	20	cc	_	_
-20	Mount	Mount	PROPN	_	_	18	conj	_	_
+20	Mount	Mount	PROPN	_	Case=Nom|Number=Sing	18	conj	_	_
 21	Kenya	Kenya	PROPN	_	Case=Nom|Number=Sing	20	flat:name	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -8324,7 +8324,7 @@
 4	aiemmin	aiemmin	ADV	_	_	5	advmod	_	_
 5	Britanniaan	Britannia	PROPN	_	Case=Ill|Number=Sing	6	obl	_	_
 6	kuulunut	kuulua	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	7	acl	_	_
-7	Southern	Southern	PROPN	_	_	9	nsubj	_	_
+7	Southern	Southern	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 8	Cameroons	Cameroons	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 9	yhdistyi	yhdistyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 10	Ranskan	Ranska	PROPN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
@@ -8513,7 +8513,7 @@
 10	käyttivät	käyttää	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 11	Välimerestä	väli#meri	PROPN	_	Case=Ela|Number=Sing	10	obl	_	_
 12	nimeä	nimi	NOUN	_	Case=Par|Number=Sing	10	obj	_	_
-13	Mare	Mare	PROPN	_	_	12	appos	_	_
+13	Mare	Mare	PROPN	_	Case=Nom|Number=Sing	12	appos	_	_
 14	Nostrum	Nostrum	PROPN	_	Case=Nom|Number=Sing	13	flat:name	_	_
 15	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 16	meidän	minä	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	17	nmod:poss	_	_
@@ -8706,7 +8706,7 @@
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	ja	ja	CCONJ	_	_	21	cc	_	_
 18	kenraali	kenraali	NOUN	_	Case=Nom|Number=Sing	19	compound:nn	_	_
-19	de	de	PROPN	_	_	21	obj	_	_
+19	de	de	PROPN	_	Case=Nom|Number=Sing	21	obj	_	_
 20	Meza	Meza	PROPN	_	Case=Nom|Number=Sing	19	flat:name	_	_
 21	erotettiin	erottaa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	5	conj	_	_
 22	välittömästi	välittömästi	ADV	_	_	21	advmod	_	_
@@ -9477,7 +9477,7 @@
 2	silloinen	silloinen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	_
 3	pormestari	pormestari	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	Sallyanne	Sallyanne	PROPN	_	_	3	appos	_	_
+5	Sallyanne	Sallyanne	PROPN	_	Case=Nom|Number=Sing	3	appos	_	_
 6	Atkinson	Atkinson	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	julisti	julistaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -9839,14 +9839,14 @@
 # sent_id = w01046056
 # text = Cape Townin paikallinen hallinto on City of Cape Townissa, joka on kaupunginhallintoalue.
 # english_text = Cape Town's local government is the City of Cape Town, which is a metropolitan municipality.
-1	Cape	Cape	PROPN	_	_	4	nmod:poss	_	_
+1	Cape	Cape	PROPN	_	Case=Nom|Number=Sing	4	nmod:poss	_	_
 2	Townin	Town	PROPN	_	Case=Gen|Number=Sing	1	flat:name	_	_
 3	paikallinen	paikallinen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
 4	hallinto	hallinto	NOUN	_	Case=Nom|Number=Sing	6	nsubj:cop	_	_
 5	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
-6	City	city	PROPN	_	_	0	root	_	_
-7	of	of	PROPN	_	_	6	flat:name	_	_
-8	Cape	Cape	PROPN	_	_	6	flat:name	_	_
+6	City	City	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
+7	of	of	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
+8	Cape	Cape	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 9	Townissa	Town	PROPN	_	Case=Ine|Number=Sing	6	flat:name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	13	nsubj:cop	_	_
@@ -10009,8 +10009,8 @@
 2	vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	4	obl	_	_
 3	1879	1879	NUM	_	NumType=Card	2	nummod	_	_
 4	perustettu	perustaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
-5	Royal	Royal	PROPN	_	_	8	compound:nn	_	_
-6	National	National	PROPN	_	_	5	flat:name	_	_
+5	Royal	Royal	PROPN	_	Case=Nom|Number=Sing	8	compound:nn	_	_
+6	National	National	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
 7	Park	Park	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
 8	-puisto	puisto	NOUN	_	Case=Nom|Number=Sing	15	nsubj:cop	_	_
 9	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	_
@@ -10054,7 +10054,7 @@
 4	kaatui	kaatua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
 5	1911	1911	NUM	_	NumType=Card	4	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
-7	Bogd	Bogd	PROPN	_	_	9	nsubj	_	_
+7	Bogd	Bogd	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 8	Khanin	Khan	PROPN	_	Case=Gen|Number=Sing	7	flat:name	_	_
 9	johtama	johtaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Agt|VerbForm=Part|Voice=Act	10	acl	_	_
 10	Mongolia	Mongolia	PROPN	_	Case=Nom|Number=Sing	11	nsubj	_	_
@@ -10082,12 +10082,12 @@
 1	Kiinan	Kiina	PROPN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	tasavallan	tasavalta	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
 3	presidentti	presidentti	NOUN	_	Case=Nom|Number=Sing	4	compound:nn	_	_
-4	Yuan	Yuan	PROPN	_	_	6	nsubj	_	_
+4	Yuan	Yuan	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 5	Shikai	Shikai	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
 6	piti	pitää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	uutta	uusi	ADJ	_	Case=Par|Degree=Pos|Number=Sing	8	amod	_	_
 8	tasavaltaa	tasavalta	NOUN	_	Case=Par|Number=Sing	6	obj	_	_
-9	Qing	Qing	PROPN	_	_	10	compound:nn	_	SpaceAfter=No
+9	Qing	Qing	PROPN	_	Case=Nom|Number=Sing	10	compound:nn	_	SpaceAfter=No
 10	-dynastian	dynastia	NOUN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
 11	seuraajana	seuraaja	NOUN	_	Case=Ess|Number=Sing	6	xcomp:ds	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
@@ -10095,7 +10095,7 @@
 # sent_id = w01050070
 # text = Bogd Khan sanoi, että sekä Mongoliaa että Kiinaa johtivat Qing-dynastian aikana mantšut, ja sen jälkeen kun Qing-dynastia kaatui vuonna 1911, Mongolian sopimus mantšujen kanssa ei enää ollut voimassa.
 # english_text = Bogd Khaan said that both Mongolia and China had been administered by the Manchu during the Qing, and after the fall of the Qing dynasty in 1911, the contract of Mongolian submission to the Manchu had become invalid.
-1	Bogd	Bogd	PROPN	_	_	3	nsubj	_	_
+1	Bogd	Bogd	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	Khan	Khan	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	10	punct	_	_
@@ -10105,7 +10105,7 @@
 8	että	että	CCONJ	_	_	9	cc	_	_
 9	Kiinaa	Kiina	PROPN	_	Case=Par|Number=Sing	7	conj	_	_
 10	johtivat	johtaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	_
-11	Qing	Qing	PROPN	_	_	12	compound:nn	_	SpaceAfter=No
+11	Qing	Qing	PROPN	_	Case=Nom|Number=Sing	12	compound:nn	_	SpaceAfter=No
 12	-dynastian	dynastia	NOUN	_	Case=Gen|Number=Sing	13	nmod:poss	_	_
 13	aikana	aika	NOUN	_	Case=Ess|Number=Sing	10	obl	_	_
 14	mantšut	mantšu	NOUN	_	Case=Nom|Number=Plur	10	nsubj	_	SpaceAfter=No
@@ -10114,7 +10114,7 @@
 17	sen	se	PRON	_	Case=Gen|Number=Sing|PronType=Dem	22	obl	_	_
 18	jälkeen	jälkeen	ADP	_	AdpType=Post	17	case	_	_
 19	kun	kun	SCONJ	_	_	22	mark	_	_
-20	Qing	Qing	PROPN	_	_	21	compound:nn	_	SpaceAfter=No
+20	Qing	Qing	PROPN	_	Case=Nom|Number=Sing	21	compound:nn	_	SpaceAfter=No
 21	-dynastia	dynastia	NOUN	_	Case=Nom|Number=Sing	22	nsubj	_	_
 22	kaatui	kaatua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	33	advcl	_	_
 23	vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	22	obl	_	_
@@ -10133,14 +10133,14 @@
 # sent_id = w01050071
 # text = Bogd Khanin hallitsema alue vastasi suurin piirtein Qing-dynastian aikaista entistä Ulko-Mongoliaa.
 # english_text = The area controlled by the Bogd Khaan was approximately that of the former Outer Mongolia during the Qing period.
-1	Bogd	Bogd	PROPN	_	_	3	nsubj	_	_
-2	Khanin	Khanin	PROPN	_	Case=Gen|Number=Sing	1	flat:name	_	_
+1	Bogd	Bogd	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	Khanin	Khan	PROPN	_	Case=Gen|Number=Sing	1	flat:name	_	_
 3	hallitsema	hallita	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Agt|VerbForm=Part|Voice=Act	4	acl	_	_
 4	alue	alue	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	vastasi	vastata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	suurin	suuri	ADV	_	_	7	advmod	_	_
 7	piirtein	piirre	ADV	_	_	5	advmod	_	_
-8	Qing	Qing	PROPN	_	_	9	compound:nn	_	SpaceAfter=No
+8	Qing	Qing	PROPN	_	Case=Nom|Number=Sing	9	compound:nn	_	SpaceAfter=No
 9	-dynastian	dynastia	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	aikaista	aikainen	ADJ	_	Case=Par|Degree=Pos|Number=Sing	12	amod	_	_
 11	entistä	entinen	ADJ	_	Case=Par|Degree=Pos|Number=Sing	12	amod	_	_
@@ -10222,7 +10222,7 @@
 15	nähty	nähdä	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
 16	egyptiläisiä	egyptiläinen	ADJ	_	Case=Par|Degree=Pos|Number=Plur	17	amod	_	_
 17	sotilaita	sotilas	NOUN	_	Case=Par|Number=Plur	15	obj	_	_
-18	Thutmosis	Thutmosis	PROPN	_	_	15	obl	_	_
+18	Thutmosis	Thutmosis	PROPN	_	Case=Nom|Number=Sing	15	obl	_	_
 19	III:n	III:n	PROPN	_	Case=Gen|Number=Sing	18	flat:name	_	_
 20	jälkeen	jälkeen	ADP	_	AdpType=Post	18	case	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	25	punct	_	_
@@ -10496,10 +10496,10 @@
 # sent_id = w01060037
 # text = Shen Kuo vakuutti Wang Anshin pian taidoillaan ja kyvyillään virkamiehenä ja hallituksen asiamiehenä.
 # english_text = Shen Kuo soon impressed Wang Anshi with his skills and abilities as an administrator and government agent.
-1	Shen	Shen	PROPN	_	_	3	nsubj	_	_
+1	Shen	Shen	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	Kuo	Kuo	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	vakuutti	vakuuttaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	Wang	Wang	PROPN	_	_	3	obj	_	_
+4	Wang	Wang	PROPN	_	Case=Nom|Number=Sing	3	obj	_	_
 5	Anshin	Anshi	PROPN	_	Case=Gen|Number=Sing	4	flat:name	_	_
 6	pian	pian	ADV	_	_	3	advmod	_	_
 7	taidoillaan	taito	NOUN	_	Case=Ade|Number=Plur|Person[psor]=3	3	obl	_	_
@@ -10794,7 +10794,7 @@
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	oletettavasti	oletettavasti	ADV	_	_	8	advmod	_	_
 7	egyptiläisfaarao	egyptiläinen#faarao	NOUN	_	Case=Nom|Number=Sing	8	compound:nn	_	_
-8	Thutmosis	Thutmosis	PROPN	_	_	3	conj	_	_
+8	Thutmosis	Thutmosis	PROPN	_	Case=Nom|Number=Sing	3	conj	_	_
 9	III:n	III:n	PROPN	_	Case=Gen|Number=Sing	8	flat:name	_	_
 10	sotaretken	sota#retki	NOUN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
 11	jäljiltä	jäljiltä	ADV	_	_	8	advmod	_	SpaceAfter=No
@@ -10995,7 +10995,7 @@
 4	Aldrin	Aldrin	PROPN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	houkuteltiin	houkutella	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 6	hotelliin	hotelli	NOUN	_	Case=Ill|Number=Sing	5	obl	_	_
-7	Beverly	Beverly	PROPN	_	_	5	obl	_	_
+7	Beverly	Beverly	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
 8	Hillsissä	Hills	PROPN	_	Case=Ine|Number=Sing	7	flat:name	_	_
 9	sillä	se	PRON	_	Case=Ade|Number=Sing|PronType=Dem	10	det	_	_
 10	verukkeella	veruke	NOUN	_	Case=Ade|Number=Sing	5	obl	_	SpaceAfter=No
@@ -11319,7 +11319,7 @@
 7	tapasi	tavata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	ja	ja	CCONJ	_	_	9	cc	_	_
 9	rakastui	rakastua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
-10	Florence	Florence	PROPN	_	_	9	obl	_	_
+10	Florence	Florence	PROPN	_	Case=Nom|Number=Sing	9	obl	_	_
 11	Garrardiin	Garrard	PROPN	_	Case=Ill|Number=Sing	10	flat:name	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	15	nsubj:cop	_	_
@@ -11396,8 +11396,8 @@
 1	Vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	3	obl	_	_
 2	1610	1610	NUM	_	NumType=Card	1	nummod	_	_
 3	julkaistu	julkaista	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
-4	Jin	Jin	PROPN	_	_	13	nsubj	_	_
-5	Ping	Ping	PROPN	_	_	4	flat:name	_	_
+4	Jin	Jin	PROPN	_	Case=Nom|Number=Sing	13	nsubj	_	_
+5	Ping	Ping	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
 6	Mei	Mei	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	vaikka	vaikka	SCONJ	_	_	9	mark	_	_
@@ -11630,7 +11630,7 @@
 # text = Dominikaanipappi Heinrich Kramer oli Salzburgin arkkipiispan apulainen.
 # english_text = Dominican priest Heinrich Kramer was assistant to the Archbishop of Salzburg.
 1	Dominikaanipappi	dominikaani#pappi	NOUN	_	Case=Nom|Number=Sing	2	compound:nn	_	_
-2	Heinrich	Heinrich	PROPN	_	_	7	nsubj:cop	_	_
+2	Heinrich	Heinrich	PROPN	_	Case=Nom|Number=Sing	7	nsubj:cop	_	_
 3	Kramer	Kramer	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
 4	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
 5	Salzburgin	Salzburg	PROPN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
@@ -11833,7 +11833,7 @@
 1	Koko	koko	ADJ	_	_	3	amod	_	_
 2	sodan	sota	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
 3	ajan	aika	NOUN	_	Case=Gen|Number=Sing	6	obl	_	_
-4	Pearl	Pearl	PROPN	_	_	6	obj	_	_
+4	Pearl	Pearl	PROPN	_	Case=Nom|Number=Sing	6	obj	_	_
 5	Harboria	Harbor	PROPN	_	Case=Par|Number=Sing	4	flat:name	_	_
 6	käytettiin	käyttää	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 7	usein	usein	ADV	_	_	6	advmod	_	_
@@ -11987,7 +11987,7 @@
 4	luovutti	luovuttaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	Yhdysvalloille	Yhdysvallat	PROPN	_	Case=All|Number=Plur	4	obl	_	_
 6	siirtomaansa	siirto#maa	NOUN	_	Case=Nom|Number=Sing|Person[psor]=3	4	obj	_	_
-7	Puerto	Puerto	PROPN	_	_	6	appos	_	_
+7	Puerto	Puerto	PROPN	_	Case=Nom|Number=Sing	6	appos	_	_
 8	Ricon	Rico	PROPN	_	Case=Gen|Number=Sing	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	Guamin	Guam	PROPN	_	Case=Gen|Number=Sing	7	conj	_	_
@@ -12258,7 +12258,7 @@
 # sent_id = w01094066
 # text = American Motorsin pienikokoisten Rambler-mallien menestys kannusti GM:ia ja Fordia esittelemään omat pienemmät autonsa vuonna 1960.
 # english_text = The success American Motors' compact-sized Rambler models spurred GM and Ford to introduce their own downsized cars in 1960.
-1	American	American	PROPN	_	_	4	nmod:poss	_	_
+1	American	American	PROPN	_	Case=Nom|Number=Sing	4	nmod:poss	_	_
 2	Motorsin	Motors	PROPN	_	Case=Gen|Number=Sing	1	flat:name	_	_
 3	pienikokoisten	pieni#kokoinen	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
 4	Rambler-mallien	Rambler#mallien	NOUN	_	Case=Gen|Number=Plur	5	nmod:gsubj	_	_
@@ -12557,7 +12557,7 @@
 4	ja	ja	CCONJ	_	_	5	cc	_	_
 5	Hubein	Hubei	PROPN	_	Case=Gen|Number=Sing	3	conj	_	_
 6	kenraalikuvernööri	kenraali#kuvernööri	NOUN	_	Case=Nom|Number=Sing	7	compound:nn	_	_
-7	Lin	Lin	PROPN	_	_	9	nsubj	_	_
+7	Lin	Lin	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 8	Zexu	Zexu	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 9	kielsi	kieltää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 10	ulkomaisen	ulko#mainen	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	11	amod	_	_
@@ -12749,7 +12749,7 @@
 # sent_id = w01102040
 # text = De Gaulle oli ohjeistanut, että Churchillia kohtaan ei saanut julkisesti osoittaa liiallista kiintymystä eikä virallisia palkintoja saanut myöntää ilman hänen aiempaa suostumustaan.
 # english_text = De Gaulle had instructed that there be no excessive displays of public affection towards Churchill and no official awards without his prior agreement.
-1	De	De	PROPN	_	_	4	nsubj	_	_
+1	De	De	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 2	Gaulle	Gaulle	PROPN	_	Case=All|Number=Sing	1	flat:name	_	_
 3	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	ohjeistanut	ohjeistaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
@@ -12855,7 +12855,7 @@
 21	,	,	PUNCT	_	_	6	punct	_	_
 22	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	cop	_	_
 23	Ground	Ground	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
-24	Controlled	Controlled	PROPN	_	_	23	flat:name	_	_
+24	Controlled	Controlled	PROPN	_	Case=Nom|Number=Sing	23	flat:name	_	_
 25	Approach	Approach	PROPN	_	Case=Nom|Number=Sing	23	flat:name	_	_
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
 27	GCA	GCA	PROPN	_	Abbr=Yes|Case=Nom|Number=Sing	23	appos	_	SpaceAfter=No
@@ -12959,14 +12959,14 @@
 # sent_id = w01106052
 # text = Alliance of Democratic Forces for the Liberation of Congo -liittouman kapinalliset valtasivat Lubumbashin huhtikuussa 1997.
 # english_text = The Alliance of Democratic Forces for the Liberation of Congo rebels captured Lubumbashi in April 1997.
-1	Alliance	Alliance	PROPN	_	_	10	compound:nn	_	_
-2	of	of	PROPN	_	_	1	flat:name	_	_
-3	Democratic	Democratic	PROPN	_	_	1	flat:name	_	_
-4	Forces	Forces	PROPN	_	_	1	flat:name	_	_
-5	for	for	PROPN	_	_	1	flat:name	_	_
-6	the	the	PROPN	_	_	1	flat:name	_	_
-7	Liberation	Liberation	PROPN	_	_	1	flat:name	_	_
-8	of	of	PROPN	_	_	1	flat:name	_	_
+1	Alliance	Alliance	PROPN	_	Case=Nom|Number=Sing	10	compound:nn	_	_
+2	of	of	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	Democratic	Democratic	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+4	Forces	Forces	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+5	for	for	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+6	the	the	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+7	Liberation	Liberation	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+8	of	of	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 9	Congo	Congo	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 10	-liittouman	liittouma	NOUN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
 11	kapinalliset	kapinallinen	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	nsubj	_	_
@@ -13153,9 +13153,9 @@
 4	Winstone	Winstone	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	kirjautui	kirjautua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	sisään	sisään	ADV	_	_	5	advmod	_	_
-7	Hammersmithin	Hammersmith	PROPN	_	_	11	compound:nn	_	_
-8	Corona	Corona	PROPN	_	_	7	flat:name	_	_
-9	Stage	Stage	PROPN	_	_	7	flat:name	_	_
+7	Hammersmithin	Hammersmith	PROPN	_	Case=Gen|Number=Sing	11	compound:nn	_	_
+8	Corona	Corona	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
+9	Stage	Stage	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 10	Academy	Academy	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 11	-akatemiaan	akatemia	NOUN	_	Case=Ill|Number=Sing	5	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
@@ -13169,7 +13169,7 @@
 4	Elainen	Elaine	PROPN	_	Case=Gen|Number=Sing	3	appos	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	_
 6	kun	kun	SCONJ	_	_	10	mark	_	_
-7	That	That	PROPN	_	_	9	compound:nn	_	_
+7	That	That	PROPN	_	Case=Nom|Number=Sing	9	compound:nn	_	_
 8	Summer	Summer	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 9	-elokuvaa	elo#kuva	NOUN	_	Case=Par|Number=Sing	10	obj	_	_
 10	kuvattiin	kuvata	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	advcl	_	_
@@ -13223,7 +13223,7 @@
 10	ja	ja	CCONJ	_	_	12	cc	_	_
 11	seitsemästä	seitsemän	NUM	_	Case=Ela|Number=Sing|NumType=Card	12	nummod	_	_
 12	miniatyyrikokoisesta	miniatyyri#kokoinen	ADJ	_	Case=Ela|Degree=Pos|Number=Sing	9	conj	_	_
-13	Oscar	Oscar	PROPN	_	_	14	compound:nn	_	SpaceAfter=No
+13	Oscar	Oscar	PROPN	_	Case=Nom|Number=Sing	14	compound:nn	_	SpaceAfter=No
 14	-patsaasta	patsas	NOUN	_	Case=Ela|Number=Sing	7	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -13367,7 +13367,7 @@
 8	kirjoitti	kirjoittaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
 9	näytelmäarvioita	näytelmä#arvio	NOUN	_	Case=Par|Number=Plur	8	obj	_	_
 10	Edinburgh	Edinburgh	PROPN	_	Case=Nom|Number=Sing	13	compound:nn	_	_
-11	Evening	Evening	PROPN	_	_	10	flat:name	_	_
+11	Evening	Evening	PROPN	_	Case=Nom|Number=Sing	10	flat:name	_	_
 12	Courant	Courant	PROPN	_	Case=Nom|Number=Sing	10	flat:name	_	_
 13	-lehdelle	lehti	NOUN	_	Case=All|Number=Sing	8	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
@@ -13394,7 +13394,7 @@
 3	puolitoista	puoli#toinen	NUM	_	Case=Nom|Number=Sing|NumType=Card	4	nummod	_	_
 4	vuotta	vuosi	NOUN	_	Case=Par|Number=Sing	2	obl	_	_
 5	toimittajana	toimittaja	NOUN	_	Case=Ess|Number=Sing	2	obl	_	_
-6	Nottingham	Nottingham	PROPN	_	_	8	compound:nn	_	_
+6	Nottingham	Nottingham	PROPN	_	Case=Nom|Number=Sing	8	compound:nn	_	_
 7	Journal	Journal	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 8	-lehdessä	lehti	NOUN	_	Case=Ine|Number=Sing	2	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	_
@@ -13404,7 +13404,7 @@
 13	sisarensa	sisar	NOUN	_	Case=Nom|Number=Sing|Person[psor]=3	15	nsubj	_	_
 14	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	_
 15	löytänyt	löytää	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	8	acl:relcl	_	_
-16	The	The	PROPN	_	_	18	compound:nn	_	_
+16	The	The	PROPN	_	Case=Nom|Number=Sing	18	compound:nn	_	_
 17	Scotsman	Scotsman	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
 18	-lehdestä	lehti	NOUN	_	Case=Ela|Number=Sing	15	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
@@ -13437,16 +13437,16 @@
 1	Vuoteen	vuosi	NOUN	_	Case=Ill|Number=Sing	17	obl	_	_
 2	2009	2009	NUM	_	NumType=Card	1	nummod	_	_
 3	mennessä	mennessä	ADP	_	AdpType=Post	1	case	_	_
-4	The	The	PROPN	_	_	15	compound:nn	_	_
-5	Power	Power	PROPN	_	_	4	flat:name	_	_
-6	of	of	PROPN	_	_	4	flat:name	_	_
+4	The	The	PROPN	_	Case=Nom|Number=Sing	15	compound:nn	_	_
+5	Power	Power	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
+6	of	of	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
 7	Now-	Now-	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
 8	ja	ja	CCONJ	_	_	9	cc	_	_
-9	A	a	PROPN	_	_	4	conj	_	_
-10	New	New	PROPN	_	_	9	flat:name	_	_
-11	Earth	Earth	PROPN	_	_	9	flat:name	_	_
-12	in	in	PROPN	_	_	9	flat:name	_	_
-13	North	North	PROPN	_	_	9	flat:name	_	_
+9	A	a	PROPN	_	Case=Nom|Number=Sing	4	conj	_	_
+10	New	New	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
+11	Earth	Earth	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
+12	in	in	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
+13	North	North	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
 14	America	America	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
 15	-kirjoja	kirjo	NOUN	_	Case=Par|Number=Plur	17	obj	_	_
 16	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
@@ -13634,9 +13634,9 @@
 # sent_id = w01122031
 # text = Really Really Love You julkaistiin elokuussa ja se pääsi top 50:een. Siihen kuuluva single, Shaky Ground, julkaistiin syyskuussa, mutta Geyer oli jo Yhdysvalloissa.
 # english_text = Really Really Love You was released in August and reach the top 50; "Shaky Ground", the related single, appeared in September but Geyer was already in the US.
-1	Really	Really	PROPN	_	_	5	obj	_	_
-2	Really	Really	PROPN	_	_	1	flat:name	_	_
-3	Love	Love	PROPN	_	_	1	flat:name	_	_
+1	Really	Really	PROPN	_	Case=Nom|Number=Sing	5	obj	_	_
+2	Really	Really	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	Love	Love	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 4	You	You	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 5	julkaistiin	julkaista	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 6	elokuussa	elo#kuu	NOUN	_	Case=Ine|Number=Sing	5	obl	_	_
@@ -13650,7 +13650,7 @@
 14	kuuluva	kuulua	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	15	acl	_	_
 15	single	single	NOUN	_	Case=Nom|Number=Sing	20	obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	Shaky	Shaky	PROPN	_	_	15	appos	_	_
+17	Shaky	Shaky	PROPN	_	Case=Nom|Number=Sing	15	appos	_	_
 18	Ground	Ground	PROPN	_	Case=Nom|Number=Sing	17	flat:name	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	17	punct	_	_
 20	julkaistiin	julkaista	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	5	parataxis	_	_
@@ -13701,7 +13701,7 @@
 3	,	,	PUNCT	_	_	13	punct	_	_
 4	kun	kun	SCONJ	_	_	13	mark	_	_
 5	Thought	Thought	PROPN	_	Case=Nom|Number=Sing	8	compound:nn	_	_
-6	’Ya	’Ya	PROPN	_	_	5	flat:name	_	_
+6	’Ya	’Ya	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
 7	Knew	Knew	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
 8	-albumin	albumi	NOUN	_	Case=Gen|Number=Sing	9	nmod:gsubj	_	_
 9	nousu	nousu	NOUN	_	Case=Nom|Number=Sing	13	nsubj	_	_
@@ -13741,7 +13741,7 @@
 6	hyvää	hyvä	ADJ	_	Case=Par|Degree=Pos|Number=Sing	8	amod	_	_
 7	noita	noita	NOUN	_	Case=Nom|Number=Sing	8	compound:nn	_	_
 8	Glindaa	Glinda	PROPN	_	Case=Par|Number=Sing	5	obj	_	_
-9	The	The	PROPN	_	_	11	compound:nn	_	_
+9	The	The	PROPN	_	Case=Nom|Number=Sing	11	compound:nn	_	_
 10	Wiz	Wiz	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
 11	-musikaalinäytelmän	musikaali#näytelmä	NOUN	_	Case=Gen|Number=Sing	12	nmod:poss	_	_
 12	teatterituotannossa	teatteri#tuotanto	NOUN	_	Case=Ine|Number=Sing	5	obl	_	SpaceAfter=No
@@ -13872,7 +13872,7 @@
 2	vuoden	vuosi	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
 3	1981	1981	NUM	_	NumType=Card	2	nummod	_	_
 4	albuminsa	albumi	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	8	nsubj:cop	_	_
-5	Wild	Wild	PROPN	_	_	4	appos	_	_
+5	Wild	Wild	PROPN	_	Case=Nom|Number=Sing	4	appos	_	_
 6	West	West	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
 7	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
 8	yksi	yksi	NUM	_	Case=Nom|Number=Sing|NumType=Card	0	root	_	_
@@ -13908,12 +13908,12 @@
 2	2012	2012	NUM	_	NumType=Card	1	nummod	_	_
 3	islantilainen	islantilainen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
 4	yhtye	yhtye	NOUN	_	Case=Nom|Number=Sing	5	compound:nn	_	_
-5	Sigur	Sigur	PROPN	_	_	7	nsubj	_	_
+5	Sigur	Sigur	PROPN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 6	Rós	Rós	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
 7	julkaisi	julkaista	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	videon	video	NOUN	_	Case=Gen|Number=Sing	7	obj	_	_
 9	laululle	laulu	NOUN	_	Case=All|Number=Sing	7	obl	_	_
-10	Fjögur	Fjögur	PROPN	_	_	9	appos	_	_
+10	Fjögur	Fjögur	PROPN	_	Case=Nom|Number=Sing	9	appos	_	_
 11	Píanó	Píanó	PROPN	_	Case=Nom|Number=Sing	10	flat:name	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
 13	jossa	joka	PRON	_	Case=Ine|Number=Sing|PronType=Rel	16	obl	_	_
@@ -13927,7 +13927,7 @@
 # text = Louis Post Dispatch kutsui sitä yhdeksi LaBeoufin parhaista esityksistä.
 # english_text = Louis Post Dispatch called it one of LaBeouf's best performances.
 1	Louis	Louis	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
-2	Post	Post	PROPN	_	_	1	flat:name	_	_
+2	Post	Post	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	Dispatch	Dispatch	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 4	kutsui	kutsua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	sitä	se	PRON	_	Case=Par|Number=Sing|PronType=Dem	4	obj	_	_
@@ -13981,9 +13981,9 @@
 16	hänestä	hän	PRON	_	Case=Ela|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
 17	tuli	tulla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
 18	2003	2003	NUM	_	NumType=Card	22	compound:nn	_	_
-19	NASCAR	NASCAR	PROPN	_	_	18	flat:name	_	_
-20	Winston	Winston	PROPN	_	_	18	flat:name	_	_
-21	Cup	cup	PROPN	_	Case=Nom|Number=Sing	18	flat:name	_	_
+19	NASCAR	NASCAR	PROPN	_	Case=Nom|Number=Sing	18	flat:name	_	_
+20	Winston	Winston	PROPN	_	Case=Nom|Number=Sing	18	flat:name	_	_
+21	Cup	Cup	PROPN	_	Case=Nom|Number=Sing	18	flat:name	_	_
 22	-mestari	mestari	NOUN	_	Case=Nom|Number=Sing	17	nsubj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	viimeinen	viimeinen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	25	amod	_	_
@@ -14023,11 +14023,11 @@
 # sent_id = w01130100
 # text = On a Wing and a Prayer -levy (1992) toi hänet taas yhteen Stealers Wheel -kumppaninsa Eganin kanssa useilla kappaleilla.
 # english_text = On a Wing and a Prayer (1992) reunited him with his Stealers Wheel partner Egan on several tracks.
-1	On	on	PROPN	_	_	7	compound:nn	_	_
-2	a	a	PROPN	_	_	1	flat:name	_	_
-3	Wing	Wing	PROPN	_	_	1	flat:name	_	_
-4	and	and	PROPN	_	_	1	flat:name	_	_
-5	a	a	PROPN	_	_	1	flat:name	_	_
+1	On	on	PROPN	_	Case=Nom|Number=Sing	7	compound:nn	_	_
+2	a	a	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	Wing	Wing	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+4	and	and	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+5	a	a	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 6	Prayer	Prayer	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 7	-levy	levy	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -14037,7 +14037,7 @@
 12	hänet	hän	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
 13	taas	taas	ADV	_	_	11	advmod	_	_
 14	yhteen	yhteen	ADV	_	_	11	advmod	_	_
-15	Stealers	Stealers	PROPN	_	_	17	compound:nn	_	_
+15	Stealers	Stealers	PROPN	_	Case=Nom|Number=Sing	17	compound:nn	_	_
 16	Wheel	Wheel	PROPN	_	Case=Nom|Number=Sing	15	flat:name	_	_
 17	-kumppaninsa	kumppani	NOUN	_	Case=Nom|Number=Sing|Person[psor]=3	11	obl	_	_
 18	Eganin	Egan	PROPN	_	Case=Gen|Number=Sing	17	appos	_	_
@@ -14072,7 +14072,7 @@
 21	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	aux:pass	_	_
 22	ollut	olla	AUX	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	23	aux:pass	_	_
 23	kiinnitettynä	kiinnittää	VERB	_	Case=Ess|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	18	conj	_	_
-24	Decca	Decca	PROPN	_	_	26	compound:nn	_	_
+24	Decca	Decca	PROPN	_	Case=Nom|Number=Sing	26	compound:nn	_	_
 25	Records	Records	PROPN	_	Case=Nom|Number=Sing	24	flat:name	_	_
 26	-yhtiölle	yhtiö	NOUN	_	Case=All|Number=Sing	23	obl	_	_
 27	1970-luvulla	1970#luku	NOUN	_	Case=Ade|Number=Sing	23	obl	_	SpaceAfter=No
@@ -14085,19 +14085,19 @@
 2	äänitti	äänittää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	uuden	uusi	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	4	amod	_	_
 4	version	versio	NOUN	_	Case=Gen|Number=Sing	2	obj	_	_
-5	Humblebums	Humblebums	PROPN	_	_	6	compound:nn	_	SpaceAfter=No
+5	Humblebums	Humblebums	PROPN	_	Case=Nom|Number=Sing	6	compound:nn	_	SpaceAfter=No
 6	-laulustaan	laulu	NOUN	_	Case=Ela|Number=Sing|Person[psor]=3	4	nmod	_	_
 7	”	”	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	Her	Her	PROPN	_	_	6	appos	_	_
-9	Father	Father	PROPN	_	_	8	flat:name	_	_
-10	Didn’t	Didn’t	PROPN	_	_	8	flat:name	_	_
-11	Like	Like	PROPN	_	_	8	flat:name	_	_
-12	Me	minä	PROPN	_	_	8	flat:name	_	_
+8	Her	Her	PROPN	_	Case=Nom|Number=Sing	6	appos	_	_
+9	Father	Father	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	_
+10	Didn’t	Didn’t	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	_
+11	Like	Like	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	_
+12	Me	Me	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	_
 13	Anyway	Anyway	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	SpaceAfter=No
 14	”	”	PUNCT	_	_	8	punct	_	_
 15	albumille	albumi	NOUN	_	Case=All|Number=Sing	2	obl	_	_
-16	Over	Over	PROPN	_	_	15	appos	_	_
-17	My	My	PROPN	_	_	16	flat:name	_	_
+16	Over	Over	PROPN	_	Case=Nom|Number=Sing	15	appos	_	_
+17	My	My	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
 18	Head	Head	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
 19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	1994	1994	NUM	_	NumType=Card	15	nmod	_	SpaceAfter=No
@@ -14119,7 +14119,7 @@
 10	vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	12	obl	_	_
 11	1998	1998	NUM	_	NumType=Card	10	nummod	_	_
 12	kuolleen	kuolla	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	13	acl	_	_
-13	Hugh	Hugh	PROPN	_	_	9	obl	_	_
+13	Hugh	Hugh	PROPN	_	Case=Nom|Number=Sing	9	obl	_	_
 14	Murphyn	Murphy	PROPN	_	Case=Gen|Number=Sing	13	flat:name	_	_
 15	kanssa	kanssa	ADP	_	AdpType=Post	13	case	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
@@ -14278,7 +14278,7 @@
 12	science	science	X	_	Foreign=Yes	14	compound:nn	_	_
 13	fiction	fiction	X	_	Foreign=Yes	12	flat:foreign	_	_
 14	-antologia	antologia	NOUN	_	Case=Nom|Number=Sing	15	compound:nn	_	_
-15	Star	Star	PROPN	_	_	6	obl	_	_
+15	Star	Star	PROPN	_	Case=Nom|Number=Sing	6	obl	_	_
 16	Reachiin	Reach	PROPN	_	Case=Ill|Number=Sing	15	flat:name	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -14290,7 +14290,7 @@
 2	kautta	kautta	ADP	_	AdpType=Post	1	case	_	_
 3	Mishima	Mishima	PROPN	_	Case=Nom|Number=Sing	8	nsubj:cop	_	_
 4	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
-5	Tokugawa	Tokugawa	PROPN	_	_	8	nmod:poss	_	_
+5	Tokugawa	Tokugawa	PROPN	_	Case=Nom|Number=Sing	8	nmod:poss	_	_
 6	Ieyasun	Ieyasu	PROPN	_	Case=Gen|Number=Sing	5	flat:name	_	_
 7	suora	suora	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	_
 8	jälkeläinen	jälkeläinen	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
@@ -14344,7 +14344,7 @@
 3	Blunt	Blunt	PROPN	_	Case=Nom|Number=Sing	4	obj	_	_
 4	nimettiin	nimetä	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 5	uuden	uusi	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	10	amod	_	_
-6	Yves	Yves	PROPN	_	_	9	compound:nn	_	_
+6	Yves	Yves	PROPN	_	Case=Nom|Number=Sing	9	compound:nn	_	_
 7	Saint	Saint	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 8	Laurent	Laurent	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 9	-tuoksu	tuoksu	NOUN	_	Case=Nom|Number=Sing	10	compound:nn	_	_
@@ -14375,7 +14375,7 @@
 18	muina	muu	PRON	_	Case=Ess|Number=Plur|PronType=Ind	19	det	_	_
 19	tähtinä	tähti	NOUN	_	Case=Ess|Number=Plur	14	conj	_	_
 20	olivat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	_	_
-21	Ewan	Ewan	PROPN	_	_	19	nsubj:cop	_	_
+21	Ewan	Ewan	PROPN	_	Case=Nom|Number=Sing	19	nsubj:cop	_	_
 22	McGregor	McGregor	PROPN	_	Case=Nom|Number=Sing	21	flat:name	_	_
 23	ja	ja	CCONJ	_	_	24	cc	_	_
 24	Kristin	Kristin	PROPN	_	Case=Gen|Number=Sing	21	conj	_	_
@@ -14392,7 +14392,7 @@
 4	teki	tehdä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	pienen	pieni	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	6	amod	_	_
 6	roolin	rooli	NOUN	_	Case=Gen|Number=Sing	4	obj	_	_
-7	Miss	miss	PROPN	_	_	9	nmod:poss	_	_
+7	Miss	Miss	PROPN	_	Case=Nom|Number=Sing	9	nmod:poss	_	_
 8	Piggyn	Piggy	PROPN	_	Case=Gen|Number=Sing	7	flat:name	_	_
 9	vastaanottovirkailijana	vastaanotto#virkailija	NOUN	_	Case=Ess|Number=Sing	4	obl	_	_
 10	Disneyn	Disney	PROPN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
@@ -14477,7 +14477,7 @@
 5	laittamaan	laittaa	VERB	_	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	4	xcomp	_	_
 6	vaimonsa	vaimo	NOUN	_	Case=Nom|Number=Sing|Person[psor]=3	11	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	Norma	Norma	PROPN	_	_	6	appos	_	_
+8	Norma	Norma	PROPN	_	Case=Nom|Number=Sing	6	appos	_	_
 9	Talmadgen	Talmadge	PROPN	_	Case=Gen|Number=Sing	8	flat:name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	näyttelemään	näytellä	VERB	_	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp:ds	_	_
@@ -14615,7 +14615,7 @@
 4	Meyer	Meyer	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 5	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
 6	kirjoittanut	kirjoittaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
-7	Irène	Irène	PROPN	_	_	6	obl	_	_
+7	Irène	Irène	PROPN	_	Case=Nom|Number=Sing	6	obl	_	_
 8	Joliot-Curielle	Joliot-Curie	PROPN	_	Case=All|Number=Sing	7	flat:name	_	_
 9	ehdottaen	ehdottaa	VERB	_	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	6	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
@@ -14662,7 +14662,7 @@
 22	rikastuttamista	rikastuttaminen	NOUN	_	Case=Par|Derivation=Minen|Number=Sing	20	obj	_	_
 23	Pariisiin	Pariisi	PROPN	_	Case=Ill|Number=Sing	20	obl	_	_
 24	Curie	Curie	PROPN	_	Case=Nom|Number=Sing	26	compound:nn	_	_
-25	Institute	Institute	PROPN	_	_	24	flat:name	_	_
+25	Institute	Institute	PROPN	_	Case=Nom|Number=Sing	24	flat:name	_	_
 26	-instituuttiin	instituutti	NOUN	_	Case=Ill|Number=Sing	20	obl	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -14730,7 +14730,7 @@
 4	ulkopuolella	ulkopuolella	ADP	_	AdpType=Post	3	case	_	_
 5	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	esiintyi	esiintyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-7	CTV	CTV	PROPN	_	_	9	compound:nn	_	_
+7	CTV	CTV	PROPN	_	Case=Nom|Number=Sing	9	compound:nn	_	_
 8	Montreal	Montreal	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 9	-kanavalla	kanava	NOUN	_	Case=Ade|Number=Sing	6	obl	_	_
 10	vierailevana	vierailla	VERB	_	Case=Ess|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	11	acl	_	_
@@ -14856,7 +14856,7 @@
 # english_text = He co-starred as Humphrey Bogart's younger brother, a carefree playboy, in Sabrina (1954), played by Audrey Hepburn.
 1	Hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	näytteli	näytellä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	Humphrey	Humphrey	PROPN	_	_	6	nmod:poss	_	_
+3	Humphrey	Humphrey	PROPN	_	Case=Nom|Number=Sing	6	nmod:poss	_	_
 4	Bogartin	Bogart	PROPN	_	Case=Gen|Number=Sing	3	flat:name	_	_
 5	nuorempaa	nuori	ADJ	_	Case=Par|Degree=Cmp|Number=Sing	6	amod	_	_
 6	veljeä	veli	NOUN	_	Case=Par|Number=Sing	2	obj	_	SpaceAfter=No
@@ -14872,7 +14872,7 @@
 16	jossa	joka	PRON	_	Case=Ine|Number=Sing|PronType=Rel	18	obl	_	_
 17	nimiroolia	nimi#rooli	NOUN	_	Case=Par|Number=Sing	18	obj	_	_
 18	esitti	esittää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
-19	Audrey	Audrey	PROPN	_	_	18	nsubj	_	_
+19	Audrey	Audrey	PROPN	_	Case=Nom|Number=Sing	18	nsubj	_	_
 20	Hepburn	Hepburn	PROPN	_	Case=Nom|Number=Sing	19	flat:name	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -14902,7 +14902,7 @@
 5	ja	ja	CCONJ	_	_	8	cc	_	_
 6	istuvan	istua	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	8	acl	_	_
 7	presidentti	presidentti	NOUN	_	Case=Nom|Number=Sing	8	compound:nn	_	_
-8	Jimmy	Jimmy	PROPN	_	_	4	conj	_	_
+8	Jimmy	Jimmy	PROPN	_	Case=Nom|Number=Sing	4	conj	_	_
 9	Carterin	Carter	PROPN	_	Case=Gen|Number=Sing	8	flat:name	_	_
 10	välillä	välillä	ADP	_	AdpType=Post	4	case	_	_
 11	käytiin	käydä	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -15169,7 +15169,7 @@
 # text = Ohjaajakollega Garth Jennings on Wrightin ystävä, ja hänellä on ollut pieniä roolisuorituksia Jenningsin elokuvissa Linnunradan käsikirja liftareille ja Son of Rambow.
 # english_text = Wright is a friend of fellow director Garth Jennings, and made cameos in his films The Hitchhiker's Guide to the Galaxy and Son of Rambow.
 1	Ohjaajakollega	ohjaaja#kollega	NOUN	_	Case=Nom|Number=Sing	2	compound:nn	_	_
-2	Garth	Garth	PROPN	_	_	6	nsubj:cop	_	_
+2	Garth	Garth	PROPN	_	Case=Nom|Number=Sing	6	nsubj:cop	_	_
 3	Jennings	Jennings	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
 4	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	Wrightin	Wright	PROPN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
@@ -15187,8 +15187,8 @@
 17	käsikirja	käsi#kirja	NOUN	_	Case=Nom|Number=Sing	15	appos	_	_
 18	liftareille	liftari	NOUN	_	Case=All|Number=Plur	17	nmod	_	_
 19	ja	ja	CCONJ	_	_	20	cc	_	_
-20	Son	Son	PROPN	_	_	17	conj	_	_
-21	of	of	PROPN	_	_	20	flat:name	_	_
+20	Son	Son	PROPN	_	Case=Nom|Number=Sing	17	conj	_	_
+21	of	of	PROPN	_	Case=Nom|Number=Sing	20	flat:name	_	_
 22	Rambow	Rambow	PROPN	_	Case=Nom|Number=Sing	20	flat:name	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -15646,7 +15646,7 @@
 # text = Sanomalehti Die Zeit tutki kiinteistökaupan kyseenalaisia kassavirtoja ja konkurssiuhkaa ensi kerran heinäkuussa.
 # english_text = The newspaper "Die ZEIT" first inquired with the real estate business about its dubious cash flows and the threat of insolvency in July.
 1	Sanomalehti	sanomalehti	NOUN	_	Case=Nom|Number=Sing	2	compound:nn	_	_
-2	Die	Die	PROPN	_	_	4	nsubj	_	_
+2	Die	Die	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 3	Zeit	Zeit	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
 4	tutki	tutkia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	kiinteistökaupan	kiinteistö#kauppa	NOUN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
@@ -15677,7 +15677,7 @@
 12	60-luvun	60#luku	NOUN	_	Case=Gen|Number=Sing	13	nmod:poss	_	_
 13	hitissä	hitti	NOUN	_	Case=Ine|Number=Sing	2	conj	_	_
 14	nimeltä	nimi	NOUN	_	Case=Abl|Number=Sing	15	nmod	_	_
-15	Monster	Monster	PROPN	_	_	13	appos	_	_
+15	Monster	Monster	PROPN	_	Case=Nom|Number=Sing	13	appos	_	_
 16	Mash	Mash	PROPN	_	Case=Nom|Number=Sing	15	flat:name	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -15685,7 +15685,7 @@
 # sent_id = n02036018
 # text = Von Beust oikeutti kulujen lisääntymisen yksityiskohtaisen suunnittelun puutteella.
 # english_text = Von Beust justified the cost increases as lack of detailed planning.
-1	Von	Von	PROPN	_	_	3	nsubj	_	_
+1	Von	Von	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	Beust	Beust	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	oikeutti	oikeuttaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	kulujen	kulu	NOUN	_	Case=Gen|Number=Plur	5	nmod:gsubj	_	_
@@ -15824,7 +15824,7 @@
 7	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Number=Sing|NumType=Ord	8	nummod	_	_
 8	kerran	kerran	ADV	_	_	6	obl	_	_
 9	finaalipelissä	finaali#peli	NOUN	_	Case=Ine|Number=Sing	6	obl	_	_
-10	Serena	Serena	PROPN	_	_	6	obl	_	_
+10	Serena	Serena	PROPN	_	Case=Nom|Number=Sing	6	obl	_	_
 11	Williamsia	Williams	PROPN	_	Case=Par|Number=Sing	10	flat:name	_	_
 12	vastaan	vastaan	ADP	_	AdpType=Post	10	case	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
@@ -15911,8 +15911,8 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	tunsinko	tuntea	VERB	_	Clitic=Ko|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 10	kirjoittaja	kirjoittaja	NOUN	_	Case=Nom|Number=Sing	11	compound:nn	_	_
-11	Günter	Günter	PROPN	_	_	9	obj	_	_
-12	de	de	PROPN	_	_	11	flat:name	_	_
+11	Günter	Günter	PROPN	_	Case=Nom|Number=Sing	9	obj	_	_
+12	de	de	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	_
 13	Bruyn	Bruyn	PROPN	_	Case=Gen|Number=Sing	11	flat:name	_	_
 14	ja	ja	CCONJ	_	_	15	cc	_	_
 15	olimmeko	olla	VERB	_	Clitic=Ko|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
@@ -16037,7 +16037,7 @@
 1	Nykyisen	nykyinen	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	2	amod	_	_
 2	presidenttiehdokkaan	presidentti#ehdokas	NOUN	_	Case=Gen|Number=Sing	7	nmod:poss	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	Hillary	Hillary	PROPN	_	_	2	appos	_	_
+4	Hillary	Hillary	PROPN	_	Case=Nom|Number=Sing	2	appos	_	_
 5	Clintonin	Clinton	PROPN	_	Case=Gen|Number=Sing	4	flat:name	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	aviomies	avio#mies	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
@@ -16075,16 +16075,16 @@
 # text = International Organization for Renewable Energies (IRENA) -organisaation pääjohtaja Adnan Z. Amin on varma: ”Merituulivoimasta voi tulla pääasiallinen sähköntuottaja maailmantalouteen, joka on vapaa hiileen perustuvasta energiasta.”
 # english_text = Adnan Z. Amin, General Director of the International Organization for Renewable Energies (IRENA) is certain: "Offshore wind power can become the top power generator in a global economy that is free of coal-based energy."
 1	International	international	NOUN	_	Case=Nom|Number=Sing	9	compound:nn	_	_
-2	Organization	Organization	PROPN	_	_	1	flat:name	_	_
-3	for	for	PROPN	_	_	1	flat:name	_	_
-4	Renewable	Renewable	PROPN	_	_	1	flat:name	_	_
+2	Organization	Organization	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	for	for	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+4	Renewable	Renewable	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 5	Energies	Energies	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	IRENA	IRENA	PROPN	_	Case=Nom|Number=Sing	1	appos	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
 9	-organisaation	organisaatio	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	pääjohtaja	pää#johtaja	NOUN	_	Case=Nom|Number=Sing	11	compound:nn	_	_
-11	Adnan	Adnan	PROPN	_	_	16	nsubj:cop	_	_
+11	Adnan	Adnan	PROPN	_	Case=Nom|Number=Sing	16	nsubj:cop	_	_
 12	Z	z	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	_	_
 14	Amin	Amin	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	_
@@ -16136,7 +16136,7 @@
 # sent_id = n02079042
 # text = Lucas Cranach vanhemman kaksi esillä olevaa maalausta ovat erityisen huomiota herättäviä.
 # english_text = The two paintings by Lucas Cranach the Elder on display are especially eye-catching.
-1	Lucas	Lucas	PROPN	_	_	7	nmod:poss	_	_
+1	Lucas	Lucas	PROPN	_	Case=Nom|Number=Sing	7	nmod:poss	_	_
 2	Cranach	Cranach	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	vanhemman	vanha	ADJ	_	Case=Gen|Degree=Cmp|Number=Sing	1	amod	_	_
 4	kaksi	kaksi	NUM	_	Case=Nom|Number=Sing|NumType=Card	7	nummod	_	_
@@ -16226,8 +16226,8 @@
 9	hallitukset	hallitus	NOUN	_	Case=Nom|Number=Plur	11	nsubj	_	_
 10	ovat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 11	luokitelleet	luokitella	VERB	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	3	ccomp	_	_
-12	National	National	PROPN	_	_	15	compound:nn	_	_
-13	Natural	Natural	PROPN	_	_	12	flat:name	_	_
+12	National	National	PROPN	_	Case=Nom|Number=Sing	15	compound:nn	_	_
+13	Natural	Natural	PROPN	_	Case=Nom|Number=Sing	12	flat:name	_	_
 14	Heritage	Heritage	PROPN	_	Case=Nom|Number=Sing	12	flat:name	_	_
 15	-ohjelman	ohjelma	NOUN	_	Case=Gen|Number=Sing	11	obj	_	_
 16	kansalliseksi	kansallinen	ADJ	_	Case=Tra|Degree=Pos|Number=Sing	19	amod	_	_
@@ -16426,7 +16426,7 @@
 7	Rachida	Rachida	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 8	Dati	Dati	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 9	tukee	tukea	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
-10	Nicolas	Nicolas	PROPN	_	_	12	nmod:poss	_	_
+10	Nicolas	Nicolas	PROPN	_	Case=Nom|Number=Sing	12	nmod:poss	_	_
 11	Sarkozyn	Sarkozy	PROPN	_	Case=Gen|Number=Sing	10	flat:name	_	_
 12	ehdokkuutta	ehdokkuus	NOUN	_	Case=Par|Number=Sing	9	obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
@@ -16438,7 +16438,7 @@
 2	entinen	entinen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	_
 3	oikeusministeri	oikeus#ministeri	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	syytti	syyttää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-5	Brice	Brice	PROPN	_	_	4	obj	_	_
+5	Brice	Brice	PROPN	_	Case=Nom|Number=Sing	4	obj	_	_
 6	Hortefeux’ta	Hortefeux	PROPN	_	Case=Par|Number=Sing	5	flat:name	_	_
 7	”	”	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	fasistiksi	fasisti	NOUN	_	Case=Tra|Number=Sing	4	obl	_	SpaceAfter=No
@@ -16506,7 +16506,7 @@
 # sent_id = n03006028
 # text = Force Ouvrière -unioni pahoittelee, ettei sen huomautuksia oppaan sisällöstä otettu mukaan: ”Mitään todellista konsultaatiota ei ollut”, Gillard sanoi.
 # english_text = The Force Ouvrière union regrets that its remarks on the content of the guide were not included: "There wasn't really any consultation," said Ms. Gillard.
-1	Force	Force	PROPN	_	_	3	compound:nn	_	_
+1	Force	Force	PROPN	_	Case=Nom|Number=Sing	3	compound:nn	_	_
 2	Ouvrière	Ouvrière	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	-unioni	unioni	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	pahoittelee	pahoitella	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -16701,7 +16701,7 @@
 # sent_id = n03010012
 # text = Le Figaron mukaan tämä hallituksen suunnitelma voisi vapauttaa 42 miljoonaa euroa, joista 15,5 miljoonaa käytettäisiin turvallisuuteen.
 # english_text = According to Le Figaro, this government plan could free up 42 million euros, of which 15.5 million would go towards security.
-1	Le	Le	PROPN	_	_	8	obl	_	_
+1	Le	Le	PROPN	_	Case=Nom|Number=Sing	8	obl	_	_
 2	Figaron	Figaro	PROPN	_	Case=Gen|Number=Sing	1	flat:name	_	_
 3	mukaan	mukaan	ADP	_	AdpType=Post	1	case	_	_
 4	tämä	tämä	PRON	_	Case=Nom|Number=Sing|PronType=Dem	6	det	_	_
@@ -16740,7 +16740,7 @@
 4	25.	25.	ADJ	_	NumType=Ord	3	obl	_	_
 5	maaliskuuta	maalis#kuu	NOUN	_	Case=Par|Number=Sing	4	flat	_	_
 6	1927	1927	NUM	_	NumType=Card	4	flat	_	_
-7	Castelfranco	Castelfranco	PROPN	_	_	3	obl	_	_
+7	Castelfranco	Castelfranco	PROPN	_	Case=Nom|Number=Sing	3	obl	_	_
 8	Venetossa	Veneto	PROPN	_	Case=Ine|Number=Sing	7	flat:name	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 10	Hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
@@ -16766,7 +16766,7 @@
 3	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	aina	aina	ADV	_	_	5	advmod	_	_
 5	läheinen	läheinen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
-6	Catholic	Catholic	PROPN	_	_	8	compound:nn	_	_
+6	Catholic	Catholic	PROPN	_	Case=Nom|Number=Sing	8	compound:nn	_	_
 7	Union	Union	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 8	-liittouman	liittouma	NOUN	_	Case=Gen|Number=Sing	5	obl	_	_
 9	kanssa	kanssa	ADP	_	AdpType=Post	8	case	_	SpaceAfter=No
@@ -16896,7 +16896,7 @@
 # sent_id = n04006004
 # text = CGI Mestre on todennut tiedotteessaan, että arvonlisäveroa ei nosteta ainakaan vuonna 2017.
 # english_text = The CGI Mestre have stated in a note, that there will be no rise in VAT, for 2017 at least.
-1	CGI	CGI	PROPN	_	_	4	nsubj	_	_
+1	CGI	CGI	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 2	Mestre	Mestre	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	todennut	todeta	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -16981,7 +16981,7 @@
 # sent_id = n04007002
 # text = Corrado Passera vetää pois tarjouksen kansanedustajille johtuen ”pankin meille osoittamasta täydellisestä sulkeutuneesta asenteesta”.
 # english_text = Corrado Passera withdraws the offer for Mps due to "the attitude of total closure that the Bank has shown to us".
-1	Corrado	Corrado	PROPN	_	_	3	nsubj	_	_
+1	Corrado	Corrado	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	Passera	Passera	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	vetää	vetää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	pois	pois	ADV	_	_	3	advmod	_	_
@@ -17056,7 +17056,7 @@
 # text = Opiskelijoille LUISS University -yliopistossa kerrottiin kurssin aikana Roomassa pidetystä tapaamisesta.
 # english_text = Students at LUISS University were told during the course of a meeting which took place in Rome.
 1	Opiskelijoille	opiskelija	NOUN	_	Case=All|Number=Plur	5	obl	_	_
-2	LUISS	LUISS	PROPN	_	_	4	compound:nn	_	_
+2	LUISS	LUISS	PROPN	_	Case=Nom|Number=Sing	4	compound:nn	_	_
 3	University	University	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
 4	-yliopistossa	yli#opisto	NOUN	_	Case=Ine|Number=Sing	5	obl	_	_
 5	kerrottiin	kertoa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -17078,7 +17078,7 @@
 6	Mark	Mark	PROPN	_	Case=Nom|Number=Sing	5	obj	_	_
 7	Zuckerbergin	Zuckerberg	PROPN	_	Case=Gen|Number=Sing	6	flat:name	_	_
 8	vaimoineen	vaimo	NOUN	_	Case=Com|Person[psor]=3	6	nmod	_	_
-9	Casa	Casa	PROPN	_	_	5	obl	_	_
+9	Casa	Casa	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
 10	Santa	Santa	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
 11	Martassa	Marta	PROPN	_	Case=Ine|Number=Sing	9	flat:name	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
@@ -17122,7 +17122,7 @@
 9	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	11	nsubj	_	_
 10	kehitettiin	kehittää	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	7	acl:relcl	_	_
 11	kilpailemaan	kilpailla	VERB	_	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	10	xcomp:ds	_	_
-12	Valentino	Valentino	PROPN	_	_	11	obl	_	_
+12	Valentino	Valentino	PROPN	_	Case=Nom|Number=Sing	11	obl	_	_
 13	Rossin	Rossi	PROPN	_	Case=Gen|Number=Sing	12	flat:name	_	_
 14	kanssa	kanssa	ADP	_	AdpType=Post	12	case	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	7	punct	_	_
@@ -17152,7 +17152,7 @@
 4	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	määräämässä	määrätä	VERB	_	Case=Ine|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
 6	tahtia	tahti	NOUN	_	Case=Par|Number=Sing	5	obj	_	_
-7	Wall	Wall	PROPN	_	_	5	obl	_	_
+7	Wall	Wall	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
 8	Streetillä	Street	PROPN	_	Case=Ade|Number=Sing	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	jopa	jopa	ADV	_	_	11	advmod	_	_
@@ -17197,7 +17197,7 @@
 12	yksityiseen	yksityinen	ADJ	_	Case=Ill|Degree=Pos|Number=Sing	13	amod	_	_
 13	tapahtumaan	tapahtuma	NOUN	_	Case=Ill|Number=Sing	11	obl	_	_
 14	Mountain	mountain	PROPN	_	Case=Gen|Number=Sing	11	obl	_	_
-15	View	View	PROPN	_	_	14	flat:name	_	_
+15	View	View	PROPN	_	Case=Nom|Number=Sing	14	flat:name	_	_
 16	Summitin	Summit	PROPN	_	Case=Gen|Number=Sing	14	flat:name	_	_
 17	lisäksi	lisäksi	ADP	_	AdpType=Post	14	case	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	11	punct	_	_
@@ -17211,7 +17211,7 @@
 3	hallituksen	hallitus	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	pääministeri	pää#ministeri	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	Cristina	Cristina	PROPN	_	_	4	appos	_	_
+6	Cristina	Cristina	PROPN	_	Case=Nom|Number=Sing	4	appos	_	_
 7	Cifuentes	Cifuentes	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	edustaa	edustaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -17224,7 +17224,7 @@
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	kuten	kuten	ADV	_	_	19	advmod	_	_
 18	alivaltiosihteeri	ali#valtio#sihteeri	NOUN	_	Case=Nom|Number=Sing	19	compound:nn	_	_
-19	Javier	Javier	PROPN	_	_	15	appos	_	_
+19	Javier	Javier	PROPN	_	Case=Nom|Number=Sing	15	appos	_	_
 20	Maroto	Maroto	PROPN	_	Case=Nom|Number=Sing	19	flat:name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	19	punct	_	_
 22	edustavat	edustaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
@@ -17238,7 +17238,7 @@
 2	toimii	toimia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	edustajana	edustaja	NOUN	_	Case=Ess|Number=Sing	2	obl	_	_
 4	ja	ja	CCONJ	_	_	5	cc	6.1:cc	_
-5	Ángel	Ángel	PROPN	_	_	2	conj	6.1:nsubj	_
+5	Ángel	Ángel	PROPN	_	Case=Nom|Number=Sing	2	conj	6.1:nsubj	_
 6	Pintado	Pintado	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
 6.1	toimii	toimia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	2:conj	_
 7	taloudenhoitajana	talouden#hoitaja	NOUN	_	Case=Ess|Number=Sing	5	orphan	6.1:obl	SpaceAfter=No
@@ -17386,8 +17386,8 @@
 # sent_id = n05003022
 # text = Barón de Claret, hallituksen ainoa, jolla on aatelisarvo.
 # english_text = Barón de Claret, the only one in Government with a noble title.
-1	Barón	Barón	PROPN	_	_	0	root	_	_
-2	de	de	PROPN	_	_	1	flat:name	_	_
+1	Barón	Barón	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
+2	de	de	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	Claret	Claret	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	hallituksen	hallitus	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
@@ -17402,7 +17402,7 @@
 # sent_id = n05004020
 # text = Pedro Sánchez, kuten niin monet muut sosialistit, sanoi Évole-ohjelmassa, että Espanja on kansojen kansa.
 # english_text = Pedro Sánchez, like many other socialists, said in the programme Évole that Spain is a nation of nations.
-1	Pedro	Pedro	PROPN	_	_	10	nsubj	_	_
+1	Pedro	Pedro	PROPN	_	Case=Nom|Number=Sing	10	nsubj	_	_
 2	Sánchez	Sánchez	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	_
 4	kuten	kuten	ADV	_	_	8	advmod	_	_
@@ -17437,7 +17437,7 @@
 # sent_id = n05005002
 # text = Federico Fellini sanoi kerran: ”Klovni on ihmisyydelle kuin varjo ihmiselle.”
 # english_text = Federico Fellini once said: "The clown is to humanity as the shadow is to man".
-1	Federico	Federico	PROPN	_	_	3	nsubj	_	_
+1	Federico	Federico	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	Fellini	Fellini	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	kerran	kerran	ADV	_	_	3	obl	_	SpaceAfter=No
@@ -17644,7 +17644,7 @@
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	oppositio	oppositio	NOUN	_	Case=Nom|Number=Sing	12	nsubj	_	_
 12	kertoi	kertoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	_
-13	El	El	PROPN	_	_	12	obl	_	_
+13	El	El	PROPN	_	Case=Nom|Number=Sing	12	obl	_	_
 14	Mundolle	Mundo	PROPN	_	Case=All|Number=Sing	13	flat:name	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -17658,9 +17658,9 @@
 5	jo	jo	ADV	_	_	6	advmod	_	_
 6	juhlimassa	juhlia	VERB	_	Case=Ine|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
 7	voittoa	voitto	NOUN	_	Case=Par|Number=Sing	6	obj	_	_
-8	Plaza	Plaza	PROPN	_	_	12	compound:nn	_	_
-9	de	de	PROPN	_	_	8	flat:name	_	_
-10	las	las	PROPN	_	_	8	flat:name	_	_
+8	Plaza	Plaza	PROPN	_	Case=Nom|Number=Sing	12	compound:nn	_	_
+9	de	de	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	_
+10	las	las	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	_
 11	Victorias	Victorias	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	_
 12	-torilla	tori	NOUN	_	Case=Ade|Number=Sing	6	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
@@ -17699,7 +17699,7 @@
 # text = Ulkoilmateatteri St. Michaelin suurilla portailla perustettiin vuonna 1925 yleiseksi huvitukseksi, ja se houkuttelee yhäkin laajalti yleisöä.
 # english_text = Founded in 1925 as games for everyman, the open air theater on the great steps in front of St. Michael still attracts a diverse public.
 1	Ulkoilmateatteri	ulko#ilma#teatteri	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
-2	St.	St.	PROPN	_	_	5	nmod:poss	_	_
+2	St.	St.	PROPN	_	Case=Nom|Number=Sing	5	nmod:poss	_	_
 3	Michaelin	Michael	PROPN	_	Case=Gen|Number=Sing	2	flat:name	_	_
 4	suurilla	suuri	ADJ	_	Case=Ade|Degree=Pos|Number=Plur	5	amod	_	_
 5	portailla	porras	NOUN	_	Case=Ade|Number=Plur	1	nmod	_	_
@@ -17791,7 +17791,7 @@
 6	entisen	entinen	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	7	amod	_	_
 7	luostarin	luostari	NOUN	_	Case=Gen|Number=Sing	5	obj	_	_
 8	tehtailija	tehtailija	NOUN	_	Case=Nom|Number=Sing	9	compound:nn	_	_
-9	Georg	Georg	PROPN	_	_	5	obl	_	_
+9	Georg	Georg	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
 10	Reichenbachille	Reichenbach	PROPN	_	Case=All|Number=Sing	9	flat:name	_	_
 11	sillä	se	PRON	_	Case=Ade|Number=Sing|PronType=Dem	12	det	_	_
 12	ehdolla	ehto	NOUN	_	Case=Ade|Number=Sing	5	obl	_	SpaceAfter=No
@@ -17830,9 +17830,9 @@
 3	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 4	entinen	entinen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	_
 5	luostari	luostari	NOUN	_	Case=Nom|Number=Sing	2	nsubj:cop	_	_
-6	St.	St.	PROPN	_	_	10	nmod:poss	_	_
+6	St.	St.	PROPN	_	Case=Nom|Number=Sing	10	nmod:poss	_	_
 7	Peter	Peter	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
-8	and	and	PROPN	_	_	6	flat:name	_	_
+8	and	and	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 9	Paulin	Paul	PROPN	_	Case=Gen|Number=Sing	6	flat:name	_	_
 10	luostarikirkosta	luostari#kirkko	NOUN	_	Case=Ela|Number=Sing	5	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
@@ -17875,8 +17875,8 @@
 2	neljä	neljä	NUM	_	Case=Nom|Number=Sing|NumType=Card	3	nummod	_	_
 3	kilometriä	kilo#metri	NOUN	_	Case=Par|Number=Sing	4	nmod	_	_
 4	pitkä	pitkä	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	_
-5	Golden	Golden	PROPN	_	_	8	compound:nn	_	_
-6	Gate	Gate	PROPN	_	_	5	flat:name	_	_
+5	Golden	Golden	PROPN	_	Case=Nom|Number=Sing	8	compound:nn	_	_
+6	Gate	Gate	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
 7	Park	Park	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
 8	-puisto	puisto	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 9	tarjoaa	tarjota	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -17896,7 +17896,7 @@
 # english_text = It serves as a local place of rest and relaxation for San Franciscans.
 1	Se	se	PRON	_	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	toimii	toimia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	San	san	PROPN	_	_	5	nmod:poss	_	_
+3	San	san	PROPN	_	Case=Nom|Number=Sing	5	nmod:poss	_	_
 4	Franciscon	Francisco	PROPN	_	Case=Gen|Number=Sing	3	flat:name	_	_
 5	asukkaiden	asukas	NOUN	_	Case=Gen|Number=Plur	7	nmod:poss	_	_
 6	alueellisena	alueellinen	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	7	amod	_	_
@@ -17908,15 +17908,15 @@
 # sent_id = w02005028
 # text = Yerba Buena Garden -puutarha rakennettiin 1990-luvulla Moscone North Convention Center -keskuksen katolle.
 # english_text = The Yerba Buena Garden was built at the beginning of the 1990s on the roof of the Moscone North Convention Center.
-1	Yerba	Yerba	PROPN	_	_	4	compound:nn	_	_
-2	Buena	Buena	PROPN	_	_	1	flat:name	_	_
+1	Yerba	Yerba	PROPN	_	Case=Nom|Number=Sing	4	compound:nn	_	_
+2	Buena	Buena	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	Garden	Garden	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 4	-puutarha	puu#tarha	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	rakennettiin	rakentaa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 6	1990-luvulla	1990#luku	NOUN	_	Case=Ade|Number=Sing	5	obl	_	_
-7	Moscone	Moscone	PROPN	_	_	11	compound:nn	_	_
-8	North	North	PROPN	_	_	7	flat:name	_	_
-9	Convention	Convention	PROPN	_	_	7	flat:name	_	_
+7	Moscone	Moscone	PROPN	_	Case=Nom|Number=Sing	11	compound:nn	_	_
+8	North	North	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
+9	Convention	Convention	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 10	Center	center	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 11	-keskuksen	keskus	NOUN	_	Case=Gen|Number=Sing	12	nmod:poss	_	_
 12	katolle	katto	NOUN	_	Case=All|Number=Sing	5	obl	_	SpaceAfter=No
@@ -18393,7 +18393,7 @@
 4	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	allekirjoitti	allekirjoittaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	sopimuksen	sopimus	NOUN	_	Case=Gen|Number=Sing	5	obj	_	_
-7	Team	Team	PROPN	_	_	5	obl	_	_
+7	Team	Team	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
 8	Telekomin	Telekom	PROPN	_	Case=Gen|Number=Sing	7	flat:name	_	_
 9	kanssa	kanssa	ADP	_	AdpType=Post	7	case	_	_
 10	ja	ja	CCONJ	_	_	11	cc	_	_
@@ -18515,9 +18515,9 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	hänelle	hän	PRON	_	Case=All|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
 7	myönnettiin	myöntää	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
-8	American	American	PROPN	_	_	11	compound:nn	_	_
-9	Friendship	Friendship	PROPN	_	_	8	flat:name	_	_
-10	Medal	Medal	PROPN	_	_	8	flat:name	_	_
+8	American	American	PROPN	_	Case=Nom|Number=Sing	11	compound:nn	_	_
+9	Friendship	Friendship	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	_
+10	Medal	Medal	PROPN	_	Case=Nom|Number=Sing	8	flat:name	_	_
 11	-kunnianosoitus	kunnian#osoitus	NOUN	_	Case=Nom|Number=Sing	7	obj	_	_
 12	osoituksena	osoitus	NOUN	_	Case=Ess|Number=Sing	7	obl	_	_
 13	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	_
@@ -18533,7 +18533,7 @@
 # english_text = The Viguier and La Conte districts contain the majority of the city's social housing, where the population is mainly made up of immigrants or those of immigrant origin.
 1	Viguier-	Viguier-	NOUN	_	Case=Nom|Number=Sing	5	compound:nn	_	_
 2	ja	ja	CCONJ	_	_	3	cc	_	_
-3	La	La	PROPN	_	_	1	conj	_	_
+3	La	La	PROPN	_	Case=Nom|Number=Sing	1	conj	_	_
 4	Conte	Conte	PROPN	_	Case=Nom|Number=Sing	3	flat:name	_	_
 5	-alueet	alue	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
 6	pitävät	pitää	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -18584,7 +18584,7 @@
 # sent_id = w03002055
 # text = Amnesty International lainaa vuoden 2008 sanomalehtiartikkeleita, joissa kuvataan noituudesta syytettyjen viidenkymmenen ihmisen murhia.
 # english_text = Amnesty International cites newspaper articles from 2008 describing the murder of fifty people accused of witchcraft.
-1	Amnesty	Amnesty	PROPN	_	_	3	nsubj	_	_
+1	Amnesty	Amnesty	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	International	international	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	lainaa	laina	NOUN	_	Case=Par|Number=Sing	0	root	_	_
 4	vuoden	vuosi	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
@@ -18604,7 +18604,7 @@
 # sent_id = w03003023
 # text = Von Bellingshausen näki Etelänapamantereen 27. tammikuuta 1820, kolme päivää ennen kuin Bransfield näki maata, ja kymmenen kuukautta ennen kuin Palmer näki maata marraskuussa 1820.
 # english_text = Von Bellingshausen sighted Antarctica on the 27th of January 1820, three days before Bransfield sighted land, and ten months before Palmer did so in November 1820.
-1	Von	Von	PROPN	_	_	3	nsubj	_	_
+1	Von	Von	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	Bellingshausen	Bellingshausen	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	näki	nähdä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	Etelänapamantereen	etelä#napa#manner	NOUN	_	Case=Ill|Number=Sing	3	obj	_	_
@@ -18677,7 +18677,7 @@
 9	tasavallan	tasa#valta	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	instituutioiden	instituutio	NOUN	_	Case=Gen|Number=Plur	6	conj	_	_
 11	sekä	sekä	CCONJ	_	_	12	cc	_	_
-12	mos	mos	PROPN	_	_	6	conj	_	_
+12	mos	mos	PROPN	_	Case=Nom|Number=Sing	6	conj	_	_
 13	maiorumin	maiorum	PROPN	_	Case=Gen|Number=Sing	12	flat:name	_	_
 14	perussopimus	perus#sopimus	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	_	_
@@ -18912,7 +18912,7 @@
 4	jotka	joka	PRON	_	Case=Nom|Number=Plur|PronType=Rel	5	obj	_	_
 5	rahoitettiin	rahoittaa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	acl:relcl	_	_
 6	täysin	täysin	ADV	_	_	10	advmod	_	_
-7	Bernard	Bernard	PROPN	_	_	10	nmod:poss	_	_
+7	Bernard	Bernard	PROPN	_	Case=Nom|Number=Sing	10	nmod:poss	_	_
 8	Tapien	Tapie	PROPN	_	Case=Gen|Number=Plur	7	flat:name	_	_
 9	omilla	oma	ADJ	_	Case=Ade|Degree=Pos|Number=Plur	10	amod	_	_
 10	rahoilla	raha	NOUN	_	Case=Ade|Number=Plur	5	obl	_	SpaceAfter=No
@@ -18992,7 +18992,7 @@
 4	taiteilija	taiteilija	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	kirjoitti	kirjoittaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	kirjeen	kirje	NOUN	_	Case=Gen|Number=Sing	5	obj	_	_
-7	Walt	Walt	PROPN	_	_	5	obl	_	_
+7	Walt	Walt	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
 8	Disneylle	Disney	PROPN	_	Case=All|Number=Sing	7	flat:name	_	_
 9	toivoen	toivoa	VERB	_	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	5	advcl	_	_
 10	turhaan	turhaan	ADV	_	_	9	advmod	_	_
@@ -19115,8 +19115,8 @@
 12	sijaitsi	sijaita	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
 13	Villa	villa	PROPN	_	Case=Ade|Number=Sing	12	obl	_	_
 14	Peluccassa	Pelucca	PROPN	_	Case=Ine|Number=Sing	13	flat:name	_	_
-15	Sesto	Sesto	PROPN	_	_	12	obl	_	_
-16	San	san	PROPN	_	_	15	flat:name	_	_
+15	Sesto	Sesto	PROPN	_	Case=Nom|Number=Sing	12	obl	_	_
+16	San	san	PROPN	_	Case=Nom|Number=Sing	15	flat:name	_	_
 17	Giovannilla	Giovanni	PROPN	_	Case=Ade|Number=Sing	15	flat:name	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -19506,11 +19506,11 @@
 # text = Molemmat Goffredo Petrassin oppilaat, Ennio Morricone ja Bruno Nicolai, tapasivat Santa (Pyhän) Cecelian konservatoriossa.
 # english_text = Both students of Goffredo Petrassi, Ennio Morricone and Bruno Nicolai met at the Santa (Saint) Cecelia conservatory.
 1	Molemmat	molemmat	PRON	_	Case=Nom|Number=Plur|PronType=Ind	4	det	_	_
-2	Goffredo	Goffredo	PROPN	_	_	4	nmod:poss	_	_
+2	Goffredo	Goffredo	PROPN	_	Case=Nom|Number=Sing	4	nmod:poss	_	_
 3	Petrassin	Petrassi	PROPN	_	Case=Gen|Number=Sing	2	flat:name	_	_
 4	oppilaat	oppilas	NOUN	_	Case=Nom|Number=Plur	12	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	Ennio	Ennio	PROPN	_	_	4	appos	_	_
+6	Ennio	Ennio	PROPN	_	Case=Nom|Number=Sing	4	appos	_	_
 7	Morricone	Morricone	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 8	ja	ja	CCONJ	_	_	9	cc	_	_
 9	Bruno	Bruno	PROPN	_	Case=Nom|Number=Sing	6	conj	_	_
@@ -19627,7 +19627,7 @@
 6	1914	1914	NUM	_	NumType=Card	4	conj	_	_
 7	välillä	välillä	ADP	_	AdpType=Post	3	case	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
-9	Antonio	Antonio	PROPN	_	_	11	nsubj	_	_
+9	Antonio	Antonio	PROPN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 10	Gaudí	Gaudí	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
 11	sai	saada	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 12	aikaan	aika	NOUN	_	Case=Ill|Number=Sing	11	compound:prt	_	_
@@ -19701,8 +19701,8 @@
 2	kuuluvat	kuulua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	niin	niin	ADV	_	_	5	amod	_	_
 4	kutsuttuihin	kutsuttu	ADJ	_	Case=Ill|Degree=Pos|Number=Plur	3	fixed	_	_
-5	Andes	Andes	PROPN	_	_	2	obl	_	_
-6	de	de	PROPN	_	_	5	flat:name	_	_
+5	Andes	Andes	PROPN	_	Case=Nom|Number=Sing	2	obl	_	_
+6	de	de	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
 7	tipo	tipo	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
 8	andinoon	andino	PROPN	_	Case=Ill|Number=Sing	5	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
@@ -19798,7 +19798,7 @@
 4	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	5	nsubj	_	_
 5	yhdistää	yhdistää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 6	Punta	punta	NOUN	_	Case=Nom|Number=Sing	9	nmod:poss	_	_
-7	del	del	PROPN	_	_	6	flat:name	_	_
+7	del	del	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 8	Esten	Este	PROPN	_	Case=Gen|Number=Plur	6	flat:name	_	_
 9	majakkamaamerkin	majakka#maa#merkki	NOUN	_	Case=Gen|Number=Sing	5	obj	_	_
 10	Punta	punta	NOUN	_	Case=Nom|Number=Sing	12	nmod:poss	_	_
@@ -19836,7 +19836,7 @@
 14	antautuivat	antautua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
 15	Saratogassa	Saratoga	PROPN	_	Case=Ine|Number=Sing	14	obl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	20	punct	_	_
-17	New	New	PROPN	_	_	19	nmod:poss	_	_
+17	New	New	PROPN	_	Case=Nom|Number=Sing	19	nmod:poss	_	_
 18	Yorkin	York	PROPN	_	Case=Gen|Number=Sing	17	flat:name	_	_
 19	osavaltion	osavaltio	NOUN	_	Case=Gen|Number=Sing	20	nmod:poss	_	_
 20	pohjoisosassa	pohjois#osa	NOUN	_	Case=Ine|Number=Sing	15	nmod	_	SpaceAfter=No
@@ -19978,7 +19978,7 @@
 10	Ludvig	Ludvig	PROPN	_	Case=Nom|Number=Sing	18	nmod:poss	_	_
 11	X:n	x	PROPN	_	Case=Gen|Number=Sing	10	flat:name	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	Filip	Filip	PROPN	_	_	10	conj	_	_
+13	Filip	Filip	PROPN	_	Case=Nom|Number=Sing	10	conj	_	_
 14	V:n	V	PROPN	_	Case=Gen|Number=Sing	13	flat:name	_	_
 15	sekä	sekä	CCONJ	_	_	16	cc	_	_
 16	Kaarle	Kaarle	PROPN	_	Case=Nom|Number=Sing	10	conj	_	_
@@ -19994,7 +19994,7 @@
 26	heidän	hän	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	27	nmod:poss	_	_
 27	tädillään	täti	NOUN	_	Case=Ade|Number=Sing|Person[psor]=3	21	advcl	_	_
 28	Isabella	Isabella	PROPN	_	Case=Nom|Number=Sing	27	appos	_	_
-29	de	de	PROPN	_	_	28	flat:name	_	_
+29	de	de	PROPN	_	Case=Nom|Number=Sing	28	flat:name	_	_
 30	Francella	France	PROPN	_	Case=Ade|Number=Sing	28	flat:name	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	18	punct	_	_
 
@@ -20028,7 +20028,7 @@
 1	Hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	neuvotteli	neuvotella	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	myös	myös	ADV	_	_	7	advmod	_	_
-4	Buenos	Buenos	PROPN	_	_	6	nmod:poss	_	_
+4	Buenos	Buenos	PROPN	_	Case=Nom|Number=Sing	6	nmod:poss	_	_
 5	Airesin	Aires	PROPN	_	Case=Gen|Number=Sing	4	flat:name	_	_
 6	kaupungin	kaupunki	NOUN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	federalisaatiosta	federalisaatio	NOUN	_	Case=Ela|Number=Sing	2	obl	_	SpaceAfter=No
@@ -20052,15 +20052,15 @@
 4	tapasi	tavata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	levy-yhtiölleen	levy-yhtiö	NOUN	_	Case=All|Number=Sing|Person[psor]=3	12	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	The	The	PROPN	_	_	5	appos	_	_
-8	Rocket	Rocket	PROPN	_	_	7	flat:name	_	_
-9	Record	Record	PROPN	_	_	7	flat:name	_	_
+7	The	The	PROPN	_	Case=Nom|Number=Sing	5	appos	_	_
+8	Rocket	Rocket	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
+9	Record	Record	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 10	Companylle	Company	PROPN	_	Case=All|Number=Sing	7	flat:name	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	7	punct	_	_
 12	työskennelleen	työskennellä	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	13	acl	_	_
 13	ystävän	ystävä	NOUN	_	Case=Gen|Number=Sing	4	obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	Kiki	Kiki	PROPN	_	_	13	appos	_	_
+15	Kiki	Kiki	PROPN	_	Case=Nom|Number=Sing	13	appos	_	_
 16	Deen	Dee	PROPN	_	Case=Gen|Number=Sing	15	flat:name	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	15	punct	_	_
 18	jonka	joka	PRON	_	Case=Gen|Number=Sing|PronType=Rel	21	obl	_	_
@@ -20072,10 +20072,10 @@
 24	menestykseksi	menestys	NOUN	_	Case=Tra|Number=Sing	25	obl	_	_
 25	nousseen	nousta	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	26	acl	_	_
 26	kappaleen	kappale	NOUN	_	Case=Gen|Number=Sing	21	obj	_	_
-27	Don't	Don't	PROPN	_	_	26	appos	_	_
-28	Go	Go	PROPN	_	_	27	flat:name	_	_
-29	Breaking	Breaking	PROPN	_	_	27	flat:name	_	_
-30	My	My	PROPN	_	_	27	flat:name	_	_
+27	Don't	Don't	PROPN	_	Case=Nom|Number=Sing	26	appos	_	_
+28	Go	Go	PROPN	_	Case=Nom|Number=Sing	27	flat:name	_	_
+29	Breaking	Breaking	PROPN	_	Case=Nom|Number=Sing	27	flat:name	_	_
+30	My	My	PROPN	_	Case=Nom|Number=Sing	27	flat:name	_	_
 31	Heart	Heart	PROPN	_	Case=Nom|Number=Sing	27	flat:name	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -20135,7 +20135,7 @@
 4	paikkansa	paikka	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	6	obj	_	_
 5	tribuunissa	tribuuni	NOUN	_	Case=Ine|Number=Sing	4	nmod	_	_
 6	otti	ottaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-7	Marcus	Marcus	PROPN	_	_	6	nsubj	_	_
+7	Marcus	Marcus	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 8	Antonius	Antonius	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	11	nsubj	_	_
@@ -20189,14 +20189,14 @@
 # sent_id = w05010027
 # text = Marcus Antonius luki Caesarin julistuksen, jossa käskynhaltija julistautui rauhan ystäväksi, 1. tammikuuta vuonna 49 eKr.
 # english_text = On the 1st January 49 BC, Marco Antonio read a declaration from Caesar in which the proconsul declared himself a friend of peace.
-1	Marcus	Marcus	PROPN	_	_	3	nsubj	_	_
+1	Marcus	Marcus	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	Antonius	Antonius	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	luki	lukea	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	Caesarin	Caesar	PROPN	_	Case=Gen|Number=Sing	5	nmod:poss	_	_
 5	julistuksen	julistus	NOUN	_	Case=Gen|Number=Sing	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	jossa	joka	PRON	_	Case=Ine|Number=Sing|PronType=Rel	9	obl	_	_
-8	käskynhaltija	käskyn#haltija	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+8	käskynhaltija	käskyn#haltija	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 9	julistautui	julistautua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 10	rauhan	rauha	NOUN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
 11	ystäväksi	ystävä	NOUN	_	Case=Tra|Number=Sing	9	xcomp	_	SpaceAfter=No
