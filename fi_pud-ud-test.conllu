@@ -11,7 +11,7 @@
 7	onkin	olla	AUX	_	Clitic=Kin|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
 8	suurelta	suuri	ADJ	_	Case=Abl|Degree=Pos|Number=Sing	9	amod	_	_
 9	osin	osa	NOUN	_	Case=Ins|Number=Plur	10	obl	_	_
-10	ennenkuulumatonta	ennenkuulumaton	ADJ	_	Case=Par|Degree=Pos|Number=Sing	16	advcl	_	SpaceAfter=No
+10	ennenkuulumatonta	ennenkuulumaton	ADJ	_	Case=Par|Degree=Pos|Derivation=Ton|Number=Sing	16	advcl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	rauhallinen	rauhallinen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	13	amod	_	_
 13	vallanvaihto	valta#vaihto	NOUN	_	Case=Nom|Number=Sing	16	nsubj:cop	_	_
@@ -21,7 +21,7 @@
 17	”	”	PUNCT	_	_	16	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	16	punct	_	_
 19	Obaman	Obama	PROPN	_	Case=Gen|Number=Sing	20	nmod:poss	_	_
-20	erityisavustaja	erityis#avustaja	NOUN	_	Case=Nom|Number=Sing	21	compound:nn	_	_
+20	erityisavustaja	erityis#avustaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	21	compound:nn	_	_
 21	Kori	Kori	PROPN	_	Case=Nom|Number=Sing	23	nsubj	_	_
 22	Schulman	Schulman	PROPN	_	Case=Nom|Number=Sing	21	flat:name	_	_
 23	kirjoitti	kirjoittaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	parataxis	_	_
@@ -71,7 +71,7 @@
 17	määrän	määrä	NOUN	_	Case=Gen|Number=Sing	14	obj	_	SpaceAfter=No
 18	”	”	PUNCT	_	_	17	punct	_	_
 19	laillisia	laillinen	ADJ	_	Case=Par|Degree=Pos|Number=Plur	20	amod	_	_
-20	maahanmuuttajia	maahanmuuttaja	NOUN	_	Case=Par|Number=Plur	17	nmod	_	_
+20	maahanmuuttajia	maahanmuuttaja	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	17	nmod	_	_
 21	”	”	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	ansiojärjestelmään	ansiojärjestelmä	VERB	_	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	24	obl	_	SpaceAfter=No
 23	”	”	PUNCT	_	_	22	punct	_	_
@@ -165,7 +165,7 @@
 10	Paikalle	paikka	NOUN	_	Case=All|Number=Sing	12	obl	_	_
 11	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
 12	kutsuttu	kutsua	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	_
-13	edustajia	edustaja	NOUN	_	Case=Par|Number=Plur	12	obj	_	_
+13	edustajia	edustaja	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	12	obj	_	_
 14	Uberista	Uber	PROPN	_	Case=Ela|Number=Sing	13	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	21	punct	_	_
 16	Motion	Motion	PROPN	_	Case=Nom|Number=Sing	21	compound:nn	_	_
@@ -200,7 +200,7 @@
 11	päässä	päässä	ADP	_	AdpType=Post	10	case	_	_
 12	sijaitsevalle	sijaita	VERB	_	Case=All|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	14	acl	_	_
 13	yksityiselle	yksityinen	ADJ	_	Case=All|Degree=Pos|Number=Sing	14	amod	_	_
-14	Metropolitan	Metropolitan	PROPN	_	Case=Gen|Number=Sing	2	obl	_	_
+14	Metropolitan	Metropolitan	PROPN	_	Case=Nom|Number=Sing	2	obl	_	_
 15	Clubille	Club	PROPN	_	Case=All|Number=Sing	14	flat:name	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -229,7 +229,7 @@
 9	erillisenä	erillinen	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	10	amod	_	_
 10	kokonaisuutena	kokonaisuus	NOUN	_	Case=Ess|Number=Sing	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	_
-12	opiskelijat	opiskelija	NOUN	_	Case=Nom|Number=Plur	13	nsubj	_	_
+12	opiskelijat	opiskelija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	13	nsubj	_	_
 13	oppivat	oppia	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 14	tieteitä	tiede	NOUN	_	Case=Par|Number=Plur	13	obj	_	_
 15	niitä	se	PRON	_	Case=Par|Number=Plur|PronType=Dem	16	obj	_	_
@@ -296,7 +296,7 @@
 16	Georgetown	Georgetown	PROPN	_	Case=Nom|Number=Sing	18	compound:nn	_	_
 17	BID	BID	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
 18	-alueen	alue	NOUN	_	Case=Gen|Number=Sing	19	nmod:poss	_	_
-19	johtaja	johtaja	NOUN	_	Case=Nom|Number=Sing	20	compound:nn	_	_
+19	johtaja	johtaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	20	compound:nn	_	_
 20	Joe	Joe	PROPN	_	Case=Nom|Number=Sing	22	nsubj	_	_
 21	Sternlieb	Sternlieb	PROPN	_	Case=Nom|Number=Sing	20	flat:name	_	_
 22	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No
@@ -309,7 +309,7 @@
 2	arvioidaan	arvioida	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	että	että	SCONJ	_	_	6	mark	_	_
-5	matkustajilta	matkustaja	NOUN	_	Case=Abl|Number=Plur	6	obl	_	_
+5	matkustajilta	matkustaja	NOUN	_	Case=Abl|Derivation=Ja|Number=Plur	6	obl	_	_
 6	kuluisi	kulua	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 7	noin	noin	ADV	_	_	8	advmod	_	_
 8	neljä	neljä	NUM	_	Case=Nom|Number=Sing|NumType=Card	9	nummod	_	_
@@ -325,7 +325,7 @@
 # sent_id = n01006011
 # text = Silminnäkijä kertoi poliisille, että uhri oli hyökännyt epäillyn kimppuun huhtikuussa.
 # english_text = A witness told police that the victim had attacked the suspect in April.
-1	Silminnäkijä	silminnäkijä	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+1	Silminnäkijä	silminnäkijä	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	2	nsubj	_	_
 2	kertoi	kertoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	poliisille	poliisi	NOUN	_	Case=All|Number=Sing	2	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
@@ -707,7 +707,7 @@
 # text = Eräs matkailuasiantuntija kuitenkin varoitti, että lennolla käytettävä internet on usein epäluotettava eikä todennäköisesti vaikuta matkustajien lentoyhtiön valintaan.
 # english_text = But one travel expert warned in-flight internet was often unreliable and was unlikely to influence travellers' airline choices.
 1	Eräs	eräs	PRON	_	Case=Nom|Number=Sing|PronType=Ind	2	det	_	_
-2	matkailuasiantuntija	matkailu#asian#tuntija	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	matkailuasiantuntija	matkailu#asian#tuntija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	4	nsubj	_	_
 3	kuitenkin	kuitenkin	ADV	_	_	4	advmod	_	_
 4	varoitti	varoittaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	12	punct	_	_
@@ -721,7 +721,7 @@
 13	eikä	ei	VERB	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	15	cc	_	_
 14	todennäköisesti	toden#näköisesti	ADV	_	Derivation=Sti	15	advmod	_	_
 15	vaikuta	vaikuttaa	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	12	conj	_	_
-16	matkustajien	matkustaja	NOUN	_	Case=Gen|Number=Plur	18	nmod:gsubj	_	_
+16	matkustajien	matkustaja	NOUN	_	Case=Gen|Derivation=Ja|Number=Plur	18	nmod:gsubj	_	_
 17	lentoyhtiön	lento#yhtiö	NOUN	_	Case=Gen|Number=Sing	18	nmod:gobj	_	_
 18	valintaan	valinta	NOUN	_	Case=Ill|Number=Sing	15	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
@@ -768,7 +768,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	veloittaako	veloittaa	VERB	_	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	_
 15	se	se	PRON	_	Case=Nom|Number=Sing|PronType=Dem	14	nsubj	_	_
-16	matkustajilta	matkustaja	NOUN	_	Case=Abl|Number=Plur	14	obl	_	_
+16	matkustajilta	matkustaja	NOUN	_	Case=Abl|Derivation=Ja|Number=Plur	14	obl	_	_
 17	käyttömaksua	käyttö#maksu	NOUN	_	Case=Par|Number=Sing	14	obj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -781,7 +781,7 @@
 4	ihmisistä	ihminen	NOUN	_	Case=Ela|Number=Plur	3	nmod	_	_
 5	pitäisi	pitää	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 6	lentokentän	lento#kenttä	NOUN	_	Case=Gen|Number=Sing	8	nmod:poss	_	_
-7	langatonta	langaton	ADJ	_	Case=Par|Degree=Pos|Number=Sing	8	amod	_	_
+7	langatonta	langaton	ADJ	_	Case=Par|Degree=Pos|Derivation=Ton|Number=Sing	8	amod	_	_
 8	internetiä	internet	NOUN	_	Case=Par|Number=Sing	5	obj	_	_
 9	hyödyllisempänä	hyödyllinen	ADJ	_	Case=Ess|Degree=Cmp|Number=Sing	5	xcomp	_	_
 10	kuin	kuin	SCONJ	_	_	12	mark	_	_
@@ -835,7 +835,7 @@
 # text = Jotkut turvallisuusasiantuntijat kuitenkin ovat kyseenalaistaneet, onko kurssille tarvetta, ja mikä on sen tarkoitus.
 # english_text = But some security experts raised questions about the need for the course and the intent behind it.
 1	Jotkut	joku	PRON	_	Case=Nom|Number=Plur|PronType=Ind	2	det	_	_
-2	turvallisuusasiantuntijat	turvallisuus#asian#tuntija	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
+2	turvallisuusasiantuntijat	turvallisuus#asian#tuntija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	5	nsubj	_	_
 3	kuitenkin	kuitenkin	ADV	_	_	5	advmod	_	_
 4	ovat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	kyseenalaistaneet	kyseenalaistaa	VERB	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
@@ -857,7 +857,7 @@
 # english_text = Previously the jets had only been seen by bloggers.
 1	Aiemmin	aiemmin	ADV	_	_	5	advmod	_	_
 2	ainoastaan	ainoastaan	ADV	_	_	3	advmod	_	_
-3	bloggaajat	bloggaaja	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
+3	bloggaajat	bloggaaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	5	nsubj	_	_
 4	olivat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	nähneet	nähdä	VERB	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	suihkukoneet	suihku#kone	NOUN	_	Case=Nom|Number=Plur	5	obj	_	SpaceAfter=No
@@ -924,7 +924,7 @@
 12	Hack	Hack	PROPN	_	Case=Nom|Number=Sing	14	compound:nn	_	_
 13	Forums	Forum	PROPN	_	Case=Nom|Number=Plur	12	flat:name	_	_
 14	-keskustelupalstan	keskustelu#palsta	NOUN	_	Case=Gen|Number=Sing	15	nmod:poss	_	_
-15	perustaja	perustaja	NOUN	_	Case=Nom|Number=Sing	16	compound:nn	_	_
+15	perustaja	perustaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	16	compound:nn	_	_
 16	Jesse	Jesse	PROPN	_	Case=Nom|Number=Sing	18	nsubj	_	_
 17	LaBrocca	LaBrocca	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
 18	kirjoitti	kirjoittaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	_
@@ -1066,7 +1066,7 @@
 22	,	,	PUNCT	_	_	3	punct	_	_
 23	YK:n	YK	PROPN	_	Abbr=Yes|Case=Gen|Number=Sing	24	nmod:poss	_	_
 24	ympäristöohjelman	ympäristö#ohjelma	NOUN	_	Case=Gen|Number=Sing	25	nmod:poss	_	_
-25	pääjohtaja	pää#johtaja	NOUN	_	Case=Nom|Number=Sing	26	compound:nn	_	_
+25	pääjohtaja	pää#johtaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	26	compound:nn	_	_
 26	Erik	Erik	PROPN	_	Case=Nom|Number=Sing	28	nsubj	_	_
 27	Solheim	Solheim	PROPN	_	Case=Nom|Number=Sing	26	flat:name	_	_
 28	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
@@ -1248,7 +1248,7 @@
 4	osallistuneilta	osallistua	VERB	_	Case=Abl|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	5	acl	_	_
 5	koululaisilta	koululainen	NOUN	_	Case=Abl|Number=Plur	2	obl	_	_
 6	ja	ja	CCONJ	_	_	7	cc	_	_
-7	opettajilta	opettaja	NOUN	_	Case=Abl|Number=Plur	5	conj	_	_
+7	opettajilta	opettaja	NOUN	_	Case=Abl|Derivation=Ja|Number=Plur	5	conj	_	_
 8	kommentteja	kommentti	NOUN	_	Case=Par|Number=Plur	2	obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1269,7 +1269,7 @@
 11	liittyy	liittyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 12	yhä	yhä	ADV	_	_	11	advmod	_	_
 13	tietty	tietty	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	14	amod	_	_
-14	yök-tekijä	yök-tekijä	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	SpaceAfter=No
+14	yök-tekijä	yök#tekijä	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	11	nsubj	_	SpaceAfter=No
 15	”	”	PUNCT	_	_	11	punct	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	11	punct	_	_
 17	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
@@ -1518,7 +1518,7 @@
 # text = Poliisin tiedottaja kertoi Associated Press -uutistoimistolle, että ”sananvaihtoa” seurasi ”kiista", mutta loukkaantumisia ei ole ilmoitettu.
 # english_text = A police spokesman told the Associated Press there was "an exchange of words" followed by an "altercation" but that no injuries had been reported.
 1	Poliisin	poliisi	NOUN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
-2	tiedottaja	tiedottaja	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	tiedottaja	tiedottaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	3	nsubj	_	_
 3	kertoi	kertoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	Associated	Associated	PROPN	_	Case=Nom|Number=Sing	6	compound:nn	_	_
 5	Press	Press	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
@@ -1590,7 +1590,7 @@
 # sent_id = n01031005
 # text = Tutkijat ovat selvitelleet mahdollista miesten hormonaalista ehkäisyä noin 20 vuoden ajan.
 # english_text = Researchers have been investigating potential for male hormonal contraceptives for around 20 years.
-1	Tutkijat	tutkija	NOUN	_	Case=Nom|Number=Plur	3	nsubj	_	_
+1	Tutkijat	tutkija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	3	nsubj	_	_
 2	ovat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	selvitelleet	selvitellä	VERB	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	mahdollista	mahdollinen	ADJ	_	Case=Par|Degree=Pos|Number=Sing	7	amod	_	_
@@ -1652,7 +1652,7 @@
 # sent_id = n01033005
 # text = Tutkijat sanovat, että kasvaimen DNA:n tarkasteleminen voi auttaa selittämään muiden syöpien piileviä aiheuttajia.
 # english_text = Researchers say analysing tumour DNA may help explain the underlying causes of other cancers.
-1	Tutkijat	tutkija	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	_
+1	Tutkijat	tutkija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	2	nsubj	_	_
 2	sanovat	sanoa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	että	että	SCONJ	_	_	9	mark	_	_
@@ -1665,7 +1665,7 @@
 11	muiden	muu	PRON	_	Case=Gen|Number=Plur|PronType=Ind	12	det	_	_
 12	syöpien	syöpä	NOUN	_	Case=Gen|Number=Plur	14	nmod:poss	_	_
 13	piileviä	piilevä	ADJ	_	Case=Par|Degree=Pos|Number=Plur	14	amod	_	_
-14	aiheuttajia	aiheuttaja	NOUN	_	Case=Par|Number=Plur	10	obj	_	SpaceAfter=No
+14	aiheuttajia	aiheuttaja	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	10	obj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = n01033012
@@ -1825,7 +1825,7 @@
 18	vastauksia	vastaus	NOUN	_	Case=Par|Number=Plur	16	advcl	_	_
 19	liittyen	liittyä	VERB	_	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	16	advcl	_	_
 20	ilmeisesti	ilmeisesti	ADV	_	Derivation=Sti	21	advmod	_	_
-21	kodittomaan	koditon	ADJ	_	Case=Ill|Degree=Pos|Number=Sing	22	amod	_	_
+21	kodittomaan	koditon	ADJ	_	Case=Ill|Degree=Pos|Derivation=Ton|Number=Sing	22	amod	_	_
 22	mieheen	mies	NOUN	_	Case=Ill|Number=Sing	19	obl	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	jota	joka	PRON	_	Case=Par|Number=Sing|PronType=Rel	25	obj	_	_
@@ -1903,7 +1903,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	vastahakoinen	vasta#hakoinen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	conj	_	_
 11	ja	ja	CCONJ	_	_	12	cc	_	_
-12	haluton	haluton	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	conj	_	_
+12	haluton	haluton	ADJ	_	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	8	conj	_	_
 13	kävelemään	kävellä	VERB	_	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	12	xcomp	_	_
 14	oikeustalon	oikeus#talo	NOUN	_	Case=Gen|Number=Sing	16	obl	_	_
 15	alla	alla	ADP	_	AdpType=Post	14	case	_	_
@@ -1918,11 +1918,11 @@
 # text = Ontarion kiinteistönvälittäjiä edustavan järjestön mukaan kuluttajien suojeluun tulee panostaa enemmän ja epäeettisesti käyttäytyneitä välittäjiä tulee rangaista.
 # english_text = The association that represents real estate agents in Ontario says more needs to be done to protect consumers and punish agents found to have engaged in unethical behaviour.
 1	Ontarion	Ontario	PROPN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
-2	kiinteistönvälittäjiä	kiinteistön#välittäjä	NOUN	_	Case=Par|Number=Plur	3	obj	_	_
+2	kiinteistönvälittäjiä	kiinteistön#välittäjä	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	3	obj	_	_
 3	edustavan	edustaa	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	4	acl	_	_
 4	järjestön	järjestö	NOUN	_	Case=Gen|Number=Sing	8	obl	_	_
 5	mukaan	mukaan	ADP	_	AdpType=Post	4	case	_	_
-6	kuluttajien	kuluttaja	NOUN	_	Case=Gen|Number=Plur	7	nmod:gobj	_	_
+6	kuluttajien	kuluttaja	NOUN	_	Case=Gen|Derivation=Ja|Number=Plur	7	nmod:gobj	_	_
 7	suojeluun	suojelu	NOUN	_	Case=Ill|Number=Sing	9	obl	_	_
 8	tulee	tulla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 9	panostaa	panostaa	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	xcomp	_	_
@@ -1930,7 +1930,7 @@
 11	ja	ja	CCONJ	_	_	15	cc	_	_
 12	epäeettisesti	epä#eettisesti	ADV	_	Derivation=Sti	13	advmod	_	_
 13	käyttäytyneitä	käyttäytyä	VERB	_	Case=Par|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	14	acl	_	_
-14	välittäjiä	välittäjä	NOUN	_	Case=Par|Number=Plur	16	obj	_	_
+14	välittäjiä	välittäjä	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	16	obj	_	_
 15	tulee	tulla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
 16	rangaista	rangaista	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	15	xcomp	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	8	punct	_	_
@@ -1954,7 +1954,7 @@
 14	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	15	nsubj	_	_
 15	säätelee	säädellä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
 16	provinssin	provinssi	NOUN	_	Case=Gen|Number=Sing	17	nmod:poss	_	_
-17	välittäjiä	välittäjä	NOUN	_	Case=Par|Number=Plur	15	obj	_	SpaceAfter=No
+17	välittäjiä	välittäjä	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	15	obj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = n01036033
@@ -1964,7 +1964,7 @@
 2	hetkellä	hetki	NOUN	_	Case=Ade|Number=Sing	11	obl	_	_
 3	suurin	suuri	ADJ	_	Case=Nom|Degree=Sup|Number=Sing	7	amod	_	_
 4	RECO:n	RECO	PROPN	_	Abbr=Yes|Case=Gen|Number=Sing	6	nmod:gsubj	_	_
-5	välittäjältä	välittäjä	NOUN	_	Case=Abl|Number=Sing	6	obl	_	_
+5	välittäjältä	välittäjä	NOUN	_	Case=Abl|Derivation=Ja|Number=Sing	6	obl	_	_
 6	perimä	periä	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Agt|VerbForm=Part|Voice=Act	7	acl	_	_
 7	sakko	sakko	NOUN	_	Case=Nom|Number=Sing	11	nsubj:cop	_	_
 8	voi	voida	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
@@ -2128,10 +2128,10 @@
 2	ja	ja	CCONJ	_	_	5	cc	_	_
 3	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
 4	kaltaisensa	kaltainen	ADP	_	AdpType=Post|Person[psor]=3	5	amod	_	_
-5	opiskelijat	opiskelija	NOUN	_	Case=Nom|Number=Plur	1	conj	_	_
+5	opiskelijat	opiskelija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	1	conj	_	_
 6	ovat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	tavanneet	tavata	VERB	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
-8	neuvonantajia	neuvon#antaja	NOUN	_	Case=Par|Number=Plur	7	obj	_	_
+8	neuvonantajia	neuvon#antaja	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	7	obj	_	_
 9	koulussa	koulu	NOUN	_	Case=Ine|Number=Sing	7	obl	_	_
 10	keskustellakseen	keskustella	VERB	_	Case=Tra|InfForm=1|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	7	advcl	_	_
 11	tapahtuneesta	tapahtua	VERB	_	Case=Ela|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	10	obl	_	SpaceAfter=No
@@ -2197,9 +2197,9 @@
 # text = Ontarion riippumattoman poliisitarkastuksen johtaja, Gerry McNeilly, asetti tarkastukselleen ehdot tällä viikolla sen jälkeen, kun poliisien toimimisesta alkuperäiskansojen kanssa esitettiin ”hälyttäviä kysymyksiä”.
 # english_text = The Ontario Independent Police Review Director, Gerry McNeilly, set the terms for his review this week after "alarming questions" were raised about how officers interact with Indigenous peoples.
 1	Ontarion	Ontario	PROPN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
-2	riippumattoman	riippumaton	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	3	amod	_	_
+2	riippumattoman	riippumaton	ADJ	_	Case=Gen|Degree=Pos|Derivation=Ton|Number=Sing	3	amod	_	_
 3	poliisitarkastuksen	poliisi#tarkastus	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
-4	johtaja	johtaja	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	SpaceAfter=No
+4	johtaja	johtaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	9	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	Gerry	Gerry	PROPN	_	Case=Nom|Number=Sing	4	appos	_	_
 7	McNeilly	McNeilly	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	SpaceAfter=No
@@ -2374,7 +2374,7 @@
 19	tämänkaltaiset	tämänkaltainen	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
 20	elimet	elin	NOUN	_	Case=Nom|Number=Plur	22	nsubj:cop	_	_
 21	ovat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	cop	_	_
-22	välttämättömiä	välttämätön	ADJ	_	Case=Par|Degree=Pos|Number=Plur	16	ccomp	_	_
+22	välttämättömiä	välttämätön	ADJ	_	Case=Par|Degree=Pos|Derivation=Ton|Number=Plur	16	ccomp	_	_
 23	yritettäessä	yrittää	VERB	_	Case=Ine|InfForm=2|VerbForm=Inf|Voice=Pass	22	advcl	_	_
 24	palauttaa	palauttaa	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	23	xcomp	_	_
 25	ihmisten	ihminen	NOUN	_	Case=Gen|Number=Plur	26	nmod:poss	_	_
@@ -2399,7 +2399,7 @@
 12	kuusi	kuusi	NUM	_	Case=Nom|Number=Sing|NumType=Card	15	nummod	_	_
 13	muuta	muu	PRON	_	Case=Par|Number=Sing|PronType=Ind	15	det	_	_
 14	quebeciläistä	quebeciläinen	ADJ	_	Case=Par|Degree=Pos|Number=Sing	15	amod	_	_
-15	toimittajaa	toimittaja	NOUN	_	Case=Par|Number=Sing	17	nsubj:cop	_	_
+15	toimittajaa	toimittaja	NOUN	_	Case=Par|Derivation=Ja|Number=Sing	17	nsubj:cop	_	_
 16	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	_
 17	kohteena	kohde	NOUN	_	Case=Ess|Number=Sing	7	acl:relcl	_	_
 18	provinssin	provinssi	NOUN	_	Case=Gen|Number=Sing	19	nmod:poss	_	_
@@ -2493,7 +2493,7 @@
 5	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	SaskTelin	SaskTel	PROPN	_	Case=Gen|Number=Sing	9	nmod:poss	_	_
-8	rajoittamattoman	rajoittamaton	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	9	amod	_	_
+8	rajoittamattoman	rajoittamaton	ADJ	_	Case=Gen|Degree=Pos|Derivation=Ton|Number=Sing	9	amod	_	_
 9	tiedonsiirron	tiedon#siirto	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	asiakas	asiakas	NOUN	_	Case=Nom|Number=Sing	11	compound:nn	_	_
 11	Lindsay	Lindsay	PROPN	_	Case=Nom|Number=Sing	13	nsubj	_	_
@@ -2562,7 +2562,7 @@
 21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	kotimaisilla	koti#mainen	ADJ	_	Case=Ade|Degree=Pos|Number=Plur	24	amod	_	SpaceAfter=No
 23	)	)	PUNCT	_	_	22	punct	_	_
-24	sijoittajilla	sijoittaja	NOUN	_	Case=Ade|Number=Plur	16	ccomp	_	_
+24	sijoittajilla	sijoittaja	NOUN	_	Case=Ade|Derivation=Ja|Number=Plur	16	ccomp	_	_
 25	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop:own	_	_
 26	Suur-Toronton	Suur-Toronto	PROPN	_	Case=Gen|Number=Sing	27	nmod:poss	_	_
 27	asuntomarkkinoilla	asunto#markkinat	NOUN	_	Case=Ade|Number=Plur	24	obl	_	SpaceAfter=No
@@ -2639,7 +2639,7 @@
 1	Rauta	rauta	NOUN	_	Case=Nom|Number=Sing	4	nsubj:cop	_	_
 2	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	keholle	keho	NOUN	_	Case=All|Number=Sing	4	nmod	_	_
-4	välttämätöntä	välttämätön	ADJ	_	Case=Par|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
+4	välttämätöntä	välttämätön	ADJ	_	Case=Par|Degree=Pos|Derivation=Ton|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	jotta	jotta	SCONJ	_	_	8	mark	_	_
 7	se	se	PRON	_	Case=Nom|Number=Sing|PronType=Dem	8	nsubj	_	_
@@ -2707,7 +2707,7 @@
 6	että	että	SCONJ	_	_	7	mark	_	_
 7	tarvitaan	tarvita	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	ccomp	_	_
 8	lisää	lisää	ADV	_	_	7	advmod	_	_
-9	luovuttajia	luovuttaja	NOUN	_	Case=Par|Number=Plur	7	obj	_	SpaceAfter=No
+9	luovuttajia	luovuttaja	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	7	obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # newdoc id = n01051
@@ -2732,7 +2732,7 @@
 16	,	,	PUNCT	_	_	20	punct	_	_
 17	että	että	SCONJ	_	_	20	mark	_	_
 18	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	_
-19	syntymättömällä	syntymätön	ADJ	_	Case=Ade|Degree=Pos|Number=Sing	20	amod	_	_
+19	syntymättömällä	syntymätön	ADJ	_	Case=Ade|Degree=Pos|Derivation=Ton|Number=Sing	20	amod	_	_
 20	lapsellaan	lapsi	NOUN	_	Case=Ade|Number=Sing|Person[psor]=3	15	ccomp	_	_
 21	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	cop:own	_	_
 22	harvinainen	harvinainen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	23	amod	_	_
@@ -2930,7 +2930,7 @@
 6	vastata	vastata	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	csubj:cop	_	_
 7	taitavasti	taitavasti	ADV	_	Derivation=Sti	6	advmod	_	_
 8	teollisuuden	teollisuus	NOUN	_	Case=Gen|Number=Sing	9	nmod:poss	_	_
-9	osakkeenomistajien	osakkeenomistaja	NOUN	_	Case=Gen|Number=Plur	12	nmod:poss	_	_
+9	osakkeenomistajien	osakkeen#omistaja	NOUN	_	Case=Gen|Derivation=Ja|Number=Plur	12	nmod:poss	_	_
 10	ja	ja	CCONJ	_	_	11	cc	_	_
 11	yleisön	yleisö	NOUN	_	Case=Gen|Number=Sing	9	conj	_	_
 12	reaktioihin	reaktio	NOUN	_	Case=Ill|Number=Plur	6	obl	_	SpaceAfter=No
@@ -2975,7 +2975,7 @@
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	se	se	PRON	_	Case=Nom|Number=Sing|PronType=Dem	12	nsubj:cop	_	_
 10	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
-11	välttämätön	välttämätön	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	12	amod	_	_
+11	välttämätön	välttämätön	ADJ	_	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	12	amod	_	_
 12	työkalu	työkalu	NOUN	_	Case=Nom|Number=Sing	7	conj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -3104,7 +3104,7 @@
 # sent_id = n01059019
 # text = Republikaanitalousasiantuntijat varoittavat pitämästä näitä tietoja todisteena siitä, että heidän puolueensa on surkea talouspolitiikassa.
 # english_text = Republican economists caution against taking this data as proof that their party is lousy at economic policy.
-1	Republikaanitalousasiantuntijat	republikaani#talous#asian#tuntija	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	_
+1	Republikaanitalousasiantuntijat	republikaani#talous#asian#tuntija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	2	nsubj	_	_
 2	varoittavat	varoittaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	pitämästä	pitää	VERB	_	Case=Ela|Degree=Pos|Number=Sing|PartForm=Agt|VerbForm=Part|Voice=Act	2	xcomp:ds	_	_
 4	näitä	tämä	PRON	_	Case=Par|Number=Plur|PronType=Dem	5	det	_	_
@@ -3283,7 +3283,7 @@
 1	Yleensä	yleensä	ADV	_	_	4	advmod	_	_
 2	ne	se	PRON	_	Case=Nom|Number=Plur|PronType=Dem	4	nsubj:cop	_	_
 3	ovat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-4	viihdetaiteilijoita	viihdetaiteilija	NOUN	_	Case=Par|Number=Plur	0	root	_	SpaceAfter=No
+4	viihdetaiteilijoita	viihde#taiteilija	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	jotka	joka	PRON	_	Case=Nom|Number=Plur|PronType=Rel	7	nsubj	_	_
 7	haluavat	haluta	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
@@ -3305,7 +3305,7 @@
 # english_text = Miami Bass producers were clinical in the art of moving butts—their main concern.
 1	Miami	Miami	PROPN	_	Case=Nom|Number=Sing	3	compound:nn	_	_
 2	Bass	Bass	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
-3	-tuottajat	tuottaja	NOUN	_	Case=Nom|Number=Plur	5	nsubj:cop	_	_
+3	-tuottajat	tuottaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	5	nsubj:cop	_	_
 4	olivat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	kliinisiä	kliininen	ADJ	_	Case=Par|Degree=Pos|Number=Plur	0	root	_	_
 6	tehdessään	tehdä	VERB	_	Case=Ine|InfForm=2|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	5	advcl	_	_
@@ -3397,7 +3397,7 @@
 9	valta	valta	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
 10	huolellisesti	huolellisesti	ADV	_	Derivation=Sti	11	advmod	_	_
 11	koulutettujen	kouluttaa	VERB	_	Case=Gen|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	12	acl	_	_
-12	holhoojien	holhooja	NOUN	_	Case=Gen|Number=Plur	13	nmod:poss	_	_
+12	holhoojien	holhooja	NOUN	_	Case=Gen|Derivation=Ja|Number=Plur	13	nmod:poss	_	_
 13	käsiin	käsi	NOUN	_	Case=Ill|Number=Plur	8	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -3432,7 +3432,7 @@
 5	äänestämisestä	äänestäminen	NOUN	_	Case=Ela|Derivation=Minen|Number=Sing	3	obl	_	_
 6	lainaten	lainata	VERB	_	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	2	advcl	_	_
 7	kahta	kaksi	NUM	_	Case=Par|Number=Sing|NumType=Card	8	nummod	_	_
-8	tutkijaa	tutkija	NOUN	_	Case=Par|Number=Sing	6	obj	_	SpaceAfter=No
+8	tutkijaa	tutkija	NOUN	_	Case=Par|Derivation=Ja|Number=Sing	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	jotka	joka	PRON	_	Case=Nom|Number=Plur|PronType=Rel	11	nsubj	_	_
 11	kutsuvat	kutsua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
@@ -3587,7 +3587,7 @@
 8	jossa	joka	PRON	_	Case=Ine|Number=Sing|PronType=Rel	12	obl	_	_
 9	62	62	NUM	_	NumType=Card	10	nummod	_	_
 10	prosenttia	prosentti	NOUN	_	Case=Par|Number=Sing	12	nsubj	_	_
-11	äänestäjistä	äänestäjä	NOUN	_	Case=Ela|Number=Plur	10	nmod	_	_
+11	äänestäjistä	äänestäjä	NOUN	_	Case=Ela|Derivation=Ja|Number=Plur	10	nmod	_	_
 12	kannatti	kannattaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
 13	EU:sta	EU	PROPN	_	Abbr=Yes|Case=Ela|Number=Sing	14	nmod	_	_
 14	lähtemistä	lähteminen	NOUN	_	Case=Par|Derivation=Minen|Number=Sing	12	obj	_	SpaceAfter=No
@@ -3600,7 +3600,7 @@
 2	taitoaan	taito	NOUN	_	Case=Par|Number=Sing|Person[psor]=3	7	obj	_	_
 3	löytää	löytää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl	_	_
 4	vastauksia	vastaus	NOUN	_	Case=Par|Number=Plur	3	obj	_	_
-5	veronmaksajille	veron#maksaja	NOUN	_	Case=All|Number=Plur	4	nmod	_	_
+5	veronmaksajille	veron#maksaja	NOUN	_	Case=All|Derivation=Ja|Number=Plur	4	nmod	_	_
 6	tullaan	tulla	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 7	kaipaamaan	kaivata	VERB	_	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	6	xcomp	_	_
 8	kipeästi	kipeästi	ADV	_	Derivation=Sti	6	advmod	_	SpaceAfter=No
@@ -3659,7 +3659,7 @@
 10	aloittanut	aloittaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 11	kampanjoinnin	kampanjointi	NOUN	_	Case=Gen|Number=Sing	10	obj	_	_
 12	saadakseen	saada	VERB	_	Case=Tra|InfForm=1|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	10	advcl	_	_
-13	kansanedustajan	kansan#edustaja	NOUN	_	Case=Gen|Number=Sing	14	nmod:poss	_	_
+13	kansanedustajan	kansan#edustaja	NOUN	_	Case=Gen|Derivation=Ja|Number=Sing	14	nmod:poss	_	_
 14	paikan	paikka	NOUN	_	Case=Gen|Number=Sing	12	obj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -3968,7 +3968,7 @@
 8	vielä	vielä	ADV	_	_	9	advmod	_	_
 9	huolestuttavamman	huolestuttava	ADJ	_	Case=Gen|Degree=Cmp|Number=Sing	4	xcomp	_	_
 10	ja	ja	CCONJ	_	_	11	cc	_	_
-11	rauhattomamman	rauhaton	ADJ	_	Case=Gen|Degree=Cmp|Number=Sing	9	conj	_	SpaceAfter=No
+11	rauhattomamman	rauhaton	ADJ	_	Case=Gen|Degree=Cmp|Derivation=Ton|Number=Sing	9	conj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n01076017
@@ -4058,7 +4058,7 @@
 4	tyttö	tyttö	NOUN	_	Case=Nom|Number=Sing	1	nsubj:cop	_	_
 5	farkuissaan	farkut	NOUN	_	Case=Ine|Number=Plur|Person[psor]=3	4	nmod	_	_
 6	niin	niin	ADV	_	_	7	advmod	_	_
-7	vaatimattomana	vaatimaton	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	1	obl	_	SpaceAfter=No
+7	vaatimattomana	vaatimaton	ADJ	_	Case=Ess|Degree=Pos|Derivation=Ton|Number=Sing	1	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	että	että	SCONJ	_	_	10	mark	_	_
 10	pidän	pitää	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	_
@@ -4070,7 +4070,7 @@
 # sent_id = n01079065
 # text = Taiteilijat tavoittavat ihmiset heidän sydämissään. Se on ainoa tapa kohdata samassa paikassa ja unohtaa erimielisyytemme.
 # english_text = Artists reach people at their heart; it’s the only time we meet in one place and put our differences aside.
-1	Taiteilijat	taiteilija	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	_
+1	Taiteilijat	taiteilija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	2	nsubj	_	_
 2	tavoittavat	tavoittaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ihmiset	ihminen	NOUN	_	Case=Nom|Number=Plur	2	obj	_	_
 4	heidän	hän	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	5	nmod:poss	_	_
@@ -4168,7 +4168,7 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	seksistinen	seksistinen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	14	conj	_	_
 17	ja	ja	CCONJ	_	_	19	cc	_	_
-18	käsittämättömän	käsittämätön	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	19	amod	_	_
+18	käsittämättömän	käsittämätön	ADJ	_	Case=Gen|Degree=Pos|Derivation=Ton|Number=Sing	19	amod	_	_
 19	epäpätevä	epä#pätevä	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	14	conj	_	_
 20	toimimaan	toimia	VERB	_	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	19	xcomp	_	_
 21	ylipäällikkönä	yli#päällikkö	NOUN	_	Case=Ess|Number=Sing	20	obl	_	SpaceAfter=No
@@ -4217,7 +4217,7 @@
 9	tarpeeksi	tarpeeksi	ADV	_	_	10	advmod	_	_
 10	suojaa	suoja	NOUN	_	Case=Par|Number=Sing	8	obj	_	_
 11	amerikkalaisille	amerikkalainen	ADJ	_	Case=All|Degree=Pos|Number=Plur	12	amod	_	_
-12	työntekijöille	työntekijä	NOUN	_	Case=All|Number=Plur	8	obl	_	SpaceAfter=No
+12	työntekijöille	työntekijä	NOUN	_	Case=All|Derivation=Ja|Number=Plur	8	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	20	punct	_	_
 14	joiden	joka	PRON	_	Case=Gen|Number=Plur|PronType=Rel	15	nmod:poss	_	_
 15	töitä	työ	NOUN	_	Case=Par|Number=Plur	20	obj	_	_
@@ -4313,7 +4313,7 @@
 5	pätee	päteä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	myös	myös	ADV	_	_	8	advmod	_	_
 7	Nectar-kortin	Nectar#kortti	NOUN	_	Case=Gen|Number=Sing	8	nmod:poss	_	_
-8	omistajiin	omistaja	NOUN	_	Case=Ill|Number=Plur	5	obl	_	SpaceAfter=No
+8	omistajiin	omistaja	NOUN	_	Case=Ill|Derivation=Ja|Number=Plur	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	jotka	joka	PRON	_	Case=Nom|Number=Plur|PronType=Rel	11	nsubj	_	_
 11	haluavat	haluta	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
@@ -4396,7 +4396,7 @@
 3	olla	olla	AUX	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	cop	_	_
 4	raivostuttava	raivostuttava	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
 5	ja	ja	CCONJ	_	_	6	cc	_	_
-6	mieletön	mieletön	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	conj	_	_
+6	mieletön	mieletön	ADJ	_	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	4	conj	_	_
 7	-	-	PUNCT	_	_	10	punct	_	_
 8	mutta	mutta	CCONJ	_	_	10	cc	_	_
 9	ainakin	ainakin	ADV	_	_	10	advmod	_	_
@@ -4693,15 +4693,15 @@
 6	ristiriitatilanteen	risti#riita#tilanne	NOUN	_	Case=Gen|Number=Sing	5	obj	_	_
 7	monien	moni	PRON	_	Case=Gen|Number=Plur|PronType=Ind	9	det	_	_
 8	johtavien	johtava	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
-9	luonnonsuojelijoiden	luonnon#suojelija	NOUN	_	Case=Gen|Number=Plur	5	obl	_	_
+9	luonnonsuojelijoiden	luonnon#suojelija	NOUN	_	Case=Gen|Derivation=Ja|Number=Plur	5	obl	_	_
 10	kanssa	kanssa	ADP	_	AdpType=Post	9	case	_	_
 11	alkaen	alkaen	ADP	_	AdpType=Post	13	case	_	_
 12	adressin	adressi	NOUN	_	Case=Gen|Number=Sing	13	nmod:poss	_	_
-13	tekijästä	tekijä	NOUN	_	Case=Ela|Number=Sing	5	obl	_	_
+13	tekijästä	tekijä	NOUN	_	Case=Ela|Derivation=Ja|Number=Sing	5	obl	_	_
 14	Mark	Mark	PROPN	_	Case=Nom|Number=Sing	13	appos	_	_
 15	Averysta	Avery	PROPN	_	Case=Ela|Number=Sing	14	flat:name	_	_
 16	aina	aina	ADV	_	_	18	advmod	_	_
-17	tv-juontaja	tv#juontaja	NOUN	_	Case=Nom|Number=Sing	18	compound:nn	_	_
+17	tv-juontaja	tv#juontaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	18	compound:nn	_	_
 18	Chris	Chris	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
 19	Packhamiin	Packham	PROPN	_	Case=Ill|Number=Sing	18	flat:name	_	_
 20	asti	asti	ADP	_	AdpType=Post	18	case	_	SpaceAfter=No
@@ -4826,7 +4826,7 @@
 # sent_id = n01093025
 # text = Luonnonsuojelijat ottivat komission ilmoituksen innostuneesti vastaan.
 # english_text = Conservationists welcomed the commission’s announcement.
-1	Luonnonsuojelijat	luonnon#suojelija	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	_
+1	Luonnonsuojelijat	luonnon#suojelija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	2	nsubj	_	_
 2	ottivat	ottaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	komission	komissio	NOUN	_	Case=Gen|Number=Sing	4	nmod:gsubj	_	_
 4	ilmoituksen	ilmoitus	NOUN	_	Case=Gen|Number=Sing	2	obj	_	_
@@ -4884,7 +4884,7 @@
 5	aikoinani	aika	NOUN	_	Case=Ess|Number=Plur|Number[psor]=Sing|Person[psor]=1	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	ja	ja	CCONJ	_	_	10	cc	_	_
-8	lapsettomat	lapseton	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+8	lapsettomat	lapseton	ADJ	_	Case=Nom|Degree=Pos|Derivation=Ton|Number=Plur	9	amod	_	_
 9	ihmiset	ihminen	NOUN	_	Case=Nom|Number=Plur	10	nsubj	_	_
 10	ilmaisevat	ilmaista	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 11	paheksuntansa	paheksunta	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	10	obl	_	_
@@ -4998,7 +4998,7 @@
 11	listani	lista	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	13	nsubj	_	_
 12	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
 13	kasvanut	kasvaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
-14	hillittömän	hillitön	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	15	amod	_	_
+14	hillittömän	hillitön	ADJ	_	Case=Gen|Degree=Pos|Derivation=Ton|Number=Sing	15	amod	_	_
 15	pitkäksi	pitkä	ADJ	_	Case=Tra|Degree=Pos|Number=Sing	13	xcomp	_	_
 16	ja	ja	CCONJ	_	_	17	cc	_	_
 17	kattoi	kattaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	_
@@ -5060,12 +5060,12 @@
 1	Jokaisella	jokainen	PRON	_	Case=Ade|Number=Sing|PronType=Ind	2	det	_	_
 2	pysäkillä	pysäkki	NOUN	_	Case=Ade|Number=Sing	5	obl	_	_
 3	punahattuinen	puna#hattuinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	4	amod	_	_
-4	vartija	vartija	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+4	vartija	vartija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	5	nsubj	_	_
 5	ohjaa	ohjata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	laiturin	laituri	NOUN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	toimintaa	toiminta	NOUN	_	Case=Par|Number=Sing	5	obj	_	_
 8	ja	ja	CCONJ	_	_	10	cc	_	_
-9	työntekijä	työntekijä	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
+9	työntekijä	työntekijä	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	10	nsubj	_	_
 10	kävelee	kävellä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 11	junan	juna	NOUN	_	Case=Gen|Number=Sing	12	nmod:poss	_	_
 12	vierellä	vieri	NOUN	_	Case=Ade|Number=Sing	10	obl	_	_
@@ -5143,7 +5143,7 @@
 2	kuuluu	kuulua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	että	että	SCONJ	_	_	6	mark	_	_
-5	lainsäätäjät	lain#säätäjä	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
+5	lainsäätäjät	lain#säätäjä	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	6	nsubj	_	_
 6	vannovat	vannoa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	csubj	_	_
 7	uskollisuutta	uskollisuus	NOUN	_	Case=Par|Number=Sing	6	obj	_	_
 8	Hong	Hong	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
@@ -5163,7 +5163,7 @@
 5	jota	joka	PRON	_	Case=Par|Number=Sing|PronType=Rel	6	obj	_	_
 6	johtavat	johtaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 7	Peking-mieliset	Peking-mieliset	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
-8	lainsäätäjät	lain#säätäjä	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	SpaceAfter=No
+8	lainsäätäjät	lain#säätäjä	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	6	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	_
 10	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 11	väittänyt	väittää	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
@@ -5408,7 +5408,7 @@
 11	arvosta	arvo	NOUN	_	Case=Ela|Number=Sing	6	obl	_	_
 12	sekä	sekä	CCONJ	_	_	13	cc	_	_
 13	maksoivat	maksaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
-14	pääjohtaja	pää#johtaja	NOUN	_	Case=Nom|Number=Sing	15	compound:nn	_	_
+14	pääjohtaja	pää#johtaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	15	compound:nn	_	_
 15	Martin	Martin	PROPN	_	Case=Nom|Number=Sing	13	obl	_	_
 16	Winterkornille	Winterkorn	PROPN	_	Case=All|Number=Sing	15	flat:name	_	_
 17	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	18	nmod:poss	_	_
@@ -5450,7 +5450,7 @@
 6	keskittyy	keskittyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 7	Winterkorniin	Winterkorn	PROPN	_	Case=Ill|Number=Sing	6	obl	_	_
 8	sekä	sekä	CCONJ	_	_	10	cc	_	_
-9	merkkijohtaja	merkki#johtaja	NOUN	_	Case=Nom|Number=Sing	10	compound:nn	_	_
+9	merkkijohtaja	merkki#johtaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	10	compound:nn	_	_
 10	Herbert	Herbert	PROPN	_	Case=Nom|Number=Sing	6	conj	_	_
 11	Diessiin	Diess	PROPN	_	Case=Ill|Number=Sing	10	flat:name	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
@@ -5458,7 +5458,7 @@
 14	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
 15	yhä	yhä	ADV	_	_	16	advmod	_	_
 16	töissä	työ	NOUN	_	Case=Ine|Number=Plur	10	acl:relcl	_	_
-17	autovalmistajalla	auto#valmistaja	NOUN	_	Case=Ade|Number=Sing	16	obl	_	SpaceAfter=No
+17	autovalmistajalla	auto#valmistaja	NOUN	_	Case=Ade|Derivation=Ja|Number=Sing	16	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = n01107010
@@ -5466,7 +5466,7 @@
 # english_text = He was promoted to chairman in October 2015, the month after the scandal was unearthed.
 1	Hänet	hän	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	ylennettiin	ylentää	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
-3	toimitusjohtajaksi	toimitus#johtaja	NOUN	_	Case=Tra|Number=Sing	2	xcomp:ds	_	_
+3	toimitusjohtajaksi	toimitus#johtaja	NOUN	_	Case=Tra|Derivation=Ja|Number=Sing	2	xcomp:ds	_	_
 4	lokakuussa	loka#kuu	NOUN	_	Case=Ine|Number=Sing	2	obl	_	_
 5	2015	2015	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	13	punct	_	_
@@ -5597,7 +5597,7 @@
 # sent_id = n01110006
 # text = Sijoittaja, jolla on keskinkertainen onni ja 10 000 puntaa kiinni velkakirjoissa voi odottaa saavansa 125 punnan voitot vuodessa.
 # english_text = An investor with average luck and £10,000 in bonds could expect to receive £125 in prizes per year.
-1	Sijoittaja	sijoittaja	NOUN	_	Case=Nom|Number=Sing	13	nsubj	_	SpaceAfter=No
+1	Sijoittaja	sijoittaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	13	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	jolla	joka	PRON	_	Case=Ade|Number=Sing|PronType=Rel	1	acl:relcl	_	_
 4	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop:own	_	_
@@ -5665,7 +5665,7 @@
 2	ei	ei	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	ole	olla	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	estänyt	estää	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
-5	sijoittajia	sijoittaja	NOUN	_	Case=Par|Number=Plur	7	nsubj	_	_
+5	sijoittajia	sijoittaja	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	7	nsubj	_	_
 6	innolla	into	NOUN	_	Case=Ade|Number=Sing	7	obl	_	_
 7	laittamaan	laittaa	VERB	_	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	4	xcomp:ds	_	_
 8	rahojaan	raha	NOUN	_	Case=Par|Number=Plur|Person[psor]=3	7	obj	_	_
@@ -5688,7 +5688,7 @@
 11	Income-rahastot	Income#rahasto	NOUN	_	Case=Nom|Number=Plur	6	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	näissä	tämä	PRON	_	Case=Ine|Number=Plur|PronType=Dem	15	obl	_	_
-14	sijoittajat	sijoittaja	NOUN	_	Case=Nom|Number=Plur	15	nsubj	_	_
+14	sijoittajat	sijoittaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	15	nsubj	_	_
 15	laittoivat	laittaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 16	ensin	ensin	ADV	_	_	18	advmod	_	_
 17	mainittuun	mainita	VERB	_	Case=Ill|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	16	fixed	_	_
@@ -5745,7 +5745,7 @@
 # sent_id = n01112012
 # text = Kuluttaja voi tehostaa vaatimusta muutokseen.
 # english_text = The consumer can boost the demand for change.
-1	Kuluttaja	kuluttaja	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+1	Kuluttaja	kuluttaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	3	nsubj	_	_
 2	voi	voida	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	tehostaa	tehostaa	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
 4	vaatimusta	vaatimus	NOUN	_	Case=Par|Number=Sing	3	obj	_	_
@@ -5869,7 +5869,7 @@
 1	Viime	viime	ADJ	_	_	2	amod	_	_
 2	vuosi	vuosi	NOUN	_	Case=Nom|Number=Sing	5	nsubj:cop	_	_
 3	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
-4	uskomaton	uskomaton	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	_
+4	uskomaton	uskomaton	ADJ	_	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	5	amod	_	_
 5	vuosi	vuosi	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	ja	ja	CCONJ	_	_	9	cc	_	_
@@ -6011,7 +6011,7 @@
 # sent_id = n01118010
 # text = Ohjaajan omien laskujen mukaan, hän on tähän päivään mennessä tehnyt kahdeksan kokoillan elokuvaa.
 # english_text = According to the director's own count, to date he has made eight feature films.
-1	Ohjaajan	ohjaaja	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
+1	Ohjaajan	ohjaaja	NOUN	_	Case=Gen|Derivation=Ja|Number=Sing	3	nmod:poss	_	_
 2	omien	oma	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
 3	laskujen	lasku	NOUN	_	Case=Gen|Number=Plur	11	obl	_	_
 4	mukaan	mukaan	ADP	_	AdpType=Post	3	case	_	SpaceAfter=No
@@ -6050,7 +6050,7 @@
 # sent_id = n01119011
 # text = Ohjaajan näkökulmasta katsottuna elokuva on epävarmaa tasapainottelua hilpeän perhehuumorin ja osuvan yhteiskunnallisen draaman välillä.
 # english_text = From the director's point of view, the film is a precarious balancing act, between cheery family hijinks and hard-hitting social drama.
-1	Ohjaajan	ohjaaja	NOUN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Ohjaajan	ohjaaja	NOUN	_	Case=Gen|Derivation=Ja|Number=Sing	2	nmod:poss	_	_
 2	näkökulmasta	näkö#kulma	NOUN	_	Case=Ela|Number=Sing	3	obl	_	_
 3	katsottuna	katsoa	VERB	_	Case=Ess|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
 4	elokuva	elo#kuva	NOUN	_	Case=Nom|Number=Sing	7	nsubj:cop	_	_
@@ -6075,7 +6075,7 @@
 4	toimii	toimia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	ystävällisenä	ystävällinen	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	11	amod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	vaatimattomana	vaatimaton	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	5	conj	_	_
+7	vaatimattomana	vaatimaton	ADJ	_	Case=Ess|Degree=Pos|Derivation=Ton|Number=Sing	5	conj	_	_
 8	ja	ja	CCONJ	_	_	10	cc	_	_
 9	sydäntä	sydän	NOUN	_	Case=Par|Number=Sing	10	obj	_	_
 10	lämmittävänä	lämmittää	VERB	_	Case=Ess|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	5	conj	_	_
@@ -6098,7 +6098,7 @@
 5	Bob	Bob	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	viihteen	viihde	NOUN	_	Case=Gen|Number=Sing	9	nmod:poss	_	_
-8	loputon	loputon	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	_
+8	loputon	loputon	ADJ	_	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	9	amod	_	_
 9	lähde	lähde	NOUN	_	Case=Nom|Number=Sing	5	appos	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -6132,7 +6132,7 @@
 13	Dossin	Doss	PROPN	_	Case=Gen|Number=Sing	14	nmod:gsubj	_	_
 14	saavutukset	saavutus	NOUN	_	Case=Nom|Number=Plur	15	nsubj	_	_
 15	kuuluvat	kuulua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-16	käsittämättömän	käsittämätön	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	17	amod	_	_
+16	käsittämättömän	käsittämätön	ADJ	_	Case=Gen|Degree=Pos|Derivation=Ton|Number=Sing	17	amod	_	_
 17	kategoriaan	kategoria	NOUN	_	Case=Ill|Number=Sing	15	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -6143,7 +6143,7 @@
 2	tarinassa	tarina	NOUN	_	Case=Ine|Number=Sing	0	root	_	_
 3	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 4	myös	myös	ADV	_	_	6	advmod	_	_
-5	odottamaton	odottamaton	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	_
+5	odottamaton	odottamaton	ADJ	_	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	6	amod	_	_
 6	piirre	piirre	NOUN	_	Case=Nom|Number=Sing	2	nsubj:cop	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	9	nsubj	_	_
@@ -6263,7 +6263,7 @@
 7	en	ei	AUX	_	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	_
 8	ole	olla	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	kauaa	kauaa	ADV	_	_	10	advmod	_	_
-10	levoton	levoton	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	advcl	_	SpaceAfter=No
+10	levoton	levoton	ADJ	_	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	4	advcl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # newdoc id = n01125
@@ -6296,7 +6296,7 @@
 7	toimeksiannon	toimeksi#anto	NOUN	_	Case=Gen|Number=Sing	6	obj	_	_
 8	näyttöasunnon	näyttö#asunto	NOUN	_	Case=Gen|Number=Sing	9	nmod:gobj	_	_
 9	suunnittelusta	suunnittelu	NOUN	_	Case=Ela|Number=Sing	7	nmod	_	_
-10	sisustussuunnittelija	sisustus#suunnittelija	NOUN	_	Case=Nom|Number=Sing	11	compound:nn	_	_
+10	sisustussuunnittelija	sisustus#suunnittelija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	11	compound:nn	_	_
 11	Rachel	Rachel	PROPN	_	Case=Nom|Number=Sing	6	obl	_	_
 12	Winhamille	Winham	PROPN	_	Case=All|Number=Sing	11	flat:name	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
@@ -6497,7 +6497,7 @@
 12	,	,	PUNCT	_	_	18	punct	_	_
 13	jos	jos	SCONJ	_	_	18	mark	_	_
 14	rekisteröitynyt	rekisteröitynyt	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	15	acl	_	_
-15	äänestäjä	äänestäjä	NOUN	_	Case=Nom|Number=Sing	18	nsubj:cop	_	_
+15	äänestäjä	äänestäjä	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	18	nsubj:cop	_	_
 16	ei	ei	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	18	aux	_	_
 17	ole	olla	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
 18	listalla	lista	NOUN	_	Case=Ade|Number=Sing	10	advcl	_	SpaceAfter=No
@@ -6579,7 +6579,7 @@
 2	johtoa	johto	NOUN	_	Case=Par|Number=Sing	3	obj	_	_
 3	tukivat	tukea	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	poissaolevien	poissaoleva	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
-5	äänestäjien	äänestäjä	NOUN	_	Case=Gen|Number=Plur	7	nmod:poss	_	_
+5	äänestäjien	äänestäjä	NOUN	_	Case=Gen|Derivation=Ja|Number=Plur	7	nmod:poss	_	_
 6	suuret	suuri	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
 7	luvut	luku	NOUN	_	Case=Nom|Number=Plur	3	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	14	punct	_	_
@@ -6647,7 +6647,7 @@
 # text = Hollantilaiset opiskelijat eivät ole vielä päättäneet, kaupallistavatko he sähkömoottoripyöränsä.
 # english_text = The Dutch students have yet to decide if they will be commercializing their electric motorcycle.
 1	Hollantilaiset	hollanti#lainen	NOUN	_	Case=Nom|Number=Plur	2	amod	_	_
-2	opiskelijat	opiskelija	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
+2	opiskelijat	opiskelija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	6	nsubj	_	_
 3	eivät	ei	AUX	_	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	_
 4	ole	olla	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	vielä	vielä	ADV	_	_	6	advmod	_	_
@@ -6662,7 +6662,7 @@
 # text = Harley-Davidsonin edustaja sanoi, etteivät julkisuudessa esillä olleet aikataulut - 2017 tai 2020 - pidä paikkaansa.
 # english_text = A Harley-Davidson spokeswoman said timelines that have been floated in the media -- 2017 or 2020 -- aren't accurate.
 1	Harley-Davidsonin	Harley-Davidson	NOUN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
-2	edustaja	edustaja	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	edustaja	edustaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	3	nsubj	_	_
 3	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	15	punct	_	_
 5	etteivät	että#ei	VERB	_	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	15	mark	_	_
@@ -6698,7 +6698,7 @@
 # sent_id = n01134007
 # text = Sijoittajat lunastavat valtion velkakirjoja ja suurin vaikutus tällä on Yhdysvaltain ja Australian velkakirjoihin.
 # english_text = Investors are selling out of government bonds, with U.S. and Australian bonds feeling the biggest impact.
-1	Sijoittajat	sijoittaja	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	_
+1	Sijoittajat	sijoittaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	2	nsubj	_	_
 2	lunastavat	lunastaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	valtion	valtio	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	velkakirjoja	velka#kirja	NOUN	_	Case=Par|Number=Plur	2	obj	_	_
@@ -6749,18 +6749,18 @@
 # text = Kiinan kyltymätön ruokahalu uppopaistetun kanan suhteen oli suuri tekijä siihen, miksi sijoittajat rakastivat KFC-emoyhtiö Yum Brandsia.
 # english_text = China's insatiable appetite for fried chicken used to be a big reason why investors loved KFC-parent Yum Brands.
 1	Kiinan	Kiina	PROPN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
-2	kyltymätön	kyltymätön	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	_
+2	kyltymätön	kyltymätön	ADJ	_	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	3	amod	_	_
 3	ruokahalu	ruoka#halu	NOUN	_	Case=Nom|Number=Sing	9	nsubj:cop	_	_
 4	uppopaistetun	uppopaistaa	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
 5	kanan	kana	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
 6	suhteen	suhteen	ADP	_	AdpType=Post	5	case	_	_
 7	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	_
 8	suuri	suuri	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	_
-9	tekijä	tekijä	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+9	tekijä	tekijä	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	0	root	_	_
 10	siihen	se	PRON	_	Case=Ill|Number=Sing|PronType=Dem	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	miksi	miksi	ADV	_	_	14	advmod	_	_
-13	sijoittajat	sijoittaja	NOUN	_	Case=Nom|Number=Plur	14	nsubj	_	_
+13	sijoittajat	sijoittaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	14	nsubj	_	_
 14	rakastivat	rakastaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	ccomp	_	_
 15	KFC-emoyhtiö	KFC#emoyhtiö	NOUN	_	Case=Nom|Number=Sing	16	compound:nn	_	_
 16	Yum	Yum	PROPN	_	Case=Nom|Number=Sing	14	obj	_	_
@@ -6807,7 +6807,7 @@
 11	olivat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
 12	vastentahtoisia	vastentahtoinen	ADJ	_	Case=Par|Degree=Pos|Number=Plur	14	amod	_	_
 13	historian	historia	NOUN	_	Case=Gen|Number=Sing	14	nmod:poss	_	_
-14	osallistujia	osallistuja	NOUN	_	Case=Par|Number=Plur	0	root	_	SpaceAfter=No
+14	osallistujia	osallistuja	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = n01136010
@@ -6849,7 +6849,7 @@
 4	ja	ja	CCONJ	_	_	7	cc	_	_
 5	jopa	jopa	ADV	_	_	7	advmod	_	_
 6	CNN:n	CNN	PROPN	_	Abbr=Yes|Case=Gen|Number=Sing	7	nmod:poss	_	_
-7	toimittajat	toimittaja	NOUN	_	Case=Nom|Number=Plur	1	conj	_	_
+7	toimittajat	toimittaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	1	conj	_	_
 8	pukeutuvat	pukeutua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 9	tänä	tämä	PRON	_	Case=Ess|Number=Sing|PronType=Dem	10	det	_	_
 10	juhlapäivänä	juhla#päivä	NOUN	_	Case=Ess|Number=Sing	8	obl	_	_
@@ -6959,7 +6959,7 @@
 1	Verkkoponnistusten	verkko#ponnistus	NOUN	_	Case=Gen|Number=Plur	4	nsubj:cop	_	_
 2	sanotaan	sanoa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	olevan	olla	AUX	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	4	cop	_	_
-4	päätekijä	pää#tekijä	NOUN	_	Case=Nom|Number=Sing	2	ccomp	_	_
+4	päätekijä	pää#tekijä	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	2	ccomp	_	_
 5	yksikön	yksikkö	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	pääomamenoissa	pää#oma#meno	NOUN	_	Case=Ine|Number=Plur	4	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
@@ -7046,7 +7046,7 @@
 3	yhtiön	yhtiö	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	halua	halu	NOUN	_	Case=Par|Number=Sing	2	obj	_	_
 5	saada	saada	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	acl	_	_
-6	käyttäjät	käyttäjä	NOUN	_	Case=Nom|Number=Plur	7	nsubj	_	_
+6	käyttäjät	käyttäjä	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	7	nsubj	_	_
 7	ajattelemaan	ajatella	VERB	_	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp:ds	_	_
 8	sen	se	PRON	_	Case=Gen|Number=Sing|PronType=Dem	9	nmod:poss	_	_
 9	tuotteita	tuote	NOUN	_	Case=Par|Number=Plur	7	obj	_	_
@@ -7114,7 +7114,7 @@
 8	parhaaksi	hyvä	ADJ	_	Case=Tra|Degree=Sup|Number=Sing	9	xcomp	_	_
 9	pääseminen	pääseminen	NOUN	_	Case=Nom|Derivation=Minen|Number=Sing	12	nsubj:cop	_	_
 10	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
-11	uskomaton	usko#maton	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	12	amod	_	_
+11	uskomaton	uskomaton	ADJ	_	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	12	amod	_	_
 12	saavutus	saavutus	NOUN	_	Case=Nom|Number=Sing	4	parataxis	_	SpaceAfter=No
 13	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	4	punct	_	_
@@ -7149,7 +7149,7 @@
 4	mukaan	mukaan	ADP	_	AdpType=Post	3	case	_	_
 5	kaameaa	kaamea	ADJ	_	Case=Par|Degree=Pos|Number=Sing	7	amod	_	_
 6	australialaista	australialainen	ADJ	_	Case=Par|Degree=Pos|Number=Sing	7	amod	_	_
-7	golfaajaa	golfaaja	NOUN	_	Case=Par|Number=Sing	8	nsubj	_	_
+7	golfaajaa	golfaaja	NOUN	_	Case=Par|Derivation=Ja|Number=Sing	8	nsubj	_	_
 8	huijasi	huijata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 9	tiensä	tie	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	8	obj	_	_
 10	johtavaan	johtava	ADJ	_	Case=Ill|Degree=Pos|Number=Sing	11	amod	_	_
@@ -7267,7 +7267,7 @@
 7	lopulta	lopulta	ADV	_	_	6	advmod	_	_
 8	Brasilian	Brasilia	PROPN	_	Case=Gen|Number=Sing	9	nmod:poss	_	_
 9	karnevaalin	karnevaali	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
-10	kilpailija	kilpailija	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=No
+10	kilpailija	kilpailija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	6	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = n01145015
@@ -7276,7 +7276,7 @@
 1	Yksi	yksi	NUM	_	Case=Nom|Number=Sing|NumType=Card	10	nsubj	_	_
 2	kulkueen	kulkue	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
 3	luovista	luova	ADJ	_	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	4	amod	_	_
-4	johtajista	johtaja	NOUN	_	Case=Ela|Number=Plur	1	nmod	_	SpaceAfter=No
+4	johtajista	johtaja	NOUN	_	Case=Ela|Derivation=Ja|Number=Plur	1	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	Alejandra	Alejandra	PROPN	_	Case=Nom|Number=Sing	1	appos	_	_
 7	González	González	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
@@ -7720,7 +7720,7 @@
 1	Dariuksen	Darius	PROPN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
 2	erittäin	erittäin	ADV	_	_	3	advmod	_	_
 3	arvostettu	arvostaa	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
-4	komentaja	komentaja	NOUN	_	Case=Nom|Number=Sing	5	compound:nn	_	_
+4	komentaja	komentaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	5	compound:nn	_	_
 5	Megabazus	Megabazus	PROPN	_	Case=Nom|Number=Sing	7	nsubj:cop	_	_
 6	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
 7	vastuussa	vastuu	NOUN	_	Case=Ine|Number=Sing	0	root	_	_
@@ -7864,7 +7864,7 @@
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	8	nsubj	_	_
 8	toimii	toimia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
-9	puheenjohtajana	puheen#johtaja	NOUN	_	Case=Ess|Number=Sing	8	obl	_	_
+9	puheenjohtajana	puheen#johtaja	NOUN	_	Case=Ess|Derivation=Ja|Number=Sing	8	obl	_	_
 10	viisihenkiselle	viisihenkinen	ADJ	_	Case=All|Degree=Pos|Number=Sing	11	amod	_	_
 11	hallitusneuvostolle	hallitus#neuvosto	NOUN	_	Case=All|Number=Sing	8	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
@@ -8290,7 +8290,7 @@
 20	afrikkalaisten	afrikkalainen	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
 21	perinteisten	perinteinen	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
 22	uskontojen	uskonto	NOUN	_	Case=Gen|Number=Plur	23	nmod:poss	_	_
-23	tunnustajina	tunnustaja	NOUN	_	Case=Ess|Number=Plur	19	obl	_	SpaceAfter=No
+23	tunnustajina	tunnustaja	NOUN	_	Case=Ess|Derivation=Ja|Number=Plur	19	obl	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # newdoc id = w01018
@@ -8309,7 +8309,7 @@
 10	pääomasijoitusten	pää#oma#sijoitus	NOUN	_	Case=Gen|Number=Plur	14	nmod:poss	_	_
 11	ja	ja	CCONJ	_	_	13	cc	_	_
 12	taitavien	taitava	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
-13	työntekijöiden	työntekijä	NOUN	_	Case=Gen|Number=Plur	10	conj	_	_
+13	työntekijöiden	työntekijä	NOUN	_	Case=Gen|Derivation=Ja|Number=Plur	10	conj	_	_
 14	avulla	apu	NOUN	_	Case=Ade|Number=Sing	8	obl	_	_
 15	muuttaen	muuttaa	VERB	_	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	8	advcl	_	_
 16	pakkotyövoimajärjestelmää	pakko#työ#voima#järjestelmä	NOUN	_	Case=Par|Number=Sing	15	obj	_	SpaceAfter=No
@@ -8702,7 +8702,7 @@
 12	Danevirkea	Danevirke	PROPN	_	Case=Par|Number=Sing	14	obj	_	_
 13	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
 14	pidetty	pitää	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
-15	valloittamattomana	valloittamaton	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	14	xcomp:ds	_	SpaceAfter=No
+15	valloittamattomana	valloittamaton	ADJ	_	Case=Ess|Degree=Pos|Derivation=Ton|Number=Sing	14	xcomp:ds	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	ja	ja	CCONJ	_	_	21	cc	_	_
 18	kenraali	kenraali	NOUN	_	Case=Nom|Number=Sing	19	compound:nn	_	_
@@ -9164,7 +9164,7 @@
 1	Thomas	Thomas	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	Lincoln	Lincoln	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	työskenteli	työskennellä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	maanviljelijänä	maan#viljelijä	NOUN	_	Case=Ess|Number=Sing	3	obl	_	SpaceAfter=No
+4	maanviljelijänä	maan#viljelijä	NOUN	_	Case=Ess|Derivation=Ja|Number=Sing	3	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	huonekalupuuseppänä	huone#kalu#puu#seppä	NOUN	_	Case=Ess|Number=Sing	4	conj	_	_
 7	ja	ja	CCONJ	_	_	8	cc	_	_
@@ -9369,7 +9369,7 @@
 7	usein	usein	ADV	_	_	6	advmod	_	_
 8	etäisistä	etäinen	ADJ	_	Case=Ela|Degree=Pos|Number=Plur	11	amod	_	_
 9	ja	ja	CCONJ	_	_	10	cc	_	_
-10	tiettömistä	tietön	ADJ	_	Case=Ela|Degree=Pos|Number=Plur	8	conj	_	_
+10	tiettömistä	tietön	ADJ	_	Case=Ela|Degree=Pos|Derivation=Ton|Number=Plur	8	conj	_	_
 11	sijainneista	sijainti	NOUN	_	Case=Ela|Number=Plur	6	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -9756,7 +9756,7 @@
 5	valta-asema	valta-asema	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 6	alueella	alue	NOUN	_	Case=Ade|Number=Sing	5	nmod	_	_
 7	pysyi	pysyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-8	kiistattomana	kiistaton	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	7	xcomp	_	SpaceAfter=No
+8	kiistattomana	kiistaton	ADJ	_	Case=Ess|Degree=Pos|Derivation=Ton|Number=Sing	7	xcomp	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = w01045005
@@ -9800,7 +9800,7 @@
 2	pysyi	pysyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	Euraasian	Euraasia	PROPN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	asukkaille	asukas	NOUN	_	Case=All|Number=Plur	2	obl	_	_
-5	tuntemattomana	tuntematon	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	2	xcomp	_	_
+5	tuntemattomana	tuntematon	ADJ	_	Case=Ess|Degree=Pos|Derivation=Ton|Number=Sing	2	xcomp	_	_
 6	vuoteen	vuosi	NOUN	_	Case=Ill|Number=Sing	2	obl	_	_
 7	1492	1492	NUM	_	NumType=Card	6	nummod	_	_
 8	asti	asti	ADP	_	AdpType=Post	6	case	_	SpaceAfter=No
@@ -10089,7 +10089,7 @@
 8	tasavaltaa	tasavalta	NOUN	_	Case=Par|Number=Sing	6	obj	_	_
 9	Qing	Qing	PROPN	_	Case=Nom|Number=Sing	10	compound:nn	_	SpaceAfter=No
 10	-dynastian	dynastia	NOUN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
-11	seuraajana	seuraaja	NOUN	_	Case=Ess|Number=Sing	6	xcomp:ds	_	SpaceAfter=No
+11	seuraajana	seuraaja	NOUN	_	Case=Ess|Derivation=Ja|Number=Sing	6	xcomp:ds	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = w01050070
@@ -10258,7 +10258,7 @@
 # sent_id = w01053015
 # text = Tutkijat väittelevät Herodes Antipaan ja Herodiaksen tarkasta naimisiinmenovuodesta.
 # english_text = The exact year of the marriage of Herod Antipas and Herodias is subject to debate among scholars.
-1	Tutkijat	tutkija	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	_
+1	Tutkijat	tutkija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	2	nsubj	_	_
 2	väittelevät	väitellä	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	Herodes	Herodes	PROPN	_	Case=Nom|Number=Sing	8	nmod:poss	_	_
 4	Antipaan	Antipas	PROPN	_	Case=Gen|Number=Sing	3	flat:name	_	_
@@ -10424,7 +10424,7 @@
 2	aikoina	aika	NOUN	_	Case=Ess|Number=Plur	9	obl	_	_
 3	näytelmäkirjoittajat	näytelmä#kirjoittaja	NOUN	_	Case=Nom|Number=Plur	9	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	historioitsijat	historioitsija	NOUN	_	Case=Nom|Number=Plur	3	conj	_	_
+5	historioitsijat	historioitsija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	3	conj	_	_
 6	ja	ja	CCONJ	_	_	8	cc	_	_
 7	muut	muu	PRON	_	Case=Nom|Number=Plur|PronType=Ind	8	det	_	_
 8	älyköt	älykkö	NOUN	_	Case=Nom|Number=Plur	3	conj	_	_
@@ -10946,7 +10946,7 @@
 7	Aasian	Aasia	PROPN	_	Case=Gen|Number=Sing	5	conj	_	_
 8	välillä	välillä	ADP	_	AdpType=Post	5	case	_	_
 9	rakentaen	rakentaa	VERB	_	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	3	advcl	_	_
-10	Hallitsijan	hallitsija	NOUN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
+10	Hallitsijan	hallitsija	NOUN	_	Case=Gen|Derivation=Ja|Number=Sing	11	nmod:poss	_	_
 11	muurin	muuri	NOUN	_	Case=Gen|Number=Sing	9	obj	_	_
 12	itäiselle	itäinen	ADJ	_	Case=All|Degree=Pos|Number=Sing	13	amod	_	_
 13	suistoalueelle	suisto#alue	NOUN	_	Case=All|Number=Sing	9	obl	_	SpaceAfter=No
@@ -11030,14 +11030,14 @@
 4	tuli	tulla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	Habsburgin	Habsburg	PROPN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	monarkian	monarkia	NOUN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
-7	hallitsija	hallitsija	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+7	hallitsija	hallitsija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	4	nsubj	_	_
 8	ja	ja	CCONJ	_	_	10	cc	_	_
 9	hänet	hän	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
 10	nimitettiin	nimittää	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	4	conj	_	_
 11	Pyhän	pyhä	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	13	amod	_	_
 12	saksalais-roomalaisen	saksalainen#roomalainen	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	13	amod	_	_
 13	keisarikunnan	keisari#kunta	NOUN	_	Case=Gen|Number=Sing	14	nmod:poss	_	_
-14	hallitsijaksi	hallitsija	NOUN	_	Case=Tra|Number=Sing	10	xcomp:ds	_	_
+14	hallitsijaksi	hallitsija	NOUN	_	Case=Tra|Derivation=Ja|Number=Sing	10	xcomp:ds	_	_
 15	vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	10	obl	_	_
 16	1530	1530	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
@@ -11051,7 +11051,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	Kaarlea	Kaarle	PROPN	_	Case=Par|Number=Sing	6	obj	_	_
 6	pidetään	pidetä	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-7	hallitsijana	hallitsija	NOUN	_	Case=Ess|Number=Sing	6	xcomp:ds	_	SpaceAfter=No
+7	hallitsijana	hallitsija	NOUN	_	Case=Ess|Derivation=Ja|Number=Sing	6	xcomp:ds	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	10	nsubj	_	_
 10	kuunteli	kuunnella	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
@@ -11267,7 +11267,7 @@
 1	Kolmanteen	kolmas	ADJ	_	Case=Ill|Number=Sing|NumType=Ord	2	nummod	_	_
 2	vuosisataan	vuosi#sata	NOUN	_	Case=Ill|Number=Sing	6	obl	_	_
 3	mennessä	mennessä	ADP	_	AdpType=Post	2	case	_	_
-4	hallitsija	hallitsija	NOUN	_	Case=Nom|Number=Sing	5	compound:nn	_	_
+4	hallitsija	hallitsija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	5	compound:nn	_	_
 5	Caracalla	Caracalla	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 6	teki	tehdä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	uuden	uusi	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	8	amod	_	_
@@ -11339,7 +11339,7 @@
 # sent_id = w01073054
 # text = Toimittaja Stephen Wheeler teetti Kiplingillä paljon töitä, mutta Kiplingin tarve kirjoittaa oli pysäyttämätön.
 # english_text = Stephen Wheeler, the editor, worked Kipling hard, but Kipling's need to write was unstoppable.
-1	Toimittaja	toimittaja	NOUN	_	Case=Nom|Number=Sing	2	compound:nn	_	_
+1	Toimittaja	toimittaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	2	compound:nn	_	_
 2	Stephen	Stephen	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 3	Wheeler	Wheeler	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
 4	teetti	teettää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -11480,12 +11480,12 @@
 2	tulkittiin	tulkita	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	nämä	tämä	PRON	_	Case=Nom|Number=Plur|PronType=Dem	4	det	_	_
 4	kolme	kolme	NUM	_	Case=Nom|Number=Sing|NumType=Card	5	nummod	_	_
-5	tekijää	tekijä	NOUN	_	Case=Par|Number=Sing	2	obj	_	_
+5	tekijää	tekijä	NOUN	_	Case=Par|Derivation=Ja|Number=Sing	2	obj	_	_
 6	kapinan	kapina	NOUN	_	Case=Gen|Number=Sing	8	obl	_	_
 7	vuoksi	vuoksi	ADP	_	AdpType=Post	6	case	_	_
 8	menetettyjen	menettää	VERB	_	Case=Gen|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	9	acl	_	_
 9	tulojen	tulo	NOUN	_	Case=Gen|Number=Plur	10	nmod:poss	_	_
-10	edustajina	edustaja	NOUN	_	Case=Ess|Number=Plur	2	obl	_	SpaceAfter=No
+10	edustajina	edustaja	NOUN	_	Case=Ess|Derivation=Ja|Number=Plur	2	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
 12	ja	ja	CCONJ	_	_	15	cc	_	_
 13	siten	siten	ADV	_	_	15	advmod	_	_
@@ -11515,7 +11515,7 @@
 10	suurimman	suuri	ADJ	_	Case=Gen|Degree=Sup|Number=Sing	11	amod	_	_
 11	osan	osa	NOUN	_	Case=Gen|Number=Sing	9	obj	_	_
 12	sisällissotien	sisällis#sota	NOUN	_	Case=Gen|Number=Plur	13	nmod:poss	_	_
-13	taistelijoista	taistelija	NOUN	_	Case=Ela|Number=Plur	11	nmod	_	SpaceAfter=No
+13	taistelijoista	taistelija	NOUN	_	Case=Ela|Derivation=Ja|Number=Plur	11	nmod	_	SpaceAfter=No
 14	)	)	PUNCT	_	_	9	punct	_	_
 15	liittyvät	liittyä	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
 16	vähemmän	vähemmän	ADV	_	_	17	advmod	_	_
@@ -12311,7 +12311,7 @@
 2	käyttöä	käyttö	NOUN	_	Case=Par|Number=Sing	3	obj	_	_
 3	pidetään	pidetä	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	erittäin	erittäin	ADV	_	_	5	advmod	_	_
-5	sopimattomana	sopimaton	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	3	xcomp:ds	_	_
+5	sopimattomana	sopimaton	ADJ	_	Case=Ess|Degree=Pos|Derivation=Ton|Number=Sing	3	xcomp:ds	_	_
 6	keisariperheen	keisari#perhe	NOUN	_	Case=Gen|Number=Sing	8	nsubj:cop	_	_
 7	ollessa	olla	AUX	_	Case=Ine|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	8	cop	_	_
 8	kyseessä	kyse	NOUN	_	Case=Ine|Number=Sing	3	advcl	_	SpaceAfter=No
@@ -12447,7 +12447,7 @@
 2	muuttui	muuttua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Number=Sing|NumType=Ord	4	nummod	_	_
 4	maailmansodan	maailman#sota	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
-5	liikkumattomista	liikkumaton	ADJ	_	Case=Ela|Degree=Pos|Number=Plur	6	amod	_	_
+5	liikkumattomista	liikkumaton	ADJ	_	Case=Ela|Degree=Pos|Derivation=Ton|Number=Plur	6	amod	_	_
 6	etulinjoista	etu#linja	NOUN	_	Case=Ela|Number=Plur	2	obl	_	_
 7	lisääntyneeseen	lisääntyä	VERB	_	Case=Ill|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	8	acl	_	_
 8	liikkuvuuteen	liikkuvuus	NOUN	_	Case=Ill|Number=Sing	2	obl	_	_
@@ -12473,7 +12473,7 @@
 # text = Jotkut historioitsijat, kuten Chandler ja Weller, väittävät, että Britannian raskas ratsuväki tuhoutui toimintakykyisenä heidän ensimmäisen, vaikuttavan hyökkäyksensä seurauksena.
 # english_text = Some historians, such as Chandler and Weller, assert that the British heavy cavalry were destroyed as a viable force following their first, epic charge.
 1	Jotkut	joku	PRON	_	Case=Nom|Number=Plur|PronType=Ind	2	det	_	_
-2	historioitsijat	historioitsija	NOUN	_	Case=Nom|Number=Plur	9	nsubj	_	SpaceAfter=No
+2	historioitsijat	historioitsija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	9	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	kuten	kuten	ADV	_	_	5	advmod	_	_
 5	Chandler	Chandler	PROPN	_	Case=Nom|Number=Sing	2	appos	_	_
@@ -12537,7 +12537,7 @@
 6	naiset	nainen	NOUN	_	Case=Nom|Number=Plur	4	conj	_	_
 7	ovat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 8	innokkaita	innokas	ADJ	_	Case=Par|Degree=Pos|Number=Plur	9	amod	_	_
-9	laulajia	laulaja	NOUN	_	Case=Par|Number=Plur	0	root	_	SpaceAfter=No
+9	laulajia	laulaja	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	16	punct	_	_
 11	ja	ja	CCONJ	_	_	16	cc	_	_
 12	musisointi	musisointi	NOUN	_	Case=Nom|Number=Sing	16	nsubj:cop	_	_
@@ -12896,7 +12896,7 @@
 29	antamalla	antaa	VERB	_	Case=Ade|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	25	advcl	_	_
 30	sanallisia	sanallinen	ADJ	_	Case=Par|Degree=Pos|Number=Plur	31	amod	_	_
 31	käskyjä	käsky	NOUN	_	Case=Par|Number=Plur	29	obj	_	_
-32	lentäjälle	lentäjä	NOUN	_	Case=All|Number=Sing	29	obl	_	SpaceAfter=No
+32	lentäjälle	lentäjä	NOUN	_	Case=All|Derivation=Ja|Number=Sing	29	obl	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w01105056
@@ -12912,8 +12912,8 @@
 8	hyvin	hyvin	ADV	_	_	7	advmod	_	_
 9	myös	myös	ADV	_	_	7	advmod	_	_
 10	aiemmin	aiemmin	ADV	_	_	11	advmod	_	_
-11	tottumattomien	tottumaton	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
-12	lentäjien	lentäjä	NOUN	_	Case=Gen|Number=Plur	7	obl	_	_
+11	tottumattomien	tottumaton	ADJ	_	Case=Gen|Degree=Pos|Derivation=Ton|Number=Plur	12	amod	_	_
+12	lentäjien	lentäjä	NOUN	_	Case=Gen|Derivation=Ja|Number=Plur	7	obl	_	_
 13	kanssa	kanssa	ADP	_	AdpType=Post	12	case	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -13032,7 +13032,7 @@
 3	työskennellä	työskennellä	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	_
 4	aikakauden	aika#kausi	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	_	_
 5	parhaiden	hyvä	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	6	amod	_	_
-6	julistesuunnittelijoiden	juliste#suunnittelija	NOUN	_	Case=Gen|Number=Plur	3	obj	_	SpaceAfter=No
+6	julistesuunnittelijoiden	juliste#suunnittelija	NOUN	_	Case=Gen|Derivation=Ja|Number=Plur	3	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	kuten	kuten	ADV	_	_	9	advmod	_	_
 9	Bill	Bill	PROPN	_	Case=Nom|Number=Sing	6	appos	_	_
@@ -13276,7 +13276,7 @@
 # text = Hänen kilpailijansa Prabowo Subianto julisti myös voittaneensa jättäen Indonesian kansalaiset hämmentyneiksi.
 # english_text = However, his rival Prabowo Subianto also declared victory, leaving Indonesian citizens confused.
 1	Hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
-2	kilpailijansa	kilpailija	NOUN	_	Case=Nom|Number=Sing|Person[psor]=3	3	compound:nn	_	_
+2	kilpailijansa	kilpailija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing|Person[psor]=3	3	compound:nn	_	_
 3	Prabowo	Prabowo	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 4	Subianto	Subianto	PROPN	_	Case=Nom|Number=Sing	3	flat:name	_	_
 5	julisti	julistaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13393,7 +13393,7 @@
 2	työskenteli	työskennellä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	puolitoista	puoli#toinen	NUM	_	Case=Nom|Number=Sing|NumType=Card	4	nummod	_	_
 4	vuotta	vuosi	NOUN	_	Case=Par|Number=Sing	2	obl	_	_
-5	toimittajana	toimittaja	NOUN	_	Case=Ess|Number=Sing	2	obl	_	_
+5	toimittajana	toimittaja	NOUN	_	Case=Ess|Derivation=Ja|Number=Sing	2	obl	_	_
 6	Nottingham	Nottingham	PROPN	_	Case=Nom|Number=Sing	8	compound:nn	_	_
 7	Journal	Journal	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 8	-lehdessä	lehti	NOUN	_	Case=Ine|Number=Sing	2	obl	_	SpaceAfter=No
@@ -13506,7 +13506,7 @@
 3	tietokirjansa	tieto#kirja	NOUN	_	Case=Nom|Number=Sing|Person[psor]=3	4	nsubj	_	_
 4	kertoo	kertoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	Lennoxin	Lennox	PROPN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
-6	herttuattaresta	herttuatar	NOUN	_	Case=Ela|Number=Sing	4	obl	_	_
+6	herttuattaresta	herttuatar	NOUN	_	Case=Ela|Derivation=Tar|Number=Sing	4	obl	_	_
 7	Margaret	Margaret	PROPN	_	Case=Nom|Number=Sing	6	appos	_	_
 8	Douglasista	Douglas	PROPN	_	Case=Ela|Number=Sing	7	flat:name	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
@@ -13550,7 +13550,7 @@
 5	Jasminen	Jasmine	PROPN	_	Case=Gen|Number=Sing	4	nmod	_	_
 6	kanssa	kanssa	ADP	_	AdpType=Post	5	case	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
-8	elokuvantekijät	elo#kuva#tekijä	NOUN	_	Case=Nom|Number=Plur	10	nsubj	_	_
+8	elokuvantekijät	elo#kuva#tekijä	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	10	nsubj	_	_
 9	lopulta	lopulta	ADV	_	_	10	advmod	_	_
 10	päättivät	päättää	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
@@ -13768,13 +13768,13 @@
 15	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	16	nmod:poss	_	_
 16	ehdokkuutensa	ehdokkuus	NOUN	_	Case=Nom|Number=Sing|Person[psor]=3	18	nsubj:cop	_	_
 17	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	cop	_	_
-18	mitätön	mitätön	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	12	ccomp	_	_
+18	mitätön	mitätön	ADJ	_	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	12	ccomp	_	_
 19	ja	ja	CCONJ	_	_	20	cc	_	_
 20	julisti	julistaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
 21	toiseksi	toinen	ADJ	_	Case=Tra|Number=Sing|NumType=Ord	22	xcomp	_	_
 22	tulleen	tulla	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	23	acl	_	_
 23	ehdokkaan	ehdokas	NOUN	_	Case=Gen|Number=Sing	20	obj	_	_
-24	voittajaksi	voittaja	NOUN	_	Case=Tra|Number=Sing	20	xcomp:ds	_	SpaceAfter=No
+24	voittajaksi	voittaja	NOUN	_	Case=Tra|Derivation=Ja|Number=Sing	20	xcomp:ds	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w01125035
@@ -13848,7 +13848,7 @@
 12	Henry	Henry	PROPN	_	Case=Nom|Number=Sing	4	appos	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	paljastui	paljastua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-15	avionrikkojaksi	avion#rikkoja	NOUN	_	Case=Tra|Number=Sing	14	xcomp	_	_
+15	avionrikkojaksi	avion#rikkoja	NOUN	_	Case=Tra|Derivation=Ja|Number=Sing	14	xcomp	_	_
 16	ja	ja	CCONJ	_	_	20	cc	_	_
 17	seuraavana	seuraava	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	18	amod	_	_
 18	vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	20	obl	_	_
@@ -13890,14 +13890,14 @@
 5	ja	ja	CCONJ	_	_	6	cc	_	_
 6	liuta	liuta	NOUN	_	Case=Nom|Number=Sing	4	conj	_	_
 7	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	_
-8	sijoittajiensa	sijoittaja	NOUN	_	Case=Gen|Number=Plur|Person[psor]=3	9	nsubj	_	_
+8	sijoittajiensa	sijoittaja	NOUN	_	Case=Gen|Derivation=Ja|Number=Plur|Person[psor]=3	9	nsubj	_	_
 9	tekemiä	tehdä	VERB	_	Case=Par|Degree=Pos|Number=Plur|PartForm=Agt|VerbForm=Part|Voice=Act	11	acl	_	_
 10	huonoja	huono	ADJ	_	Case=Par|Degree=Pos|Number=Plur	11	amod	_	_
 11	investointeja	investointi	NOUN	_	Case=Par|Number=Plur	6	nmod	_	_
 12	jätti	jättää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 13	hänet	hän	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
 14	lähes	lähes	ADV	_	_	15	advmod	_	_
-15	varattomaksi	varaton	ADJ	_	Case=Tra|Degree=Pos|Number=Sing	12	xcomp:ds	_	SpaceAfter=No
+15	varattomaksi	varaton	ADJ	_	Case=Tra|Degree=Pos|Derivation=Ton|Number=Sing	12	xcomp:ds	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	12	punct	_	_
 
 # newdoc id = w01128
@@ -13920,7 +13920,7 @@
 14	tähti	tähti	NOUN	_	Case=Nom|Number=Sing	15	compound:nn	_	_
 15	LaBeouf	LaBeouf	PROPN	_	Case=Nom|Number=Sing	16	nsubj	_	_
 16	esiintyi	esiintyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
-17	alastomana	alaston	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	16	xcomp	_	SpaceAfter=No
+17	alastomana	alaston	ADJ	_	Case=Ess|Degree=Pos|Derivation=Ton|Number=Sing	16	xcomp	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = w01128059
@@ -14066,7 +14066,7 @@
 15	Hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	nsubj:cop	_	_
 16	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
 17	myös	myös	ADV	_	_	18	advmod	_	_
-18	laulaja-lauluntekijä	laulaja#laulun#tekijä	NOUN	_	Case=Nom|Number=Sing	1	parataxis	_	SpaceAfter=No
+18	laulaja-lauluntekijä	laulaja#laulun#tekijä	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	1	parataxis	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	23	punct	_	_
 20	ja	ja	CCONJ	_	_	23	cc	_	_
 21	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	aux:pass	_	_
@@ -14239,7 +14239,7 @@
 # english_text = Starlin took over as plotter the following issue, and began developing an elaborate story arc centered on the villainous Thanos, and spread across a number of Marvel titles.
 1	Starlin	Starlin	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	täytti	täyttää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	juonensuunnittelijan	juoni#suunnittelija	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
+3	juonensuunnittelijan	juoni#suunnittelija	NOUN	_	Case=Gen|Derivation=Ja|Number=Sing	4	nmod:poss	_	_
 4	paikan	paikka	NOUN	_	Case=Gen|Number=Sing	2	obj	_	_
 5	seuraavassa	seuraava	ADJ	_	Case=Ine|Degree=Pos|Number=Sing	6	amod	_	_
 6	numerossa	numero	NOUN	_	Case=Ine|Number=Sing	2	obl	_	_
@@ -14394,7 +14394,7 @@
 6	roolin	rooli	NOUN	_	Case=Gen|Number=Sing	4	obj	_	_
 7	Miss	Miss	PROPN	_	Case=Nom|Number=Sing	9	nmod:poss	_	_
 8	Piggyn	Piggy	PROPN	_	Case=Gen|Number=Sing	7	flat:name	_	_
-9	vastaanottovirkailijana	vastaanotto#virkailija	NOUN	_	Case=Ess|Number=Sing	4	obl	_	_
+9	vastaanottovirkailijana	vastaanotto#virkailija	NOUN	_	Case=Ess|Derivation=Ja|Number=Sing	4	obl	_	_
 10	Disneyn	Disney	PROPN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
 11	Muppetit-elokuvassa	Muppetit#elokuva	NOUN	_	Case=Ine|Number=Sing	4	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
@@ -14418,7 +14418,7 @@
 14	Stoller	Stoller	PROPN	_	Case=Nom|Number=Sing	13	flat:name	_	_
 15	ja	ja	CCONJ	_	_	17	cc	_	_
 16	jossa	joka	PRON	_	Case=Ine|Number=Sing|PronType=Rel	17	obl	_	_
-17	vastanäyttelijänä	vasta#näyttelijä	NOUN	_	Case=Ess|Number=Sing	12	conj	_	_
+17	vastanäyttelijänä	vasta#näyttelijä	NOUN	_	Case=Ess|Derivation=Ja|Number=Sing	12	conj	_	_
 18	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	_
 19	Jason	Jason	PROPN	_	Case=Nom|Number=Sing	17	nsubj:cop	_	_
 20	Segel	Segel	PROPN	_	Case=Nom|Number=Sing	19	flat:name	_	SpaceAfter=No
@@ -14482,7 +14482,7 @@
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	näyttelemään	näytellä	VERB	_	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp:ds	_	_
 12	Valentinon	Valentino	PROPN	_	Case=Gen|Number=Sing	13	nmod:poss	_	_
-13	vastanäyttelijänä	vasta#näyttelijä	NOUN	_	Case=Ess|Number=Sing	11	obl	_	_
+13	vastanäyttelijänä	vasta#näyttelijä	NOUN	_	Case=Ess|Derivation=Ja|Number=Sing	11	obl	_	_
 14	versiossa	versio	NOUN	_	Case=Ine|Number=Sing	11	obl	_	_
 15	Romeosta	Romeo	PROPN	_	Case=Ela|Number=Sing	14	nmod	_	_
 16	ja	ja	CCONJ	_	_	17	cc	_	_
@@ -14497,7 +14497,7 @@
 2	Halifax	Halifax	PROPN	_	Case=Nom|Number=Sing	7	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	valtakunnanneuvoston	valta#kunta#neuvosto	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	_	_
-5	puheenjohtaja	puheen#johtaja	NOUN	_	Case=Nom|Number=Sing	2	appos	_	SpaceAfter=No
+5	puheenjohtaja	puheen#johtaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	2	appos	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	vieraili	vierailla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	marraskuussa	marras#kuu	NOUN	_	Case=Ine|Number=Sing	7	obl	_	_
@@ -14540,11 +14540,11 @@
 # english_text = In May, Czech border guards shot two Sudeten German farmers who were trying to cross the border into Czechoslovakia without stopping for border controls.
 1	Toukokuussa	touko#kuu	NOUN	_	Case=Ine|Number=Sing	4	obl	_	_
 2	tšekkiläiset	tšekkiläinen	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
-3	rajavartijat	raja#vartija	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
+3	rajavartijat	raja#vartija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	4	nsubj	_	_
 4	ampuivat	ampua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	kaksi	kaksi	NUM	_	Case=Nom|Number=Sing|NumType=Card	7	nummod	_	_
 6	sudeettisaksalaista	sudeetti#saksalainen	ADJ	_	Case=Par|Degree=Pos|Number=Sing	7	amod	_	_
-7	maanviljelijää	maan#viljelijä	NOUN	_	Case=Par|Number=Sing	4	obj	_	SpaceAfter=No
+7	maanviljelijää	maan#viljelijä	NOUN	_	Case=Par|Derivation=Ja|Number=Sing	4	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	jotka	joka	PRON	_	Case=Nom|Number=Plur|PronType=Rel	10	nsubj	_	_
 10	yrittivät	yrittää	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
@@ -14602,7 +14602,7 @@
 4	käsittelee	käsitellä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	modernin	moderni	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	6	amod	_	_
 6	informaatioteknologian	informaatio#teknologia	NOUN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
-7	edeltäjiä	edeltäjä	NOUN	_	Case=Par|Number=Plur	4	obj	_	SpaceAfter=No
+7	edeltäjiä	edeltäjä	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	4	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # newdoc id = w01140
@@ -14687,7 +14687,7 @@
 2	saavutti	saavuttaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	tunnustusta	tunnustus	NOUN	_	Case=Par|Number=Sing	2	obj	_	_
 4	alan	ala	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	_	_
-5	asiantuntijana	asian#tuntija	NOUN	_	Case=Ess|Number=Sing	2	obl	_	_
+5	asiantuntijana	asian#tuntija	NOUN	_	Case=Ess|Derivation=Ja|Number=Sing	2	obl	_	_
 6	ja	ja	CCONJ	_	_	7	cc	_	_
 7	vei	viedä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 8	nuo	tuo	PRON	_	Case=Nom|Number=Plur|PronType=Dem	9	det	_	_
@@ -14822,7 +14822,7 @@
 3	vapautettiin	vapauttaa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	ja	ja	CCONJ	_	_	7	cc	_	_
 5	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
-6	seuraajansa	seuraaja	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	7	obj	_	_
+6	seuraajansa	seuraaja	NOUN	_	Case=Gen|Derivation=Ja|Number=Sing|Person[psor]=3	7	obj	_	_
 7	vangittiin	vangita	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	3	conj	_	_
 8	Toweriin	Tower	PROPN	_	Case=Ill|Number=Sing	7	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
@@ -14837,7 +14837,7 @@
 4	sitten	sitten	ADP	_	AdpType=Post	3	case	_	_
 5	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	erosi	erota	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-7	näyttelijätär	näyttelijätär	NOUN	_	Case=Nom|Number=Sing	8	compound:nn	_	_
+7	näyttelijätär	näyttelijätär	NOUN	_	Case=Nom|Derivation=Ja,Tar|Number=Sing	8	compound:nn	_	_
 8	Gloria	gloria	PROPN	_	Case=Par|Number=Sing	6	obj	_	_
 9	Holdenista	Holden	PROPN	_	Case=Ela|Number=Sing	8	flat:name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
@@ -14861,7 +14861,7 @@
 5	nuorempaa	nuori	ADJ	_	Case=Par|Degree=Cmp|Number=Sing	6	amod	_	_
 6	veljeä	veli	NOUN	_	Case=Par|Number=Sing	2	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
-8	huoletonta	huoleton	ADJ	_	Case=Par|Degree=Pos|Number=Sing	9	amod	_	_
+8	huoletonta	huoleton	ADJ	_	Case=Par|Degree=Pos|Derivation=Ton|Number=Sing	9	amod	_	_
 9	playboyta	playboyta	NOUN	_	Case=Par|Number=Sing	6	appos	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	Sabrinassa	Sabrina	PROPN	_	Case=Ine|Number=Sing	2	obl	_	_
@@ -15069,7 +15069,7 @@
 17	Kesha	Kesha	PROPN	_	Case=Nom|Number=Sing	18	nsubj	_	_
 18	löysi	löytää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 19	ihailemansa	ihailla	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Agt|Person[psor]=3|VerbForm=Part|Voice=Act	21	acl	_	_
-20	tuottaja	tuottaja	NOUN	_	Case=Nom|Number=Sing	21	compound:nn	_	_
+20	tuottaja	tuottaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	21	compound:nn	_	_
 21	David	David	PROPN	_	Case=Nom|Number=Sing	18	obj	_	_
 22	Gamsonin	Gamson	PROPN	_	Case=Gen|Number=Sing	21	flat:name	_	_
 23	Scritti	Scritti	PROPN	_	Case=Nom|Number=Sing	18	obl	_	_
@@ -15152,7 +15152,7 @@
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	9	nsubj:cop	_	_
 8	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
-9	sarjakuvataiteilija	sarja#kuva#taiteilija	NOUN	_	Case=Nom|Number=Sing	3	acl:relcl	_	_
+9	sarjakuvataiteilija	sarja#kuva#taiteilija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	3	acl:relcl	_	_
 10	ja	ja	CCONJ	_	_	12	cc	_	_
 11	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
 12	tehnyt	tehdä	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	9	conj	_	_
@@ -15350,7 +15350,7 @@
 10	luonnonvaroja	luonnon#vara	NOUN	_	Case=Par|Number=Plur	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	joihin	joka	PRON	_	Case=Ill|Number=Plur|PronType=Rel	16	obl	_	_
-13	sijoittajat	sijoittaja	NOUN	_	Case=Nom|Number=Plur	16	nsubj	_	_
+13	sijoittajat	sijoittaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	16	nsubj	_	_
 14	ympäri	ympäri	ADP	_	AdpType=Prep	15	case	_	_
 15	maailmaa	maailma	NOUN	_	Case=Par|Number=Sing	13	nmod	_	_
 16	investoivat	investoida	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
@@ -15426,7 +15426,7 @@
 6	vanha	vanha	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	11	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	monet	moni	PRON	_	Case=Nom|Number=Plur|PronType=Ind	9	det	_	_
-9	käyttäjät	käyttäjä	NOUN	_	Case=Nom|Number=Plur	11	nsubj	_	_
+9	käyttäjät	käyttäjä	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	11	nsubj	_	_
 10	voivat	voida	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 11	säästää	säästää	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
 12	100	100	NUM	_	NumType=Card	13	nummod	_	_
@@ -15462,7 +15462,7 @@
 4	millä	mikä	PRON	_	Case=Ade|Number=Sing|PronType=Int	5	det	_	_
 5	tavalla	tapa	NOUN	_	Case=Ade|Number=Sing	10	obl	_	_
 6	molemmat	molemmat	PRON	_	Case=Nom|Number=Plur|PronType=Ind	7	det	_	_
-7	näytelmäkirjailijat	näytelmä#kirjailija	NOUN	_	Case=Nom|Number=Plur	10	nsubj	_	_
+7	näytelmäkirjailijat	näytelmä#kirjailija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	10	nsubj	_	_
 8	olisivat	olla	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	10	aux	_	_
 9	voineet	voida	AUX	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	10	aux	_	_
 10	työskennellä	työskennellä	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	ccomp	_	_
@@ -15594,7 +15594,7 @@
 # english_text = If a Turkish employee quits, then the Turkish work councils come.
 1	Jos	jos	SCONJ	_	_	4	mark	_	_
 2	turkkilainen	turkki#lainen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	_
-3	työntekijä	työntekijä	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+3	työntekijä	työntekijä	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	4	nsubj	_	_
 4	lopettaa	lopettaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	Turkin	Turkki	PROPN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
@@ -15807,7 +15807,7 @@
 5	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	6	det	_	_
 6	tapauksessa	tapaus	NOUN	_	Case=Ine|Number=Sing	7	obl	_	_
 7	juhlistaa	juhlistaa	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
-8	uskomattoman	uskomaton	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	9	amod	_	_
+8	uskomattoman	uskomaton	ADJ	_	Case=Gen|Degree=Pos|Derivation=Ton|Number=Sing	9	amod	_	_
 9	vuoden	vuosi	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	päätöstä	päätös	NOUN	_	Case=Par|Number=Sing	7	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	_
@@ -15905,12 +15905,12 @@
 2	kysyivät	kysyä	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	minulta	minä	PRON	_	Case=Abl|Number=Sing|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
-5	jäljittelemättömän	jäljittelemätön	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	6	amod	_	_
+5	jäljittelemättömän	jäljittelemätön	ADJ	_	Case=Gen|Degree=Pos|Derivation=Ton|Number=Sing	6	amod	_	_
 6	tyhmään	tyhmä	ADJ	_	Case=Ill|Degree=Pos|Number=Sing	7	amod	_	_
 7	tapaansa	tapa	NOUN	_	Case=Ill|Number=Sing|Person[psor]=3	2	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	tunsinko	tuntea	VERB	_	Clitic=Ko|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
-10	kirjoittaja	kirjoittaja	NOUN	_	Case=Nom|Number=Sing	11	compound:nn	_	_
+10	kirjoittaja	kirjoittaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	11	compound:nn	_	_
 11	Günter	Günter	PROPN	_	Case=Nom|Number=Sing	9	obj	_	_
 12	de	de	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	_
 13	Bruyn	Bruyn	PROPN	_	Case=Gen|Number=Sing	11	flat:name	_	_
@@ -15925,7 +15925,7 @@
 # text = Kanadalainen lento-onnettomuustutkija Larry Vance kertoi Spiegelille, että hän on vakuuttunut siitä, että yksi lentäjistä oli aikonut laskeutua koneella meren pinnalle, jotta se uppoaisi.
 # english_text = The Canadian investigator of the plane crash Larry Vance told SPIEGEL that he is convinced that one of the pilots had intended to land the machine on the ocean surface - so that it would sink.
 1	Kanadalainen	kanadalainen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	_
-2	lento-onnettomuustutkija	lento-onnettomuus#tutkija	NOUN	_	Case=Nom|Number=Sing	3	compound:nn	_	_
+2	lento-onnettomuustutkija	lento#onnettomuus#tutkija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	3	compound:nn	_	_
 3	Larry	Larry	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 4	Vance	Vance	PROPN	_	Case=Nom|Number=Sing	3	flat:name	_	_
 5	kertoi	kertoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -15939,7 +15939,7 @@
 13	,	,	PUNCT	_	_	19	punct	_	_
 14	että	että	SCONJ	_	_	19	mark	_	_
 15	yksi	yksi	PRON	_	Case=Nom|Number=Sing|PronType=Ind	19	nsubj	_	_
-16	lentäjistä	lentäjä	NOUN	_	Case=Ela|Number=Plur	15	nmod	_	_
+16	lentäjistä	lentäjä	NOUN	_	Case=Ela|Derivation=Ja|Number=Plur	15	nmod	_	_
 17	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	aux	_	_
 18	aikonut	aikoa	AUX	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	19	aux	_	_
 19	laskeutua	laskeutua	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	12	ccomp	_	_
@@ -15956,7 +15956,7 @@
 # text = Australialaiset asiantuntijat tekivät uusia päätelmiä tutkittuaan itäafrikkalaisen Tansanian rannikolle huuhtoutuneen Boeingin laskusiivekettä.
 # english_text = The Australian experts drew new conclusions from the investigation of a landing flap from Boeing that had washed up in Tanzania in East Africa.
 1	Australialaiset	australialainen	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
-2	asiantuntijat	asian#tuntija	NOUN	_	Case=Nom|Number=Plur	3	nsubj	_	_
+2	asiantuntijat	asian#tuntija	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	3	nsubj	_	_
 3	tekivät	tehdä	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	uusia	uusi	ADJ	_	Case=Par|Degree=Pos|Number=Plur	5	amod	_	_
 5	päätelmiä	päätelmä	NOUN	_	Case=Par|Number=Plur	3	obj	_	_
@@ -16083,7 +16083,7 @@
 7	IRENA	IRENA	PROPN	_	Case=Nom|Number=Sing	1	appos	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
 9	-organisaation	organisaatio	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
-10	pääjohtaja	pää#johtaja	NOUN	_	Case=Nom|Number=Sing	11	compound:nn	_	_
+10	pääjohtaja	pää#johtaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	11	compound:nn	_	_
 11	Adnan	Adnan	PROPN	_	Case=Nom|Number=Sing	16	nsubj:cop	_	_
 12	Z	z	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	_	_
@@ -16096,7 +16096,7 @@
 20	voi	voida	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	_
 21	tulla	tulla	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	16	parataxis	_	_
 22	pääasiallinen	pää#asiallinen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	23	amod	_	_
-23	sähköntuottaja	sähkö#tuottaja	NOUN	_	Case=Nom|Number=Sing	21	nsubj	_	_
+23	sähköntuottaja	sähkön#tuottaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	21	nsubj	_	_
 24	maailmantalouteen	maailman#talous	NOUN	_	Case=Ill|Number=Sing	23	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
 26	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	28	nsubj:cop	_	_
@@ -16196,7 +16196,7 @@
 3	vahingoita	vahingoittaa	VERB	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	vain	vain	ADV	_	_	7	advmod	_	_
 5	pienten	pieni	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	nmod:poss	_	_
-6	kehittymättömiä	kehittymätön	ADJ	_	Case=Par|Degree=Pos|Number=Plur	7	amod	_	_
+6	kehittymättömiä	kehittymätön	ADJ	_	Case=Par|Degree=Pos|Derivation=Ton|Number=Plur	7	amod	_	_
 7	keuhkoja	keuhko	NOUN	_	Case=Par|Number=Plur	3	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	ne	se	PRON	_	Case=Nom|Number=Plur|PronType=Dem	12	nsubj	_	_
@@ -16268,7 +16268,7 @@
 # english_text = If his Democrat opponent were to be elected, he assured that she would be 'under investigation for years'.
 1	Jos	jos	SCONJ	_	_	4	mark	_	_
 2	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
-3	demokraattivastustajansa	demokraatti#vastustaja	NOUN	_	Case=Nom|Number=Sing|Person[psor]=3	4	obj	_	_
+3	demokraattivastustajansa	demokraatti#vastustaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing|Person[psor]=3	4	obj	_	_
 4	valitaan	valita	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	7	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -16496,7 +16496,7 @@
 # text = Saavatko työntekijät pitää uskonnollisia esineitä työpöydillään?
 # english_text = Are workers allowed to keep religious objects on their desks?
 1	Saavatko	saada	VERB	_	Clitic=Ko|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	työntekijät	työntekijä	NOUN	_	Case=Nom|Number=Plur	1	nsubj	_	_
+2	työntekijät	työntekijä	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	1	nsubj	_	_
 3	pitää	pitää	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	_
 4	uskonnollisia	uskonnollinen	ADJ	_	Case=Par|Degree=Pos|Number=Plur	5	amod	_	_
 5	esineitä	esine	NOUN	_	Case=Par|Number=Plur	3	obj	_	_
@@ -16665,7 +16665,7 @@
 17	yhtä	yhtä	ADV	_	_	18	advmod	_	_
 18	todennäköisiä	toden#näköinen	ADJ	_	Case=Par|Degree=Pos|Number=Plur	13	acl:relcl	_	_
 19	kuin	kuin	SCONJ	_	_	20	mark	_	_
-20	mahdottomia	mahdoton	ADJ	_	Case=Par|Degree=Pos|Number=Plur	18	advcl	_	_
+20	mahdottomia	mahdoton	ADJ	_	Case=Par|Degree=Pos|Derivation=Ton|Number=Plur	18	advcl	_	_
 21	hyväksyä	hyväksyä	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	20	xcomp:ds	_	SpaceAfter=No
 22	”	”	PUNCT	_	_	12	punct	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	2	punct	_	_
@@ -16685,7 +16685,7 @@
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	12	nsubj	_	_
 12	toimii	toimia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
-13	neuvonantajana	neuvon#antaja	NOUN	_	Case=Ess|Number=Sing	12	xcomp	_	_
+13	neuvonantajana	neuvon#antaja	NOUN	_	Case=Ess|Derivation=Ja|Number=Sing	12	xcomp	_	_
 14	digitaaliteknologiaan	digitaali#teknologia	NOUN	_	Case=Ill|Number=Sing	15	obl	_	_
 15	liittyvissä	liittyä	VERB	_	Case=Ine|Degree=Pos|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Act	16	acl	_	_
 16	lakiehdotuksissa	lakiehdotus	NOUN	_	Case=Ine|Number=Plur	12	obl	_	SpaceAfter=No
@@ -16774,7 +16774,7 @@
 11	ja	ja	CCONJ	_	_	12	cc	_	_
 12	seurasi	seurata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
 13	erityisesti	erityisesti	ADV	_	Derivation=Sti	17	advmod	_	_
-14	opettajien	opettaja	NOUN	_	Case=Gen|Number=Plur	17	nmod:poss	_	_
+14	opettajien	opettaja	NOUN	_	Case=Gen|Derivation=Ja|Number=Plur	17	nmod:poss	_	_
 15	ja	ja	CCONJ	_	_	16	cc	_	_
 16	tekstiilityöläisten	tekstiili#työläinen	NOUN	_	Case=Gen|Number=Plur	14	conj	_	_
 17	oikeuksia	oikeus	NOUN	_	Case=Par|Number=Plur	12	obj	_	SpaceAfter=No
@@ -16986,7 +16986,7 @@
 3	vetää	vetää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	pois	pois	ADV	_	_	3	advmod	_	_
 5	tarjouksen	tarjous	NOUN	_	Case=Gen|Number=Sing	3	obj	_	_
-6	kansanedustajille	kansan#edustaja	NOUN	_	Case=All|Number=Plur	5	nmod	_	_
+6	kansanedustajille	kansan#edustaja	NOUN	_	Case=All|Derivation=Ja|Number=Plur	5	nmod	_	_
 7	johtuen	johtua	VERB	_	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	3	advcl	_	_
 8	”	”	PUNCT	_	_	14	punct	_	SpaceAfter=No
 9	pankin	pankki	NOUN	_	Case=Gen|Number=Plur	11	nsubj	_	_
@@ -17032,7 +17032,7 @@
 1	Näin	näin	ADV	_	_	2	advmod	_	_
 2	kirjoitettiin	kirjoittaa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	tiedotuksessa	tiedotus	NOUN	_	Case=Ine|Number=Sing	2	obl	_	_
-4	kansanedustajille	kansan#edustaja	NOUN	_	Case=All|Number=Plur	2	obl	_	_
+4	kansanedustajille	kansan#edustaja	NOUN	_	Case=All|Derivation=Ja|Number=Plur	2	obl	_	_
 5	sen	se	PRON	_	Case=Gen|Number=Sing|PronType=Dem	10	obl	_	_
 6	jälkeen	jälkeen	ADP	_	AdpType=Post	5	case	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
@@ -17055,7 +17055,7 @@
 # sent_id = n04008007
 # text = Opiskelijoille LUISS University -yliopistossa kerrottiin kurssin aikana Roomassa pidetystä tapaamisesta.
 # english_text = Students at LUISS University were told during the course of a meeting which took place in Rome.
-1	Opiskelijoille	opiskelija	NOUN	_	Case=All|Number=Plur	5	obl	_	_
+1	Opiskelijoille	opiskelija	NOUN	_	Case=All|Derivation=Ja|Number=Plur	5	obl	_	_
 2	LUISS	LUISS	PROPN	_	Case=Nom|Number=Sing	4	compound:nn	_	_
 3	University	University	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
 4	-yliopistossa	yli#opisto	NOUN	_	Case=Ine|Number=Sing	5	obl	_	_
@@ -17091,7 +17091,7 @@
 2	Roma	Roma	PROPN	_	Case=Nom|Number=Sing	4	compound:nn	_	_
 3	Tre	Tre	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
 4	-yliopiston	yli#opisto	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	_	_
-5	opiskelijaa	opiskelija	NOUN	_	Case=Par|Number=Sing	7	nsubj	_	_
+5	opiskelijaa	opiskelija	NOUN	_	Case=Par|Derivation=Ja|Number=Sing	7	nsubj	_	_
 6	ovat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	kehittäneet	kehittää	VERB	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 8	moottoripyöräkypärän	moottori#pyörä#kypärä	NOUN	_	Case=Gen|Number=Sing	7	obj	_	SpaceAfter=No
@@ -17192,7 +17192,7 @@
 7	Uberin	Uber	PROPN	_	Case=Gen|Number=Sing	3	conj	_	_
 8	ja	ja	CCONJ	_	_	9	cc	_	_
 9	Snapchatin	Snapchat	PROPN	_	Case=Gen|Number=Sing	3	conj	_	_
-10	johtajat	johtaja	NOUN	_	Case=Nom|Number=Plur	11	nsubj	_	_
+10	johtajat	johtaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	11	nsubj	_	_
 11	osallistuvat	osallistua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 12	yksityiseen	yksityinen	ADJ	_	Case=Ill|Degree=Pos|Number=Sing	13	amod	_	_
 13	tapahtumaan	tapahtuma	NOUN	_	Case=Ill|Number=Sing	11	obl	_	_
@@ -17220,7 +17220,7 @@
 12	kun	kun	ADV	_	_	22	mark	_	_
 13	taas	taas	ADV	_	_	12	fixed	_	_
 14	puolueen	puolue	NOUN	_	Case=Gen|Number=Sing	15	nmod:poss	_	_
-15	johtajat	johtaja	NOUN	_	Case=Nom|Number=Plur	22	nsubj	_	SpaceAfter=No
+15	johtajat	johtaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	22	nsubj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	kuten	kuten	ADV	_	_	19	advmod	_	_
 18	alivaltiosihteeri	ali#valtio#sihteeri	NOUN	_	Case=Nom|Number=Sing	19	compound:nn	_	_
@@ -17236,12 +17236,12 @@
 # english_text = Durán acts as spokesman and Ángel Pintado as treasurer.
 1	Durán	Durán	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	toimii	toimia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	edustajana	edustaja	NOUN	_	Case=Ess|Number=Sing	2	obl	_	_
+3	edustajana	edustaja	NOUN	_	Case=Ess|Derivation=Ja|Number=Sing	2	obl	_	_
 4	ja	ja	CCONJ	_	_	5	cc	6.1:cc	_
 5	Ángel	Ángel	PROPN	_	Case=Nom|Number=Sing	2	conj	6.1:nsubj	_
 6	Pintado	Pintado	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
 6.1	toimii	toimia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	2:conj	_
-7	taloudenhoitajana	talouden#hoitaja	NOUN	_	Case=Ess|Number=Sing	5	orphan	6.1:obl	SpaceAfter=No
+7	taloudenhoitajana	talouden#hoitaja	NOUN	_	Case=Ess|Derivation=Ja|Number=Sing	5	orphan	6.1:obl	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # newdoc id = n05002
@@ -17376,7 +17376,7 @@
 7	viestejä	viesti	NOUN	_	Case=Par|Number=Plur	6	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	joita	joka	PRON	_	Case=Par|Number=Plur|PronType=Rel	14	obj	_	_
-10	puheenjohtaja	puheen#johtaja	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
+10	puheenjohtaja	puheen#johtaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	11	nsubj	_	_
 11	yritti	yrittää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
 12	heille	hän	PRON	_	Case=All|Number=Plur|Person=3|PronType=Prs	11	obl	_	_
 13	eilen	eilen	ADV	_	_	11	advmod	_	_
@@ -17486,7 +17486,7 @@
 9	ja	ja	CCONJ	_	_	10	cc	_	_
 10	pahoinpitelyt	pahoin#pitely	NOUN	_	Case=Nom|Number=Plur	6	conj	_	_
 11	olivat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
-12	mielettömiä	mieletön	ADJ	_	Case=Par|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No
+12	mielettömiä	mieletön	ADJ	_	Case=Par|Degree=Pos|Derivation=Ton|Number=Plur	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = n05006013
@@ -17653,7 +17653,7 @@
 # english_text = Dozens of FSLN followers are already celebrating the victory in the Plaza de las Victorias.
 1	Tusinoittain	tusinoittain	ADV	_	_	6	nsubj	_	_
 2	FSNL-puolueen	FSNL#puolue	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
-3	seuraajia	seuraaja	NOUN	_	Case=Par|Number=Plur	1	nmod	_	_
+3	seuraajia	seuraaja	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	1	nmod	_	_
 4	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
 5	jo	jo	ADV	_	_	6	advmod	_	_
 6	juhlimassa	juhlia	VERB	_	Case=Ine|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
@@ -17757,9 +17757,9 @@
 7	pihan	piha	NOUN	_	Case=Gen|Number=Sing	8	obj	_	_
 8	ottivat	ottaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 9	haltuunsa	haltuun	ADP	_	AdpType=Post|Person[psor]=3	8	advmod	_	_
-10	näyttelijät	näyttelijä	NOUN	_	Case=Nom|Number=Plur	8	nsubj	_	_
+10	näyttelijät	näyttelijä	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	8	nsubj	_	_
 11	ja	ja	CCONJ	_	_	12	cc	_	_
-12	työntekijät	työntekijä	NOUN	_	Case=Nom|Number=Plur	10	conj	_	SpaceAfter=No
+12	työntekijät	työntekijä	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	10	conj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = w02002120
@@ -17790,7 +17790,7 @@
 5	myi	myydä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	entisen	entinen	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	7	amod	_	_
 7	luostarin	luostari	NOUN	_	Case=Gen|Number=Sing	5	obj	_	_
-8	tehtailija	tehtailija	NOUN	_	Case=Nom|Number=Sing	9	compound:nn	_	_
+8	tehtailija	tehtailija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	9	compound:nn	_	_
 9	Georg	Georg	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
 10	Reichenbachille	Reichenbach	PROPN	_	Case=All|Number=Sing	9	flat:name	_	_
 11	sillä	se	PRON	_	Case=Ade|Number=Sing|PronType=Dem	12	det	_	_
@@ -18419,7 +18419,7 @@
 3	vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	2	nmod	_	_
 4	2004	2004	NUM	_	NumType=Card	3	nummod	_	_
 5	katuajon	katu#ajo	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
-6	voittaja	voittaja	NOUN	_	Case=Nom|Number=Sing	7	compound:nn	_	_
+6	voittaja	voittaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	7	compound:nn	_	_
 7	Ulrich	Ulrich	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	_
 8	tavoitteli	tavoitella	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 9	toista	toinen	ADJ	_	Case=Par|Number=Sing|NumType=Ord	10	nummod	_	_
@@ -18442,7 +18442,7 @@
 10	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	_
 11	tullut	tulla	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	conj	_	_
 12	käytännössä	käytäntö	NOUN	_	Case=Ine|Number=Sing	11	obl	_	_
-13	mahdotonta	mahdoton	ADJ	_	Case=Par|Degree=Pos|Number=Sing	11	xcomp	_	SpaceAfter=No
+13	mahdotonta	mahdoton	ADJ	_	Case=Par|Degree=Pos|Derivation=Ton|Number=Sing	11	xcomp	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w02017061
@@ -18549,9 +18549,9 @@
 16	asutus	asutus	NOUN	_	Case=Nom|Number=Sing	17	nsubj	_	_
 17	koostuu	koostua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
 18	pääasiassa	pää#asia	ADV	_	_	19	advmod	_	_
-19	maahanmuuttajista	maahanmuuttaja	NOUN	_	Case=Ela|Number=Plur	17	obl	_	_
+19	maahanmuuttajista	maahanmuuttaja	NOUN	_	Case=Ela|Derivation=Ja|Number=Plur	17	obl	_	_
 20	tai	tai	CCONJ	_	_	22	cc	_	_
-21	maahanmuuttajien	maahanmuuttaja	NOUN	_	Case=Gen|Number=Plur	22	nmod:poss	_	_
+21	maahanmuuttajien	maahanmuuttaja	NOUN	_	Case=Gen|Derivation=Ja|Number=Plur	22	nmod:poss	_	_
 22	jälkeläisistä	jälkeläinen	NOUN	_	Case=Ela|Number=Plur	19	conj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -18938,7 +18938,7 @@
 6	tarvikkeiden	tarvike	NOUN	_	Case=Gen|Number=Plur	9	nmod:poss	_	_
 7	ja	ja	CCONJ	_	_	8	cc	_	_
 8	tekstiilien	tekstiili	NOUN	_	Case=Gen|Number=Plur	6	conj	_	_
-9	jakelija	jakelija	NOUN	_	Case=Nom|Number=Sing	14	advcl	_	SpaceAfter=No
+9	jakelija	jakelija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	14	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	se	se	PRON	_	Case=Nom|Number=Sing|PronType=Dem	14	nsubj:cop	_	_
 12	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
@@ -18989,7 +18989,7 @@
 1	Keväällä	kevät	NOUN	_	Case=Ade|Number=Sing	5	obl	_	_
 2	1948	1948	NUM	_	NumType=Card	1	nummod	_	_
 3	belgialainen	belgialainen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	_
-4	taiteilija	taiteilija	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+4	taiteilija	taiteilija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	5	nsubj	_	_
 5	kirjoitti	kirjoittaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	kirjeen	kirje	NOUN	_	Case=Gen|Number=Sing	5	obj	_	_
 7	Walt	Walt	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
@@ -19203,7 +19203,7 @@
 11	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
 12	pääasiassa	pää#asia	ADV	_	_	10	advmod	_	_
 13	myynti	myynti	NOUN	_	Case=Nom|Number=Sing	10	nsubj:cop	_	_
-14	keräilijöille	keräilijä	NOUN	_	Case=All|Number=Plur	13	nmod	_	SpaceAfter=No
+14	keräilijöille	keräilijä	NOUN	_	Case=All|Derivation=Ja|Number=Plur	13	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # newdoc id = w04004
@@ -19273,7 +19273,7 @@
 # english_text = During the thirteenth century, the name Apulia was used by some authors to signify the southern part of the Italian peninsula.
 1	1200-luvulla	1200#luku	NOUN	_	Case=Ade|Number=Sing	4	obl	_	_
 2	jotkut	joku	PRON	_	Case=Nom|Number=Plur|PronType=Ind	3	det	_	_
-3	kirjoittajat	kirjoittaja	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
+3	kirjoittajat	kirjoittaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	4	nsubj	_	_
 4	käyttivät	käyttää	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	nimeä	nimi	NOUN	_	Case=Par|Number=Sing	7	nsubj	_	_
 6	Apulia	Apulia	PROPN	_	Case=Nom|Number=Sing	5	appos	_	_
@@ -19288,7 +19288,7 @@
 # sent_id = w04006023
 # text = Historioitsija David Crouch esittää, että Stephen hylkäsi haasteen näihin aikoihin keskittyäkseen muihin asioihin.
 # english_text = Historian David Crouch suggests that Stephen abandoned from the challenge around this time to focus on other issues.
-1	Historioitsija	historioitsija	NOUN	_	Case=Nom|Number=Sing	2	compound:nn	_	_
+1	Historioitsija	historioitsija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	2	compound:nn	_	_
 2	David	David	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 3	Crouch	Crouch	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
 4	esittää	esittää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -19729,7 +19729,7 @@
 10	loppuminen	loppuminen	NOUN	_	Case=Nom|Derivation=Minen|Number=Sing	6	conj	_	_
 11	kuitenkin	kuitenkin	ADV	_	_	12	advmod	_	_
 12	aiheuttivat	aiheuttaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-13	syyttömäksi	syytön	ADJ	_	Case=Tra|Degree=Pos|Number=Sing	14	nmod	_	_
+13	syyttömäksi	syytön	ADJ	_	Case=Tra|Degree=Pos|Derivation=Ton|Number=Sing	14	nmod	_	_
 14	osoittamisen	osoittaminen	NOUN	_	Case=Gen|Derivation=Minen|Number=Sing	15	nmod:poss	_	_
 15	vallankumouksen	vallan#kumous	NOUN	_	Case=Gen|Number=Sing	12	obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
@@ -19950,7 +19950,7 @@
 4	pitää	pitää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	sisällään	sisällä	ADV	_	Person[psor]=3	4	advmod	_	_
 6	viittauksia	viittaus	NOUN	_	Case=Par|Number=Plur	4	obj	_	_
-7	espanjanpuhujien	espanja#puhuja	NOUN	_	Case=Gen|Number=Plur	8	nmod:poss	_	_
+7	espanjanpuhujien	espanjan#puhuja	NOUN	_	Case=Gen|Derivation=Ja|Number=Plur	8	nmod:poss	_	_
 8	historiaan	historia	NOUN	_	Case=Ill|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	heidän	hän	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	12	nmod:poss	_	_
@@ -20100,7 +20100,7 @@
 15	ennustettavasti	ennustavasti	ADV	_	Derivation=Sti	16	advmod	_	_
 16	hyödynsi	hyödyntää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
 17	Caesarin	Caesar	PROPN	_	Case=Gen|Number=Sing	18	nmod:poss	_	_
-18	kannattajia	kannattaja	NOUN	_	Case=Par|Number=Plur	16	obj	_	SpaceAfter=No
+18	kannattajia	kannattaja	NOUN	_	Case=Par|Derivation=Ja|Number=Plur	16	obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	23	punct	_	_
 20	jotka	joka	PRON	_	Case=Nom|Number=Plur|PronType=Rel	23	nsubj:cop	_	_
 21	olivat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	cop	_	_
@@ -20196,7 +20196,7 @@
 5	julistuksen	julistus	NOUN	_	Case=Gen|Number=Sing	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	jossa	joka	PRON	_	Case=Ine|Number=Sing|PronType=Rel	9	obl	_	_
-8	käskynhaltija	käskyn#haltija	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+8	käskynhaltija	käskyn#haltija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	9	nsubj	_	_
 9	julistautui	julistautua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 10	rauhan	rauha	NOUN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
 11	ystäväksi	ystävä	NOUN	_	Case=Tra|Number=Sing	9	xcomp	_	SpaceAfter=No
