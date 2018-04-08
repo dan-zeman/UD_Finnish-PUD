@@ -59,14 +59,14 @@
     <feat name="Degree" value="Sup" upos="ADJ,ADV,VERB">64</feat><!-- suurin, suurimman, suurimmalla, tunnetuin, viimeisin, korkeimman, korkeimmassa, korkein, parhaassa, Kaukaisimmassa -->
     <feat name="Derivation" value="Inen" upos="ADJ,NOUN">325</feat><!-- ensimmäinen, ensimmäisen, ensimmäistä, poliittisen, viimeinen, viimeisen, Jälkimmäinen, kaltaisten, nykyisen, poliittiset -->
     <feat name="Derivation" value="Inen,Ttain" upos="ADJ">5</feat><!-- Vuosittainen, kausittainen, päivittäisen, sivuttaista, Äskettäisessä -->
-    <feat name="Derivation" value="Inen,Vs" upos="NOUN">14</feat><!-- kokonaisuutena, avarakatseisuutta, heroiiniriippuvuutensa, julkisuudessa, löyhämoraalisuutenaan, ominaisuus, piioksidipitoisuuden, salaisuutensa, samankaltaisuuksia, suolapitoisuuden -->
+    <feat name="Derivation" value="Inen,Vs" upos="NOUN">14</feat><!-- kokonaisuutena, avarakatseisuutta, h​e​r​o​i​i​n​i​r​i​i​p​p​u​v​u​u​t​e​n​s​a, julkisuudessa, l​ö​y​h​ä​m​o​r​a​a​l​i​s​u​u​t​e​n​a​a​n, ominaisuus, piioksidipitoisuuden, salaisuutensa, samankaltaisuuksia, suolapitoisuuden -->
     <feat name="Derivation" value="Ja" upos="NOUN">156</feat><!-- sijoittajat, Tutkijat, opiskelijat, pääjohtaja, Ohjaajan, hallitsija, historioitsijat, johtaja, johtajat, kansanedustajille -->
     <feat name="Derivation" value="Ja,Tar" upos="NOUN">1</feat><!-- näyttelijätär -->
     <feat name="Derivation" value="Lainen" upos="ADJ,NOUN,PROPN">120</feat><!-- erilaisia, kreikkalaiset, Brittiläisen, amerikkalainen, amerikkalaisen, australialaiset, eurooppalaisten, foinikialaiset, kanaanilaisten, kansalaiset -->
     <feat name="Derivation" value="Lainen,Vs" upos="NOUN">3</feat><!-- juutalaisuuteen, kansalaisuus -->
     <feat name="Derivation" value="Llinen" upos="ADJ,NOUN">129</feat><!-- mahdollista, kansallinen, Teollinen, historiallinen, kansallisella, kansallisiin, kuninkaallinen, poikkeuksellisen, taloudellisia, todellista -->
     <feat name="Derivation" value="Llinen,Sti" upos="ADV">1</feat><!-- Teemallisesti -->
-    <feat name="Derivation" value="Llinen,Vs" upos="NOUN">26</feat><!-- mahdollisuutta, mahdollisuus, teollisuuden, Elokuvateollisuus, julkaisuteollisuudesta, kaivosteollisuudesta, kansallisuuksia, kaunokirjallisuuden, kemikaaliteollisuuden, kirjallisuudesta -->
+    <feat name="Derivation" value="Llinen,Vs" upos="NOUN">26</feat><!-- mahdollisuutta, mahdollisuus, teollisuuden, Elokuvateollisuus, j​u​l​k​a​i​s​u​t​e​o​l​l​i​s​u​u​d​e​s​t​a, kaivosteollisuudesta, kansallisuuksia, kaunokirjallisuuden, k​e​m​i​k​a​a​l​i​t​e​o​l​l​i​s​u​u​d​e​n, kirjallisuudesta -->
     <feat name="Derivation" value="Minen" upos="NOUN">130</feat><!-- löytämistä, saavuttamiseen, tapaamisesta, tuhoutuminen, vainoaminen, Irtisanomisensa, Kokoontumista, aiheuttamiseen, aloittamisesta, antaminen -->
     <feat name="Derivation" value="Sti" upos="ADV">110</feat><!-- todennäköisesti, erityisesti, julkisesti, välittömästi, luonnollisesti, mahdollisesti, suuresti, huomattavasti, ilmeisesti, jyrkästi -->
     <feat name="Derivation" value="Sti,Ton" upos="ADV">2</feat><!-- laittomasti, riippumattomasti -->
@@ -74,8 +74,8 @@
     <feat name="Derivation" value="Ton" upos="ADJ">44</feat><!-- käsittämättömän, uskomaton, vaatimattomana, alastomana, ennenkuulumatonta, haluton, hillittömän, huoletonta, jäljittelemättömän, kehittymättömiä -->
     <feat name="Derivation" value="Ton,Vs" upos="NOUN">3</feat><!-- kuolemattomuuden, piittaamattomuus, yhteensopimattomuus -->
     <feat name="Derivation" value="Ttain" upos="ADV">11</feat><!-- erittäin, äskettäin, Tusinoittain, kuukausittain, nimittäin -->
-    <feat name="Derivation" value="U" upos="NOUN">116</feat><!-- avulla, haastattelussa, taistelussa, kasvua, laulun, loppujen, tappelut, -laulustaan, -tuoksu, Facebook-julkaisuistaan -->
-    <feat name="Derivation" value="Vs" upos="NOUN">27</feat><!-- vanhuuteen, -palkintotilaisuudessa, Kuuluisuudet, Laajuudeltaan, Osuus, avaruuteen, ehdokkuutensa, ehdokkuutta, epämukavuutta, eroavaisuuksia -->
+    <feat name="Derivation" value="U" upos="NOUN">116</feat><!-- avulla, haastattelussa, taistelussa, kasvua, laulun, loppujen, tappelut, -laulustaan, -tuoksu, F​a​c​e​b​o​o​k​-​j​u​l​k​a​i​s​u​i​s​t​a​a​n -->
+    <feat name="Derivation" value="Vs" upos="NOUN">27</feat><!-- vanhuuteen, -​p​a​l​k​i​n​t​o​t​i​l​a​i​s​u​u​d​e​s​s​a, Kuuluisuudet, Laajuudeltaan, Osuus, avaruuteen, ehdokkuutensa, ehdokkuutta, epämukavuutta, eroavaisuuksia -->
     <feat name="Foreign" value="Yes" upos="NOUN,X">13</feat><!-- Conseil, a, arms, bjórria, cena, combined, du, fiction, national, numérique -->
     <feat name="InfForm" value="1" upos="AUX,VERB">218</feat><!-- olla, tehdä, johtaa, nähdä, palata, saadakseen, tulla, antaa, käyttää, lähteä -->
     <feat name="InfForm" value="2" upos="AUX,VERB">62</feat><!-- liittyen, lukien, johtuen, ollessa, muodostaen, Ohittaen, Poiketen, Puhuessaan, Viettäessään, antaen -->
