@@ -5,7 +5,7 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1000</sentences><tokens>15812</tokens><words>15812</words><fused>0</fused></total>
+    <total><sentences>1000</sentences><tokens>15808</tokens><words>15808</words><fused>0</fused></total>
   </size>
   <lemmas unique="4951" /><!-- ., ,, olla, ja, hän, se, joka, ”, vuosi, että, tämä, ei, kun, voida, mutta -->
   <forms unique="7581" /><!-- ., ,, ja, on, ”, että, oli, hän, sen, vuonna, joka, hänen, se, ei, kun -->
@@ -25,7 +25,7 @@
     <tag name="PUNCT">2340</tag><!-- ., ,, ”, (, ), -, :, ?, ’, ... -->
     <tag name="SCONJ">306</tag><!-- että, kun, kuin, jos, koska, vaikka, jotta, sillä, kuten, kunnes -->
     <tag name="SYM">14</tag><!-- % -->
-    <tag name="VERB">2035</tag><!-- sanoa, tulla, tehdä, olla, saada, käyttää, pitää, alkaa, johtaa, kertoa -->
+    <tag name="VERB">2031</tag><!-- sanoa, tulla, tehdä, olla, saada, käyttää, pitää, alkaa, johtaa, kertoa -->
     <tag name="X">12</tag><!-- Conseil, a, arms, cena, combined, du, fiction, national, numérique, science -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -82,9 +82,9 @@
     <feat name="InfForm" value="3" upos="AUX,VERB">101</feat><!-- olemassa, käyttämällä, hoitamaan, kilpailemaan, laittamaan, osoittamasta, ottamaan, pitämään, tuottamaan, uskomasta -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">66</feat><!-- olisi, voisi, pitäisi, olisivat, haluaisi, antautuisi, auttaisi, eroaisi, haastateltaisiin, haluaisin -->
     <feat name="Mood" value="Imp" upos="VERB">4</feat><!-- Sano, kiertele, räjähdä, vaikuta -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">1770</feat><!-- on, oli, ovat, ole, voi, sanoi, olivat, tulee, tuli, sanoo -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">1766</feat><!-- on, oli, ovat, ole, voi, sanoi, olivat, tulee, tuli, sanoo -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">2248</feat><!-- ovat, jotka, he, olivat, heidän, eivät, monet, ne, niiden, voivat -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,PUNCT,SYM,VERB">8404</feat><!-- on, oli, hän, sen, vuonna, joka, hänen, se, ei, tämä -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,PUNCT,SYM,VERB">8402</feat><!-- on, oli, hän, sen, vuonna, joka, hänen, se, ei, tämä -->
     <feat name="Number[psor]" value="Plur" upos="NOUN">9</feat><!-- Työmme, dieselimme, elämiemme, erimielisyytemme, hartioillanne, maahamme, matkapuhelimemme, meremme, pakkomielteeseemme -->
     <feat name="Number[psor]" value="Sing" upos="ADV,NOUN,VERB">13</feat><!-- aikoinani, elämässäni, herätyskellosi, kaverini, ladolleni, listani, löytääkseni, oloni, puhelimeni, pysähdyspaikkani -->
     <feat name="NumType" value="Card" upos="ADJ,NUM,PUNCT">383</feat><!-- kaksi, kolme, kahden, yksi, neljä, miljoonaa, 10, 3, 1492, 2010 -->
@@ -95,7 +95,7 @@
     <feat name="Person" value="0" upos="AUX,VERB">9</feat><!-- Vaikutti, Voi, haluaa, hämärtää, kävi, pääsee, saa, tulee, täytyy -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">86</feat><!-- en, olemme, emme, meidän, olen, meitä, Luulen, Meillä, meille, minua -->
     <feat name="Person" value="2" upos="PRON,VERB">12</feat><!-- sinä, Kiisteletkö, Päädyt, Sano, huomasitteko, kiertele, räjähdä, sinua, teidän, teitä -->
-    <feat name="Person" value="3" upos="AUX,PRON,VERB">1914</feat><!-- on, oli, hän, hänen, ei, ovat, he, sanoi, olivat, voi -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">1912</feat><!-- on, oli, hän, hänen, ei, ovat, he, sanoi, olivat, voi -->
     <feat name="Person[psor]" value="1" upos="ADV,NOUN,VERB">20</feat><!-- Työmme, aikoinani, dieselimme, elämiemme, elämässäni, erimielisyytemme, kaverini, ladolleni, listani, löytääkseni -->
     <feat name="Person[psor]" value="2" upos="NOUN">2</feat><!-- hartioillanne, herätyskellosi -->
     <feat name="Person[psor]" value="3" upos="ADJ,ADP,ADV,AUX,NOUN,PRON,VERB">275</feat><!-- sisällään, kanssaan, mukanaan, saadakseen, vaimonsa, elämänsä, kautensa, ikänsä, joukkonsa, keskittyäkseen -->
@@ -108,17 +108,16 @@
     <feat name="PronType" value="Rel" upos="PRON">231</feat><!-- joka, jotka, jossa, jonka, jota, joissa, joita, jolla, mikä, joiden -->
     <feat name="Reflex" value="Yes" upos="PRON">4</feat><!-- itse, itsensä, itsestään, itseään -->
     <feat name="Style" value="Coll" upos="NOUN">1</feat><!-- encorea -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">894</feat><!-- oli, sanoi, olivat, tuli, alkoi, kertoi, johti, sai, syntyi, teki -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">876</feat><!-- on, ovat, ole, voi, tulee, sanoo, täytyy, voivat, auttaa, olemme -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">1964</feat><!-- on, oli, ei, ovat, ole, voi, sanoi, olivat, eivät, tulee -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">892</feat><!-- oli, sanoi, olivat, tuli, kertoi, alkoi, johti, sai, syntyi, teki -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">874</feat><!-- on, ovat, ole, voi, tulee, sanoo, täytyy, voivat, auttaa, olemme -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">1960</feat><!-- on, oli, ei, ovat, ole, voi, sanoi, olivat, eivät, tulee -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">381</feat><!-- olla, tehdä, liittyen, lukien, olemassa, johtaa, johtuen, käyttämällä, nähdä, palata -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">498</feat><!-- ollut, olleet, olevan, tullut, käytetty, oleva, olevat, saanut, tehty, halunnut -->
-    <feat name="Voice" value="Act" upos="AUX,VERB">2431</feat><!-- on, oli, ei, ovat, ollut, sanoi, olivat, voi, eivät, tulee -->
-    <feat name="Voice" value="Pass" upos="AUX,VERB">342</feat><!-- pidetään, rakennettiin, käytettiin, julkaistiin, perustettiin, tunnetaan, julistettiin, kerrottiin, käytetty, sanotaan -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">2429</feat><!-- on, oli, ei, ovat, ollut, sanoi, olivat, voi, eivät, tulee -->
+    <feat name="Voice" value="Pass" upos="AUX,VERB">340</feat><!-- pidetään, rakennettiin, käytettiin, julkaistiin, julistettiin, kerrottiin, käytetty, perustettiin, sanotaan, tehty -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="44">
-    <dep name="_">4</dep>
+  <deps unique="43">
     <dep name="acl">224</dep>
     <dep name="acl:relcl">227</dep>
     <dep name="advcl">283</dep>
