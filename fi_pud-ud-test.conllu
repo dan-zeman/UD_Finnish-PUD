@@ -756,8 +756,8 @@
 1	Yhtiö	yhtiö	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	kertoi	kertoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	BBC:lle	BBC	PROPN	_	Abbr=Yes|Case=All|Number=Sing	2	obl	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	6	punct	_	_
-5	että	että	SCONJ	_	_	6	mark	_	_
+4	,	,	PUNCT	_	_	11	punct	_	_
+5	että	että	SCONJ	_	_	11	mark	_	_
 6	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
 7	lentoyhtiön	lento#yhtiö	NOUN	_	Case=Gen|Number=Sing	9	nmod:poss	_	_
 8	jokaisen	jokainen	PRON	_	Case=Gen|Number=Sing|PronType=Ind	9	det	_	_
@@ -1085,7 +1085,7 @@
 8	6	6	NUM	_	NumType=Card	9	nummod	_	_
 9	%:lla	%	SYM	_	Case=Ade|Number=Sing	4	obl	_	_
 10	221	221	NUM	_	NumType=Card	11	compound	_	_
-11	mrd.	mrd.	NOUN	_	Abbr=Yes|Case=Ill|Number=Sing	12	nummod	_	_
+11	mrd.	mrd.	NUM	_	Abbr=Yes|Case=Ill|Number=Sing|NumType=Card	12	nummod	_	_
 12	dollariin	dollari	NOUN	_	Case=Ill|Number=Sing	4	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -3185,7 +3185,7 @@
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	että	että	SCONJ	_	_	8	mark	_	_
 6	”	”	PUNCT	_	_	8	punct	_	SpaceAfter=No
-7	täytyy	täytyy	VERB	_	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+7	täytyy	täytyy	AUX	_	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	huomata	huomata	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	ccomp	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	missä	mikä	PRON	_	Case=Ine|Number=Sing|PronType=Int	13	obl	_	_
@@ -4274,8 +4274,8 @@
 8	3	3	NUM	_	NumType=Card	9	nummod	_	_
 9	prosentin	prosentti	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	koron	korko	NOUN	_	Case=Gen|Number=Sing	7	obj	_	_
-11	3000	3000	NUM	_	NumType=Card	12	compound	_	SpaceAfter=No
-12	-	-	PUNCT	_	_	13	compound	_	SpaceAfter=No
+11	3000	3000	NUM	_	NumType=Card	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	5000	5000	NUM	_	NumType=Card	14	nummod	_	_
 14	punnan	punta	NOUN	_	Case=Gen|Number=Sing	15	nmod:poss	_	_
 15	talletuksille	talletus	NOUN	_	Case=All|Number=Plur	7	obl	_	SpaceAfter=No
@@ -4318,8 +4318,8 @@
 10	jotka	joka	PRON	_	Case=Nom|Number=Plur|PronType=Rel	11	nsubj	_	_
 11	haluavat	haluta	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
 12	lainata	lainata	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	11	xcomp	_	_
-13	15 001	15 001	NUM	_	NumType=Card	14	compound	_	SpaceAfter=No
-14	-	-	PUNCT	_	_	15	compound	_	SpaceAfter=No
+13	15 001	15 001	NUM	_	NumType=Card	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	19 999	19 999	NUM	_	NumType=Card	16	nummod	_	_
 16	puntaa	punta	NOUN	_	Case=Par|Number=Sing	12	obj	_	_
 17	ajanjaksolla	ajan#jakso	NOUN	_	Case=Ade|Number=Sing	12	obl	_	SpaceAfter=No
@@ -4594,7 +4594,7 @@
 2	motocrossia	motocross	NOUN	_	Case=Par|Number=Sing	1	obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	ja	ja	CCONJ	_	_	7	cc	_	_
-5	mitä	mikä	PRON	_	Case=Par|Number=Sing|PronType=Int	7	cc:preconj	_	_
+5	mitä	mitä	CCONJ	_	_	7	cc:preconj	_	_
 6	enemmän	enemmän	ADV	_	_	7	advmod	_	_
 7	katsoin	katsoa	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	13	punct	_	_
@@ -5086,8 +5086,8 @@
 3	kiertele	kierrellä	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 4	aamutorilla	aamu#tori	NOUN	_	Case=Ade|Number=Sing	3	obl	_	_
 5	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-6	6.30	6.30	NUM	_	NumType=Card	7	compound	_	SpaceAfter=No
-7	-	-	PUNCT	_	NumType=Card	8	compound	_	SpaceAfter=No
+6	6.30	6.30	NUM	_	NumType=Card	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	_	NumType=Card	8	punct	_	SpaceAfter=No
 8	10	10	NUM	_	NumType=Card	4	nmod	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
 10	:	:	PUNCT	_	_	3	punct	_	_
@@ -6611,7 +6611,7 @@
 # text = Martinin pitää vielä viimeistellä ylistetyn sarjansa kaksi jäljellä olevaa kirjaa, joiden nimiksi on tällä hetkellä ilmoitettu ”The Winds of Winter” ja ”A Dream of Spring”.
 # text_en = Martin has yet to finish two of the remaining books in his acclaimed series, currently billed as "The Winds of Winter" and "A Dream of Spring."
 1	Martinin	Martin	PROPN	_	Case=Gen|Number=Sing	4	nsubj	_	_
-2	pitää	pitää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+2	pitää	pitää	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	vielä	vielä	ADV	_	_	4	advmod	_	_
 4	viimeistellä	viimeistellä	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
 5	ylistetyn	ylistää	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
@@ -7750,8 +7750,8 @@
 2	,	,	PUNCT	_	_	9	punct	_	_
 3	noin	noin	ADV	_	_	4	advmod	_	_
 4	vuosien	vuosi	NOUN	_	Case=Gen|Number=Plur	9	nmod:poss	_	_
-5	512	512	NUM	_	NumType=Card	6	compound	_	SpaceAfter=No
-6	-	-	PUNCT	_	NumType=Card	7	compound	_	SpaceAfter=No
+5	512	512	NUM	_	NumType=Card	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	_	NumType=Card	7	punct	_	SpaceAfter=No
 7	511	511	NUM	_	NumType=Card	4	nummod	_	_
 8	eKr.	eKr.	NOUN	_	Abbr=Yes	7	nmod	_	_
 9	aikana	aika	NOUN	_	Case=Ess|Number=Sing	15	obl	_	SpaceAfter=No
@@ -8049,8 +8049,8 @@
 5	I	I	ADJ	_	NumType=Ord	4	flat:name	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	hallitsi	hallita	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
-8	830	830	NUM	_	NumType=Card	9	compound	_	SpaceAfter=No
-9	-	-	PUNCT	_	_	10	compound	_	SpaceAfter=No
+8	830	830	NUM	_	NumType=Card	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	846	846	NUM	_	NumType=Card	7	obl	_	SpaceAfter=No
 11	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
@@ -8348,10 +8348,10 @@
 8	että	että	SCONJ	_	_	16	mark	_	_
 9	56	56	NUM	_	NumType=Card	10	nummod	_	_
 10	%	%	SYM	_	_	16	nsubj	_	_
-11	5	5	NUM	_	NumType=Card	12	compound	_	SpaceAfter=No
-12	-	-	PUNCT	_	_	13	compound	_	SpaceAfter=No
+11	5	5	NUM	_	NumType=Card	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	14	14	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
-14	-vuotiaista	-vuotias	NOUN	_	Case=Par|Number=Sing	15	amod	_	_
+14	-vuotiaista	vuotias	NOUN	_	Case=Par|Number=Sing	15	amod	_	_
 15	lapsista	lapsi	NOUN	_	Case=Ela|Number=Plur	10	nmod	_	_
 16	työskentelee	työskennellä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	28	punct	_	_
@@ -8360,10 +8360,10 @@
 20	lähes	lähes	ADV	_	_	21	advmod	_	_
 21	53	53	NUM	_	NumType=Card	22	nummod	_	_
 22	%	%	SYM	_	_	28	nsubj	_	_
-23	7	7	NUM	_	NumType=Card	24	compound	_	SpaceAfter=No
-24	-	-	PUNCT	_	_	25	compound	_	SpaceAfter=No
-25	14	14	NOUN	_	Case=Par|Number=Sing	26	nummod	_	SpaceAfter=No
-26	-vuotiaista	-vuotias	NOUN	_	Case=Par|Number=Sing	27	amod	_	_
+23	7	7	NUM	_	NumType=Card	25	compound	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	14	14	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
+26	-vuotiaista	vuotias	NOUN	_	Case=Par|Number=Sing	27	amod	_	_
 27	lapsista	lapsi	NOUN	_	Case=Ela|Number=Plur	22	nmod	_	_
 28	käy	käydä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	_
 29	töissä	työ	NOUN	_	Case=Ine|Number=Plur	28	obl	_	_
@@ -16830,7 +16830,7 @@
 4	seuraavaan	seuraava	ADJ	_	Case=Ill|Degree=Pos|Number=Sing	5	amod	_	_
 5	osaan	osa	NOUN	_	Case=Ill|Number=Sing	3	obl	_	_
 6	ja	ja	CCONJ	_	_	10	cc	_	_
-7	jos	jos	SCONJ	_	_	10	advmod	_	SpaceAfter=No
+7	jos	jos	SCONJ	_	_	10	mark	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	niin	niin	ADV	_	_	10	advmod	_	_
 10	miten	miten	ADV	_	_	3	conj	_	SpaceAfter=No
