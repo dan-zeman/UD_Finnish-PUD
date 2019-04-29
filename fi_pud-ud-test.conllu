@@ -884,14 +884,14 @@
 1	Ja	ja	CCONJ	_	_	5	cc	_	_
 2	kun	kun	SCONJ	_	_	5	mark	_	_
 3	Kiinasta	Kiina	PROPN	_	Case=Ela|Number=Sing	5	obl	_	_
-4	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
-5	tulossa	tulo	NOUN	_	Case=Ine|Number=Sing	16	advcl	_	_
+4	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	tulossa	tulla	VERB	_	Case=Ine|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	16	advcl	_	_
 6	seuraavan	seuraava	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	7	amod	_	_
 7	vuosikymmenen	vuosikymmen	NOUN	_	Case=Gen|Number=Sing	8	nmod:poss	_	_
 8	aikana	aika	NOUN	_	Case=Ess|Number=Sing	5	obl	_	_
 9	maailman	maa#ilma	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	suurin	suuri	ADJ	_	Case=Nom|Degree=Sup|Number=Sing	11	amod	_	_
-11	ilmailumarkkina-alue	ilmailu#markkina#alue	NOUN	_	Case=Nom|Number=Sing	5	nsubj:cop	_	SpaceAfter=No
+11	ilmailumarkkina-alue	ilmailu#markkina#alue	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	5	punct	_	_
 13	näyttely	näyttely	NOUN	_	Case=Nom|Number=Sing	16	nsubj:cop	_	_
 14	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
@@ -1043,11 +1043,11 @@
 # text = ”Olemme menossa oikeaan suuntaan: Pariisin sopimus tulee hidastamaan ilmastonmuutosta, samoin kuten Kigalissa sovittu lisäys tulee vähentämään HFC-kasvihuonekaasuja”, YK:n ympäristöohjelman pääjohtaja Erik Solheim sanoi.
 # text_en = "We are moving in the right direction: the Paris Agreement will slow climate change, as will the recent Kigali Amendment to reduce HFCs," said Erik Solheim, head of UN Environment.
 1	”	”	PUNCT	_	_	3	punct	_	SpaceAfter=No
-2	Olemme	olla	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
-3	menossa	meno	NOUN	_	Case=Ine|Number=Sing	0	root	_	_
+2	Olemme	olla	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	menossa	mennä	VERB	_	Case=Ine|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
 4	oikeaan	oikea	ADJ	_	Case=Ill|Degree=Pos|Number=Sing	5	amod	_	_
 5	suuntaan	suunta	NOUN	_	Case=Ill|Number=Sing	3	nmod	_	SpaceAfter=No
-6	:	:	PUNCT	_	_	3	punct	_	_
+6	:	:	PUNCT	_	_	9	punct	_	_
 7	Pariisin	Pariisi	PROPN	_	Case=Gen|Number=Sing	8	nmod:poss	_	_
 8	sopimus	sopimus	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 9	tulee	tulla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
@@ -1063,7 +1063,7 @@
 19	vähentämään	vähentää	VERB	_	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	18	xcomp	_	_
 20	HFC-kasvihuonekaasuja	HFC#kasvi#huone#kaasu	NOUN	_	Case=Par|Number=Plur	19	obj	_	SpaceAfter=No
 21	”	”	PUNCT	_	_	3	punct	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	3	punct	_	_
+22	,	,	PUNCT	_	_	28	punct	_	_
 23	YK:n	YK	PROPN	_	Abbr=Yes|Case=Gen|Number=Sing	24	nmod:poss	_	_
 24	ympäristöohjelman	ympäristö#ohjelma	NOUN	_	Case=Gen|Number=Sing	25	nmod:poss	_	_
 25	pääjohtaja	pää#johtaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	26	compound:nn	_	_
@@ -19475,12 +19475,12 @@
 3	hänelle	hän	PRON	_	Case=All|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	11	punct	_	_
 5	että	että	SCONJ	_	_	11	mark	_	_
-6	sota	sota	NOUN	_	Case=Nom|Number=Sing	11	nsubj:cop	_	_
+6	sota	sota	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 7	kahden	kaksi	NUM	_	Case=Gen|Number=Sing|NumType=Card	8	nummod	_	_
 8	universumin	universumi	NOUN	_	Case=Gen|Number=Sing	11	obl	_	_
 9	välillä	välillä	ADP	_	AdpType=Post	8	case	_	_
-10	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
-11	tulossa	tulo	NOUN	_	Case=Ine|Number=Sing	2	ccomp	_	SpaceAfter=No
+10	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	tulossa	tulla	VERB	_	Case=Ine|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	ccomp	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	19	punct	_	_
 13	aivan	aivan	ADV	_	_	14	advmod	_	_
 14	kuin	kuin	SCONJ	_	_	19	mark	_	_
