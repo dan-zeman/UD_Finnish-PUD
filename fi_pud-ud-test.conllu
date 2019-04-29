@@ -243,14 +243,14 @@
 2	ovat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	kansallisella	kansallinen	ADJ	_	Case=Ade|Degree=Pos|Derivation=Llinen|Number=Sing	4	amod	_	_
 4	keskitasolla	keski#taso	NOUN	_	Case=Ade|Number=Sing	0	root	_	_
-5	4.	4.	ADJ	_	NumType=Ord	6	nummod	_	_
+5	4.	4.	ADJ	_	NumType=Ord	6	amod	_	_
 6	luokalla	luokka	NOUN	_	Case=Ade|Number=Sing	4	obl	_	_
 7	ja	ja	CCONJ	_	_	8	cc	_	_
 8	parempia	hyvä	ADJ	_	Case=Par|Degree=Cmp|Number=Plur	4	conj	_	_
 9	kuin	kuin	SCONJ	_	_	11	mark	_	_
 10	kansallinen	kansallinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	11	amod	_	_
 11	keskitaso	keski#taso	NOUN	_	Case=Nom|Number=Sing	8	advcl	_	_
-12	8.	8.	ADJ	_	NumType=Ord	13	nummod	_	_
+12	8.	8.	ADJ	_	NumType=Ord	13	amod	_	_
 13	luokalla	luokka	NOUN	_	Case=Ade|Number=Sing	11	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -663,7 +663,7 @@
 13	itse	itse	ADV	_	_	14	advmod	_	_
 14	valmistamansa	valmistaa	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Agt|Person[psor]=3|VerbForm=Part|Voice=Act	15	acl	_	_
 15	komponentin	komponentti	NOUN	_	Case=Gen|Number=Sing	12	obj	_	_
-16	kolmannen	kolmas	ADJ	_	Case=Gen|Number=Sing|NumType=Ord	17	nummod	_	_
+16	kolmannen	kolmas	ADJ	_	Case=Gen|Number=Sing|NumType=Ord	17	amod	_	_
 17	osapuolen	osapuoli	NOUN	_	Case=Gen|Number=Sing	18	nmod:poss	_	_
 18	akkuun	akku	NOUN	_	Case=Ill|Number=Sing	12	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
@@ -718,7 +718,7 @@
 10	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
 11	usein	usein	ADV	_	_	12	advmod	_	_
 12	epäluotettava	epä#luotettava	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	ccomp	_	_
-13	eikä	ei	VERB	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	15	cc	_	_
+13	eikä	ei	AUX	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	15	aux	_	_
 14	todennäköisesti	toden#näköisesti	ADV	_	Derivation=Sti	15	advmod	_	_
 15	vaikuta	vaikuttaa	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	12	conj	_	_
 16	matkustajien	matkustaja	NOUN	_	Case=Gen|Derivation=Ja|Number=Plur	18	nmod:gsubj	_	_
@@ -1792,7 +1792,7 @@
 3	tuon	tuo	PRON	_	Case=Gen|Number=Sing|PronType=Dem	4	det	_	_
 4	kutsun	kutsu	NOUN	_	Case=Gen|Derivation=U|Number=Sing	2	obj	_	_
 5	Yhdysvaltain	Yhdysvallat	PROPN	_	Case=Gen|Number=Plur	7	nmod:poss	_	_
-6	45.	45.	ADJ	_	NumType=Ord	7	nummod	_	_
+6	45.	45.	ADJ	_	NumType=Ord	7	amod	_	_
 7	presidentille	presidentti	NOUN	_	Case=All|Number=Sing	2	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	kuka	kuka	PRON	_	Case=Nom|Number=Sing|PronType=Int	2	ccomp	_	_
@@ -2045,7 +2045,7 @@
 2	voisi	voida	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	myös	myös	ADV	_	_	4	advmod	_	_
 4	odottaa	odottaa	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
-5	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	6	nummod	_	_
+5	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	6	amod	_	_
 6	kautensa	kausi	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	7	nmod:poss	_	_
 7	loppuun	loppuun	ADV	_	_	4	obl	_	_
 8	käyttääkseen	käyttää	VERB	_	Case=Tra|InfForm=1|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	4	advcl	_	_
@@ -2112,7 +2112,7 @@
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	esiintyi	esiintyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	kampanjassa	kampanja	NOUN	_	Case=Ine|Number=Sing	7	obl	_	_
-9	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	10	nummod	_	_
+9	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	10	amod	_	_
 10	kerran	kerran	ADV	_	_	7	obl	_	_
 11	heinäkuun	heinäkuu	NOUN	_	Case=Gen|Number=Sing	13	nmod:poss	_	_
 12	republikaanien	republikaani	NOUN	_	Case=Gen|Number=Plur	13	nmod:poss	_	_
@@ -3549,7 +3549,7 @@
 # sent_id = n01067023
 # text = Ensimmäistä kertaa esillä ovat myös Yhdistyneen kuningaskunnan puolustusministeriön kartat, joka kuvaavat kuviteltuja kylmän sodan taisteluita, ja joita käytettiin sotakorkeakoulun pääsykokeissa.
 # text_en = Also being exhibited for the first time are British Ministry of Defence maps which imagine cold war battles and which were used in military college exams.
-1	Ensimmäistä	ensimmäinen	ADJ	_	Case=Par|Derivation=Inen|Number=Sing|NumType=Ord	2	nummod	_	_
+1	Ensimmäistä	ensimmäinen	ADJ	_	Case=Par|Derivation=Inen|Number=Sing|NumType=Ord	2	amod	_	_
 2	kertaa	kerta	NOUN	_	Case=Par|Number=Sing	3	obl	_	_
 3	esillä	esillä	ADV	_	_	0	root	_	_
 4	ovat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
@@ -4909,7 +4909,7 @@
 # sent_id = n01095019
 # text = Kolmantena päivänä olin palannut EMicron pariin.
 # text_en = Day three, I was back on the EMicro.
-1	Kolmantena	kolmas	ADJ	_	Case=Ess|Number=Sing|NumType=Ord	2	nummod	_	_
+1	Kolmantena	kolmas	ADJ	_	Case=Ess|Number=Sing|NumType=Ord	2	amod	_	_
 2	päivänä	päivä	NOUN	_	Case=Ess|Number=Sing	4	obl	_	_
 3	olin	olla	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	palannut	palata	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -6190,7 +6190,7 @@
 # text = Onko toinen kausi toiminut tähän asti?
 # text_en = Is series two working so far?
 1	Onko	olla	AUX	_	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
-2	toinen	toinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	3	nummod	_	_
+2	toinen	toinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	3	amod	_	_
 3	kausi	kausi	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	toiminut	toimia	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	tähän	tämä	PRON	_	Case=Ill|Number=Sing|PronType=Dem	4	obl	_	_
@@ -6277,7 +6277,7 @@
 5	taas	taas	ADV	_	_	6	advmod	_	_
 6	suosittua	suosittu	ADJ	_	Case=Par|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
-8	eikä	ei	VERB	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	cc	_	_
+8	eikä	ei	AUX	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	_
 9	enää	enää	ADV	_	_	11	advmod	_	_
 10	vain	vain	ADV	_	_	11	advmod	_	_
 11	muisto	muisto	NOUN	_	Case=Nom|Number=Sing	6	conj	_	_
@@ -7249,7 +7249,7 @@
 2	ei	ei	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	ole	olla	VERB	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
-5	eikä	ei	VERB	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	cc	_	_
+5	eikä	ei	AUX	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
 6	koskaan	koskaan	ADV	_	_	8	advmod	_	_
 7	ole	olla	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	ollut	olla	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	conj	_	SpaceAfter=No
@@ -7689,7 +7689,7 @@
 # sent_id = w01004051
 # text = Viidennellä vuosisadalla eaa. Skyytian viljatuonnista riippuvainen kreikkalainen Ateenan kaupunkivaltio piti yllä ratkaisevia liittoutumia salmea hallitsevien kaupunkien, kuten mégaralaissiirtokunta Byzantionin, kanssa.
 # text_en = The Greek city-state of Athens in the 5th century BC, which was dependent on grain imports from Scythia, maintained critical alliances with cities which controlled the straits, such as the Megarian colony Byzantium.
-1	Viidennellä	viides	ADJ	_	Case=Ade|Number=Sing|NumType=Ord	2	nummod	_	_
+1	Viidennellä	viides	ADJ	_	Case=Ade|Number=Sing|NumType=Ord	2	amod	_	_
 2	vuosisadalla	vuosi#sata	NOUN	_	Case=Ade|Number=Sing	10	obl	_	_
 3	eaa.	eaa.	NOUN	_	Abbr=Yes	2	nmod	_	_
 4	Skyytian	Skyytia	PROPN	_	Case=Gen|Number=Sing	5	nmod:gsubj	_	_
@@ -7802,7 +7802,7 @@
 # sent_id = w01006027
 # text = Ensimmäinen elokuvayhtiö (Athina Film) perustettiin 1912, ja Asty Film vuonna 1916.
 # text_en = In 1912 was founded the first film company (Athina Film) and in 1916 the Asty Film.
-1	Ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	2	nummod	_	_
+1	Ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	2	amod	_	_
 2	elokuvayhtiö	elo#kuva#yhtiö	NOUN	_	Case=Nom|Number=Sing	7	obj	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	Athina	Athina	PROPN	_	Case=Nom|Number=Sing	2	appos	_	_
@@ -8042,7 +8042,7 @@
 # sent_id = w01010047
 # text = Ensimmäinen kuningas oli Mojmír I (hallitsi 830-846).
 # text_en = Their first king was Mojmír I (ruled 830–846).
-1	Ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	2	nummod	_	_
+1	Ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	2	amod	_	_
 2	kuningas	kuningas	NOUN	_	Case=Nom|Number=Sing	4	nsubj:cop	_	_
 3	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	Mojmír	Mojmír	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
@@ -9520,7 +9520,7 @@
 3	yleensä	yleensä	ADV	_	_	2	advmod	_	_
 4	aavikon	aavikko	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	_	_
 5	reunamilla	reunama	NOUN	_	Case=Ade|Number=Plur	2	obl	_	_
-6	eikä	ei	VERB	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	cc	_	_
+6	eikä	ei	AUX	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
 7	itse	itse	ADV	_	_	8	advmod	_	_
 8	aavikoilla	aavikko	NOUN	_	Case=Ade|Number=Plur	5	conj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	_
@@ -9750,7 +9750,7 @@
 # text = Kehityksen ensimmäisenä vuosisatana Espanjan valta-asema alueella pysyi kiistattomana.
 # text_en = During the first century of development, Spanish dominance in the region remained undisputed.
 1	Kehityksen	kehitys	NOUN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
-2	ensimmäisenä	ensimmäinen	ADJ	_	Case=Ess|Derivation=Inen|Number=Sing|NumType=Ord	3	nummod	_	_
+2	ensimmäisenä	ensimmäinen	ADJ	_	Case=Ess|Derivation=Inen|Number=Sing|NumType=Ord	3	amod	_	_
 3	vuosisatana	vuosi#sata	NOUN	_	Case=Ess|Number=Sing	7	obl	_	_
 4	Espanjan	Espanja	PROPN	_	Case=Gen|Number=Sing	5	nmod:poss	_	_
 5	valta-asema	valta-asema	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
@@ -10015,7 +10015,7 @@
 8	-puisto	puisto	NOUN	_	Case=Nom|Number=Sing	15	nsubj:cop	_	_
 9	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	_
 10	maailman	maailma	NOUN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
-11	toinen	toinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	15	nummod	_	_
+11	toinen	toinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	15	amod	_	_
 12	virallisesti	virallisesti	ADV	_	Derivation=Sti	13	advmod	_	_
 13	perustettu	perustaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	15	acl	_	_
 14	kansallinen	kansallinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	15	amod	_	_
@@ -10172,7 +10172,7 @@
 5	vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	7	obl	_	_
 6	1903	1903	NUM	_	NumType=Card	5	nummod	_	_
 7	kirjoittama	kirjoittaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Agt|VerbForm=Part|Voice=Act	10	acl	_	_
-8	ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	10	nummod	_	_
+8	ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	10	amod	_	_
 9	tieteellinen	tieteellinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	10	amod	_	_
 10	selostus	selostus	NOUN	_	Case=Nom|Number=Sing	12	nsubj	_	_
 11	taistelusta	taistelu	NOUN	_	Case=Ela|Derivation=U|Number=Sing	10	nmod	_	_
@@ -11202,7 +11202,7 @@
 3	Yucatánissa	Yucatán	PROPN	_	Case=Ine|Number=Sing	5	obl	_	_
 4	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	käytössä	käyttö	NOUN	_	Case=Ine|Number=Sing	0	root	_	_
-6	kolmas	kolmas	ADJ	_	Case=Nom|Number=Sing|NumType=Ord	7	nummod	_	_
+6	kolmas	kolmas	ADJ	_	Case=Nom|Number=Sing|NumType=Ord	7	amod	_	_
 7	järjestelmä	järjestelmä	NOUN	_	Case=Nom|Number=Sing	5	nsubj:cop	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -11251,7 +11251,7 @@
 # text = Latinisaation ensimmäisissä vaiheissa roomalaiset jakoivat niemimaan kahtia hallinnollisista syistä.
 # text_en = During the first stages of Romanization, the peninsula was divided in two by the Romans for administrative purposes.
 1	Latinisaation	latinisaatio	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
-2	ensimmäisissä	ensimmäinen	ADJ	_	Case=Ine|Derivation=Inen|Number=Plur|NumType=Ord	3	nummod	_	_
+2	ensimmäisissä	ensimmäinen	ADJ	_	Case=Ine|Derivation=Inen|Number=Plur|NumType=Ord	3	amod	_	_
 3	vaiheissa	vaihe	NOUN	_	Case=Ine|Number=Plur	5	obl	_	_
 4	roomalaiset	roomalainen	NOUN	_	Case=Nom|Derivation=Lainen|Number=Plur	5	nsubj	_	_
 5	jakoivat	jakaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -11264,7 +11264,7 @@
 # sent_id = w01072079
 # text = Kolmanteen vuosisataan mennessä hallitsija Caracalla teki uuden jaon, joka kesti vain vähän aikaa.
 # text_en = By the 3rd century the emperor Caracalla made a new division which lasted only a short time.
-1	Kolmanteen	kolmas	ADJ	_	Case=Ill|Number=Sing|NumType=Ord	2	nummod	_	_
+1	Kolmanteen	kolmas	ADJ	_	Case=Ill|Number=Sing|NumType=Ord	2	amod	_	_
 2	vuosisataan	vuosi#sata	NOUN	_	Case=Ill|Number=Sing	6	obl	_	_
 3	mennessä	mennessä	ADP	_	AdpType=Post	2	case	_	_
 4	hallitsija	hallitsija	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	5	compound:nn	_	_
@@ -11295,7 +11295,7 @@
 9	että	että	SCONJ	_	_	17	mark	_	_
 10	kun	kun	SCONJ	_	_	14	mark	_	_
 11	heidän	hän	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	13	nmod:poss	_	_
-12	ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	13	nummod	_	_
+12	ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	13	amod	_	_
 13	lapsensa	lapsi	NOUN	_	Case=Nom|Number=Plur|Person[psor]=3	14	nsubj	_	_
 14	syntyi	syntyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
@@ -11503,7 +11503,7 @@
 # sent_id = w01075039
 # text = Toisella tavalla muotoiltuna: nuoret miehet (jotka muodostavat suurimman osan sisällissotien taistelijoista) liittyvät vähemmän todennäköisesti kapinaliikkeeseen, jos he kouluttautuvat tai heillä on riittävä palkka, ja he voivat perustellusti olettaa, että menestyvät tulevaisuudessa.
 # text_en = Phrased another way: young males (who make up the vast majority of combatants in civil wars) are less likely to join a rebellion if they are getting an education or have a comfortable salary, and can reasonably assume that they will prosper in the future.
-1	Toisella	toinen	ADJ	_	Case=Ade|Derivation=Inen|Number=Sing|NumType=Ord	2	nummod	_	_
+1	Toisella	toinen	ADJ	_	Case=Ade|Derivation=Inen|Number=Sing|NumType=Ord	2	amod	_	_
 2	tavalla	tapa	NOUN	_	Case=Ade|Number=Sing	3	obl	_	_
 3	muotoiltuna	muotoilla	VERB	_	Case=Ess|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	_	_	15	punct	_	_
@@ -11601,7 +11601,7 @@
 18	hallitsevan	hallita	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	17	xcomp	_	_
 19	sodan	sota	NOUN	_	Case=Gen|Number=Sing	22	nmod:poss	_	_
 20	kahden	kaksi	NUM	_	Case=Gen|Number=Sing|NumType=Card	21	nummod	_	_
-21	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	22	nummod	_	_
+21	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	22	amod	_	_
 22	vuoden	vuosi	NOUN	_	Case=Gen|Number=Sing	23	nmod:poss	_	_
 23	ajan	aika	NOUN	_	Case=Gen|Number=Sing	18	obl	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	5	punct	_	_
@@ -11874,7 +11874,7 @@
 13	merkkejä	merkki	NOUN	_	Case=Par|Number=Plur	10	obj	_	_
 14	vuosina	vuosi	NOUN	_	Case=Ess|Number=Plur	10	obl	_	_
 15	ennen	ennen	ADP	_	AdpType=Prep	17	case	_	_
-16	ensimmäistä	ensimmäinen	ADJ	_	Case=Par|Derivation=Inen|Number=Sing|NumType=Ord	17	nummod	_	_
+16	ensimmäistä	ensimmäinen	ADJ	_	Case=Par|Derivation=Inen|Number=Sing|NumType=Ord	17	amod	_	_
 17	maailmansotaa	maailman#sota	NOUN	_	Case=Par|Number=Sing	14	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -11933,7 +11933,7 @@
 7	pieniin	pieni	ADJ	_	Case=Ill|Degree=Pos|Number=Plur	8	amod	_	_
 8	vartiopaikkoihin	vartio#paikka	NOUN	_	Case=Ill|Number=Plur	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
-10	eikä	ei	VERB	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	cc	_	_
+10	eikä	ei	AUX	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	_
 11	ollut	olla	AUX	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	12	aux	_	_
 12	varautunut	varautua	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	5	conj	_	_
 13	yhtä	yhtä	ADV	_	_	14	advmod	_	_
@@ -12226,7 +12226,7 @@
 # sent_id = w01093028
 # text = Toisessa messenialaissodassa Sparta vakiinnutti asemansa paikallisena valtana Peloponnesoksella ja muualla Kreikassa.
 # text_en = In the Second Messenian War, Sparta established itself as a local power in Peloponnesus and the rest of Greece.
-1	Toisessa	toinen	ADJ	_	Case=Ine|Derivation=Inen|Number=Sing|NumType=Ord	2	nummod	_	_
+1	Toisessa	toinen	ADJ	_	Case=Ine|Derivation=Inen|Number=Sing|NumType=Ord	2	amod	_	_
 2	messenialaissodassa	messenialais#sota	NOUN	_	Case=Ine|Number=Sing	4	obl	_	_
 3	Sparta	Sparta	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	vakiinnutti	vakiinnuttaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -12445,7 +12445,7 @@
 # text_en = Land warfare changed from the static front lines of World War I to increased mobility and combined arms.
 1	Maasota	maa#sota	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	muuttui	muuttua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	4	nummod	_	_
+3	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	4	amod	_	_
 4	maailmansodan	maailman#sota	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
 5	liikkumattomista	liikkumaton	ADJ	_	Case=Ela|Degree=Pos|Derivation=Ton|Number=Plur	6	amod	_	_
 6	etulinjoista	etu#linja	NOUN	_	Case=Ela|Number=Plur	2	obl	_	_
@@ -12489,7 +12489,7 @@
 15	tuhoutui	tuhoutua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	ccomp	_	_
 16	toimintakykyisenä	toiminta#kykyinen	ADJ	_	Case=Ess|Degree=Pos|Derivation=Inen|Number=Sing	15	obl	_	_
 17	heidän	hän	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	21	nmod:gsubj	_	_
-18	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	21	nummod	_	SpaceAfter=No
+18	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	21	amod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	vaikuttavan	vaikuttava	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	21	amod	_	_
 21	hyökkäyksensä	hyökkäys	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	22	nmod:poss	_	_
@@ -12568,7 +12568,7 @@
 15	Kiina	Kiina	PROPN	_	Case=Nom|Number=Sing	16	nsubj	_	_
 16	havaitsi	havaita	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
 17	taistelevansa	taistella	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Pres|Person[psor]=3|VerbForm=Part|Voice=Act	16	xcomp	_	_
-18	ensimmäistä	ensimmäinen	ADJ	_	Case=Par|Derivation=Inen|Number=Sing|NumType=Ord	19	nummod	_	_
+18	ensimmäistä	ensimmäinen	ADJ	_	Case=Par|Derivation=Inen|Number=Sing|NumType=Ord	19	amod	_	_
 19	oopiumsotaa	oopium#sota	NOUN	_	Case=Par|Number=Sing	17	obj	_	_
 20	Ison-Britannian	Iso-Britannia	PROPN	_	Case=Gen|Number=Sing	17	obl	_	_
 21	kanssa	kanssa	ADP	_	AdpType=Post	20	case	_	SpaceAfter=No
@@ -12763,7 +12763,7 @@
 12	osoittaa	osoittaa	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	10	xcomp	_	_
 13	liiallista	liiallinen	ADJ	_	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	14	amod	_	_
 14	kiintymystä	kiintymys	NOUN	_	Case=Par|Number=Sing	12	obj	_	_
-15	eikä	ei	VERB	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	18	cc	_	_
+15	eikä	ei	AUX	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	18	aux	_	_
 16	virallisia	virallinen	ADJ	_	Case=Par|Degree=Pos|Derivation=Llinen|Number=Plur	17	amod	_	_
 17	palkintoja	palkinto	NOUN	_	Case=Par|Number=Plur	19	obj	_	_
 18	saanut	saada	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	10	conj	_	_
@@ -13213,7 +13213,7 @@
 # text_en = Disney won another Honorary Academy Award, which consisted of one full-sized and seven miniature Oscar statuettes.
 1	Disney	Disney	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	voitti	voittaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	toisen	toinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	4	nummod	_	_
+3	toisen	toinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	4	amod	_	_
 4	Oscar-kunniapalkinnon	Oscar#kunnia#palkinto	NOUN	_	Case=Gen|Number=Sing	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	7	nsubj	_	_
@@ -13423,7 +13423,7 @@
 # sent_id = w01116036
 # text = Ensimmäistä painosta julkaistiin vain 3000 kappaletta.
 # text_en = Only 3000 copies were published of the first edition.
-1	Ensimmäistä	ensimmäinen	ADJ	_	Case=Par|Derivation=Inen|Number=Sing|NumType=Ord	2	nummod	_	_
+1	Ensimmäistä	ensimmäinen	ADJ	_	Case=Par|Derivation=Inen|Number=Sing|NumType=Ord	2	amod	_	_
 2	painosta	painos	NOUN	_	Case=Par|Number=Sing	3	obj	_	_
 3	julkaistiin	julkaista	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	vain	vain	ADV	_	_	5	advmod	_	_
@@ -13574,7 +13574,7 @@
 7	Jasminesta	Jasmine	PROPN	_	Case=Ela|Number=Sing	8	obl	_	_
 8	tuli	tulla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 9	Disneyn	Disney	PROPN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
-10	ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	16	nummod	_	_
+10	ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	16	amod	_	_
 11	ei-valkoihoinen	ei#valko#ihoinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	16	amod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	ei-eurooppalaista	ei#eurooppalainen	ADJ	_	Case=Par|Degree=Pos|Derivation=Lainen|Number=Sing	14	amod	_	_
@@ -14305,7 +14305,7 @@
 4	aloitti	aloittaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	painoharjoittelun	paino#harjoittelu	NOUN	_	Case=Gen|Derivation=U|Number=Sing	4	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	14	punct	_	_
-7	eikä	ei	VERB	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	14	cc	_	_
+7	eikä	ei	AUX	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	14	aux	_	_
 8	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
 9	kolme	kolme	NUM	_	Case=Nom|Number=Sing|NumType=Card	10	nummod	_	_
 10	kertaa	kerta	NOUN	_	Case=Par|Number=Sing	12	obl	_	_
@@ -14596,7 +14596,7 @@
 # sent_id = w01139090
 # text = Toinen Skylark-romaanien teema käsittelee modernin informaatioteknologian edeltäjiä.
 # text_en = Another theme of the Skylark novels involves precursors of modern information technology.
-1	Toinen	toinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	3	nummod	_	_
+1	Toinen	toinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	3	amod	_	_
 2	Skylark-romaanien	Skylark#romaani	NOUN	_	Case=Gen|Number=Plur	3	nmod:poss	_	_
 3	teema	teema	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	käsittelee	käsitellä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -14784,7 +14784,7 @@
 12	Cecily	Cecily	PROPN	_	Case=Nom|Number=Sing	13	nsubj	_	_
 13	meni	mennä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
 14	naimisiin	naimisiin	ADV	_	_	13	advmod	_	_
-15	3.	3.	ADJ	_	NumType=Ord	17	nummod	_	_
+15	3.	3.	ADJ	_	NumType=Ord	17	amod	_	_
 16	Yorkin	York	PROPN	_	Case=Gen|Number=Sing	17	nmod:poss	_	_
 17	herttuan	herttua	NOUN	_	Case=Gen|Number=Sing	13	obl	_	_
 18	Richard	Richard	PROPN	_	Case=Nom|Number=Sing	17	appos	_	_
@@ -14886,7 +14886,7 @@
 4	ettei	että#ei	VERB	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	mark	_	_
 5	halunnut	haluta	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	ccomp	_	_
 6	hakea	hakea	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp	_	_
-7	kolmannelle	kolmas	ADJ	_	Case=All|Number=Sing|NumType=Ord	8	nummod	_	_
+7	kolmannelle	kolmas	ADJ	_	Case=All|Number=Sing|NumType=Ord	8	amod	_	_
 8	kaudelle	kausi	NOUN	_	Case=All|Number=Sing	6	obl	_	_
 9	seuraavalla	seuraava	ADJ	_	Case=Ade|Degree=Pos|Number=Sing	10	amod	_	_
 10	vaalikaudella	vaali#kausi	NOUN	_	Case=Ade|Number=Sing	6	obl	_	SpaceAfter=No
@@ -14922,7 +14922,7 @@
 1	Republikaanit	republikaani	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	_
 2	valtasivat	vallata	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	senaatin	senaatti	NOUN	_	Case=Gen|Number=Sing	2	obj	_	_
-4	ensimmäistä	ensimmäinen	ADJ	_	Case=Par|Derivation=Inen|Number=Sing|NumType=Ord	5	nummod	_	_
+4	ensimmäistä	ensimmäinen	ADJ	_	Case=Par|Derivation=Inen|Number=Sing|NumType=Ord	5	amod	_	_
 5	kertaa	kerta	NOUN	_	Case=Par|Number=Sing	2	obl	_	_
 6	vuoden	vuosi	NOUN	_	Case=Gen|Number=Sing	2	obl	_	_
 7	1952	1952	NUM	_	NumType=Card	6	nummod	_	_
@@ -14955,7 +14955,7 @@
 10	jolloin	jolloin	ADV	_	_	12	advmod	_	_
 11	hänestä	hän	PRON	_	Case=Ela|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
 12	tuli	tulla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
-13	ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	17	nummod	_	_
+13	ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	17	amod	_	_
 14	virassa	virka	NOUN	_	Case=Ine|Number=Sing	15	obl	_	_
 15	ollut	olla	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	17	acl	_	_
 16	Yhdysvaltain	Yhdysvallat	PROPN	_	Case=Gen|Number=Plur	17	nmod:poss	_	_
@@ -15095,7 +15095,7 @@
 8	vähän	vähän	ADV	_	_	9	advmod	_	_
 9	tietoa	tieto	NOUN	_	Case=Par|Number=Sing	6	obj	_	_
 10	tulevasta	tuleva	ADJ	_	Case=Ela|Degree=Pos|Number=Sing	12	amod	_	_
-11	kolmannesta	kolmas	ADJ	_	Case=Ela|Number=Sing|NumType=Ord	12	nummod	_	_
+11	kolmannesta	kolmas	ADJ	_	Case=Ela|Number=Sing|NumType=Ord	12	amod	_	_
 12	studioalbumistaan	studio#albumi	NOUN	_	Case=Ela|Number=Sing|Person[psor]=3	9	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -15821,7 +15821,7 @@
 4	jälkeen	jälkeen	ADP	_	AdpType=Post	3	case	_	_
 5	28-vuotias	28#vuotias	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	6	nsubj	_	_
 6	hävisi	hävitä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-7	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	8	nummod	_	_
+7	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	8	amod	_	_
 8	kerran	kerran	ADV	_	_	6	obl	_	_
 9	finaalipelissä	finaali#peli	NOUN	_	Case=Ine|Number=Sing	6	obl	_	_
 10	Serena	Serena	PROPN	_	Case=Nom|Number=Sing	6	obl	_	_
@@ -16107,7 +16107,6 @@
 31	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
 32	”	”	PUNCT	_	_	20	punct	_	_
 
-
 # newdoc id = n02078
 # sent_id = n02078004
 # text = Aasian hyvät lukemat nostivat osakemarkkinoita välittömästi
@@ -16179,7 +16178,7 @@
 24	GEMA:n	GEMA	PROPN	_	Case=Gen|Number=Sing	25	nmod:poss	_	_
 25	jäsen	jäsen	NOUN	_	Case=Nom|Number=Sing	15	advcl	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
-27	eikä	ei	VERB	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	28	cc	_	_
+27	eikä	ei	AUX	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	28	aux	_	_
 28	sillä	se	PRON	_	Case=Ade|Number=Sing|PronType=Dem	25	ccomp	_	_
 29	ole	olla	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	28	cop:own	_	_
 30	sopimusta	sopimus	NOUN	_	Case=Par|Number=Sing	28	nsubj:cop	_	_
@@ -16328,7 +16327,7 @@
 4	voivat	voida	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	valita	valita	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
 6	historiansa	historia	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	7	nmod:poss	_	_
-7	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	8	nummod	_	_
+7	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	8	amod	_	_
 8	naispresidentin	nais#presidentti	NOUN	_	Case=Gen|Number=Sing	5	obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -16365,7 +16364,7 @@
 # sent_id = n03003036
 # text = Kolmannen osapuolen enemmistö vaaditaan, nimittäin 367 alahuoneen jäsenten äänet (yhteensä 550 jäsenestä), kun taas kansanäänestyksen järjestämiseen vaaditaan 330 ääntä.
 # text_en = A third-party majority is needed, specifically the votes of 367 MPs (out of 550), whereas 330 votes are required in order to trigger a referendum.
-1	Kolmannen	kolmas	ADJ	_	Case=Gen|Number=Sing|NumType=Ord	2	nummod	_	_
+1	Kolmannen	kolmas	ADJ	_	Case=Gen|Number=Sing|NumType=Ord	2	amod	_	_
 2	osapuolen	osapuoli	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
 3	enemmistö	enemmistö	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
 4	vaaditaan	vaatia	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
@@ -16614,7 +16613,7 @@
 # text = Tämän ensimmäisen tunnin aikana tehty työaika vastaa enemmän tai vähemmän 45 minuuttia.
 # text_en = The working time undertaken in this first hour is more or less equal to 45 minutes.
 1	Tämän	tämä	PRON	_	Case=Gen|Number=Sing|PronType=Dem	3	det	_	_
-2	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	3	nummod	_	_
+2	ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	3	amod	_	_
 3	tunnin	tunti	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	aikana	aika	NOUN	_	Case=Ess|Number=Sing	5	obl	_	_
 5	tehty	tehdä	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
@@ -17170,7 +17169,7 @@
 4	Amazonista	Amazon	PROPN	_	Case=Ela|Number=Sing	6	obl	_	_
 5	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
 6	tullut	tulla	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
-7	neljäs	neljäs	ADJ	_	Case=Nom|Number=Sing|NumType=Ord	9	nummod	_	_
+7	neljäs	neljäs	ADJ	_	Case=Nom|Number=Sing|NumType=Ord	9	amod	_	_
 8	amerikkalainen	amerikkalainen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	9	amod	_	_
 9	yhtiö	yhtiö	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
@@ -17248,7 +17247,7 @@
 # sent_id = n05002004
 # text = Ensimmäistä kertaa viimeiseen kuuteen vuoteen työttömyystaso on pudonnut alle 20 prosentin, ja nyt työssä on jo 600 000 ihmistä enemmän kuin viime vuonna.
 # text_en = For the first time in the last six years the rate of unemployment has dropped below 20%, and there are already 600,000 more people employed than there were a year ago.
-1	Ensimmäistä	ensimmäinen	ADJ	_	Case=Par|Derivation=Inen|Number=Sing|NumType=Ord	2	nummod	_	_
+1	Ensimmäistä	ensimmäinen	ADJ	_	Case=Par|Derivation=Inen|Number=Sing|NumType=Ord	2	amod	_	_
 2	kertaa	kerta	NOUN	_	Case=Par|Number=Sing	8	obl	_	_
 3	viimeiseen	viimeinen	ADJ	_	Case=Ill|Degree=Pos|Derivation=Inen|Number=Sing	5	amod	_	_
 4	kuuteen	kuusi	NUM	_	Case=Ill|Number=Sing|NumType=Card	5	nummod	_	_
@@ -17771,7 +17770,7 @@
 4	kaupungin	kaupunki	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	_	_
 5	keskustan	keskusta	NOUN	_	Case=Gen|Number=Sing	12	nmod:poss	_	_
 6	harvoista	harva	PRON	_	Case=Ela|Number=Plur|PronType=Ind	12	det	_	_
-7	toisen	toinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	8	nummod	_	_
+7	toisen	toinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	8	amod	_	_
 8	maailmansodan	maailman#sota	NOUN	_	Case=Gen|Number=Sing	9	nmod:poss	_	_
 9	lopun	loppu	NOUN	_	Case=Gen|Derivation=U|Number=Sing	10	nmod:poss	_	_
 10	tuholta	tuho	NOUN	_	Case=Abl|Number=Sing	11	obl	_	_
@@ -18186,7 +18185,7 @@
 # text = Julistan ensimmäiset kansainväliset olympialaiset päättyneiksi.
 # text_en = I declare the first international Olympic games over.
 1	Julistan	julistaa	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	ensimmäiset	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Plur|NumType=Ord	4	nummod	_	_
+2	ensimmäiset	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Plur|NumType=Ord	4	amod	_	_
 3	kansainväliset	kansain#välinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Inen|Number=Plur	4	amod	_	_
 4	olympialaiset	olympialaiset	NOUN	_	Case=Nom|Number=Plur	1	obj	_	_
 5	päättyneiksi	päättyä	VERB	_	Case=Tra|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	1	xcomp:ds	_	SpaceAfter=No
@@ -18196,7 +18195,7 @@
 # sent_id = w02012042
 # text = Ensimmäinen maailmansota toi mukanaan muutoksia ja uusia kehityksiä siirtomaapolitiikkaan.
 # text_en = The First World War brought about shifts and new developments in colonial politics.
-1	Ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	2	nummod	_	_
+1	Ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	2	amod	_	_
 2	maailmansota	maailman#sota	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	toi	tuoda	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	mukanaan	mukana	ADV	_	Person[psor]=3	3	advmod	_	_
@@ -18422,7 +18421,7 @@
 6	voittaja	voittaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	7	compound:nn	_	_
 7	Ulrich	Ulrich	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	_
 8	tavoitteli	tavoitella	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-9	toista	toinen	ADJ	_	Case=Par|Derivation=Inen|Number=Sing|NumType=Ord	10	nummod	_	_
+9	toista	toinen	ADJ	_	Case=Par|Derivation=Inen|Number=Sing|NumType=Ord	10	amod	_	_
 10	kultamitaliaan	kulta#mitali	NOUN	_	Case=Par|Number=Sing|Person[psor]=3	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -18745,7 +18744,7 @@
 # sent_id = w03005014
 # text = Ensimmäiset kreikkalaiset tekstit alkoivat ilmestyä 800-luvulla eKr.
 # text_en = From the 9th century BC, the first Greek texts began to appear.
-1	Ensimmäiset	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Plur|NumType=Ord	3	nummod	_	_
+1	Ensimmäiset	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Plur|NumType=Ord	3	amod	_	_
 2	kreikkalaiset	kreikkalainen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Plur	3	amod	_	_
 3	tekstit	teksti	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 4	alkoivat	alkaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -18885,7 +18884,7 @@
 # text_en = In Pluviose year III (January-February 1794), easing off the pressure of the Reign of Terror, he took various measures to liberate the suspects.
 1	Pluviose-kuussa	Pluviose#kuu	NOUN	_	Case=Ine|Number=Sing	9	obl	_	_
 2	vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	1	nmod	_	_
-3	III	III	ADJ	_	NumType=Ord	2	nummod	_	_
+3	III	III	ADJ	_	NumType=Ord	2	amod	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	tammi-helmikuussa	tammi#helmikuu	NOUN	_	Case=Ine|Number=Sing	1	appos	_	_
 6	1794	1794	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
@@ -19217,7 +19216,7 @@
 5	ja	ja	CCONJ	_	_	6	cc	_	_
 6	kukkulaista	kukkulainen	ADJ	_	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
-8	eikä	ei	VERB	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	cc	_	_
+8	eikä	ei	AUX	_	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	_
 9	eri	eri	ADJ	_	_	10	amod	_	_
 10	alueiden	alue	NOUN	_	Case=Gen|Number=Plur	4	conj	_	_
 11	välillä	välillä	ADP	_	AdpType=Post	10	case	_	_
@@ -19333,7 +19332,7 @@
 # sent_id = w04007006
 # text = Ensimmäisen liittokunnan sodan aikana alkoi selvitä, kuka tämä Ranskan vallankumousta seuraava nuori, korsikalainen tykistöupseeri oli: Napoleon Bonaparte.
 # text_en = During the War of the First Coalition, light quickly began to be shed upon a young Corsican artillery officer, following the French Revolution: Napoleon Bonaparte.
-1	Ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	2	nummod	_	_
+1	Ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	2	amod	_	_
 2	liittokunnan	liitto#kunta	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
 3	sodan	sota	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	aikana	aika	NOUN	_	Case=Ess|Number=Sing	5	obl	_	_
