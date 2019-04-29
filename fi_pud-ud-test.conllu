@@ -14,7 +14,7 @@
 10	ennenkuulumatonta	ennenkuulumaton	ADJ	_	Case=Par|Degree=Pos|Derivation=Ton|Number=Sing	16	advcl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	rauhallinen	rauhallinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	13	amod	_	_
-13	vallanvaihto	valta#vaihto	NOUN	_	Case=Nom|Number=Sing	16	nsubj:cop	_	_
+13	vallanvaihto	vallan#vaihto	NOUN	_	Case=Nom|Number=Sing	16	nsubj:cop	_	_
 14	ei	ei	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	16	aux	_	_
 15	ole	olla	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	_
 16	sitä	se	PRON	_	Case=Par|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
@@ -192,7 +192,7 @@
 3	alun	alun	ADV	_	_	2	advmod	_	_
 4	perin	perin	ADV	_	_	3	fixed	_	_
 5	Washingtonin	Washington	PROPN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
-6	H	h	PROPN	_	Case=Nom|Number=Sing	8	compound:nn	_	_
+6	H	H	PROPN	_	Case=Nom|Number=Sing	8	compound:nn	_	_
 7	Street	Street	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 8	-kadulla	katu	NOUN	_	Case=Ade|Number=Sing	12	obl	_	_
 9	muutaman	muutama	PRON	_	Case=Gen|Number=Sing|PronType=Ind	10	det	_	_
@@ -368,7 +368,7 @@
 10	vain	vain	ADV	_	_	11	advmod	_	_
 11	11	11	NUM	_	NumType=Card	12	nummod	_	_
 12	prosenttia	prosentti	NOUN	_	Case=Par|Number=Sing	15	obj	_	_
-13	kokonaisäänistä	kokonainen#ääni	NOUN	_	Case=Ela|Number=Plur	12	nmod	_	_
+13	kokonaisäänistä	kokonais#ääni	NOUN	_	Case=Ela|Number=Plur	12	nmod	_	_
 14	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	aux:pass	_	_
 15	annettu	antaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	parataxis	_	SpaceAfter=No
 16	ennen	ennen	ADP	_	AdpType=Prep	19	case	_	_
@@ -581,7 +581,7 @@
 4	uusista	uusi	ADJ	_	Case=Ela|Degree=Pos|Number=Plur	5	amod	_	_
 5	tilauksista	tilaus	NOUN	_	Case=Ela|Number=Plur	1	nmod	_	_
 6	Clyden	Clyde	PROPN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
-7	laivanrakennusteollisuuden	laiva#rakennus#teollisuus	NOUN	_	Case=Gen|Derivation=Llinen,Vs|Number=Sing	8	nmod:gobj	_	_
+7	laivanrakennusteollisuuden	laivan#rakennus#teollisuus	NOUN	_	Case=Gen|Derivation=Llinen,Vs|Number=Sing	8	nmod:gobj	_	_
 8	turvaamiseksi	turvaaminen	NOUN	_	Case=Tra|Derivation=Minen|Number=Sing	5	nmod	_	_
 9	tehtiin	tehdä	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 10	ennen	ennen	ADP	_	AdpType=Prep	13	case	_	_
@@ -889,7 +889,7 @@
 6	seuraavan	seuraava	ADJ	_	Case=Gen|Degree=Pos|Number=Sing	7	amod	_	_
 7	vuosikymmenen	vuosikymmen	NOUN	_	Case=Gen|Number=Sing	8	nmod:poss	_	_
 8	aikana	aika	NOUN	_	Case=Ess|Number=Sing	5	obl	_	_
-9	maailman	maa#ilma	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
+9	maailman	maailma	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	suurin	suuri	ADJ	_	Case=Nom|Degree=Sup|Number=Sing	11	amod	_	_
 11	ilmailumarkkina-alue	ilmailu#markkina#alue	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	5	punct	_	_
@@ -1008,7 +1008,7 @@
 16	tarvitaan	tarvita	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	13	acl:relcl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	jotta	jotta	SCONJ	_	_	22	mark	_	_
-19	maailmanlaajuinen	maa#ilman#laajuinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	21	amod	_	_
+19	maailmanlaajuinen	maailman#laajuinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	21	amod	_	_
 20	lämpötilan	lämpö#tila	NOUN	_	Case=Gen|Number=Sing	21	nmod:gsubj	_	_
 21	kohoaminen	kohoaminen	NOUN	_	Case=Nom|Derivation=Minen|Number=Sing	22	nsubj	_	_
 22	pysyy	pysyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
@@ -1052,7 +1052,7 @@
 8	sopimus	sopimus	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 9	tulee	tulla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
 10	hidastamaan	hidastaa	VERB	_	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	9	xcomp	_	_
-11	ilmastonmuutosta	ilmasto#muutos	NOUN	_	Case=Par|Number=Sing	10	obj	_	SpaceAfter=No
+11	ilmastonmuutosta	ilmaston#muutos	NOUN	_	Case=Par|Number=Sing	10	obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	18	punct	_	_
 13	samoin	samoin	ADV	_	_	14	advmod	_	_
 14	kuten	kuten	ADV	_	_	18	advmod	_	_
@@ -1224,7 +1224,7 @@
 16	varastoida	varastoida	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	12	conj	_	_
 17	siellä	siellä	ADV	_	_	16	advmod	_	_
 18	kuuden	kuusi	NUM	_	Case=Gen|Number=Sing|NumType=Card	19	nummod	_	_
-19	kuukauden	kuu#kausi	NOUN	_	Case=Gen|Number=Sing	20	nmod:poss	_	_
+19	kuukauden	kuukausi	NOUN	_	Case=Gen|Number=Sing	20	nmod:poss	_	_
 20	ajan	aika	NOUN	_	Case=Gen|Number=Sing	16	obl	_	_
 21	ilman	ilman	ADV	_	_	12	advmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
@@ -1242,7 +1242,7 @@
 # sent_id = n01024016
 # text = RHS-seura keräsi kokeeseen osallistuneilta koululaisilta ja opettajilta kommentteja.
 # text_en = The RHS collected comments sent in by schoolchildren and teachers involved in the experiment.
-1	RHS-seura	RHS-seura	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+1	RHS-seura	RHS#seura	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	keräsi	kerätä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	kokeeseen	koe	NOUN	_	Case=Ill|Number=Sing	4	obl	_	_
 4	osallistuneilta	osallistua	VERB	_	Case=Abl|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	5	acl	_	_
@@ -2304,7 +2304,7 @@
 3	raportoi	raportoida	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	jokaisen	jokainen	PRON	_	Case=Gen|Number=Sing|PronType=Ind	5	det	_	_
 5	osaston	osasto	NOUN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
-6	yhteenlasketun	yhde#laskea	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+6	yhteenlasketun	yhteen#laskea	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
 7	kannustepalkkio-	kannuste#palkkio	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 8	ja	ja	CCONJ	_	_	9	cc	_	_
 9	bonustasot	bonus#taso	NOUN	_	Case=Nom|Number=Plur	7	conj	_	_
@@ -2906,7 +2906,7 @@
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	mukaan	mukaan	ADV	_	_	5	compound:prt	_	_
 5	lukien	lukea	VERB	_	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	2	advcl	_	_
-6	alkuperäisryhmittymät	alku#peräinen#ryhmittymä	NOUN	_	Case=Nom|Number=Plur	5	obj	_	SpaceAfter=No
+6	alkuperäisryhmittymät	alku#peräis#ryhmittymä	NOUN	_	Case=Nom|Number=Plur	5	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	väittävät	väittää	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
@@ -2923,7 +2923,7 @@
 # text = Näiden CRTC-komission käsittelyjen tarkoituksena on vastata taitavasti teollisuuden osakkeenomistajien ja yleisön reaktioihin.
 # text_en = The purpose of these CRTC hearings is to field responses from industry stakeholders and the public.
 1	Näiden	tämä	PRON	_	Case=Gen|Number=Plur|PronType=Dem	3	det	_	_
-2	CRTC-komission	CRTC#komissio	PROPN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	CRTC-komission	CRTC#komissio	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
 3	käsittelyjen	käsittely	NOUN	_	Case=Gen|Number=Plur	4	nmod:poss	_	_
 4	tarkoituksena	tarkoitus	NOUN	_	Case=Ess|Number=Sing	0	root	_	_
 5	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
@@ -2997,7 +2997,7 @@
 12	sen	se	PRON	_	Case=Gen|Number=Sing|PronType=Dem	11	obj	_	_
 13	yhteen	yhteen	ADV	_	_	11	advmod	_	_
 14	muodostaen	muodostaa	VERB	_	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	11	advcl	_	_
-15	kuun	Kuu	PROPN	_	Case=Gen|Number=Sing	14	obj	_	SpaceAfter=No
+15	kuun	kuu	NOUN	_	Case=Gen|Number=Sing	14	obj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = n01057036
@@ -3412,7 +3412,7 @@
 6	olen	olla	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	viettänyt	viettää	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 8	viime	viime	ADJ	_	_	9	amod	_	_
-9	kuukaudet	kuu#kausi	NOUN	_	Case=Nom|Number=Plur	7	obj	_	_
+9	kuukaudet	kuukausi	NOUN	_	Case=Nom|Number=Plur	7	obj	_	_
 10	valvomalla	valvoa	VERB	_	Case=Ade|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	7	advcl	_	_
 11	myöhään	myöhään	ADV	_	_	10	advmod	_	_
 12	ja	ja	CCONJ	_	_	13	cc	_	_
@@ -3496,7 +3496,7 @@
 17	karsaasti	karsaasti	ADV	_	_	16	advmod	_	_
 18	valokuva-offsetpainetun	valo#kuva#offset#painaa	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	19	acl	_	_
 19	version	versio	NOUN	_	Case=Gen|Number=Sing	20	nmod:poss	_	_
-20	vedosmaisuuteen	vedos#maisuus	NOUN	_	Case=Ill|Derivation=Inen,Vs|Number=Sing	16	obl	_	SpaceAfter=No
+20	vedosmaisuuteen	vedosmaisuus	NOUN	_	Case=Ill|Derivation=Inen,Vs|Number=Sing	16	obl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n01066068
@@ -3569,7 +3569,7 @@
 18	ja	ja	CCONJ	_	_	20	cc	_	_
 19	joita	joka	PRON	_	Case=Par|Number=Plur|PronType=Rel	20	obj	_	_
 20	käytettiin	käyttää	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	12	conj	_	_
-21	sotakorkeakoulun	sota#korkeakoulu	NOUN	_	Case=Gen|Number=Sing	22	nmod:poss	_	_
+21	sotakorkeakoulun	sota#korkea#koulu	NOUN	_	Case=Gen|Number=Sing	22	nmod:poss	_	_
 22	pääsykokeissa	pääsy#koe	NOUN	_	Case=Ine|Number=Plur	20	obl	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -4023,7 +4023,7 @@
 8	joita	joka	PRON	_	Case=Par|Number=Plur|PronType=Rel	9	obj	_	_
 9	julkaistaan	julkaista	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl:relcl	_	_
 10	sarjana	sarja	NOUN	_	Case=Ess|Number=Sing	9	obl	_	_
-11	paljonpuhuvia	paljo#puhuva	ADJ	_	Case=Par|Degree=Pos|Number=Plur	12	amod	_	_
+11	paljonpuhuvia	paljon#puhuva	ADJ	_	Case=Par|Degree=Pos|Number=Plur	12	amod	_	_
 12	kuvia	kuva	NOUN	_	Case=Par|Number=Plur	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	joiden	joka	PRON	_	Case=Gen|Number=Plur|PronType=Rel	16	obl	_	_
@@ -4109,7 +4109,7 @@
 16	sekä	sekä	CCONJ	_	_	17	cc	_	_
 17	paikka	paikka	NOUN	_	Case=Nom|Number=Sing	7	conj	_	_
 18	Harvardin	Harvard	PROPN	_	Case=Gen|Number=Sing	19	nmod:poss	_	_
-19	kauppakorkeakoulussa	kauppa#korkeakoulu	NOUN	_	Case=Ine|Number=Sing	17	nmod	_	SpaceAfter=No
+19	kauppakorkeakoulussa	kauppa#korkea#koulu	NOUN	_	Case=Ine|Number=Sing	17	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
 
 # newdoc id = n01080
@@ -4244,7 +4244,7 @@
 # text = Teoreettisesti pariskunta voisi avata neljä Tescon tiliä ja tienata 3 % 12 000 punnasta - 360 puntaa.
 # text_en = Theoretically, a couple could open four Tesco accounts and earn 3% on £12,000 – £360.
 1	Teoreettisesti	teoreettisesti	ADV	_	Derivation=Sti	4	advmod	_	_
-2	pariskunta	pariskunta	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	pariskunta	paris#kunta	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 3	voisi	voida	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	avata	avata	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
 5	neljä	neljä	NUM	_	Case=Nom|Number=Sing|NumType=Card	7	nummod	_	_
@@ -4786,7 +4786,7 @@
 # sent_id = n01093007
 # text = Kelttimeren turskakanta voi romahtaa ilman ehdotettuja rajoituksia, eräs EU-virkamies sanoi.
 # text_en = “Celtic Sea cod could collapse,” without the proposed limits, one EU official said.
-1	Kelttimeren	keltti#meri	NOUN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Kelttimeren	Kelttimeri	PROPN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	turskakanta	turska#kanta	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 3	voi	voida	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	romahtaa	romahtaa	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
@@ -4818,9 +4818,9 @@
 14	sekä	sekä	CCONJ	_	_	15	cc	_	_
 15	lyyraturskan	lyyra#turska	NOUN	_	Case=Gen|Number=Sing	7	conj	_	_
 16	pyydystämiselle	pyydystäminen	NOUN	_	Case=All|Derivation=Minen|Number=Sing	6	obl	_	_
-17	Kelttimerellä	keltti#meri	PROPN	_	Case=Ade|Number=Sing	16	nmod	_	_
+17	Kelttimerellä	Kelttimeri	PROPN	_	Case=Ade|Number=Sing	16	nmod	_	_
 18	ja	ja	CCONJ	_	_	19	cc	_	_
-19	Irlanninmerellä	Irlannin#meri	PROPN	_	Case=Ade|Number=Sing	17	conj	_	SpaceAfter=No
+19	Irlanninmerellä	Irlanninmeri	PROPN	_	Case=Ade|Number=Sing	17	conj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = n01093025
@@ -5098,7 +5098,7 @@
 15	koteloita	kotelo	NOUN	_	Case=Par|Number=Plur	11	conj	_	_
 16	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 17	niitä	se	PRON	_	Case=Par|Number=Plur|PronType=Dem	18	obj	_	_
-18	pidetään	pidetä	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	15	parataxis	_	_
+18	pidetään	pitää	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	15	parataxis	_	_
 19	herkkuna	herkku	NOUN	_	Case=Ess|Derivation=U|Number=Sing	18	xcomp:ds	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
@@ -5470,7 +5470,7 @@
 4	lokakuussa	lokakuu	NOUN	_	Case=Ine|Number=Sing	2	obl	_	_
 5	2015	2015	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	13	punct	_	_
-7	kuukausi	kuu#kausi	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
+7	kuukausi	kuukausi	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
 8	sen	se	PRON	_	Case=Gen|Number=Sing|PronType=Dem	13	obl	_	_
 9	jälkeen	jälkeen	ADP	_	AdpType=Post	8	case	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
@@ -5683,7 +5683,7 @@
 6	Multi	Multi	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 7	Strategy	Strategy	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 8	Target	Target	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
-9	Return-	Return-	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
+9	Return-	Return	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 10	ja	ja	CCONJ	_	_	11	cc	_	_
 11	Income-rahastot	Income#rahasto	NOUN	_	Case=Nom|Number=Plur	6	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
@@ -5707,7 +5707,7 @@
 2	tarkoittaa	tarkoittaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	_
 4	että	että	SCONJ	_	_	8	mark	_	_
-5	he	he	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+5	he	hän	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 6	eivät	ei	AUX	_	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
 7	ole	olla	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	hyötyneet	hyötyä	VERB	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	2	ccomp	_	_
@@ -6585,7 +6585,7 @@
 8	,	,	PUNCT	_	_	14	punct	_	_
 9	ja	ja	CCONJ	_	_	14	cc	_	_
 10	puolueen	puolue	NOUN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
-11	kokonaisetumatka	kokonainen#etu#matka	NOUN	_	Case=Nom|Number=Sing	14	nsubj:cop	_	_
+11	kokonaisetumatka	kokonais#etu#matka	NOUN	_	Case=Nom|Number=Sing	14	nsubj:cop	_	_
 12	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
 13	noin	noin	ADV	_	_	14	advmod	_	_
 14	16 500	16 500	NUM	_	NumType=Card	3	conj	_	_
@@ -6718,7 +6718,7 @@
 # text_en = He is credited with helping efforts to tackle the mountain of debt accumulated by local governments in China.
 1	Hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
 2	ansionaan	ansio	NOUN	_	Case=Ess|Number=Sing|Person[psor]=3	3	obl	_	_
-3	pidetään	pidetä	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	pidetään	pitää	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	auttamisyrityksiä	auttamis#yritys	NOUN	_	Case=Par|Number=Plur	3	obj	_	_
 5	Kiinan	Kiina	PROPN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	paikallisviranomaisten	paikallis#viran#omainen	NOUN	_	Case=Gen|Number=Plur	7	nsubj	_	_
@@ -7154,7 +7154,7 @@
 9	tiensä	tie	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	8	obj	_	_
 10	johtavaan	johtava	ADJ	_	Case=Ill|Degree=Pos|Number=Sing	11	amod	_	_
 11	golf-turnaukseen	golf#turnaus	NOUN	_	Case=Ill|Number=Sing	9	nmod	_	_
-12	Pohjois-Koreassa	Pohjois#Korea	PROPN	_	Case=Ine|Number=Sing	8	obl	_	SpaceAfter=No
+12	Pohjois-Koreassa	Pohjois-Korea	PROPN	_	Case=Ine|Number=Sing	8	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	8	punct	_	_
 
 # newdoc id = n01144
@@ -7405,7 +7405,7 @@
 6	kerrostalojen	kerros#talo	NOUN	_	Case=Gen|Number=Plur	7	nmod:gsubj	_	_
 7	yleistymistä	yleistyminen	NOUN	_	Case=Par|Derivation=Minen|Number=Sing	4	obj	_	_
 8	-	-	PUNCT	_	_	4	punct	_	_
-9	esimerkkinä	esi#merkki	NOUN	_	Case=Ess|Number=Sing	11	nmod	_	_
+9	esimerkkinä	esimerkki	NOUN	_	Case=Ess|Number=Sing	11	nmod	_	_
 10	uraauurtava	uraauurtava	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	11	amod	_	_
 11	MahaNakhon	MahaNakhon	PROPN	_	Case=Gen|Number=Sing	4	parataxis	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
@@ -7642,9 +7642,9 @@
 # sent_id = w01003051
 # text = Esimerkkejä ovat Linesaaret Tyynellä valtamerellä sekä Malediivit Intian valtamerellä.
 # text_en = Examples are the Line Islands in the Pacific and the Maldives in the Indian Ocean.
-1	Esimerkkejä	esi#merkki	NOUN	_	Case=Par|Number=Plur	0	root	_	_
+1	Esimerkkejä	esimerkki	NOUN	_	Case=Par|Number=Plur	0	root	_	_
 2	ovat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
-3	Linesaaret	Line#saaret	PROPN	_	Case=Nom|Number=Plur	1	nsubj:cop	_	_
+3	Linesaaret	Linesaaret	PROPN	_	Case=Nom|Number=Plur	1	nsubj:cop	_	_
 4	Tyynellä	tyyni	ADJ	_	Case=Ade|Degree=Pos|Number=Sing	5	amod	_	_
 5	valtamerellä	valta#meri	NOUN	_	Case=Ade|Number=Sing	3	nmod	_	_
 6	sekä	sekä	CCONJ	_	_	7	cc	_	_
@@ -7656,7 +7656,7 @@
 # sent_id = w01003056
 # text = Graniittisaariin kuuluvat Seychellit ja Tioman, sekä tuliperäiset saaret kuten Saint Helena.
 # text_en = Granite islands include Seychelles and Tioman and volcanic islands such as Saint Helena.
-1	Graniittisaariin	Graniitti#saaret	PROPN	_	Case=Ill|Number=Plur	2	obl	_	_
+1	Graniittisaariin	Graniittisaaret	PROPN	_	Case=Ill|Number=Plur	2	obl	_	_
 2	kuuluvat	kuulua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	Seychellit	Seychellit	PROPN	_	Case=Nom|Number=Plur	2	nsubj	_	_
 4	ja	ja	CCONJ	_	_	5	cc	_	_
@@ -7673,7 +7673,7 @@
 # sent_id = w01003062
 # text = Esimerkki aavikkosaaresta on pienet saaret Meksikon Baja Californian rannikon ulkopuolella.
 # text_en = An example of a desert island would be the small islands off the coast of Baja California, Mexico.
-1	Esimerkki	esi#merkki	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+1	Esimerkki	esimerkki	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 2	aavikkosaaresta	aavikko#saari	NOUN	_	Case=Ela|Number=Sing	1	nmod	_	_
 3	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 4	pienet	pieni	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
@@ -8009,12 +8009,12 @@
 4	ruhtinaskunta	ruhtinas#kunta	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	syntyi	syntyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	nykyisen	nykyinen	ADJ	_	Case=Gen|Degree=Pos|Derivation=Inen|Number=Sing	7	amod	_	_
-7	Kaakkois-Määrin	Kaakkois#Määri	PROPN	_	Case=Gen|Number=Sing	14	nmod:poss	_	SpaceAfter=No
+7	Kaakkois-Määrin	Kaakkois-Määri	PROPN	_	Case=Gen|Number=Sing	14	nmod:poss	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	Lounais-Slovakian	Lounais-Slovakia	PROPN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	Záhorien	Záhorie	PROPN	_	Case=Gen|Number=Plur	7	conj	_	_
 11	ja	ja	CCONJ	_	_	13	cc	_	_
-12	Ala-Itävallan	Ala#Itävalta	PROPN	_	Case=Gen|Number=Sing	13	nmod:poss	_	_
+12	Ala-Itävallan	Ala-Itävalta	PROPN	_	Case=Gen|Number=Sing	13	nmod:poss	_	_
 13	osien	osa	NOUN	_	Case=Gen|Number=Plur	7	conj	_	_
 14	alueella	alue	NOUN	_	Case=Ade|Number=Sing	5	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	_
@@ -8027,7 +8027,7 @@
 3	jKr.	jKr.	NOUN	_	Abbr=Yes	2	nmod	_	_
 4	siitä	se	PRON	_	Case=Ela|Number=Sing|PronType=Dem	5	obl	_	_
 5	tuli	tulla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-6	Suur-Määrin	Suur#Määri	PROPN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
+6	Suur-Määrin	Suur-Määri	PROPN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	valtio	valtio	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 8	Nitran	Nitra	PROPN	_	Case=Gen|Number=Sing	9	nmod:poss	_	_
 9	ruhtinaskunnan	ruhtinas#kunta	NOUN	_	Case=Gen|Number=Sing	14	nmod:gobj	_	_
@@ -8178,11 +8178,11 @@
 1	Kaukasian	Kaukasia	PROPN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	pohjoisosa	pohjois#osa	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 3	tunnetaan	tuntea	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-4	Pohjois-Kaukasiana	Pohjois#Kaukasia	NOUN	_	Case=Ess|Number=Sing	3	obl	_	_
+4	Pohjois-Kaukasiana	Pohjois-Kaukasia	PROPN	_	Case=Ess|Number=Sing	3	obl	_	_
 5	ja	ja	CCONJ	_	_	6	cc	6.1:cc	_
 6	eteläosa	etelä#osa	NOUN	_	Case=Nom|Number=Sing	3	conj	6.1:obj	_
 6.1	tunnetaan	tuntea	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	_	_	3:conj	_
-7	Etelä-Kaukasiana	Etelä#Kaukasia	PROPN	_	Case=Ess|Number=Sing	6	orphan	6.1:obl	SpaceAfter=No
+7	Etelä-Kaukasiana	Etelä-Kaukasia	PROPN	_	Case=Ess|Number=Sing	6	orphan	6.1:obl	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # newdoc id = w01016
@@ -8227,7 +8227,7 @@
 # text = Viimeaikainen esimerkki sään hallinnasta oli Kiinan valmistautuminen vuoden 2008 kesäolympialaisiin.
 # text_en = A recent example of weather control was China's preparation for the 2008 Summer Olympic Games.
 1	Viimeaikainen	viimeaikainen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	2	amod	_	_
-2	esimerkki	esi#merkki	NOUN	_	Case=Nom|Number=Sing	7	nsubj:cop	_	_
+2	esimerkki	esimerkki	NOUN	_	Case=Nom|Number=Sing	7	nsubj:cop	_	_
 3	sään	sää	NOUN	_	Case=Gen|Number=Sing	4	nmod:gobj	_	_
 4	hallinnasta	hallinta	NOUN	_	Case=Ela|Number=Sing	2	nmod	_	_
 5	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
@@ -8242,7 +8242,7 @@
 # sent_id = w01017004
 # text = Itä-Afrikan railon luoneet maailmanlaajuiset mannerlaattojen tektoniset liikkeet muokkasivat Itä-Afrikan, jossa sijaitsee kaksi Afrikan korkeinta huippua, Kilimanjaro ja Mount Kenya.
 # text_en = Shaped by global plate tectonic forces that have created the East African Rift, East Africa is the site of Mount Kilimanjaro and Mount Kenya, the two tallest peaks in Africa.
-1	Itä-Afrikan	Itä-Afrikka	NOUN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Itä-Afrikan	Itä-Afrikka	PROPN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	railon	railo	NOUN	_	Case=Gen|Number=Sing	3	obj	_	_
 3	luoneet	luoda	VERB	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	7	acl	_	_
 4	maailmanlaajuiset	maailman#laajuinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Inen|Number=Plur	7	amod	_	_
@@ -8412,7 +8412,7 @@
 2	muinaiset	muinainen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Inen|Number=Plur	3	amod	_	_
 3	sivilisaatiot	sivilisaatio	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 4	sijaitsivat	sijaita	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-5	Välimeren	väli#meri	PROPN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
+5	Välimeren	Välimeri	PROPN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	rannoilla	ranta	NOUN	_	Case=Ade|Number=Plur	4	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	ja	ja	CCONJ	_	_	11	cc	_	_
@@ -8441,7 +8441,7 @@
 13	kalastusta	kalastus	NOUN	_	Case=Par|Number=Sing	11	appos	_	_
 14	ja	ja	CCONJ	_	_	17	cc	_	_
 15	muiden	muu	PRON	_	Case=Gen|Number=Plur|PronType=Ind	16	det	_	_
-16	merenelävien	meri#elävä	NOUN	_	Case=Gen|Number=Plur	17	nmod:gobj	_	_
+16	merenelävien	meren#elävä	NOUN	_	Case=Gen|Number=Plur	17	nmod:gobj	_	_
 17	keräämistä	kerääminen	NOUN	_	Case=Par|Derivation=Minen|Number=Sing	13	conj	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	13	punct	_	_
 19	useille	usea	ADJ	_	Case=All|Degree=Pos|Number=Plur	20	amod	_	_
@@ -8482,7 +8482,7 @@
 2	huomattavinta	huomattava	ADJ	_	Case=Par|Degree=Sup|Number=Sing	6	amod	_	_
 3	antiikin	antiikki	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	aikaista	aikainen	ADJ	_	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	6	amod	_	_
-5	Välimeren	väli#meri	PROPN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
+5	Välimeren	Välimeri	PROPN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	sivilisaatiota	sivilisaatio	NOUN	_	Case=Par|Number=Sing	9	nsubj:cop	_	_
 7	olivat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	_
 8	kreikkalaiset	kreikkalainen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Plur	9	amod	_	_
@@ -8493,7 +8493,7 @@
 13	jotka	joka	PRON	_	Case=Nom|Number=Plur|PronType=Rel	15	nsubj	_	_
 14	molemmat	molemmat	PRON	_	Case=Nom|Number=Plur|PronType=Ind	13	det	_	_
 15	asuttivat	asuttaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
-16	Välimeren	väli#meri	PROPN	_	Case=Gen|Number=Sing	17	nmod:poss	_	_
+16	Välimeren	Välimeri	PROPN	_	Case=Gen|Number=Sing	17	nmod:poss	_	_
 17	rannikoita	rannikko	NOUN	_	Case=Par|Number=Plur	15	obj	_	_
 18	laajalti	laajalti	ADV	_	_	15	advmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	9	punct	_	_
@@ -8511,7 +8511,7 @@
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	roomalaiset	roomalainen	NOUN	_	Case=Nom|Derivation=Lainen|Number=Plur	10	nsubj	_	_
 10	käyttivät	käyttää	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-11	Välimerestä	väli#meri	PROPN	_	Case=Ela|Number=Sing	10	obl	_	_
+11	Välimerestä	Välimeri	PROPN	_	Case=Ela|Number=Sing	10	obl	_	_
 12	nimeä	nimi	NOUN	_	Case=Par|Number=Sing	10	obj	_	_
 13	Mare	Mare	PROPN	_	Case=Nom|Number=Sing	12	appos	_	_
 14	Nostrum	Nostrum	PROPN	_	Case=Nom|Number=Sing	13	flat:name	_	_
@@ -8834,7 +8834,7 @@
 2	ja	ja	CCONJ	_	_	3	cc	_	_
 3	tunnetuin	tunnettu	ADJ	_	Case=Nom|Degree=Sup|Number=Sing	1	conj	_	_
 4	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	_
-5	Ohiojoki	Ohio#joki	PROPN	_	Case=Nom|Number=Sing	1	nsubj:cop	_	SpaceAfter=No
+5	Ohiojoki	Ohiojoki	PROPN	_	Case=Nom|Number=Sing	1	nsubj:cop	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	8	nsubj	_	_
 8	virtasi	virrata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
@@ -9030,9 +9030,9 @@
 26	ja	ja	CCONJ	_	_	28	cc	_	_
 27	lopulta	lopulta	ADV	_	_	28	advmod	_	_
 28	laskevat	laskea	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	conj	_	_
-29	Pohjanmereen	pohjan#meri	PROPN	_	Case=Ill|Number=Sing	28	obl	_	SpaceAfter=No
+29	Pohjanmereen	Pohjanmeri	PROPN	_	Case=Ill|Number=Sing	28	obl	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
-31	Välimereen	väli#meri	PROPN	_	Case=Ill|Number=Sing	29	conj	_	SpaceAfter=No
+31	Välimereen	Välimeri	PROPN	_	Case=Ill|Number=Sing	29	conj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
 33	Adrianmereen	Adrianmeri	PROPN	_	Case=Ill|Number=Sing	29	conj	_	_
 34	ja	ja	CCONJ	_	_	35	cc	_	_
@@ -9190,7 +9190,7 @@
 4	huomattavasti	huomattavasti	ADV	_	Derivation=Sti	3	advmod	_	_
 5	alueen	alue	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	alttiutta	alttius	NOUN	_	Case=Par|Number=Sing	3	obj	_	_
-7	luonnonkatastrofeille	luonto#katastrofi	NOUN	_	Case=All|Number=Plur	6	obl	_	SpaceAfter=No
+7	luonnonkatastrofeille	luonnon#katastrofi	NOUN	_	Case=All|Number=Plur	6	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	kuten	kuten	ADV	_	_	10	advmod	_	_
 10	tulville	tulva	NOUN	_	Case=All|Number=Plur	7	appos	_	SpaceAfter=No
@@ -9326,7 +9326,7 @@
 1	Pohjois-Amerikkaa	Pohjois-Amerikka	PROPN	_	Case=Par|Number=Sing	4	obj	_	_
 2	ja	ja	CCONJ	_	_	3	cc	_	_
 3	Etelä-Amerikkaa	Etelä-Amerikka	PROPN	_	Case=Par|Number=Sing	1	conj	_	_
-4	pidetään	pidetä	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	pidetään	pitää	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 5	erillisinä	erillinen	ADJ	_	Case=Ess|Degree=Pos|Derivation=Llinen|Number=Plur	6	amod	_	_
 6	mantereina	manner	NOUN	_	Case=Ess|Number=Plur	4	xcomp:ds	_	_
 7	seitsemän	seitsemän	NUM	_	Case=Gen|Number=Sing|NumType=Card	8	nummod	_	_
@@ -9555,7 +9555,7 @@
 # text = Suuremmilla tuulennopeuksilla jotkut hiukkaset nousevat ilmavirtaan.
 # text_en = At greater wind speeds, some particles are lifted into the air stream.
 1	Suuremmilla	suuri	ADJ	_	Case=Ade|Degree=Cmp|Number=Plur	2	amod	_	_
-2	tuulennopeuksilla	tuuli#nopeus	NOUN	_	Case=Ade|Number=Plur	5	obl	_	_
+2	tuulennopeuksilla	tuulen#nopeus	NOUN	_	Case=Ade|Number=Plur	5	obl	_	_
 3	jotkut	joku	PRON	_	Case=Nom|Number=Plur|PronType=Ind	4	det	_	_
 4	hiukkaset	hiukkanen	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
 5	nousevat	nousta	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -9770,7 +9770,7 @@
 6	eurooppalaiset	eurooppalainen	NOUN	_	Case=Nom|Derivation=Lainen|Number=Plur	7	nsubj	_	_
 7	erottivat	erottaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	”	”	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	Etelämeren	etelä#meri	PROPN	_	Case=Gen|Number=Sing	7	obj	_	SpaceAfter=No
+9	Etelämeren	Etelämeri	PROPN	_	Case=Gen|Number=Sing	7	obj	_	SpaceAfter=No
 10	”	”	PUNCT	_	_	9	punct	_	_
 11	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 12	Tyyni	tyyni	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	13	amod	_	_
@@ -9782,7 +9782,7 @@
 18	)	)	PUNCT	_	_	13	punct	_	_
 19	ja	ja	CCONJ	_	_	21	cc	_	_
 20	”	”	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	Pohjoismeren	pohjoinen#meri	PROPN	_	Case=Gen|Number=Sing	9	conj	_	SpaceAfter=No
+21	Pohjoismeren	Pohjoismeri	PROPN	_	Case=Gen|Number=Sing	9	conj	_	SpaceAfter=No
 22	”	”	PUNCT	_	_	21	punct	_	_
 23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	Karibianmeri	Karibianmeri	PROPN	_	Case=Nom|Number=Sing	21	appos	_	SpaceAfter=No
@@ -9796,7 +9796,7 @@
 # sent_id = w01045006
 # text = Karibianmeri pysyi Euraasian asukkaille tuntemattomana vuoteen 1492 asti, jolloin Kristoffer Kolumbus purjehti ensimmäisenä Karibian vesille etsiessään merireittiä Aasiaan.
 # text_en = The Caribbean Sea had been unknown to the populations of Eurasia until 1492, when Christopher Columbus first sailed into Caribbean waters on a quest to find a sea route to Asia.
-1	Karibianmeri	Karibianmeri	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+1	Karibianmeri	Karibianmeri	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	pysyi	pysyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	Euraasian	Euraasia	PROPN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	asukkaille	asukas	NOUN	_	Case=All|Number=Plur	2	obl	_	_
@@ -10080,7 +10080,7 @@
 # text = Kiinan tasavallan presidentti Yuan Shikai piti uutta tasavaltaa Qing-dynastian seuraajana.
 # text_en = Yuan Shikai, the President of the Republic of China, considered the new republic to be the successor of the Qing.
 1	Kiinan	Kiina	PROPN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
-2	tasavallan	tasavalta	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	tasavallan	tasa#valta	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	_
 3	presidentti	presidentti	NOUN	_	Case=Nom|Number=Sing	4	compound:nn	_	_
 4	Yuan	Yuan	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 5	Shikai	Shikai	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
@@ -10223,7 +10223,7 @@
 16	egyptiläisiä	egyptiläinen	ADJ	_	Case=Par|Degree=Pos|Derivation=Lainen|Number=Plur	17	amod	_	_
 17	sotilaita	sotilas	NOUN	_	Case=Par|Number=Plur	15	obj	_	_
 18	Thutmosis	Thutmosis	PROPN	_	Case=Nom|Number=Sing	15	obl	_	_
-19	III:n	III:n	PROPN	_	Case=Gen|Number=Sing	18	flat:name	_	_
+19	III:n	III	PROPN	_	Case=Gen|Number=Sing	18	flat:name	_	_
 20	jälkeen	jälkeen	ADP	_	AdpType=Post	18	case	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	25	punct	_	_
 22	eli	eli	CCONJ	_	_	25	cc	_	_
@@ -10392,7 +10392,7 @@
 12	voitiin	voida	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	13	aux:pass	_	_
 13	soveltaa	soveltaa	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	acl:relcl	_	_
 14	kautta	kautta	ADP	_	AdpType=Post	16	case	_	_
-15	Välimeren	väli#meri	PROPN	_	Case=Gen|Number=Sing	16	nmod:poss	_	_
+15	Välimeren	Välimeri	PROPN	_	Case=Gen|Number=Sing	16	nmod:poss	_	_
 16	alueen	alue	NOUN	_	Case=Gen|Number=Sing	13	obl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	kuten	kuten	SCONJ	_	_	21	mark	_	_
@@ -10795,7 +10795,7 @@
 6	oletettavasti	oletettavasti	ADV	_	Derivation=Sti	8	advmod	_	_
 7	egyptiläisfaarao	egyptiläinen#faarao	NOUN	_	Case=Nom|Number=Sing	8	compound:nn	_	_
 8	Thutmosis	Thutmosis	PROPN	_	Case=Nom|Number=Sing	3	conj	_	_
-9	III:n	III:n	PROPN	_	Case=Gen|Number=Sing	8	flat:name	_	_
+9	III:n	III	PROPN	_	Case=Gen|Number=Sing	8	flat:name	_	_
 10	sotaretken	sota#retki	NOUN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
 11	jäljiltä	jäljiltä	ADV	_	_	8	advmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
@@ -10855,7 +10855,7 @@
 4	syntymän	syntymä	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	_	_
 5	päivämäärä	päivä#määrä	NOUN	_	Case=Nom|Number=Sing	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	kuukausi	kuu#kausi	NOUN	_	Case=Nom|Number=Sing	5	conj	_	_
+7	kuukausi	kuukausi	NOUN	_	Case=Nom|Number=Sing	5	conj	_	_
 8	ja	ja	CCONJ	_	_	9	cc	_	_
 9	aika	aika	NOUN	_	Case=Nom|Number=Sing	5	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
@@ -11050,7 +11050,7 @@
 3	toimistaan	toimi	NOUN	_	Case=Ela|Number=Plur|Person[psor]=3	6	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	Kaarlea	Kaarle	PROPN	_	Case=Par|Number=Sing	6	obj	_	_
-6	pidetään	pidetä	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	pidetään	pitää	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 7	hallitsijana	hallitsija	NOUN	_	Case=Ess|Derivation=Ja|Number=Sing	6	xcomp:ds	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	10	nsubj	_	_
@@ -11718,7 +11718,7 @@
 6	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
 7	nyt	nyt	ADV	_	_	8	advmod	_	_
 8	turvattu	turvata	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	_
-9	Néstos-	Néstos-	NOUN	_	Case=Nom|Number=Sing	12	compound:nn	_	_
+9	Néstos-	Néstos	NOUN	_	Case=Nom|Number=Sing	12	compound:nn	_	_
 10	eli	eli	CCONJ	_	_	11	cc	_	_
 11	Mesta	Mesta	PROPN	_	Case=Nom|Number=Sing	9	conj	_	SpaceAfter=No
 12	-joella	joki	NOUN	_	Case=Ade|Number=Sing	8	obl	_	SpaceAfter=No
@@ -11967,7 +11967,7 @@
 # sent_id = w01085007
 # text = Yhdysvallat vapautti Kuuban (Yhdysvaltojen armeijan miehityksen jälkeen).
 # text_en = The United States freed Cuba (after an occupation by the U.S. Army).
-1	Yhdysvallat	Yhdysvalta	PROPN	_	Case=Nom|Number=Plur	2	nsubj	_	_
+1	Yhdysvallat	Yhdysvallat	PROPN	_	Case=Nom|Number=Plur	2	nsubj	_	_
 2	vapautti	vapauttaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	Kuuban	Kuuba	PROPN	_	Case=Gen|Number=Sing	2	obj	_	_
 4	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -12309,7 +12309,7 @@
 # text_en = In the case of the imperial family, it is considered extremely inappropriate to use the given name.
 1	Etunimen	etu#nimi	NOUN	_	Case=Gen|Number=Sing	2	nmod:gobj	_	_
 2	käyttöä	käyttö	NOUN	_	Case=Par|Number=Sing	3	obj	_	_
-3	pidetään	pidetä	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	pidetään	pitää	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	erittäin	erittäin	ADV	_	Derivation=Ttain	5	advmod	_	_
 5	sopimattomana	sopimaton	ADJ	_	Case=Ess|Degree=Pos|Derivation=Ton|Number=Sing	3	xcomp:ds	_	_
 6	keisariperheen	keisari#perhe	NOUN	_	Case=Gen|Number=Sing	8	nsubj:cop	_	_
@@ -12395,7 +12395,7 @@
 3	tappoivat	tappaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	Aasiassa	Aasia	PROPN	_	Case=Ine|Number=Sing	3	obl	_	_
 5	ja	ja	CCONJ	_	_	7	cc	_	_
-6	Tyynenmeren	tyyni#meri	PROPN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
+6	Tyynenmeren	Tyynimeri	PROPN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	alueella	alue	NOUN	_	Case=Ade|Number=Sing	4	conj	_	_
 8	siviilejä	siviili	NOUN	_	Case=Par|Number=Plur	3	obj	_	_
 9	määrän	määrä	NOUN	_	Case=Gen|Number=Sing	3	obl	_	SpaceAfter=No
@@ -12622,7 +12622,7 @@
 1	Vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	5	obl	_	_
 2	1856	1856	NUM	_	NumType=Card	1	nummod	_	_
 3	toinen	toinen	PRON	_	Case=Nom|Number=Sing|PronType=Rcp	4	det	_	_
-4	oopiumsota	oopium#sota	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+4	oopiumsota	oopium#sota	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	syttyi	syttyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 7	Kiina	Kiina	PROPN	_	Case=Nom|Number=Sing	8	obj	_	_
@@ -12814,7 +12814,7 @@
 9	useisiin	usea	ADJ	_	Case=Ill|Degree=Pos|Number=Plur	10	amod	_	_
 10	B-29-lentokoneisiin	B-29#lentokone	NOUN	_	Case=Ill|Number=Plur	11	obl	_	_
 11	asennettiin	asentaa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	19	advcl	_	_
-12	Eagle-tutka	Eagle#tutka	PROPN	_	Case=Nom|Number=Sing	11	obj	_	_
+12	Eagle-tutka	Eagle#tutka	NOUN	_	Case=Nom|Number=Sing	11	obj	_	_
 13	ja	ja	CCONJ	_	_	15	cc	_	_
 14	se	se	PRON	_	Case=Nom|Number=Sing|PronType=Dem	15	nsubj	_	_
 15	toimi	toimia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
@@ -12953,7 +12953,7 @@
 2	myötä	myötä	ADP	_	AdpType=Post	1	case	_	_
 3	luotiin	luoda	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	uusia	uusi	ADJ	_	Case=Par|Degree=Pos|Number=Plur	5	amod	_	_
-5	alkuperäisasutuksia	alku#peräinen#asutus	NOUN	_	Case=Par|Number=Plur	3	obj	_	SpaceAfter=No
+5	alkuperäisasutuksia	alku#peräis#asutus	NOUN	_	Case=Par|Number=Plur	3	obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = w01106052
@@ -13204,7 +13204,7 @@
 5	että	että	SCONJ	_	_	6	mark	_	_
 6	Universalilla	Universal	PROPN	_	Case=Ade|Number=Sing	3	ccomp	_	_
 7	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop:own	_	_
-8	immateriaalioikeus	immateriaalioikeus	PROPN	_	Case=Nom|Number=Sing	6	nsubj:cop	_	_
+8	immateriaalioikeus	immateriaali#oikeus	NOUN	_	Case=Nom|Number=Sing	6	nsubj:cop	_	_
 9	Oswaldiin	Oswald	PROPN	_	Case=Ill|Number=Sing	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -13440,7 +13440,7 @@
 4	The	The	PROPN	_	Case=Nom|Number=Sing	15	compound:nn	_	_
 5	Power	Power	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
 6	of	of	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
-7	Now-	Now-	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
+7	Now-	Now	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
 8	ja	ja	CCONJ	_	_	9	cc	_	_
 9	A	a	PROPN	_	Case=Nom|Number=Sing	4	conj	_	_
 10	New	New	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
@@ -13448,7 +13448,7 @@
 12	in	in	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
 13	North	North	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
 14	America	America	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
-15	-kirjoja	kirjo	NOUN	_	Case=Par|Number=Plur	17	obj	_	_
+15	-kirjoja	kirja	NOUN	_	Case=Par|Number=Plur	17	obj	_	_
 16	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
 17	myyty	myydä	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 18	yhteensä	yhteensä	ADV	_	_	19	advmod	_	_
@@ -15482,7 +15482,7 @@
 7	eläimet	eläin	NOUN	_	Case=Nom|Number=Plur	14	nsubj	_	_
 8	kahden	kaksi	NUM	_	Case=Gen|Number=Sing|NumType=Card	9	nummod	_	_
 9	kuukauden	kuukausi	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
-10	lisääntymiskauden	lisääntyä#kausi	NOUN	_	Case=Gen|Number=Sing	14	obl	_	_
+10	lisääntymiskauden	lisääntymis#kausi	NOUN	_	Case=Gen|Number=Sing	14	obl	_	_
 11	jälkeen	jälkeen	ADP	_	AdpType=Post	10	case	_	_
 12	eivät	ei	AUX	_	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	14	aux	_	_
 13	välttämättä	välttämättä	ADV	_	_	14	advmod	_	_
@@ -15503,7 +15503,7 @@
 6	aktiivisia	aktiivinen	ADJ	_	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	7	amod	_	_
 7	agentteja	agentti	NOUN	_	Case=Par|Number=Plur	9	nsubj:cop	_	_
 8	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
-9	Isossa-Britanniassa	Iso#Britannia	PROPN	_	Case=Ine|Number=Sing	0	root	_	_
+9	Isossa-Britanniassa	Iso-Britannia	PROPN	_	Case=Ine|Number=Sing	0	root	_	_
 10	paljon	paljon	ADV	_	_	9	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -15745,7 +15745,7 @@
 # text = 30. elokuuta 2015 ankka-armeija valtasi Internetin.
 # text_en = It was August 30, 2015, as an army of ducks conquered the internet.
 1	30.	30.	ADJ	_	NumType=Ord	5	obl	_	_
-2	elokuuta	elo#kuu	NOUN	_	Case=Par|Number=Sing	1	flat	_	_
+2	elokuuta	elokuu	NOUN	_	Case=Par|Number=Sing	1	flat	_	_
 3	2015	2015	NUM	_	NumType=Card	1	flat	_	_
 4	ankka-armeija	ankka#armeija	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	valtasi	vallata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -15965,7 +15965,7 @@
 8	Tansanian	Tansania	PROPN	_	Case=Gen|Number=Sing	9	nmod:poss	_	_
 9	rannikolle	rannikko	NOUN	_	Case=All|Number=Sing	10	obl	_	_
 10	huuhtoutuneen	huuhtoutua	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	11	acl	_	_
-11	Boeingin	Boeingin	PROPN	_	Case=Gen|Number=Sing	12	nmod:poss	_	_
+11	Boeingin	Boeing	PROPN	_	Case=Gen|Number=Sing	12	nmod:poss	_	_
 12	laskusiivekettä	lasku#siiveke	NOUN	_	Case=Par|Number=Sing	6	obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -16074,7 +16074,7 @@
 # sent_id = n02076003
 # text = International Organization for Renewable Energies (IRENA) -organisaation pääjohtaja Adnan Z. Amin on varma: ”Merituulivoimasta voi tulla pääasiallinen sähköntuottaja maailmantalouteen, joka on vapaa hiileen perustuvasta energiasta.”
 # text_en = Adnan Z. Amin, General Director of the International Organization for Renewable Energies (IRENA) is certain: "Offshore wind power can become the top power generator in a global economy that is free of coal-based energy."
-1	International	international	NOUN	_	Case=Nom|Number=Sing	9	compound:nn	_	_
+1	International	International	PROPN	_	Case=Nom|Number=Sing	9	compound:nn	_	_
 2	Organization	Organization	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	for	for	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 4	Renewable	Renewable	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
@@ -16084,29 +16084,29 @@
 8	)	)	PUNCT	_	_	7	punct	_	_
 9	-organisaation	organisaatio	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	pääjohtaja	pää#johtaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	11	compound:nn	_	_
-11	Adnan	Adnan	PROPN	_	Case=Nom|Number=Sing	16	nsubj:cop	_	_
-12	Z	z	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	11	punct	_	_
-14	Amin	Amin	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	_
-15	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
-16	varma	varma	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
-17	:	:	PUNCT	_	_	16	punct	_	_
-18	”	”	PUNCT	_	_	21	punct	_	SpaceAfter=No
-19	Merituulivoimasta	meri#tuuli#voima	NOUN	_	Case=Ela|Number=Sing	21	obl	_	_
-20	voi	voida	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	_
-21	tulla	tulla	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	16	parataxis	_	_
-22	pääasiallinen	pää#asiallinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	23	amod	_	_
-23	sähköntuottaja	sähkön#tuottaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	21	nsubj	_	_
-24	maailmantalouteen	maailman#talous	NOUN	_	Case=Ill|Number=Sing	23	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	28	punct	_	_
-26	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	28	nsubj:cop	_	_
-27	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	cop	_	_
-28	vapaa	vapaa	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	24	acl:relcl	_	_
-29	hiileen	hiili	NOUN	_	Case=Ill|Number=Sing	30	obl	_	_
-30	perustuvasta	perustua	VERB	_	Case=Ela|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	31	acl	_	_
-31	energiasta	energia	NOUN	_	Case=Ela|Number=Sing	28	nmod	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
-33	”	”	PUNCT	_	_	21	punct	_	_
+11	Adnan	Adnan	PROPN	_	Case=Nom|Number=Sing	15	nsubj:cop	_	_
+12	Z.	Z.	PROPN	_	Abbr=Yes|Case=Nom|Number=Sing	11	flat:name	_	SpaceAfter=No
+13	Amin	Amin	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	_
+14	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+15	varma	varma	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	15	punct	_	_
+17	”	”	PUNCT	_	_	20	punct	_	SpaceAfter=No
+18	Merituulivoimasta	meri#tuuli#voima	NOUN	_	Case=Ela|Number=Sing	20	obl	_	_
+19	voi	voida	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
+20	tulla	tulla	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	15	parataxis	_	_
+21	pääasiallinen	pää#asiallinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	22	amod	_	_
+22	sähköntuottaja	sähkön#tuottaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	20	nsubj	_	_
+23	maailmantalouteen	maailman#talous	NOUN	_	Case=Ill|Number=Sing	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	_
+25	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	27	nsubj:cop	_	_
+26	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	cop	_	_
+27	vapaa	vapaa	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	23	acl:relcl	_	_
+28	hiileen	hiili	NOUN	_	Case=Ill|Number=Sing	29	obl	_	_
+29	perustuvasta	perustua	VERB	_	Case=Ela|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	30	acl	_	_
+30	energiasta	energia	NOUN	_	Case=Ela|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+32	”	”	PUNCT	_	_	20	punct	_	_
+
 
 # newdoc id = n02078
 # sent_id = n02078004
@@ -16761,7 +16761,7 @@
 # sent_id = n04001013
 # text = Tina Anselmi oli aina läheinen Catholic Union -liittouman kanssa, ja seurasi erityisesti opettajien ja tekstiilityöläisten oikeuksia.
 # text_en = Having always been close to the Catholic Union, Tina Anselmi attended particularly to the rights of textile workers and teachers.
-1	Tina	Tina	NOUN	_	Case=Nom|Number=Sing	5	nsubj:cop	_	_
+1	Tina	Tina	PROPN	_	Case=Nom|Number=Sing	5	nsubj:cop	_	_
 2	Anselmi	Anselmi	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	aina	aina	ADV	_	_	5	advmod	_	_
@@ -17112,7 +17112,7 @@
 # text = Yksi esimerkki turvatoimien tutkimuksen sovelluksista on humanoidirobotti, joka kehitettiin kilpailemaan Valentino Rossin kanssa.
 # text_en = One of the examples of research applied under safety measures has also produced a humanoid robot to compete with Valentino Rossi.
 1	Yksi	yksi	NUM	_	Case=Nom|Number=Sing|NumType=Card	2	nummod	_	_
-2	esimerkki	esi#merkki	NOUN	_	Case=Nom|Number=Sing	7	nsubj:cop	_	_
+2	esimerkki	esimerkki	NOUN	_	Case=Nom|Number=Sing	7	nsubj:cop	_	_
 3	turvatoimien	turva#toimi	NOUN	_	Case=Gen|Number=Plur	4	nmod:gobj	_	_
 4	tutkimuksen	tutkimus	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	_	_
 5	sovelluksista	sovellus	NOUN	_	Case=Ela|Number=Plur	2	nmod	_	_
@@ -17187,7 +17187,7 @@
 2	kuten	kuten	ADV	_	_	3	advmod	_	_
 3	Spotifyn	Spotify	PROPN	_	Case=Gen|Number=Sing	1	appos	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	Teslan	tesla	PROPN	_	Case=Gen|Number=Sing	3	conj	_	SpaceAfter=No
+5	Teslan	Tesla	PROPN	_	Case=Gen|Number=Sing	3	conj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	Uberin	Uber	PROPN	_	Case=Gen|Number=Sing	3	conj	_	_
 8	ja	ja	CCONJ	_	_	9	cc	_	_
@@ -17441,7 +17441,7 @@
 2	Fellini	Fellini	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	kerran	kerran	ADV	_	_	3	obl	_	SpaceAfter=No
-5	:	:	PUNCT	_	_	3	punct	_	_
+5	:	:	PUNCT	_	_	8	punct	_	_
 6	”	”	PUNCT	_	_	8	punct	_	SpaceAfter=No
 7	Klovni	klovni	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
 8	on	olla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
@@ -17896,7 +17896,7 @@
 # text_en = It serves as a local place of rest and relaxation for San Franciscans.
 1	Se	se	PRON	_	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	toimii	toimia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	San	san	PROPN	_	Case=Nom|Number=Sing	5	nmod:poss	_	_
+3	San	San	PROPN	_	Case=Nom|Number=Sing	5	nmod:poss	_	_
 4	Franciscon	Francisco	PROPN	_	Case=Gen|Number=Sing	3	flat:name	_	_
 5	asukkaiden	asukas	NOUN	_	Case=Gen|Number=Plur	7	nmod:poss	_	_
 6	alueellisena	alueellinen	ADJ	_	Case=Ess|Degree=Pos|Derivation=Llinen|Number=Sing	7	amod	_	_
@@ -17917,7 +17917,7 @@
 7	Moscone	Moscone	PROPN	_	Case=Nom|Number=Sing	11	compound:nn	_	_
 8	North	North	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 9	Convention	Convention	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
-10	Center	center	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
+10	Center	Center	PROPN	_	Case=Nom|Number=Sing	7	flat:name	_	_
 11	-keskuksen	keskus	NOUN	_	Case=Gen|Number=Sing	12	nmod:poss	_	_
 12	katolle	katto	NOUN	_	Case=All|Number=Sing	5	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
@@ -17991,7 +17991,7 @@
 7	hallituksensa	hallitus	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	8	nmod:poss	_	_
 8	suunnitelmista	suunnitelma	NOUN	_	Case=Ela|Number=Plur	6	obl	_	_
 9	vapauttaa	vapauttaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	_	_
-10	Bosporinsalmi	Bosporin#salmi	PROPN	_	Case=Nom|Number=Sing	9	obj	_	_
+10	Bosporinsalmi	Bosporinsalmi	PROPN	_	Case=Nom|Number=Sing	9	obj	_	_
 11	rakentamalla	rakentaa	VERB	_	Case=Ade|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	9	advcl	_	_
 12	Istanbulin	Istanbul	PROPN	_	Case=Gen|Number=Sing	13	nmod:poss	_	_
 13	kanava	kanava	NOUN	_	Case=Nom|Number=Sing	11	obj	_	_
@@ -18197,7 +18197,7 @@
 # text = Ensimmäinen maailmansota toi mukanaan muutoksia ja uusia kehityksiä siirtomaapolitiikkaan.
 # text_en = The First World War brought about shifts and new developments in colonial politics.
 1	Ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	2	nummod	_	_
-2	maailmansota	maa#ilman#sota	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	maailmansota	maailman#sota	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	toi	tuoda	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	mukanaan	mukana	ADV	_	Person[psor]=3	3	advmod	_	_
 5	muutoksia	muutos	NOUN	_	Case=Par|Number=Plur	3	obj	_	_
@@ -18214,7 +18214,7 @@
 1	Teollinen	teollinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	2	amod	_	_
 2	vallankumous	vallan#kumous	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	tapahtui	tapahtua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	Isossa-Britanniassa	Iso#Britannia	PROPN	_	Case=Ine|Number=Sing	3	obl	_	_
+4	Isossa-Britanniassa	Iso-Britannia	PROPN	_	Case=Ine|Number=Sing	3	obl	_	_
 5	aikaisemmin	aikaisemmin	ADV	_	_	3	advmod	_	_
 6	kuin	kuin	SCONJ	_	_	9	mark	_	_
 7	missään	mikään	PRON	_	Case=Ine|Number=Sing|PronType=Ind	9	det	_	_
@@ -18230,7 +18230,7 @@
 3	osoitti	osoittaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	vanhojen	vanha	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	_
-6	Ison-Britannian	Iso#Britannia	PROPN	_	Case=Gen|Number=Sing	9	nmod:poss	_	_
+6	Ison-Britannian	Iso-Britannia	PROPN	_	Case=Gen|Number=Sing	9	nmod:poss	_	_
 7	ja	ja	CCONJ	_	_	8	cc	_	_
 8	Ranskan	Ranska	PROPN	_	Case=Gen|Number=Sing	6	conj	_	_
 9	kaltaisten	kaltainen	ADJ	_	Case=Gen|Degree=Pos|Derivation=Inen|Number=Plur	10	amod	_	_
@@ -18585,11 +18585,11 @@
 # text = Amnesty International lainaa vuoden 2008 sanomalehtiartikkeleita, joissa kuvataan noituudesta syytettyjen viidenkymmenen ihmisen murhia.
 # text_en = Amnesty International cites newspaper articles from 2008 describing the murder of fifty people accused of witchcraft.
 1	Amnesty	Amnesty	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
-2	International	international	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+2	International	International	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	lainaa	laina	NOUN	_	Case=Par|Number=Sing	0	root	_	_
 4	vuoden	vuosi	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
 5	2008	2008	NUM	_	NumType=Card	4	nummod	_	_
-6	sanomalehtiartikkeleita	sanomalehti#artikkeli	NOUN	_	Case=Par|Number=Plur	3	obj	_	SpaceAfter=No
+6	sanomalehtiartikkeleita	sanoma#lehti#artikkeli	NOUN	_	Case=Par|Number=Plur	3	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	joissa	joka	PRON	_	Case=Ine|Number=Plur|PronType=Rel	9	obl	_	_
 9	kuvataan	kuvata	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl:relcl	_	_
@@ -18647,7 +18647,7 @@
 10	jonka	joka	PRON	_	Case=Gen|Number=Sing|PronType=Rel	11	nmod:poss	_	_
 11	kapteenina	kapteeni	NOUN	_	Case=Ess|Number=Sing	12	obl	_	_
 12	toimi	toimia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
-13	Sir	sir	PROPN	_	Case=Nom|Number=Sing	12	nsubj	_	_
+13	Sir	Sir	PROPN	_	Case=Nom|Number=Sing	12	nsubj	_	_
 14	Ernest	Ernest	PROPN	_	Case=Nom|Number=Sing	13	flat:name	_	_
 15	Shackleton	Shackleton	PROPN	_	Case=Nom|Number=Sing	13	flat:name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	12	punct	_	_
@@ -18696,7 +18696,7 @@
 9	voisi	voida	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	aux	_	_
 10	hoitaa	hoitaa	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	advcl	_	_
 11	liiketoimia	liike#toimi	NOUN	_	Case=Par|Number=Plur	10	obj	_	_
-12	Etelä-Italiassa	Etelä#Italia	PROPN	_	Case=Ine|Number=Sing	10	obl	_	SpaceAfter=No
+12	Etelä-Italiassa	Etelä-Italia	PROPN	_	Case=Ine|Number=Sing	10	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # newdoc id = w03005
@@ -18854,7 +18854,7 @@
 3	luomalla	luoda	VERB	_	Case=Ade|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	advcl	_	_
 4	kauppaetuvartioita	kauppa#etu#vartio	NOUN	_	Case=Par|Number=Plur	3	obj	_	_
 5	kaikkialle	kaikkialle	ADV	_	_	7	advmod	_	_
-6	Välimeren	väli#meri	PROPN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
+6	Välimeren	Välimeri	PROPN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	alueelle	alue	NOUN	_	Case=All|Number=Sing	3	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	14	punct	_	_
 9	mitä	mikä	PRON	_	Case=Par|Number=Sing|PronType=Int	10	det	_	_
@@ -18972,7 +18972,7 @@
 3	harkitsivat	harkita	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	ajatusta	ajatus	NOUN	_	Case=Par|Number=Sing	3	obj	_	_
 5	asumisesta	asuminen	NOUN	_	Case=Ela|Derivation=Minen|Number=Sing	4	nmod	_	_
-6	Etelä-Amerikassa	Etelä#Amerikka	PROPN	_	Case=Ine|Number=Sing	5	nmod	_	SpaceAfter=No
+6	Etelä-Amerikassa	Etelä-Amerikka	PROPN	_	Case=Ine|Number=Sing	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	jossa	joka	PRON	_	Case=Ine|Number=Sing|PronType=Rel	11	obl	_	_
 9	he	hän	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj:cop	_	_
@@ -19085,10 +19085,10 @@
 # text_en = The islands are located at the Indo-Australian Fault; the Fault arose due to the collision of the Indian and Australian plates.
 1	Saaret	saari	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	_
 2	sijaitsevat	sijaita	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	Indo-Australian	Indo#Australia	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
+3	Indo-Australian	Indo-Australia	PROPN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	siirroksessa	siirros	NOUN	_	Case=Ine|Number=Sing	2	obl	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
-6	Siirros	siirros	PROPN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+6	Siirros	siirros	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 7	kohosi	kohota	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
 8	Intian	Intia	PROPN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
 9	ja	ja	CCONJ	_	_	10	cc	_	_
@@ -19113,10 +19113,10 @@
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	12	nsubj	_	_
 12	sijaitsi	sijaita	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
-13	Villa	villa	PROPN	_	Case=Ade|Number=Sing	12	obl	_	_
+13	Villa	Villa	PROPN	_	Case=Ade|Number=Sing	12	obl	_	_
 14	Peluccassa	Pelucca	PROPN	_	Case=Ine|Number=Sing	13	flat:name	_	_
 15	Sesto	Sesto	PROPN	_	Case=Nom|Number=Sing	12	obl	_	_
-16	San	san	PROPN	_	Case=Nom|Number=Sing	15	flat:name	_	_
+16	San	San	PROPN	_	Case=Nom|Number=Sing	15	flat:name	_	_
 17	Giovannilla	Giovanni	PROPN	_	Case=Ade|Number=Sing	15	flat:name	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -19386,7 +19386,7 @@
 5	siihen	se	PRON	_	Case=Ill|Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	_
 7	että	että	SCONJ	_	_	11	mark	_	_
-8	Brittein	britti	PROPN	_	Case=Gen|Number=Plur	9	nmod:poss	_	_
+8	Brittein	Britti	PROPN	_	Case=Gen|Number=Plur	9	nmod:poss	_	_
 9	saarten	saari	NOUN	_	Case=Gen|Number=Plur	10	nmod:gobj	_	_
 10	valloitussuunnitelmasta	valloitus#suunnitelma	NOUN	_	Case=Ela|Number=Sing	11	obl	_	_
 11	luovuttiin	luopua	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	5	ccomp	_	SpaceAfter=No
@@ -19430,7 +19430,7 @@
 22	uusi	uusi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	23	amod	_	_
 23	pääministeri	pää#ministeri	NOUN	_	Case=Nom|Number=Sing	28	nsubj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
-25	Lordi	lordi	PROPN	_	Case=Nom|Number=Sing	26	compound:nn	_	_
+25	Lordi	lordi	NOUN	_	Case=Nom|Number=Sing	26	compound:nn	_	_
 26	Grenville	Grenville	PROPN	_	Case=Nom|Number=Sing	23	appos	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	_
 28	kieltäytyi	kieltäytyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
@@ -19683,7 +19683,7 @@
 3	Andit	Andit	PROPN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 4	muodostuivat	muodostua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	Etelä-Amerikan	Etelä#Amerikka	PROPN	_	Case=Gen|Number=Sing	8	nmod:poss	_	_
+6	Etelä-Amerikan	Etelä-Amerikka	PROPN	_	Case=Gen|Number=Sing	8	nmod:poss	_	_
 7	läntinen	läntinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	8	amod	_	_
 8	raja	raja	NOUN	_	Case=Nom|Number=Sing	14	nsubj:cop	_	_
 9	oli	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	_	_
@@ -19697,7 +19697,7 @@
 # sent_id = w05002032
 # text = Keski-Andit kuuluvat niin kutsuttuihin Andes de tipo andinoon, jotka muodostuivat valtamerenpohjan kuoren subduktiosta.
 # text_en = The central Andes belong to the so-called 'Andes de tipo andino' which were formed by the subduction of the oceanic crust.
-1	Keski-Andit	Keski#Andit	PROPN	_	Case=Nom|Number=Plur	2	nsubj	_	_
+1	Keski-Andit	Keski-Andit	PROPN	_	Case=Nom|Number=Plur	2	nsubj	_	_
 2	kuuluvat	kuulua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	niin	niin	ADV	_	_	5	amod	_	_
 4	kutsuttuihin	kutsuttu	ADJ	_	Case=Ill|Degree=Pos|Number=Plur	3	fixed	_	_
@@ -19797,11 +19797,11 @@
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	5	nsubj	_	_
 5	yhdistää	yhdistää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
-6	Punta	punta	NOUN	_	Case=Nom|Number=Sing	9	nmod:poss	_	_
+6	Punta	Punta	PROPN	_	Case=Nom|Number=Sing	9	nmod:poss	_	_
 7	del	del	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 8	Esten	Este	PROPN	_	Case=Gen|Number=Plur	6	flat:name	_	_
 9	majakkamaamerkin	majakka#maa#merkki	NOUN	_	Case=Gen|Number=Sing	5	obj	_	_
-10	Punta	punta	NOUN	_	Case=Nom|Number=Sing	12	nmod:poss	_	_
+10	Punta	Punta	PROPN	_	Case=Nom|Number=Sing	12	nmod:poss	_	_
 11	Rasan	Rasa	PROPN	_	Case=Gen|Number=Sing	10	flat:name	_	_
 12	majakkamaamerkkiin	majakka#maa#merkki	NOUN	_	Case=Ill|Number=Sing	5	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	5	punct	_	_
@@ -19976,7 +19976,7 @@
 8	hyväksytty	hyväksyä	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	18	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	Ludvig	Ludvig	PROPN	_	Case=Nom|Number=Sing	18	nmod:poss	_	_
-11	X:n	x	PROPN	_	Case=Gen|Number=Sing	10	flat:name	_	SpaceAfter=No
+11	X:n	X	PROPN	_	Case=Gen|Number=Sing	10	flat:name	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	Filip	Filip	PROPN	_	Case=Nom|Number=Sing	10	conj	_	_
 14	V:n	V	PROPN	_	Case=Gen|Number=Sing	13	flat:name	_	_
