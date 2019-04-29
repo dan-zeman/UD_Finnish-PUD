@@ -16085,7 +16085,7 @@
 9	-organisaation	organisaatio	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	pääjohtaja	pää#johtaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	11	compound:nn	_	_
 11	Adnan	Adnan	PROPN	_	Case=Nom|Number=Sing	15	nsubj:cop	_	_
-12	Z.	Z.	PROPN	_	Abbr=Yes|Case=Nom|Number=Sing	11	flat:name	_	SpaceAfter=No
+12	Z.	Z.	PROPN	_	Abbr=Yes|Case=Nom|Number=Sing	11	flat:name	_	_
 13	Amin	Amin	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	_
 14	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
 15	varma	varma	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
