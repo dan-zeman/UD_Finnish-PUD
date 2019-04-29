@@ -1226,7 +1226,7 @@
 18	kuuden	kuusi	NUM	_	Case=Gen|Number=Sing|NumType=Card	19	nummod	_	_
 19	kuukauden	kuu#kausi	NOUN	_	Case=Gen|Number=Sing	20	nmod:poss	_	_
 20	ajan	aika	NOUN	_	Case=Gen|Number=Sing	16	obl	_	_
-21	ilman	ilman	ADP	_	AdpType=Post	12	advmod	_	SpaceAfter=No
+21	ilman	ilman	ADV	_	_	12	advmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	että	että	SCONJ	_	_	24	mark	_	_
 24	tällä	tämä	PRON	_	Case=Ade|Number=Sing|PronType=Dem	21	ccomp	_	_
@@ -8197,7 +8197,7 @@
 6	joten	joten	ADV	_	_	15	advmod	_	_
 7	pienillä	pieni	ADJ	_	Case=Ade|Degree=Pos|Number=Plur	8	amod	_	_
 8	muutoksilla	muutos	NOUN	_	Case=Ade|Number=Plur	15	obl	_	_
-9	yhteen	yhteen	ADV	_	_	11	nummod	_	_
+9	yhteen	yksi	NUM	_	Case=Ill|Number=Sing|NumType=Card	11	nummod	_	_
 10	järjestelmän	järjestelmä	NOUN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
 11	osaan	osa	NOUN	_	Case=Ill|Number=Sing	8	nmod	_	_
 12	voi	voida	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
@@ -9441,7 +9441,7 @@
 7	jonka	joka	PRON	_	Case=Gen|Number=Sing|PronType=Rel	9	obj	_	_
 8	olivat	olla	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
 9	jättäneet	jättää	VERB	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	5	acl:relcl	_	_
-10	jälkeensä	jälkeen	ADP	_	AdpType=Post|Person[psor]=3	9	advmod	_	_
+10	jälkeensä	jälkeen	ADV	_	Person[psor]=3	9	advmod	_	_
 11	alueen	alue	NOUN	_	Case=Gen|Number=Sing	13	nmod:poss	_	_
 12	australialaiset	australialainen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Plur	13	amod	_	_
 13	alkuperäiskansat	alkuperäis#kansa	NOUN	_	Case=Nom|Number=Plur	9	nsubj	_	SpaceAfter=No
@@ -17327,7 +17327,7 @@
 2	hallituksen	hallitus	NOUN	_	Case=Gen|Number=Sing	4	nsubj	_	_
 3	täytyy	täytyä	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	käsitellä	käsitellä	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
-5	toista	toinen	PRON	_	Case=Par|Number=Sing|PronType=Rcp	7	nummod	_	_
+5	toista	toinen	PRON	_	Case=Par|Number=Sing|PronType=Rcp	7	det	_	_
 6	vaikeaa	vaikea	ADJ	_	Case=Par|Degree=Pos|Number=Sing	7	amod	_	_
 7	asiaa	asia	NOUN	_	Case=Par|Number=Sing	4	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
@@ -17756,7 +17756,7 @@
 6	nukketeatterin	nukke#teatteri	NOUN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	pihan	piha	NOUN	_	Case=Gen|Number=Sing	8	obj	_	_
 8	ottivat	ottaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-9	haltuunsa	haltuun	ADP	_	AdpType=Post|Person[psor]=3	8	advmod	_	_
+9	haltuunsa	haltuun	ADV	_	Person[psor]=3	8	advmod	_	_
 10	näyttelijät	näyttelijä	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	8	nsubj	_	_
 11	ja	ja	CCONJ	_	_	12	cc	_	_
 12	työntekijät	työntekijä	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	10	conj	_	SpaceAfter=No
@@ -19013,7 +19013,7 @@
 5	vaimonsa	vaimo	NOUN	_	Case=Nom|Number=Sing|Person[psor]=3	2	conj	_	_
 6	palasivat	palata	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	Sveitsiin	Sveitsi	PROPN	_	Case=Ill|Number=Sing	6	obl	_	_
-8	mukanaan	mukana	ADP	_	AdpType=Post|Person[psor]=3	9	advmod	_	_
+8	mukanaan	mukana	ADV	_	Person[psor]=3	9	advmod	_	_
 9	Rosane	Rosane	PROPN	_	Case=Nom|Number=Sing	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	_
 11	Germainen	Germaine	PROPN	_	Case=Nom|Number=Sing	13	nmod:poss	_	_
