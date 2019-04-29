@@ -5771,16 +5771,18 @@
 14	kuin	kuin	SCONJ	_	_	15	mark	_	_
 15	kaloja	kala	NOUN	_	Case=Par|Number=Plur	12	advcl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	10	punct	_	_
-17	ellei	jos#ei	VERB	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	19	mark	_	_
-18	maailma	maailma	NOUN	_	Case=Nom|Number=Sing	19	nsubj	_	_
-19	toimi	toimia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
-20	radikaalisti	radikaalisti	ADV	_	Derivation=Sti	19	advmod	_	_
-21	ja	ja	CCONJ	_	_	22	cc	_	_
-22	lopeta	lopettaa	VERB	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	19	conj	_	_
-23	jätteen	jäte	NOUN	_	Case=Gen|Number=Sing	24	nmod:gobj	_	_
-24	päästämistä	päästäminen	NOUN	_	Case=Par|Derivation=Minen|Number=Sing	22	obj	_	_
-25	meriin	meri	NOUN	_	Case=Ill|Number=Plur	24	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	4	punct	_	_
+17-18	ellei	_	_	_	_	_	_	_	_
+17	jos	jos	SCONJ	_	_	20	mark	_	_
+18	ei	ei	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	20	aux	_	_
+19	maailma	maailma	NOUN	_	Case=Nom|Number=Sing	20	nsubj	_	_
+20	toimi	toimia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
+21	radikaalisti	radikaalisti	ADV	_	Derivation=Sti	20	advmod	_	_
+22	ja	ja	CCONJ	_	_	23	cc	_	_
+23	lopeta	lopettaa	VERB	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	20	conj	_	_
+24	jätteen	jäte	NOUN	_	Case=Gen|Number=Sing	25	nmod:gobj	_	_
+25	päästämistä	päästäminen	NOUN	_	Case=Par|Derivation=Minen|Number=Sing	23	obj	_	_
+26	meriin	meri	NOUN	_	Case=Ill|Number=Plur	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	4	punct	_	_
 
 # newdoc id = n01113
 # sent_id = n01113021
@@ -6664,20 +6666,22 @@
 1	Harley-Davidsonin	Harley-Davidson	NOUN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	edustaja	edustaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	3	nsubj	_	_
 3	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	15	punct	_	_
-5	etteivät	että#ei	VERB	_	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	15	mark	_	_
-6	julkisuudessa	julkisuus	NOUN	_	Case=Ine|Derivation=Inen,Vs|Number=Sing	8	obl	_	_
-7	esillä	esillä	ADV	_	_	8	advmod	_	_
-8	olleet	olla	VERB	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	9	acl	_	_
-9	aikataulut	aika#taulu	NOUN	_	Case=Nom|Number=Plur	15	nsubj	_	_
-10	-	-	PUNCT	_	_	11	punct	_	_
-11	2017	2017	NUM	_	NumType=Card	9	nmod	_	_
-12	tai	tai	CCONJ	_	_	13	cc	_	_
-13	2020	2020	NUM	_	NumType=Card	11	conj	_	_
-14	-	-	PUNCT	_	_	11	punct	_	_
-15	pidä	pitää	VERB	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
-16	paikkaansa	paikka	NOUN	_	Case=Par|Number=Sing|Person[psor]=3	15	obj	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	3	punct	_	_
+4	,	,	PUNCT	_	_	16	punct	_	_
+5-6	etteivät	_	_	_	_	_	_	_	_
+5	että	että	SCONJ	_	_	16	mark	_	_
+6	eivät	ei	AUX	_	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	16	aux	_	_
+7	julkisuudessa	julkisuus	NOUN	_	Case=Ine|Derivation=Inen,Vs|Number=Sing	9	obl	_	_
+8	esillä	esillä	ADV	_	_	9	advmod	_	_
+9	olleet	olla	VERB	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	10	acl	_	_
+10	aikataulut	aika#taulu	NOUN	_	Case=Nom|Number=Plur	16	nsubj	_	_
+11	-	-	PUNCT	_	_	12	punct	_	_
+12	2017	2017	NUM	_	NumType=Card	10	nmod	_	_
+13	tai	tai	CCONJ	_	_	14	cc	_	_
+14	2020	2020	NUM	_	NumType=Card	12	conj	_	_
+15	-	-	PUNCT	_	_	12	punct	_	_
+16	pidä	pitää	VERB	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+17	paikkaansa	paikka	NOUN	_	Case=Par|Number=Sing|Person[psor]=3	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
 
 # newdoc id = n01134
 # sent_id = n01134005
@@ -8675,15 +8679,17 @@
 13	käydään	käydä	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj	_	_
 14	yhäkin	yhä	ADV	_	Clitic=Kin	13	advmod	_	_
 15	siitä	se	PRON	_	Case=Ela|Number=Sing|PronType=Dem	13	obl	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	22	punct	_	_
-17	miksei	miksi#ei	VERB	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	22	mark	_	_
-18	rautatietä	rauta#tie	NOUN	_	Case=Par|Number=Sing	22	obj	_	_
-19	Flensburgiin	Flensburg	PROPN	_	Case=Ill|Number=Sing	22	obl	_	_
-20	koskaan	koskaan	ADV	_	_	22	advmod	_	_
-21	kunnolla	kunnolla	ADV	_	_	22	advmod	_	_
-22	käytetty	käyttää	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	15	ccomp	_	_
-23	evakuointiin	evakuointi	NOUN	_	Case=Ill|Number=Sing	22	obl	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	2	punct	_	_
+16	,	,	PUNCT	_	_	23	punct	_	_
+17-18	miksei	_	_	_	_	_	_	_	_
+17	miksi	miksi	ADV	_	_	23	advmod	_	_
+18	ei	ei	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	23	aux	_	_
+19	rautatietä	rauta#tie	NOUN	_	Case=Par|Number=Sing	23	obj	_	_
+20	Flensburgiin	Flensburg	PROPN	_	Case=Ill|Number=Sing	23	obl	_	_
+21	koskaan	koskaan	ADV	_	_	23	advmod	_	_
+22	kunnolla	kunnolla	ADV	_	_	23	advmod	_	_
+23	käytetty	käyttää	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	15	ccomp	_	_
+24	evakuointiin	evakuointi	NOUN	_	Case=Ill|Number=Sing	23	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w01025086
 # text = Uutiset perääntymisestä olivat suuri järkytys Tanskan yleiselle mielipiteelle, jonka mukaan Danevirkea oli pidetty valloittamattomana, ja kenraali de Meza erotettiin välittömästi johdosta.
@@ -14882,15 +14888,17 @@
 # text_en = He chose not to seek a third term in the following election cycle.
 1	Hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	päätti	päättää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	5	punct	_	_
-4	ettei	että#ei	VERB	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	mark	_	_
-5	halunnut	haluta	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	ccomp	_	_
-6	hakea	hakea	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp	_	_
-7	kolmannelle	kolmas	ADJ	_	Case=All|Number=Sing|NumType=Ord	8	amod	_	_
-8	kaudelle	kausi	NOUN	_	Case=All|Number=Sing	6	obl	_	_
-9	seuraavalla	seuraava	ADJ	_	Case=Ade|Degree=Pos|Number=Sing	10	amod	_	_
-10	vaalikaudella	vaali#kausi	NOUN	_	Case=Ade|Number=Sing	6	obl	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	6	punct	_	_
+4-5	ettei	_	_	_	_	_	_	_	_
+4	että	että	SCONJ	_	_	6	mark	_	_
+5	ei	ei	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	halunnut	haluta	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	ccomp	_	_
+7	hakea	hakea	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	kolmannelle	kolmas	ADJ	_	Case=All|Number=Sing|NumType=Ord	9	amod	_	_
+9	kaudelle	kausi	NOUN	_	Case=All|Number=Sing	7	obl	_	_
+10	seuraavalla	seuraava	ADJ	_	Case=Ade|Degree=Pos|Number=Sing	11	amod	_	_
+11	vaalikaudella	vaali#kausi	NOUN	_	Case=Ade|Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w01144056
 # text = Vuoden 1980 presidentinvaalikampanja Reaganin ja istuvan presidentti Jimmy Carterin välillä käytiin keskellä kotimaan huolia ja käynnissä olevaa Iranin panttivankikriisiä.
@@ -15580,13 +15588,15 @@
 6	ja	ja	CCONJ	_	_	8	cc	_	_
 7	olen	olla	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	päättänyt	päättää	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	conj	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	12	punct	_	_
-10	etten	että#ei	VERB	_	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	12	mark	_	_
-11	ole	olla	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
-12	paikalla	paikalla	ADV	_	_	8	ccomp	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	14	punct	_	_
-14	kerrottiin	kertoa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	1	parataxis	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	_
+9	,	,	PUNCT	_	_	13	punct	_	_
+10-11	etten	_	_	_	_	_	_	_	_
+10	että	että	SCONJ	_	_	13	mark	_	_
+11	en	ei	AUX	_	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	13	aux	_	_
+12	ole	olla	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	paikalla	paikalla	ADV	_	_	8	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	kerrottiin	kertoa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	1	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
 
 # newdoc id = n02031
 # sent_id = n02031071
@@ -16509,26 +16519,28 @@
 2	Ouvrière	Ouvrière	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	-unioni	unioni	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	pahoittelee	pahoitella	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	11	punct	_	_
-6	ettei	että#ei	VERB	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	mark	_	_
-7	sen	se	PRON	_	Case=Gen|Number=Sing|PronType=Dem	8	nmod:poss	_	_
-8	huomautuksia	huomautus	NOUN	_	Case=Par|Number=Plur	11	obj	_	_
-9	oppaan	opas	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
-10	sisällöstä	sisältö	NOUN	_	Case=Ela|Number=Sing	8	nmod	_	_
-11	otettu	ottaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	_
-12	mukaan	mukaan	ADV	_	_	11	compound:prt	_	SpaceAfter=No
-13	:	:	PUNCT	_	_	19	punct	_	_
-14	”	”	PUNCT	_	_	19	punct	_	SpaceAfter=No
-15	Mitään	mikään	PRON	_	Case=Par|Number=Sing|PronType=Ind	17	det	_	_
-16	todellista	todellinen	ADJ	_	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	17	amod	_	_
-17	konsultaatiota	konsultaatio	NOUN	_	Case=Par|Number=Sing	19	nsubj	_	_
-18	ei	ei	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	19	aux	_	_
-19	ollut	olla	VERB	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	SpaceAfter=No
-20	”	”	PUNCT	_	_	19	punct	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	23	punct	_	_
-22	Gillard	Gillard	PROPN	_	Case=Nom|Number=Sing	23	nsubj	_	_
-23	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	parataxis	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	4	punct	_	_
+5	,	,	PUNCT	_	_	12	punct	_	_
+6-7	ettei	_	_	_	_	_	_	_	_
+6	että	että	SCONJ	_	_	12	mark	_	_
+7	ei	ei	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	_
+8	sen	se	PRON	_	Case=Gen|Number=Sing|PronType=Dem	9	nmod:poss	_	_
+9	huomautuksia	huomautus	NOUN	_	Case=Par|Number=Plur	12	obj	_	_
+10	oppaan	opas	NOUN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
+11	sisällöstä	sisältö	NOUN	_	Case=Ela|Number=Sing	9	nmod	_	_
+12	otettu	ottaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+13	mukaan	mukaan	ADV	_	_	12	compound:prt	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	20	punct	_	_
+15	”	”	PUNCT	_	_	20	punct	_	SpaceAfter=No
+16	Mitään	mikään	PRON	_	Case=Par|Number=Sing|PronType=Ind	18	det	_	_
+17	todellista	todellinen	ADJ	_	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	18	amod	_	_
+18	konsultaatiota	konsultaatio	NOUN	_	Case=Par|Number=Sing	20	nsubj	_	_
+19	ei	ei	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	20	aux	_	_
+20	ollut	olla	VERB	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	SpaceAfter=No
+21	”	”	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	Gillard	Gillard	PROPN	_	Case=Nom|Number=Sing	24	nsubj	_	_
+24	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	parataxis	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n03006034
 # text = Opas on ongelmallinen ensinnäkin siksi, että se on kehitetty ”hätätilannekontekstissa”.
