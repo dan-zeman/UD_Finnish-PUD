@@ -19,7 +19,7 @@
 15	ole	olla	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	_
 16	sitä	se	PRON	_	Case=Par|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
 17	”	”	PUNCT	_	_	16	punct	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	16	punct	_	_
+18	,	,	PUNCT	_	_	23	punct	_	_
 19	Obaman	Obama	PROPN	_	Case=Gen|Number=Sing	20	nmod:poss	_	_
 20	erityisavustaja	erityis#avustaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	21	compound:nn	_	_
 21	Kori	Kori	PROPN	_	Case=Nom|Number=Sing	23	nsubj	_	_
@@ -94,7 +94,7 @@
 11	teidän	sinä	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	12	nmod:poss	_	_
 12	hartioillanne	hartia	NOUN	_	Case=Ade|Number=Plur|Number[psor]=Plur|Person[psor]=2	10	obl	_	SpaceAfter=No
 13	”	”	PUNCT	_	_	3	punct	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	3	punct	_	_
+14	,	,	PUNCT	_	_	16	punct	_	_
 15	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 16	kertoi	kertoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
 17	North	North	PROPN	_	Case=Nom|Number=Sing	20	compound:nn	_	_
@@ -292,7 +292,7 @@
 12	voi	voida	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
 13	auttaa	auttaa	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	ccomp	_	SpaceAfter=No
 14	”	”	PUNCT	_	_	2	punct	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	2	punct	_	_
+15	,	,	PUNCT	_	_	22	punct	_	_
 16	Georgetown	Georgetown	PROPN	_	Case=Nom|Number=Sing	18	compound:nn	_	_
 17	BID	BID	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	_
 18	-alueen	alue	NOUN	_	Case=Gen|Number=Sing	19	nmod:poss	_	_
@@ -423,7 +423,7 @@
 13	lukien	lukea	VERB	_	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	10	advcl	_	_
 14	sioilla	sika	NOUN	_	Case=Ade|Number=Plur	13	obl	_	SpaceAfter=No
 15	”	”	PUNCT	_	_	3	punct	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	3	punct	_	_
+16	,	,	PUNCT	_	_	18	punct	_	_
 17	Saqib	Saqib	PROPN	_	Case=Nom|Number=Sing	18	nsubj	_	_
 18	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
@@ -485,7 +485,7 @@
 16	saman	sama	PRON	_	Case=Gen|Number=Sing|PronType=Ind	15	obj	_	_
 17	tyttärelleen	tytär	NOUN	_	Case=All|Number=Sing|Person[psor]=3	15	obl	_	_
 18	Angelille	Angel	PROPN	_	Case=All|Number=Sing	17	appos	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	14	punct	_	_
+19	,	,	PUNCT	_	_	21	punct	_	_
 20	poliisi	poliisi	NOUN	_	Case=Nom|Number=Sing	21	nsubj	_	_
 21	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	2	punct	_	_
@@ -920,7 +920,7 @@
 8	asian	asia	NOUN	_	Case=Gen|Number=Sing	7	obj	_	_
 9	monilta	moni	PRON	_	Case=Abl|Number=Plur|PronType=Ind	7	obl	_	SpaceAfter=No
 10	”	”	PUNCT	_	_	7	punct	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	7	punct	_	_
+11	,	,	PUNCT	_	_	18	punct	_	_
 12	Hack	Hack	PROPN	_	Case=Nom|Number=Sing	14	compound:nn	_	_
 13	Forums	Forum	PROPN	_	Case=Nom|Number=Plur	12	flat:name	_	_
 14	-keskustelupalstan	keskustelu#palsta	NOUN	_	Case=Gen|Number=Sing	15	nmod:poss	_	_
@@ -1271,7 +1271,7 @@
 13	tietty	tietty	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	14	amod	_	_
 14	yök-tekijä	yök#tekijä	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	11	nsubj	_	SpaceAfter=No
 15	”	”	PUNCT	_	_	11	punct	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	11	punct	_	_
+16	,	,	PUNCT	_	_	18	punct	_	_
 17	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 18	sanoo	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	11	punct	_	_
@@ -1289,7 +1289,7 @@
 8	poistaa	poistaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 9	hiustupen	hius#tuppi	NOUN	_	Case=Gen|Number=Sing	8	obj	_	_
 10	kokonaan	kokonaan	ADV	_	_	8	advmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	4	punct	_	_
+11	,	,	PUNCT	_	_	13	punct	_	_
 12	Tarlo	Tarlo	PROPN	_	Case=Nom|Number=Sing	13	nsubj	_	_
 13	selittää	selittää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
@@ -1306,7 +1306,7 @@
 7	ollut	olla	AUX	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	cop	_	_
 8	poliittinen	poliittinen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	9	amod	_	_
 9	ulottuvuus	ulottuvuus	NOUN	_	Case=Nom|Derivation=Vs|Number=Sing	4	nsubj:cop	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	4	punct	_	_
+10	,	,	PUNCT	_	_	12	punct	_	_
 11	Tarlo	Tarlo	PROPN	_	Case=Nom|Number=Sing	12	nsubj	_	_
 12	sanoo	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
@@ -1323,7 +1323,7 @@
 6	käyttämällä	käyttää	VERB	_	Case=Ade|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	4	advcl	_	_
 7	kaukovaloja	kauko#valot	NOUN	_	Case=Par|Number=Plur	6	obj	_	SpaceAfter=No
 8	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	4	punct	_	_
+9	,	,	PUNCT	_	_	11	punct	_	_
 10	kirjoituksessa	kirjoitus	NOUN	_	Case=Ine|Number=Sing	11	obl	_	_
 11	sanotaan	sanoa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	parataxis	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
@@ -1415,7 +1415,7 @@
 15	?	?	PUNCT	_	_	13	punct	_	SpaceAfter=No
 16	’	’	PUNCT	_	_	13	punct	_	SpaceAfter=No
 17	”	”	PUNCT	_	_	7	punct	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	7	punct	_	_
+18	,	,	PUNCT	_	_	20	punct	_	_
 19	Pall	Pall	PROPN	_	Case=Nom|Number=Sing	20	nsubj	_	_
 20	sanoo	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	_
@@ -1608,7 +1608,7 @@
 # text_en = He added: "This has been one step in a long journey of finding the right combination for male hormonal contraception."
 1	Hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	lisäsi	lisätä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	2	punct	_	_
+3	:	:	PUNCT	_	_	9	punct	_	_
 4	”	”	PUNCT	_	_	9	punct	_	SpaceAfter=No
 5	Tämä	tämä	PRON	_	Case=Nom|Number=Sing|PronType=Dem	9	nsubj:cop	_	_
 6	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
@@ -1884,7 +1884,7 @@
 16	Abbotsfordin	Abbotsford	PROPN	_	Case=Gen|Number=Sing	17	nmod:poss	_	_
 17	alueeseen	alue	NOUN	_	Case=Ill|Number=Sing	10	conj	_	SpaceAfter=No
 18	”	”	PUNCT	_	_	3	punct	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	3	punct	_	_
+19	,	,	PUNCT	_	_	21	punct	_	_
 20	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 21	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	_
@@ -2033,7 +2033,7 @@
 25	päästöjen	päästö	NOUN	_	Case=Gen|Number=Plur	26	nmod:gobj	_	_
 26	vähentämiseen	vähentäminen	NOUN	_	Case=Ill|Derivation=Minen|Number=Sing	24	obl	_	SpaceAfter=No
 27	”	”	PUNCT	_	_	20	punct	_	SpaceAfter=No
-28	,	,	PUNCT	_	_	20	punct	_	_
+28	,	,	PUNCT	_	_	30	punct	_	_
 29	Guilbeault	Guilbeault	PROPN	_	Case=Nom|Number=Sing	30	nsubj	_	_
 30	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	parataxis	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	20	punct	_	_
@@ -2160,7 +2160,7 @@
 4	katastrofi	katastrofi	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 5	kipupotilaille	kipu#potilas	NOUN	_	Case=All|Number=Plur	4	obl	_	SpaceAfter=No
 6	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	4	punct	_	_
+7	,	,	PUNCT	_	_	9	punct	_	_
 8	Mailis	Mailis	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 9	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 10	CBC	CBC	PROPN	_	Case=Nom|Number=Sing	12	compound:nn	_	_
@@ -2187,7 +2187,7 @@
 12	ja	ja	CCONJ	_	_	13	cc	_	_
 13	ruiske	ruiske	NOUN	_	Case=Nom|Number=Sing	11	conj	_	SpaceAfter=No
 14	”	”	PUNCT	_	_	2	punct	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	2	punct	_	_
+15	,	,	PUNCT	_	_	17	punct	_	_
 16	Mailis	Mailis	PROPN	_	Case=Nom|Number=Sing	17	nsubj	_	_
 17	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_
@@ -2439,7 +2439,7 @@
 26	poliittisille	poliittinen	ADJ	_	Case=All|Degree=Pos|Derivation=Inen|Number=Plur	27	amod	_	_
 27	puolueelle	puolue	NOUN	_	Case=All|Number=Sing	24	conj	_	SpaceAfter=No
 28	”	”	PUNCT	_	_	12	punct	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	12	punct	_	_
+29	,	,	PUNCT	_	_	30	punct	_	_
 30	lukee	lukea	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
 31	ohjeistuksessa	ohjeistus	NOUN	_	Case=Ine|Number=Sing	30	obl	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	12	punct	_	_
@@ -2491,7 +2491,7 @@
 3	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	mahtavaa	mahtava	ADJ	_	Case=Par|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
 5	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	4	punct	_	_
+6	,	,	PUNCT	_	_	13	punct	_	_
 7	SaskTelin	SaskTel	PROPN	_	Case=Gen|Number=Sing	9	nmod:poss	_	_
 8	rajoittamattoman	rajoittamaton	ADJ	_	Case=Gen|Degree=Pos|Derivation=Ton|Number=Sing	9	amod	_	_
 9	tiedonsiirron	tiedon#siirto	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
@@ -2591,7 +2591,7 @@
 16	nukkumaan	nukkua	VERB	_	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	14	xcomp:ds	_	_
 17	öisin	öisin	ADV	_	_	16	advmod	_	SpaceAfter=No
 18	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	4	punct	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_
 20	sanoo	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 21	Dietrich	Dietrich	PROPN	_	Case=Nom|Number=Sing	20	nsubj	_	_
 22	yhtiön	yhtiö	NOUN	_	Case=Gen|Number=Sing	23	nmod:poss	_	_
@@ -2689,7 +2689,7 @@
 11	yleisesti	yleisesti	ADV	_	Derivation=Sti	13	advmod	_	_
 12	ottaen	ottaa	ADV	_	_	11	fixed	_	_
 13	vähäisiä	vähäinen	ADJ	_	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	7	conj	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	2	punct	_	_
+14	,	,	PUNCT	_	_	18	punct	_	_
 15	Kanadan	Kanada	PROPN	_	Case=Gen|Number=Sing	16	nmod:poss	_	_
 16	veripalvelu	veri#palvelu	NOUN	_	Case=Nom|Derivation=U|Number=Sing	17	compound:nn	_	_
 17	CBS	CBS	PROPN	_	Case=Nom|Number=Sing	18	nsubj	_	_
@@ -2832,7 +2832,7 @@
 11	niistä	se	PRON	_	Case=Ela|Number=Plur|PronType=Dem	12	det	_	_
 12	tyypeistä	tyyppi	NOUN	_	Case=Ela|Number=Plur	10	nmod	_	SpaceAfter=No
 13	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	4	punct	_	_
+14	,	,	PUNCT	_	_	16	punct	_	_
 15	Leive	Leive	PROPN	_	Case=Nom|Number=Sing	16	nsubj	_	_
 16	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 17	äskettäin	äskettäin	ADV	_	Derivation=Ttain	16	advmod	_	_
@@ -2869,7 +2869,7 @@
 6	ympäri	ympäri	ADP	_	AdpType=Prep	7	case	_	_
 7	maailmaa	maailma	NOUN	_	Case=Par|Number=Sing	4	obl	_	SpaceAfter=No
 8	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	4	punct	_	_
+9	,	,	PUNCT	_	_	11	punct	_	_
 10	Leive	Leive	PROPN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 11	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
@@ -3245,7 +3245,7 @@
 7	oloni	olo	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	obj	_	_
 8	voimakkaaksi	voimakas	ADJ	_	Case=Tra|Degree=Pos|Number=Sing	6	xcomp	_	SpaceAfter=No
 9	”	”	PUNCT	_	_	6	punct	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	6	punct	_	_
+10	,	,	PUNCT	_	_	17	punct	_	_
 11	Donald	Donald	PROPN	_	Case=Nom|Number=Sing	13	compound:nn	_	_
 12	Trump	Trump	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	_
 13	-imitaattori	imitaattori	NOUN	_	Case=Nom|Number=Sing	14	compound:nn	_	_
@@ -3521,7 +3521,7 @@
 5	omasta	oma	ADJ	_	Case=Ela|Degree=Pos|Number=Sing	6	amod	_	_
 6	terveydestään	terveys	NOUN	_	Case=Ela|Number=Sing|Person[psor]=3	3	nmod	_	SpaceAfter=No
 7	”	”	PUNCT	_	_	3	punct	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	3	punct	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
 9	raportoi	raportoida	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
 10	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	_
 11	vaimonsa	vaimo	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	9	nsubj	_	_
@@ -3783,16 +3783,16 @@
 10	olisi	olla	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	aux	_	_
 11	riemastuttanut	riemastuttaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	7	acl:relcl	_	_
 12	Chrisiä	Chris	PROPN	_	Case=Par|Number=Sing	11	obj	_	SpaceAfter=No
-13	:	:	PUNCT	_	_	7	punct	_	_
+13	:	:	PUNCT	_	_	20	punct	_	_
 14	”	”	PUNCT	_	_	15	punct	_	SpaceAfter=No
-15	Afrikkalaisempaa	afrikkalainen	ADJ	_	Case=Par|Degree=Cmp|Derivation=Lainen|Number=Sing	7	parataxis	_	_
-16	kuin	kuin	SCONJ	_	_	20	mark	_	_
-17	sinä	sinä	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	_	_
+15	Afrikkalaisempaa	afrikkalainen	ADJ	_	Case=Par|Degree=Cmp|Derivation=Lainen|Number=Sing	20	obj	_	_
+16	kuin	kuin	SCONJ	_	_	17	mark	_	_
+17	sinä	sinä	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	advcl	_	_
 18	en	ei	AUX	_	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	20	aux	_	_
 19	ole	olla	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	_
-20	tavannut	tavata	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	15	advcl	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
-22	”	”	PUNCT	_	_	15	punct	_	_
+20	tavannut	tavata	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	7	parataxis	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	”	”	PUNCT	_	_	20	punct	_	_
 
 # newdoc id = n01073
 # sent_id = n01073004
@@ -4508,7 +4508,7 @@
 3	trooppisia	trooppinen	ADJ	_	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	4	amod	_	_
 4	värejä	väri	NOUN	_	Case=Par|Number=Plur	2	obj	_	SpaceAfter=No
 5	”	”	PUNCT	_	_	2	punct	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	2	punct	_	_
+6	,	,	PUNCT	_	_	8	punct	_	_
 7	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	sanoo	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
@@ -4526,7 +4526,7 @@
 8	uusia	uusi	ADJ	_	Case=Par|Degree=Pos|Number=Plur	9	amod	_	_
 9	kykyjä	kyky	NOUN	_	Case=Par|Number=Plur	7	obj	_	SpaceAfter=No
 10	”	”	PUNCT	_	_	2	punct	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	2	punct	_	_
+11	,	,	PUNCT	_	_	13	punct	_	_
 12	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	sanoo	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
@@ -4668,7 +4668,7 @@
 6	Knott	Knott	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-9	:	:	PUNCT	_	_	8	punct	_	_
+9	:	:	PUNCT	_	_	12	punct	_	_
 10	”	”	PUNCT	_	_	12	punct	_	SpaceAfter=No
 11	Olen	olla	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
 12	hämmästynyt	hämmästyä	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	8	parataxis	_	SpaceAfter=No
@@ -4776,7 +4776,7 @@
 15	asema	asema	NOUN	_	Case=Nom|Number=Sing	12	nsubj:cop	_	_
 16	projektissa	projekti	NOUN	_	Case=Ine|Number=Sing	12	obl	_	SpaceAfter=No
 17	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	2	punct	_	_
+18	,	,	PUNCT	_	_	20	punct	_	_
 19	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 20	kerrottiin	kertoa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	parataxis	_	_
 21	sanoneen	sanoa	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	20	xcomp:ds	_	SpaceAfter=No
@@ -4793,7 +4793,7 @@
 5	ilman	ilman	ADP	_	AdpType=Prep	7	case	_	_
 6	ehdotettuja	ehdottaa	VERB	_	Case=Par|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
 7	rajoituksia	rajoitus	NOUN	_	Case=Par|Number=Plur	4	obl	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	4	punct	_	_
+8	,	,	PUNCT	_	_	11	punct	_	_
 9	eräs	eräs	PRON	_	Case=Nom|Number=Sing|PronType=Ind	10	det	_	_
 10	EU-virkamies	EU#virka#mies	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 11	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
@@ -4867,7 +4867,7 @@
 18	miten	miten	ADV	_	_	19	advmod	_	_
 19	etsiä	etsiä	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	16	ccomp	_	SpaceAfter=No
 20	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	4	punct	_	_
+21	,	,	PUNCT	_	_	24	punct	_	_
 22	tohtori	tohtori	NOUN	_	Case=Nom|Number=Sing	23	compound:nn	_	_
 23	Lee	Lee	PROPN	_	Case=Nom|Number=Sing	24	nsubj	_	_
 24	lisää	lisätä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
@@ -5090,7 +5090,7 @@
 7	-	-	PUNCT	_	NumType=Card	8	punct	_	SpaceAfter=No
 8	10	10	NUM	_	NumType=Card	4	nmod	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
-10	:	:	PUNCT	_	_	3	punct	_	_
+10	:	:	PUNCT	_	_	11	punct	_	_
 11	tikkukaramelleja	tikku#karamelli	NOUN	_	Case=Par|Number=Plur	3	parataxis	_	_
 12	riisistä	riisi	NOUN	_	Case=Ela|Number=Sing	11	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
@@ -5197,7 +5197,7 @@
 16	halvaustilan	halvaus#tila	NOUN	_	Case=Gen|Number=Sing	17	nmod:gsubj	_	_
 17	pitkittyminen	pitkittyminen	NOUN	_	Case=Nom|Derivation=Minen|Number=Sing	13	obj	_	SpaceAfter=No
 18	”	”	PUNCT	_	_	3	punct	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	3	punct	_	_
+19	,	,	PUNCT	_	_	21	punct	_	_
 20	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 21	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	_
@@ -5379,7 +5379,7 @@
 # text_en = Ms Hopley added: “The spike in political risk should not go unnoticed.”
 1	Hopley	Hopley	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	lisäsi	lisätä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	2	punct	_	_
+3	:	:	PUNCT	_	_	10	punct	_	_
 4	”	”	PUNCT	_	_	10	punct	_	SpaceAfter=No
 5	Poliittisen	poliittinen	ADJ	_	Case=Gen|Degree=Pos|Derivation=Inen|Number=Sing	6	amod	_	_
 6	riskin	riski	NOUN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
@@ -6218,7 +6218,7 @@
 15	kuin	kuin	SCONJ	_	_	16	mark	_	_
 16	draamaa	draama	NOUN	_	Case=Par|Number=Sing	13	advcl	_	SpaceAfter=No
 17	”	”	PUNCT	_	_	5	punct	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	5	punct	_	_
+18	,	,	PUNCT	_	_	20	punct	_	_
 19	Zimmer	Zimmer	PROPN	_	Case=Nom|Number=Sing	20	nsubj	_	_
 20	sanoo	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	5	punct	_	_
@@ -6948,7 +6948,7 @@
 13	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
 14	kesken	kesken	ADV	_	_	8	conj	_	SpaceAfter=No
 15	”	”	PUNCT	_	_	3	punct	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	3	punct	_	_
+16	,	,	PUNCT	_	_	18	punct	_	_
 17	Barratt	Barratt	PROPN	_	Case=Nom|Number=Sing	18	nsubj	_	_
 18	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
@@ -7117,7 +7117,7 @@
 11	uskomaton	uskomaton	ADJ	_	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	12	amod	_	_
 12	saavutus	saavutus	NOUN	_	Case=Nom|Number=Sing	4	parataxis	_	SpaceAfter=No
 13	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	4	punct	_	_
+14	,	,	PUNCT	_	_	16	punct	_	_
 15	amerikkalainen	amerikkalainen	ADJ	_	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	16	nsubj	_	_
 16	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
@@ -7133,7 +7133,7 @@
 5	pohjoiskorealaiseen	pohjois#korealainen	NOUN	_	Case=Ill|Derivation=Lainen|Number=Sing	6	amod	_	_
 6	golf-turnaukseen	golf#turnaus	NOUN	_	Case=Ill|Number=Sing	4	nmod	_	SpaceAfter=No
 7	”	”	PUNCT	_	_	3	punct	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	3	punct	_	_
+8	,	,	PUNCT	_	_	12	punct	_	_
 9	Brisbanen	Brisbane	PROPN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	Nine	Nine	PROPN	_	Case=Nom|Number=Sing	12	nsubj	_	_
 11	News	News	PROPN	_	Case=Nom|Number=Sing	10	flat:name	_	_
@@ -7223,7 +7223,7 @@
 15	sen	se	PRON	_	Case=Gen|Number=Sing|PronType=Dem	16	nmod:poss	_	_
 16	selkään	selkä	NOUN	_	Case=Ill|Number=Sing	14	obl	_	SpaceAfter=No
 17	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	4	punct	_	_
+18	,	,	PUNCT	_	_	20	punct	_	_
 19	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 20	lisää	lisätä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	4	punct	_	_
@@ -7307,7 +7307,7 @@
 5	1200	1200	NUM	_	NumType=Card	6	nummod	_	_
 6	vapaaehtoista	vapaa#ehtoinen	ADJ	_	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	4	nsubj	_	SpaceAfter=No
 7	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	4	punct	_	_
+8	,	,	PUNCT	_	_	11	punct	_	_
 9	González	González	PROPN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 10	Anaya	Anaya	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	_
 11	sanoo	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
@@ -7404,7 +7404,7 @@
 5	modernien	moderni	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
 6	kerrostalojen	kerros#talo	NOUN	_	Case=Gen|Number=Plur	7	nmod:gsubj	_	_
 7	yleistymistä	yleistyminen	NOUN	_	Case=Par|Derivation=Minen|Number=Sing	4	obj	_	_
-8	-	-	PUNCT	_	_	4	punct	_	_
+8	-	-	PUNCT	_	_	11	punct	_	_
 9	esimerkkinä	esimerkki	NOUN	_	Case=Ess|Number=Sing	11	nmod	_	_
 10	uraauurtava	uraauurtava	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	11	amod	_	_
 11	MahaNakhon	MahaNakhon	PROPN	_	Case=Gen|Number=Sing	4	parataxis	_	SpaceAfter=No
@@ -7553,7 +7553,7 @@
 15	elävien	elävä	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	obl	_	_
 16	keskellä	keskellä	ADP	_	AdpType=Post	15	case	_	SpaceAfter=No
 17	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	4	punct	_	_
+18	,	,	PUNCT	_	_	20	punct	_	_
 19	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 20	sanoo	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	4	punct	_	_
@@ -11506,7 +11506,7 @@
 1	Toisella	toinen	ADJ	_	Case=Ade|Derivation=Inen|Number=Sing|NumType=Ord	2	nummod	_	_
 2	tavalla	tapa	NOUN	_	Case=Ade|Number=Sing	3	obl	_	_
 3	muotoiltuna	muotoilla	VERB	_	Case=Ess|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
-4	:	:	PUNCT	_	_	3	punct	_	_
+4	:	:	PUNCT	_	_	15	punct	_	_
 5	nuoret	nuori	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
 6	miehet	mies	NOUN	_	Case=Nom|Number=Plur	15	nsubj	_	_
 7	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -13344,7 +13344,7 @@
 5	pystyi	pystyä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	tekemään	tehdä	VERB	_	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp	_	_
 7	kompromissin	kompromissi	NOUN	_	Case=Gen|Number=Sing	6	obj	_	SpaceAfter=No
-8	:	:	PUNCT	_	_	5	punct	_	_
+8	:	:	PUNCT	_	_	10	punct	_	_
 9	hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	menisi	mennä	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	parataxis	_	_
 11	yliopistoon	yli#opisto	NOUN	_	Case=Ill|Number=Sing	10	obl	_	SpaceAfter=No
@@ -13524,7 +13524,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 9	Hän	hän	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	selitti	selittää	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	SpaceAfter=No
-11	:	:	PUNCT	_	_	10	punct	_	_
+11	:	:	PUNCT	_	_	16	punct	_	_
 12	”	”	PUNCT	_	_	16	punct	_	SpaceAfter=No
 13	Jokainen	jokainen	PRON	_	Case=Nom|Number=Sing|PronType=Ind	14	det	_	_
 14	kirja	kirja	NOUN	_	Case=Nom|Number=Sing	16	nsubj:cop	_	_
@@ -15367,7 +15367,7 @@
 4	ennätysmäärän	ennätys#määrä	NOUN	_	Case=Gen|Number=Sing	3	obj	_	_
 5	maaleja	maali	NOUN	_	Case=Par|Number=Plur	4	nmod	_	_
 6	DFB:lle	DFB	PROPN	_	Case=All|Number=Sing	3	obl	_	SpaceAfter=No
-7	:	:	PUNCT	_	_	3	punct	_	_
+7	:	:	PUNCT	_	_	9	punct	_	_
 8	71	71	NUM	_	NumType=Card	9	nummod	_	_
 9	maalia	maali	NOUN	_	Case=Par|Number=Sing	3	parataxis	_	_
 10	137	137	NUM	_	NumType=Card	12	nummod	_	_
@@ -15533,7 +15533,7 @@
 10	sopimuksen	sopimus	NOUN	_	Case=Gen|Number=Sing	9	obj	_	_
 11	takaisin	takaisin	ADV	_	_	12	advmod	_	_
 12	voimaan	voimaan	ADV	_	_	9	advmod	_	SpaceAfter=No
-13	:	:	PUNCT	_	_	2	punct	_	_
+13	:	:	PUNCT	_	_	16	punct	_	_
 14	USA:n	USA	NOUN	_	Abbr=Yes|Case=Nom|Number=Sing	16	nsubj	_	_
 15	pitäisi	pitää	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	aux	_	_
 16	vetää	vetää	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	parataxis	_	_
@@ -15584,7 +15584,7 @@
 10	etten	että#ei	VERB	_	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	12	mark	_	_
 11	ole	olla	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
 12	paikalla	paikalla	ADV	_	_	8	ccomp	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	1	punct	_	_
+13	,	,	PUNCT	_	_	14	punct	_	_
 14	kerrottiin	kertoa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	1	parataxis	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -15857,7 +15857,7 @@
 # text_en = It's clear: Men could have more responsibility in matters of contraception.
 1	On	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 2	selvää	selvä	ADJ	_	Case=Par|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	2	punct	_	_
+3	:	:	PUNCT	_	_	4	punct	_	_
 4	Miehillä	mies	NOUN	_	Case=Ade|Number=Plur	2	parataxis	_	_
 5	voisi	voida	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	aux	_	_
 6	olla	olla	AUX	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	cop:own	_	_
@@ -16006,7 +16006,7 @@
 8	kohdistetuille	kohdistaa	VERB	_	Case=All|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	9	acl	_	_
 9	kepposille	kepponen	NOUN	_	Case=All|Number=Plur	5	nmod	_	SpaceAfter=No
 10	”	”	PUNCT	_	_	5	punct	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	5	punct	_	_
+11	,	,	PUNCT	_	_	13	punct	_	_
 12	Dündar	Dündar	PROPN	_	Case=Nom|Number=Sing	13	nsubj	_	_
 13	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	_
@@ -16089,7 +16089,7 @@
 13	Amin	Amin	PROPN	_	Case=Nom|Number=Sing	11	flat:name	_	_
 14	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
 15	varma	varma	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
-16	:	:	PUNCT	_	_	15	punct	_	_
+16	:	:	PUNCT	_	_	20	punct	_	_
 17	”	”	PUNCT	_	_	20	punct	_	SpaceAfter=No
 18	Merituulivoimasta	meri#tuuli#voima	NOUN	_	Case=Ela|Number=Sing	20	obl	_	_
 19	voi	voida	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
@@ -16159,7 +16159,7 @@
 4	eivät	ei	AUX	_	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	_
 5	kokonaan	kokonaan	ADV	_	_	6	advmod	_	_
 6	häviä	hävitä	VERB	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	:	:	PUNCT	_	_	6	punct	_	_
+7	:	:	PUNCT	_	_	13	punct	_	_
 8	Uutistoimisto	uutis#toimisto	NOUN	_	Case=Nom|Number=Sing	9	compound:nn	_	_
 9	dpa:n	dpa	PROPN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	tietojen	tieto	NOUN	_	Case=Gen|Number=Plur	13	obl	_	_
@@ -16302,7 +16302,7 @@
 13	myöskään	myöskään	ADV	_	_	12	advmod	_	_
 14	ydinlaukaisukoodeja	ydin#laukaisu#koodi	NOUN	_	Case=Par|Number=Plur	12	obj	_	SpaceAfter=No
 15	”	”	PUNCT	_	_	11	punct	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	11	punct	_	_
+16	,	,	PUNCT	_	_	18	punct	_	_
 17	Obama	Obama	PROPN	_	Case=Nom|Number=Sing	18	nsubj	_	_
 18	pilkkasi	pilkata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	11	punct	_	_
@@ -16518,7 +16518,7 @@
 10	sisällöstä	sisältö	NOUN	_	Case=Ela|Number=Sing	8	nmod	_	_
 11	otettu	ottaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	_
 12	mukaan	mukaan	ADV	_	_	11	compound:prt	_	SpaceAfter=No
-13	:	:	PUNCT	_	_	4	punct	_	_
+13	:	:	PUNCT	_	_	19	punct	_	_
 14	”	”	PUNCT	_	_	19	punct	_	SpaceAfter=No
 15	Mitään	mikään	PRON	_	Case=Par|Number=Sing|PronType=Ind	17	det	_	_
 16	todellista	todellinen	ADJ	_	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	17	amod	_	_
@@ -16526,7 +16526,7 @@
 18	ei	ei	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	19	aux	_	_
 19	ollut	olla	VERB	_	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	SpaceAfter=No
 20	”	”	PUNCT	_	_	19	punct	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	19	punct	_	_
+21	,	,	PUNCT	_	_	23	punct	_	_
 22	Gillard	Gillard	PROPN	_	Case=Nom|Number=Sing	23	nsubj	_	_
 23	sanoi	sanoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	parataxis	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	_
@@ -16636,7 +16636,7 @@
 3	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	kaatumaisillaan	kaatua	VERB	_	Person[psor]=3|Voice=Act	0	root	_	SpaceAfter=No
 5	”	”	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	4	punct	_	_
+6	,	,	PUNCT	_	_	9	punct	_	_
 7	Ranskan	Ranska	PROPN	_	Case=Gen|Number=Sing	8	nmod:poss	_	_
 8	valtuuskunta	valtuus#kunta	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 9	paljasti	paljastaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
@@ -17641,7 +17641,7 @@
 7	jo	jo	ADV	_	_	8	advmod	_	_
 8	suunniteltu	suunnitella	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 9	”	”	PUNCT	_	_	8	punct	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	8	punct	_	_
+10	,	,	PUNCT	_	_	12	punct	_	_
 11	oppositio	oppositio	NOUN	_	Case=Nom|Number=Sing	12	nsubj	_	_
 12	kertoi	kertoa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	_
 13	El	El	PROPN	_	Case=Nom|Number=Sing	12	obl	_	_
@@ -18772,7 +18772,7 @@
 14	Kreikan	Kreikka	PROPN	_	Case=Gen|Number=Sing	15	nmod:poss	_	_
 15	maantieteen	maan#tiede	NOUN	_	Case=Gen|Number=Sing	11	obl	_	_
 16	vuoksi	vuoksi	ADP	_	AdpType=Post	15	case	_	SpaceAfter=No
-17	:	:	PUNCT	_	_	11	punct	_	_
+17	:	:	PUNCT	_	_	24	punct	_	_
 18	jokaista	jokainen	PRON	_	Case=Par|Number=Sing|PronType=Ind	19	det	_	_
 19	saarta	saari	NOUN	_	Case=Par|Number=Sing	24	obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
@@ -18796,7 +18796,7 @@
 5	kaupunkivaltiot	kaupunki#valtio	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
 6	alkoivat	alkaa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	ilmaantua	ilmaantua	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No
-8	:	:	PUNCT	_	_	6	punct	_	_
+8	:	:	PUNCT	_	_	12	punct	_	_
 9	pieniä	pieni	ADJ	_	Case=Par|Degree=Pos|Number=Plur	12	amod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	autonomisia	autonominen	ADJ	_	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	12	amod	_	_
@@ -19425,7 +19425,7 @@
 17	tehtiin	tehdä	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	conj	_	_
 18	pian	pian	ADV	_	_	17	advmod	_	_
 19	tyhjiksi	tyhjä	ADJ	_	Case=Tra|Degree=Pos|Number=Plur	17	xcomp	_	SpaceAfter=No
-20	:	:	PUNCT	_	_	17	punct	_	_
+20	:	:	PUNCT	_	_	28	punct	_	_
 21	Britannian	Britannia	PROPN	_	Case=Gen|Number=Sing	23	nmod:poss	_	_
 22	uusi	uusi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	23	amod	_	_
 23	pääministeri	pää#ministeri	NOUN	_	Case=Nom|Number=Sing	28	nsubj	_	SpaceAfter=No
