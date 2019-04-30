@@ -38,6 +38,23 @@ employ ten-fold cross-validation.
 * 2017-11-15 v2.1
   * First official release after it was used as a surprise dataset in the
     CoNLL 2017 shared task.
+    
+* CHANGELOG 2.1 -> 2.2
+
+- No changes
+
+* CHANGELOG 2.2 -> 2.3
+
+- No changes
+
+* CHANGELOG 2.3 -> 2.4
+
+- Parataxis punctuation now follow the official UD style
+- Basic dependencies are repeated in the enhanced graph
+- Multiword token annotation for tokens like "ettei"
+- More consistent lemma annotation
+- Various validation errors fixed
+- Various fixes of individual annotation errors
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
