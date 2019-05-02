@@ -3185,7 +3185,7 @@
 4	,	,	PUNCT	_	_	8	punct	8:punct	_
 5	että	että	SCONJ	_	_	8	mark	8:mark	_
 6	”	”	PUNCT	_	_	8	punct	8:punct	SpaceAfter=No
-7	täytyy	täytyy	AUX	_	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
+7	täytyy	täytyä	AUX	_	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
 8	huomata	huomata	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	ccomp	3:ccomp	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	13:punct	_
 10	missä	mikä	PRON	_	Case=Ine|Number=Sing|PronType=Int	13	obl	13:obl	_
