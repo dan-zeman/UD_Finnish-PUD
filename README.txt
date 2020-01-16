@@ -35,6 +35,10 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2020-01-16 **IWPT Shared Task Data**
+  * Enhanced graph: Added case information to oblique relations.
+  * Enhanced graph: Transformed relations between relative clauses and modified nouns.
+
 * 2017-11-15 v2.1
   * First official release after it was used as a surprise dataset in the
     CoNLL 2017 shared task.

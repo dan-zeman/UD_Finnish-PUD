@@ -90,7 +90,7 @@
     <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,PUNCT,SYM,VERB">8401</feat><!-- on, oli, hän, sen, vuonna, ei, joka, hänen, se, tämä -->
     <feat name="Number[psor]" value="Plur" upos="NOUN">9</feat><!-- Työmme, dieselimme, elämiemme, erimielisyytemme, hartioillanne, maahamme, matkapuhelimemme, meremme, pakkomielteeseemme -->
     <feat name="Number[psor]" value="Sing" upos="ADV,NOUN,VERB">13</feat><!-- aikoinani, elämässäni, herätyskellosi, kaverini, ladolleni, listani, löytääkseni, oloni, puhelimeni, pysähdyspaikkani -->
-    <feat name="NumType" value="Card" upos="NUM,PUNCT">386</feat><!-- kaksi, kolme, kahden, yksi, neljä, miljoonaa, 10, 3, 1492, 2010 -->
+    <feat name="NumType" value="Card" upos="NUM,PUNCT">388</feat><!-- kaksi, kolme, kahden, yksi, neljä, miljoonaa, 10, 3, 1492, 2010 -->
     <feat name="NumType" value="Ord" upos="ADJ,NUM,PROPN">86</feat><!-- ensimmäinen, ensimmäisen, ensimmäistä, 1., 30., I, toinen, 10., 21., 3. -->
     <feat name="PartForm" value="Agt" upos="VERB">30</feat><!-- havaitsemaan, esittämien, esittämä, hallitsema, hallitseman, ihailemansa, johtama, johtaman, johtamat, johtamien -->
     <feat name="PartForm" value="Past" upos="AUX,VERB">362</feat><!-- ollut, olleet, tullut, käytetty, saanut, tehty, halunnut, oltu, päättänyt, tehnyt -->
